@@ -1,0 +1,27 @@
+/*
+Theme Name: Stephen W. Shoultz
+Author: iLawyermarketing
+Author URI: https://ilawyermarketing.com
+*/
+
+
+
+/* Reset */
+
+* {margin:0;padding:0;}
+
+
+a {outline: none;}
+a img {border:none}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
+
+
+/* Global */
