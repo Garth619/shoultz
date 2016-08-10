@@ -15,6 +15,18 @@
 get_header(); ?>
 
 	
+	<div class="main">
+		
+		<div class="main_banner">
+			
+			<a class="tel" href="tel:2149601551">214.960.1551</a>
+			
+			
+		</div><!-- main_banner -->
+		
+		
+	</div><!-- main -->
+	
 
 
 <?php get_footer(); ?>

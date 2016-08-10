@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Webfonts Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+	    body, textarea { font-family:Arial, Sans-Serif; line-height:1.6em; font-size:13px; }
+	    h1 { font-size:3em; }
+	    h2, h3 { color:#999; }
+	    .content { width:780px; margin: 20px auto 40px; }
+	    .demo { font-weight:bold; font-style:normal; color: #999 }
+	    .fontdisplay {font-size:2em;line-height:150%;margin: 10px 40px 0px 0px;}
+	    .guidelines { color:#333; }
+	    pre { padding:0 0 0 20px; }
+	    hr { border:0; border-bottom:1px solid #537094; margin:20px 0; }
+	    .link { color: #537094;text-decoration:none; font-weight:bold;}
+	    .uc {text-transform:uppercase}
+	    
+    </style>
+    <style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=dd450c24-86d1-4b87-9354-19bdd114dad4");
+@font-face{
+font-family:"Proxima N W15 Thin Reg";
+src:url("Fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix");
+src:url("Fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix") format("eot"),url("Fonts/cb9822a7-ea25-44c1-ac6c-8203f688a4fd.woff2") format("woff2"),url("Fonts/cb1061dc-f26a-43a0-8dd8-bb0541873c3d.woff") format("woff"),url("Fonts/a2e9a37c-6342-4985-8053-a9b44d5d3524.ttf") format("truetype"),url("Fonts/602df5ad-7d3a-48e7-8f6a-867f5d482c77.svg#602df5ad-7d3a-48e7-8f6a-867f5d482c77") format("svg");
+}
+@font-face{
+font-family:"Proxima N W15 Reg";
+src:url("Fonts/ccd538c8-85a6-4215-9f3f-643c415bbb19.eot?#iefix");
+src:url("Fonts/ccd538c8-85a6-4215-9f3f-643c415bbb19.eot?#iefix") format("eot"),url("Fonts/f9f065ee-94ee-4f13-80d2-10a7f6cd826e.woff2") format("woff2"),url("Fonts/e8e438df-9715-40ed-b1ae-58760b01a3c0.woff") format("woff"),url("Fonts/baf65064-a8a8-459d-96ad-d315581d5181.ttf") format("truetype"),url("Fonts/76bd19c9-c46a-4c27-b80e-f8bd0ecd6057.svg#76bd19c9-c46a-4c27-b80e-f8bd0ecd6057") format("svg");
+}
+@font-face{
+font-family:"Proxima N W15 Bold";
+src:url("Fonts/9682bb7d-efd6-4254-8771-e146c89a72d4.eot?#iefix");
+src:url("Fonts/9682bb7d-efd6-4254-8771-e146c89a72d4.eot?#iefix") format("eot"),url("Fonts/4db8e0c6-4c06-45f0-a821-ec66fa7bf2f3.woff2") format("woff2"),url("Fonts/a3a867b8-141c-4865-9f8d-6dc5766a6bc5.woff") format("woff"),url("Fonts/b9d6d5ca-ba9b-4fa1-a81e-366891676e4a.ttf") format("truetype"),url("Fonts/844c48e5-7a2b-488b-9e47-ff8dda98e5e2.svg#844c48e5-7a2b-488b-9e47-ff8dda98e5e2") format("svg");
+}
+@font-face{
+font-family:"Proxima N W15 Bold It";
+src:url("Fonts/715a0342-db92-4c36-b812-04212361621b.eot?#iefix");
+src:url("Fonts/715a0342-db92-4c36-b812-04212361621b.eot?#iefix") format("eot"),url("Fonts/b0da47e4-2674-430d-8de9-b25a45fa61b7.woff2") format("woff2"),url("Fonts/f015d7cb-8f83-497f-b23e-157a01bfbeb1.woff") format("woff"),url("Fonts/2c5a2cf6-d798-4ecb-9116-dcbd92a8b3e5.ttf") format("truetype"),url("Fonts/ba8566d1-fe90-4f7a-94a8-6c854619fb3b.svg#ba8566d1-fe90-4f7a-94a8-6c854619fb3b") format("svg");
+}
+@font-face{
+font-family:"Univers LT W01_67 Bold_1476016";
+src:url("Fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot?#iefix");
+src:url("Fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot?#iefix") format("eot"),url("Fonts/3bdb4597-ff70-447c-8620-8836686bf840.woff2") format("woff2"),url("Fonts/5599ac9f-d136-4277-aeee-f82aac5d527f.woff") format("woff"),url("Fonts/ae81ec98-60d0-408d-960f-8c3f9f74e6c7.ttf") format("truetype"),url("Fonts/6a2c8943-c768-4f87-8d9d-0b70a871e8fe.svg#6a2c8943-c768-4f87-8d9d-0b70a871e8fe") format("svg");
+}
+@font-face{
+font-family:"Univers LT W01_67 Bold Cn Obl";
+src:url("Fonts/df79d9e8-6438-4900-8414-c14b36f662e1.eot?#iefix");
+src:url("Fonts/df79d9e8-6438-4900-8414-c14b36f662e1.eot?#iefix") format("eot"),url("Fonts/a503e1fd-a8d1-4caa-89da-d125c0986f23.woff2") format("woff2"),url("Fonts/5f07f397-7e1c-4d2d-957b-a4e960af952b.woff") format("woff"),url("Fonts/e557874b-d914-4c4d-abe5-8ba10308bbea.ttf") format("truetype"),url("Fonts/3a0627bb-865d-4b46-b8c3-3c2781a6e42e.svg#3a0627bb-865d-4b46-b8c3-3c2781a6e42e") format("svg");
+}
+@font-face{
+font-family:"Univers LT W01_59 Ult Cond";
+src:url("Fonts/33e0711d-4ebc-4904-8477-24849ae50e88.eot?#iefix");
+src:url("Fonts/33e0711d-4ebc-4904-8477-24849ae50e88.eot?#iefix") format("eot"),url("Fonts/452edecf-b228-4999-870a-a817fafba5bd.woff2") format("woff2"),url("Fonts/d542b352-b0cb-4267-a60e-501c672d1506.woff") format("woff"),url("Fonts/dcea0a7e-a589-4bb2-841e-37b428926ccc.ttf") format("truetype"),url("Fonts/ec9989d9-e5d5-4c7b-bd49-7c6c1e508a4b.svg#ec9989d9-e5d5-4c7b-bd49-7c6c1e508a4b") format("svg");
+}
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="demo">Fonts.com Web fonts</h1>
+        <p style="margin-top:-10px; font-size:1.5em;color:#666"><b>@font-face implementation instructions</b></p>
+        <hr />
+        <p class="uc">The fonts contained in this kit are:</p>
+        <div class="fontdisplay">
+<div style="font-family:'Proxima N W15 Thin Reg';"> Proxima Nova W15 Thin Regular </div>
+<div style="font-family:'Proxima N W15 Reg';"> Proxima Nova W15 Regular </div>
+<div style="font-family:'Proxima N W15 Bold';"> Proxima Nova W15 Bold </div>
+<div style="font-family:'Proxima N W15 Bold It';"> Proxima Nova W15 Bold Italic </div>
+<div style="font-family:'Univers LT W01_67 Bold_1476016';"> Univers® W01 67 Bold Condensed </div>
+<div style="font-family:'Univers LT W01_67 Bold Cn Obl';"> Univers® W01 67 Bold Condensed Oblique </div>
+<div style="font-family:'Univers LT W01_59 Ult Cond';"> Univers® W01 59 Ultra Condensed </div>
+
+        </div>
+        <hr />
+        Click here for <a class="link uc" href="demo-async.htm">asynchronous</a> web fonts implementation
+        <hr />
+        <div class="guidelines">
+            <h2>CSS Implementation Guidelines</h2>
+            <p>You and any third party web font hosting service are responsible for ensuring that the font software in the self-hosting kit, in its original format, can only be used on the Web Sites for which the self-hosting kit was downloaded and cannot be used or referenced by any other web site. This includes, but is not limited to installing adequate technical protection measures that restrict the use and/or access to the font software, for instance by utilizing JavaScript or access control mechanism for cross-origin resource sharing and protecting against use on web sites other than the Web Sites for which the self-hosting kit was downloaded by restricting domain access only to such Web Sites. You must also retain the pageview tracking code on any Web Site that you self-host. In the event this Agreement terminates for any reason, the font software included with the self-hosting kit must be deleted from the server and all copies must be destroyed or returned to Monotype Imaging.</p>
+            <p>View <a class="link" href="http://www.fonts.com/info/legal/eula/web-fonts" target="_blank">"WEB FONT SOFTWARE" LICENSE AGREEMENT</a></p>
+            <p>Font file names have been obfuscated to protect the font software. You can identify font format based on file ending:</p>
+            <ul>
+                <li>1 - TrueType (ttf)</li>
+                <li>2 - Embedded OpenType (eot)</li>
+                <li>3 - Web Open Font Format (woff)</li>
+                <li>4 - Web Open Font Format version 2 (woff2)</li>
+                <li>5 - Scalable Vector Graphics (svg)</li>
+            </ul>
+            <p class="uc" style="margin: 20px 0px -20px;"><b>Copy and paste following code in head section of the page</b></p>
+            <hr />
+            <textarea style="width:830px; height:350px; border:1 #fff solid; background-color:#fcfcfc;"><style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=dd450c24-86d1-4b87-9354-19bdd114dad4");
+@font-face{
+font-family:"Proxima N W15 Thin Reg";
+src:url("Fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix");
+src:url("Fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix") format("eot"),url("Fonts/cb9822a7-ea25-44c1-ac6c-8203f688a4fd.woff2") format("woff2"),url("Fonts/cb1061dc-f26a-43a0-8dd8-bb0541873c3d.woff") format("woff"),url("Fonts/a2e9a37c-6342-4985-8053-a9b44d5d3524.ttf") format("truetype"),url("Fonts/602df5ad-7d3a-48e7-8f6a-867f5d482c77.svg#602df5ad-7d3a-48e7-8f6a-867f5d482c77") format("svg");
+}
+@font-face{
+font-family:"Proxima N W15 Reg";
+src:url("Fonts/ccd538c8-85a6-4215-9f3f-643c415bbb19.eot?#iefix");
+src:url("Fonts/ccd538c8-85a6-4215-9f3f-643c415bbb19.eot?#iefix") format("eot"),url("Fonts/f9f065ee-94ee-4f13-80d2-10a7f6cd826e.woff2") format("woff2"),url("Fonts/e8e438df-9715-40ed-b1ae-58760b01a3c0.woff") format("woff"),url("Fonts/baf65064-a8a8-459d-96ad-d315581d5181.ttf") format("truetype"),url("Fonts/76bd19c9-c46a-4c27-b80e-f8bd0ecd6057.svg#76bd19c9-c46a-4c27-b80e-f8bd0ecd6057") format("svg");
+}
+@font-face{
+font-family:"Proxima N W15 Bold";
+src:url("Fonts/9682bb7d-efd6-4254-8771-e146c89a72d4.eot?#iefix");
+src:url("Fonts/9682bb7d-efd6-4254-8771-e146c89a72d4.eot?#iefix") format("eot"),url("Fonts/4db8e0c6-4c06-45f0-a821-ec66fa7bf2f3.woff2") format("woff2"),url("Fonts/a3a867b8-141c-4865-9f8d-6dc5766a6bc5.woff") format("woff"),url("Fonts/b9d6d5ca-ba9b-4fa1-a81e-366891676e4a.ttf") format("truetype"),url("Fonts/844c48e5-7a2b-488b-9e47-ff8dda98e5e2.svg#844c48e5-7a2b-488b-9e47-ff8dda98e5e2") format("svg");
+}
+@font-face{
+font-family:"Proxima N W15 Bold It";
+src:url("Fonts/715a0342-db92-4c36-b812-04212361621b.eot?#iefix");
+src:url("Fonts/715a0342-db92-4c36-b812-04212361621b.eot?#iefix") format("eot"),url("Fonts/b0da47e4-2674-430d-8de9-b25a45fa61b7.woff2") format("woff2"),url("Fonts/f015d7cb-8f83-497f-b23e-157a01bfbeb1.woff") format("woff"),url("Fonts/2c5a2cf6-d798-4ecb-9116-dcbd92a8b3e5.ttf") format("truetype"),url("Fonts/ba8566d1-fe90-4f7a-94a8-6c854619fb3b.svg#ba8566d1-fe90-4f7a-94a8-6c854619fb3b") format("svg");
+}
+@font-face{
+font-family:"Univers LT W01_67 Bold_1476016";
+src:url("Fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot?#iefix");
+src:url("Fonts/7815db54-3fc9-46f7-a082-a7db4c26b44d.eot?#iefix") format("eot"),url("Fonts/3bdb4597-ff70-447c-8620-8836686bf840.woff2") format("woff2"),url("Fonts/5599ac9f-d136-4277-aeee-f82aac5d527f.woff") format("woff"),url("Fonts/ae81ec98-60d0-408d-960f-8c3f9f74e6c7.ttf") format("truetype"),url("Fonts/6a2c8943-c768-4f87-8d9d-0b70a871e8fe.svg#6a2c8943-c768-4f87-8d9d-0b70a871e8fe") format("svg");
+}
+@font-face{
+font-family:"Univers LT W01_67 Bold Cn Obl";
+src:url("Fonts/df79d9e8-6438-4900-8414-c14b36f662e1.eot?#iefix");
+src:url("Fonts/df79d9e8-6438-4900-8414-c14b36f662e1.eot?#iefix") format("eot"),url("Fonts/a503e1fd-a8d1-4caa-89da-d125c0986f23.woff2") format("woff2"),url("Fonts/5f07f397-7e1c-4d2d-957b-a4e960af952b.woff") format("woff"),url("Fonts/e557874b-d914-4c4d-abe5-8ba10308bbea.ttf") format("truetype"),url("Fonts/3a0627bb-865d-4b46-b8c3-3c2781a6e42e.svg#3a0627bb-865d-4b46-b8c3-3c2781a6e42e") format("svg");
+}
+@font-face{
+font-family:"Univers LT W01_59 Ult Cond";
+src:url("Fonts/33e0711d-4ebc-4904-8477-24849ae50e88.eot?#iefix");
+src:url("Fonts/33e0711d-4ebc-4904-8477-24849ae50e88.eot?#iefix") format("eot"),url("Fonts/452edecf-b228-4999-870a-a817fafba5bd.woff2") format("woff2"),url("Fonts/d542b352-b0cb-4267-a60e-501c672d1506.woff") format("woff"),url("Fonts/dcea0a7e-a589-4bb2-841e-37b428926ccc.ttf") format("truetype"),url("Fonts/ec9989d9-e5d5-4c7b-bd49-7c6c1e508a4b.svg#ec9989d9-e5d5-4c7b-bd49-7c6c1e508a4b") format("svg");
+}
+
+</style>
+
+</textarea>
+            <h3>Licensing information should be included within the CSS</h3>
+<pre>/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/</pre>
+        </div>
+    </div>
+</body>
+</html>

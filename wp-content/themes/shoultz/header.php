@@ -35,6 +35,7 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/fonts/demo.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
 </head>
@@ -42,5 +43,26 @@
 <body <?php body_class(); ?>>
 			<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 
-
+<header>
+	
+	<a hrer="<?php bloginfo('url');?>">
+		<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_stevenshoultz.png"/>
+	</a>
+	
+	<div class="menu_wrapper">
+		
+		<span>Menu</span>
+		
+		<div class="menu_bars">
+			
+			<div class="single_bars"></div><!-- single_bars -->
+			<div class="single_bars"></div><!-- single_bars -->
+			<div class="single_bars"></div><!-- single_bars -->
+		
+		</div><!-- menu_bars -->
+		
+	</div><!-- menu_wrapper -->
+	
+	
+</header>
 
