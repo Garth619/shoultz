@@ -28,7 +28,9 @@ get_header(); ?>
 				</a>
 				
 				<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
-<!-- 				<span>We are not afraid of taking a stand against insurance companies to protext your rights to fair compensation.</span> -->
+				<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance companies to protext your rights to fair compensation.</span>
+				
+				<a class="button" href="">CLICK HERE FOR A FREE CONSULTATION</a>
 			
 			</div><!-- banner_content -->
 			

@@ -10,13 +10,15 @@ Author URI: https://ilawyermarketing.com
 
 /* Fonts */
 
-$uniconsensed: "Univers LT W01_59 Ult Cond";
+$uniultra: "Univers LT W01_59 Ult Cond";
 $unibold:"Univers LT W01_67 Bold_1476016";
 $unibolditalic:"Univers LT W01_67 Bold Cn Obl";
+$proxreg:"Proxima N W15 Reg";
 
 /* Colors */
 
 $gold: #d3b167;
+$black: #2c2d33;
 
 
 /* Reset */
@@ -45,7 +47,20 @@ header, section, nav, footer {
 /* Global */
 
 
+.button {
+	background: $gold;
+	display: inline-block;
+	color:$black;
+	font-family: $unibold;
+	font-size:15px;
+	text-decoration: none;
+	padding:13px 19px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin:30px 0;
 
+}
 
 
 
@@ -71,7 +86,7 @@ header {
 	padding:14px 12px 12px 0px;
 	overflow: hidden;
 	span {
-		font-family:$uniconsensed;
+		font-family:$uniultra;
 		color:#fff;
 		text-transform: uppercase;
 		font-size:15px;
@@ -97,7 +112,7 @@ header {
 
 .main_banner {
 	width:100%;
-	height:600px;
+	
 	background:url(images/mobile/mobile_mainimage.jpg) top center no-repeat;
 	background-size:cover;
 	padding:60px 12px;
@@ -106,7 +121,7 @@ header {
 		float:right;
 		color:$gold;
 		text-decoration: none;
-		font-family:$uniconsensed;
+		font-family:$uniultra;
 		letter-spacing: 2px;
 		font-size: 24px;
 		font-weight:300;
@@ -132,6 +147,14 @@ header {
 				color:$gold;
 				font-family: $unibolditalic;
 			}
+		}
+		span.main_banner_sub_header {
+			font-family: $proxreg;
+			font-size:14px;
+			line-height:1.4;
+			display: inline-block;
+			padding:0 6%;
+			margin-top:15px;
 		}
 	}
 }
