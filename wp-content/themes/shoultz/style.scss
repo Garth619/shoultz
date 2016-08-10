@@ -204,8 +204,12 @@ header {
 /* About Us */
 
 .about_us {
-	padding:95px 20px 30px;
+	padding:60px 20px 30px;
 	background:url(images/mobile/content_image1.jpg) bottom center no-repeat;
+	.certified {
+		width:85%;
+		margin-left:-20px;
+	}
 	span.large_header {
 		color:#fff;
 		font-family: $unibold;
@@ -215,6 +219,7 @@ header {
 		border-top:1px solid $gold;
 		border-bottom:1px solid $gold;
 		padding:8px 0;
+		margin-top: -18px;
 	}
 	.about_us_content {
 		color:#fff;
@@ -224,6 +229,15 @@ header {
 		margin-top:35px;
 		p {
 			margin-bottom:27px;
+			.letter {
+				display: inline-block;
+				color:$gold;
+				font-size:65px;
+				float:left;
+				height:69px;
+				margin-top:-11px;
+				margin-right:8px;
+			}
 		}
 		span.read_more {
 			color:$gold;
