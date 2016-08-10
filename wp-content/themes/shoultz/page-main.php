@@ -17,7 +17,7 @@ get_header(); ?>
 	
 	<div class="main">
 		
-		<div class="main_banner">
+		<section class="main_banner">
 			
 			<a class="tel" href="tel:2149601551">214.960.1551</a>
 			
@@ -34,36 +34,45 @@ get_header(); ?>
 			
 			</div><!-- banner_content -->
 			
-		</div><!-- main_banner -->
+		</section><!-- main_banner -->
 		
-		<div class="what_we_do">
+		<section class="what_we_do">
 			
 			<div class="single_box">
 				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon1.svg"/>
 				
+				<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE<div class="arrow_right"></div></span><!-- large_header -->
 				
 			</div><!-- single_box -->
 			
 			<div class="single_box">
 				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon3.svg"/>
 				
-				
-			</div><!-- single_box -->
-			
-			<div class="single_box">
-				
-				
+				<span class="large_header">We assume <br/>all the risk<div class="arrow_right"></div></span><!-- large_header -->
 				
 			</div><!-- single_box -->
 			
 			<div class="single_box">
 				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon2.svg"/>
 				
+				<span class="large_header">Asscess to A<br/>Large Network<div class="arrow_right"></div></span><!-- large_header -->
 				
 			</div><!-- single_box -->
 			
+			<div class="single_box">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon4.svg"/>
+				
+				<span class="large_header">Energy & Passion<br/>For Each Case<div class="arrow_right"></div></span><!-- large_header -->
+				
+			</div><!-- single_box -->
 			
-		</div><!-- what_we_do -->
+						
+			
+		</section><!-- what_we_do -->
 		
 		
 	</div><!-- main -->
