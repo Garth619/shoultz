@@ -39,12 +39,19 @@ a img {border:none}
 html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 
 
-header, section, nav, footer {
-	display: block;
-}
+
 
 
 /* Global */
+
+
+body {
+	background: #29292e;
+}
+
+header, section, nav, footer {
+	display: block;
+}
 
 
 .button {
@@ -58,7 +65,7 @@ header, section, nav, footer {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	margin:30px 0;
+	margin:30px 0 0;
 
 }
 
@@ -112,10 +119,9 @@ header {
 
 .main_banner {
 	width:100%;
-	
 	background:url(images/mobile/mobile_mainimage.jpg) top center no-repeat;
 	background-size:cover;
-	padding:60px 12px;
+	padding:60px 12px 30px;
 	text-align: center;
 	.tel {
 		float:right;
@@ -156,6 +162,19 @@ header {
 			padding:0 6%;
 			margin-top:15px;
 		}
+	}
+}
+
+
+/* What We Do */
+
+
+.what_we_do {
+	.single_box {
+		background: #fff;
+		width:100%;
+		height:300px;
+		margin-bottom: 1px;
 	}
 }
 

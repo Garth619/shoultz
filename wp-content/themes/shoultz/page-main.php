@@ -34,8 +34,36 @@ get_header(); ?>
 			
 			</div><!-- banner_content -->
 			
-			
 		</div><!-- main_banner -->
+		
+		<div class="what_we_do">
+			
+			<div class="single_box">
+				
+				
+				
+			</div><!-- single_box -->
+			
+			<div class="single_box">
+				
+				
+				
+			</div><!-- single_box -->
+			
+			<div class="single_box">
+				
+				
+				
+			</div><!-- single_box -->
+			
+			<div class="single_box">
+				
+				
+				
+			</div><!-- single_box -->
+			
+			
+		</div><!-- what_we_do -->
 		
 		
 	</div><!-- main -->
