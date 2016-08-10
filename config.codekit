@@ -4808,6 +4808,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/shoultz\/images\/mobile\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4348,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/play.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_attorney_profilepic.png": {
 		"fileType": 32768,
 		"ignore": 0,

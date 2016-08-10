@@ -21,6 +21,17 @@ get_header(); ?>
 			
 			<a class="tel" href="tel:2149601551">214.960.1551</a>
 			
+			<div class="banner_content">
+			
+				<a href="">
+					<img class="play" src="<?php bloginfo('template_directory');?>/images/mobile/play.png"/>
+				</a>
+				
+				<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
+<!-- 				<span>We are not afraid of taking a stand against insurance companies to protext your rights to fair compensation.</span> -->
+			
+			</div><!-- banner_content -->
+			
 			
 		</div><!-- main_banner -->
 		
