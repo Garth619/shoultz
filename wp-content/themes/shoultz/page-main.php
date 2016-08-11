@@ -93,6 +93,35 @@ get_header(); ?>
 		</section><!-- about_us -->
 		
 		
+		<section class="case_results">
+			
+			<div class="case_results_wrapper">
+				
+				<div class="case_results_single_wrapper">
+					
+					<div class="case_results_init">
+						
+						<div class="init_box first">
+							
+							<div class="click_box">
+							
+								<span class="large_header">$547,706</span><!-- large_header -->
+								<span class="sub_header">Verdict</span><!-- large_header -->
+								<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
+							
+							</div><!-- click_box -->
+						
+						</div><!-- init_box -->
+						
+					</div><!-- case_results_init -->
+					
+				</div><!-- case_results_single_wrapper -->
+				
+			</div><!-- case_results_wrapper -->
+			
+		</section><!-- case_results -->
+		
+		
 	</div><!-- main -->
 	
 
