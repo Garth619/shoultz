@@ -285,6 +285,25 @@ get_header(); ?>
 		
 		
 		
+		<section class="reasons">
+			
+			<div class="reasons_inner">
+				
+				<div class="five_reasons_header">
+					
+
+					<img class="five" src="<?php bloginfo('template_directory');?>/images/shoultz_content_5.png"/>
+					<span class="large_header">REASoNS YOU NEED A PERSONAL INJURY LAWYER ON YOUR SIDE</span>
+					<div class="gold_box"></div><!-- gold_box -->
+					
+				</div><!-- five_reasons_header -->
+				
+			</div><!-- reasons_inner -->
+			
+		</section><!-- reasons -->
+		
+		
+		
 		
 		
 	</div><!-- main -->
