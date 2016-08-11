@@ -97,15 +97,70 @@ get_header(); ?>
 			
 			<div class="case_results_wrapper">
 				
+				<div class="slide_buttons">
+					
+					<div class="back"></div>
+					<div class="next"></div>
+					
+				</div><!-- slide_buttons -->
+				
 				<div class="case_results_init">
 				
 				<div class="case_results_single_wrapper">
 					
 					<div class="init_box first">
 							
-							<span class="large_header">$547,706</span><!-- large_header -->
-							<span class="sub_header">Verdict</span><!-- sub_header -->
-							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
+							<span class="large_header">$2,500,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">INJURY AT WORK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$2,500,000</span><!-- large_header -->
+									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+					</div><!-- case_results_single_wrapper -->
+					
+					<div class="case_results_single_wrapper">
+					
+					<div class="init_box second">
+							
+							<span class="large_header">$1,500,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">AUTO WRECK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$1,500,000</span><!-- large_header -->
+									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+					</div><!-- case_results_single_wrapper -->
+					
+					<div class="case_results_single_wrapper">
+					
+					<div class="init_box third">
+							
+							<span class="large_header">$400,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">INJURY AT WORK & DEATH Settlement<div class="arrow_right"></div></span><!-- rotate -->
 							
 						</div><!-- init_box -->
 						
@@ -125,55 +180,7 @@ get_header(); ?>
 					
 					<div class="case_results_single_wrapper">
 					
-					<div class="init_box first">
-							
-							<span class="large_header">$547,706</span><!-- large_header -->
-							<span class="sub_header">Verdict</span><!-- sub_header -->
-							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$547,706</span><!-- large_header -->
-									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-					</div><!-- case_results_single_wrapper -->
-					
-					<div class="case_results_single_wrapper">
-					
-					<div class="init_box first">
-							
-							<span class="large_header">$547,706</span><!-- large_header -->
-							<span class="sub_header">Verdict</span><!-- sub_header -->
-							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$547,706</span><!-- large_header -->
-									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-					</div><!-- case_results_single_wrapper -->
-					
-					<div class="case_results_single_wrapper">
-					
-					<div class="init_box first">
+					<div class="init_box fourth">
 							
 							<span class="large_header">$547,706</span><!-- large_header -->
 							<span class="sub_header">Verdict</span><!-- sub_header -->
