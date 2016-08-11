@@ -95,7 +95,7 @@ get_header(); ?>
 		
 		<section class="case_results">
 			
-			<div class="case_results_wrapper">
+		
 				
 				<div class="slide_buttons">
 					
@@ -204,9 +204,87 @@ get_header(); ?>
 				
 				</div><!-- case_results_init -->
 				
-			</div><!-- case_results_wrapper -->
-			
 		</section><!-- case_results -->
+		
+		<section class="testimonials">
+			
+			
+			<img class="testimonial_img" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
+			
+			<span class="large_header">An attorney that truly cares about his clients</span>
+			
+			
+			<div class="test_wrapper">
+				
+				<div class="single_test_wrapper">
+					
+					<div class="stars_wrapper">
+						
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+					
+					</div><!-- stars_wrapper -->
+					
+					<span class="name_title">Debbie &nbsp;|&nbsp;  avvo</span>
+					
+					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
+					
+				</div><!-- single_test_wrapper -->
+				
+				<div class="single_test_wrapper">
+					
+					<div class="stars_wrapper">
+						
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+					
+					</div><!-- stars_wrapper -->
+					
+					<span class="name_title">Debbie &nbsp;|&nbsp;  avvo</span>
+					
+					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
+					
+				</div><!-- single_test_wrapper -->
+				
+				<div class="single_test_wrapper">
+					
+					<div class="stars_wrapper">
+						
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+					
+					</div><!-- stars_wrapper -->
+					
+					<span class="name_title">Debbie &nbsp;|&nbsp;  avvo</span>
+					
+					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
+					
+				</div><!-- single_test_wrapper -->
+				
+				
+				
+			</div><!-- test_wrapper -->
+			
+			<div class="slide_buttons">
+				
+				<div class="test_back"></div>
+				<div class="test_next"></div>
+				
+			</div><!-- slide_buttons -->
+			
+		</section><!-- testimonials -->
+		
+		
+		
 		
 		
 	</div><!-- main -->

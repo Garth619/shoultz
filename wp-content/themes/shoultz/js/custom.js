@@ -25,6 +25,16 @@ jQuery(document).ready(function(){
 		prevArrow: ".back",
 		nextArrow: ".next"
 	});
+	
+	
+	jQuery('.test_wrapper').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:true,
+		prevArrow: ".test_back",
+		nextArrow: ".test_next"
+	});
 	 	
 	
 });

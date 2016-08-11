@@ -13,6 +13,7 @@ Author URI: https://ilawyermarketing.com
 $uniultra: "Univers LT W01_59 Ult Cond";
 $unibold:"Univers LT W01_67 Bold_1476016";
 $unibolditalic:"Univers LT W01_67 Bold Cn Obl";
+$proxthin:"Proxima N W15 Thin Reg";
 $proxreg:"Proxima N W15 Reg";
 $abril:'Abril Fatface', cursive;
 
@@ -78,6 +79,7 @@ header {
 	position: fixed;
 	top:0;
 	overflow: hidden;
+	z-index: 500;
 }
 
 .logo {
@@ -221,6 +223,8 @@ header {
 		border-bottom:1px solid $gold;
 		padding:8px 0;
 		margin-top: -18px;
+		text-transform: uppercase;
+		letter-spacing:1.2px;
 	}
 	.about_us_content {
 		color:#fff;
@@ -256,8 +260,8 @@ header {
 
 /* Case Results */
 
-.case_results {
-	.case_results_wrapper {
+
+	.case_results {
 		position: relative;
 		.slide_buttons {
 			bottom: 33px;
@@ -408,6 +412,82 @@ header {
 				}
 			}
 		}
+	
+
+/* Testimonials */
+
+
+.testimonials {
+	padding:35px 20px;
+	overflow:hidden;
+	text-align: center;
+	.testimonial_img {
+		width:113%;
+		margin-left:-20px;
 	}
+	span.large_header {
+		color:#fff;
+		font-family: $unibold;
+		font-size:30px;
+		text-align: center;
+		display: inline-block;
+		border-top:1px solid $gold;
+		border-bottom:1px solid $gold;
+		padding:8px 0;
+		margin-top: -9px;
+		text-transform: uppercase;
+		letter-spacing:1.4px;
+	}
+	.slide_buttons {
+		display: inline-block;
+		margin: 0 auto;
+		div {
+			width:25px;
+			height:25px;
+			float: left;
+		}
+		.test_back {
+			background:url(images/shoultz_test_arrowleft.png) top left no-repeat;
+			background-size:25px 25px;
+			margin-right:10px;
+		}
+		.test_next {
+			background:url(images/shoultz_test_arrowright.png) top left no-repeat;
+			background-size:25px 25px;
+		}
+	}
+}
 
-
+.test_wrapper {
+	margin-top:40px;
+	.single_test_wrapper {
+		text-align: center;
+		.stars_wrapper {
+			text-align: center;
+			img {
+				display: inline-block;
+				width:17px;
+				height:17px;
+				margin:0 3px;
+			}
+		}
+		span.name_title {
+			color: $gold;
+			font-family: $proxreg;
+			font-size:22px;
+			text-transform: uppercase;
+			letter-spacing: 1.8px;
+			margin-top:20px;
+			display: block;
+			
+		}
+		span.test_content {
+			display: inline-block;
+			color:#fff;
+			font-family: $proxthin;
+			font-size:15px;
+			line-height:1.8;
+			margin-top:20px;
+		}
+	}
+}
