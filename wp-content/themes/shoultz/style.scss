@@ -236,8 +236,9 @@ header {
 				font-size:65px;
 				float:left;
 				height:69px;
-				margin-top:-11px;
+				margin-top:-14px;
 				margin-right:8px;
+				font-family: $abril;
 			}
 		}
 		span.read_more {
@@ -265,8 +266,6 @@ header {
 				.init_box.first {
 					background:url(images/shoultz_results_image3.jpg);
 					background-size:cover;
-				}
-				.click_box {
 					color:#fff;
 					position: relative;
 					width:100%;
@@ -298,13 +297,11 @@ header {
 						font-size:15px;
 						letter-spacing:2px;
 						display: block;
-
 						-webkit-transform: rotate(-90deg);
 						-moz-transform: rotate(-90deg);
 						transform: rotate(-90deg);
 						-ms-transform: rotate(-90deg);
 						filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
 						.arrow_right {
 							width: 0; 
 							height: 0; 
@@ -312,8 +309,43 @@ header {
 							border-bottom: 5px solid transparent;
 							border-left: 5px solid $gold;
 							display: inline-block;
-							margin-left:2px;
+							margin-left:3px;
 							
+						}
+					}
+				}
+				.click_box {
+					background:$gold;
+					width:100%;
+					height:505px;
+					color:#fff;
+					.click_content {
+						text-align: center;
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						span.large_header {
+							font-family: $abril;
+							font-size:37px;
+							letter-spacing: 2px;
+							display: block;
+						}
+						span.sub_header {
+							font-family: $uniultra;
+							color:$black;
+							text-transform: uppercase;
+							letter-spacing: 1.4px;
+							border-top:1px solid $black;
+							border-bottom:1px solid $black;
+							padding:10px 20px;
+							display: inline-block;
+							margin-top:10px;
+						}
+						p {
+							font-family: $proxreg;
+							font-size:14px;
+							padding:0 45px;
+							margin-top:35px;
 						}
 					}
 				}
