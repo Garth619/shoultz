@@ -439,21 +439,26 @@ header {
 		letter-spacing:1.4px;
 	}
 	.slide_buttons {
-		display: inline-block;
-		margin: 0 auto;
+		text-align: center;
+		margin:40px auto 0;
+		width:80%;
 		div {
 			width:25px;
 			height:25px;
-			float: left;
+			display: block;
+			position: relative;
+			z-index:50000;
 		}
 		.test_back {
 			background:url(images/shoultz_test_arrowleft.png) top left no-repeat;
 			background-size:25px 25px;
-			margin-right:10px;
+			float:left;
+			
 		}
 		.test_next {
 			background:url(images/shoultz_test_arrowright.png) top left no-repeat;
 			background-size:25px 25px;
+			float:right;
 		}
 	}
 	.slick-dots li button:before {
