@@ -97,11 +97,11 @@ get_header(); ?>
 			
 			<div class="case_results_wrapper">
 				
+				<div class="case_results_init">
+				
 				<div class="case_results_single_wrapper">
 					
-					<div class="case_results_init">
-						
-						<div class="init_box first">
+					<div class="init_box first">
 							
 							<span class="large_header">$547,706</span><!-- large_header -->
 							<span class="sub_header">Verdict</span><!-- sub_header -->
@@ -121,9 +121,81 @@ get_header(); ?>
 							
 						</div><!-- click_box -->
 						
-					</div><!-- case_results_init -->
+					</div><!-- case_results_single_wrapper -->
 					
-				</div><!-- case_results_single_wrapper -->
+					<div class="case_results_single_wrapper">
+					
+					<div class="init_box first">
+							
+							<span class="large_header">$547,706</span><!-- large_header -->
+							<span class="sub_header">Verdict</span><!-- sub_header -->
+							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$547,706</span><!-- large_header -->
+									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+					</div><!-- case_results_single_wrapper -->
+					
+					<div class="case_results_single_wrapper">
+					
+					<div class="init_box first">
+							
+							<span class="large_header">$547,706</span><!-- large_header -->
+							<span class="sub_header">Verdict</span><!-- sub_header -->
+							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$547,706</span><!-- large_header -->
+									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+					</div><!-- case_results_single_wrapper -->
+					
+					<div class="case_results_single_wrapper">
+					
+					<div class="init_box first">
+							
+							<span class="large_header">$547,706</span><!-- large_header -->
+							<span class="sub_header">Verdict</span><!-- sub_header -->
+							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$547,706</span><!-- large_header -->
+									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+					</div><!-- case_results_single_wrapper -->
+				
+				</div><!-- case_results_init -->
 				
 			</div><!-- case_results_wrapper -->
 			
