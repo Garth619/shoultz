@@ -456,7 +456,29 @@ header {
 			background-size:25px 25px;
 		}
 	}
-}
+	.slick-dots li button:before {
+    content: "" !important;
+   }
+   .slick-dots {
+	   bottom:-65px !important;
+	   
+   	li {
+   		margin: 0 8px !important;
+   		width:10px;
+   		height:10px;
+	 		button {
+	  		width:10px;
+				height:10px;
+				background: #fff;
+   		}
+   	}
+   	li.slick-active {
+	  	button {
+	   		background: $gold;
+	   	}
+   	}
+   }
+ }
 
 .test_wrapper {
 	margin-top:40px;

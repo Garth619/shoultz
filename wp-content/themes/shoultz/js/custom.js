@@ -33,7 +33,8 @@ jQuery(document).ready(function(){
 		slidesToScroll: 1,
 		arrows:true,
 		prevArrow: ".test_back",
-		nextArrow: ".test_next"
+		nextArrow: ".test_next",
+		dots:true
 	});
 	 	
 	
