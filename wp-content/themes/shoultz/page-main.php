@@ -381,13 +381,38 @@ get_header(); ?>
 				
 				<p><span class="letter">L</span>orem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodiem sis consequat. Duis aute irure dolor in reprereprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat. voluptatem.</p>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat. voluptatem.</p>
 				
 			</div><!-- respect_content -->
 			
 			<img class="respect_img" src="<?php bloginfo('template_directory');?>/images/shoultz_content_results-01.svg"/>
 			
 		</section><!-- respect -->
+		
+		
+		<section class="shoultz">
+			
+			<div class="gold_line"></div><!-- gold_line -->
+			
+			<div class="shoultz_inner">
+				
+				<span class="large_header"><span class="gold">STEPHEN</span> W. SHOULTZ</span>
+				<span class="sub_header">PERSONAL INJURY ATTORNEY</span>
+				
+				<img src="<?php bloginfo('template_directory');?>/images/shoultz_attorney_stevenshoultz.jpg"/>
+				
+				<div class="shoultz_content">
+					
+					<p>Lorem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ex ea consequat. Duis aute irure dolor in represt
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta</p>
+					
+				</div><!-- shoultz_content -->
+				
+			</div><!-- shoultz_inner -->
+			
+		</section><!-- shoultz  -->
 		
 		
 		

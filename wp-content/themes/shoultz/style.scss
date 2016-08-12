@@ -70,7 +70,9 @@ header, section, nav, footer {
 
 }
 
-
+.gold {
+	color:$gold;
+}
 
 
 /* Main Pge */
@@ -642,6 +644,46 @@ header {
 		float:right;
 		margin-right:-20px;
 		margin-bottom:50px;
+	}
+}
+
+/* Shoultz */
+
+
+.shoultz {
+	text-align: center;
+	.gold_line {
+		width:80%;
+		height:1px;
+		background: $gold;
+		margin:0 auto;
+	}
+	.shoultz_inner {
+		background: $white;
+		width:100%;
+		
+		margin-top:22px;
+		padding:35px 20px 0;
+		span.large_header {
+			font-family: $uniultra;
+			font-size:38px;
+			letter-spacing: 3px;
+			display: block;
+		}
+		span.sub_header {
+			font-family: $uniultra;
+			font-size: 15px;
+			letter-spacing: 3px;
+			display: block;
+		}
+		img {
+			max-width: 100%;
+			height:auto;
+			margin-top:15px;
+		}
+		.shoultz_content {
+			text-align: left;
+		}
 	}
 }
 
