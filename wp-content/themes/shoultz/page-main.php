@@ -414,9 +414,43 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 				
 			</div><!-- shoultz_inner -->
 			
+			<div class="gold_line bottom"></div><!-- gold_line -->
+			
 			<div class="gold_box"></div>
 			
 		</section><!-- shoultz  -->
+		
+		<section class="logos">
+			
+			<div class="logo_slider">
+				
+				<div class="single_logo">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_1.png"/>
+					
+				</div><!-- single_logo -->
+				
+				<div class="single_logo">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_2.png"/>
+					
+				</div><!-- single_logo -->
+				
+				<div class="single_logo">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_1.png"/>
+					
+				</div><!-- single_logo -->
+				
+				<div class="single_logo">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_2.png"/>
+					
+				</div><!-- single_logo -->
+				
+			</div><!-- logo_slider -->
+			
+		</section><!-- logos -->
 		
 		
 		

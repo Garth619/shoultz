@@ -47,6 +47,18 @@ jQuery(document).ready(function(){
 		nextArrow: ".reasons_next"
 	
 	});
+	
+	
+	jQuery('.logo_slider').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:true,
+		prevArrow: ".reasons_back",
+		nextArrow: ".reasons_next",
+		dots:true
+	
+	});
 	 	
 	
 });
