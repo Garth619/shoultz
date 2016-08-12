@@ -25,7 +25,7 @@
 				<a class="office_info" href="tel:2149601551">214.960.1551</a>
 				
 				<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-				<span class="office_info">000.000.0000</span>
+				<a class="office_info" href="tel:0000000000">000.000.0000</a>
 				
 				<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
 				<a class="office_info" href="tel:email@email.com">email@email.com</a>

@@ -159,7 +159,7 @@ header {
 		span.main_banner_header {
 			font-family:$unibold;
 			text-transform: uppercase;
-			font-size:37px;
+			font-size:36px;
 			display: inline-block;
 			border-top:1px solid #fff;
 			border-bottom:1px solid #fff;
@@ -197,7 +197,7 @@ header {
 			float:right;
 		}
 		span.large_header {
-			padding-top:165px;
+			padding-top:126px;
 			display: block;
 			font-family: $uniultra;
 			font-size:25px;
@@ -661,7 +661,7 @@ header {
 		span.large_header {
 			font-family: $uniultra;
 			font-size:38px;
-			letter-spacing: 3px;
+			letter-spacing: 2px;
 			display: block;
 			position: relative;
 			z-index:10;
@@ -809,11 +809,13 @@ footer {
 			input, textarea {
 				width:100%;
 				border:none;
+				border-radius: 0;
 			}
 			textarea {
 				font-family: $proxreg;
 				height:182px;
 				padding:20px;
+				font-size:15px;
 			}
 		}
 			 ::-webkit-input-placeholder {color:$black;}
@@ -838,6 +840,8 @@ footer {
 	border-radius: 20px;
 	margin-top:8px;
 	display: inline-block;
+	-webkit-appearance: none;
+
 }
 
 
@@ -891,7 +895,7 @@ footer {
 .social_icons {
 	margin:67px 0 35px;
 	img {
-		margin:0 5px;
+		margin:0 4px;
 	}
 }
 
