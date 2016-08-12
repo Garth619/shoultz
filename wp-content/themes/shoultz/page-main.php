@@ -30,7 +30,7 @@ get_header(); ?>
 				<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
 				<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance companies to protext your rights to fair compensation.</span>
 				
-				<a class="button" href="">CLICK HERE FOR A FREE CONSULTATION</a>
+				<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
 			
 			</div><!-- banner_content -->
 			
@@ -410,7 +410,7 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 					
 				</div><!-- shoultz_content -->
 				
-				<a class="button learn" href="">LEARN MORE ABOUT YOUR ATTORNEY</a>
+				<a class="mybutton learn" href="">LEARN MORE ABOUT YOUR ATTORNEY</a>
 				
 			</div><!-- shoultz_inner -->
 			
@@ -452,18 +452,7 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 			
 		</section><!-- logos -->
 		
-		<section class="request">
-			
-			<span class="large_header">REQUEST A FREE CONSULTATION</span><!-- large_header -->
-			
-			<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four hours.</span><!-- description -->
-			<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
-			
-		</section><!-- request -->
 		
-		
-		
-	</div><!-- main -->
 	
 
 

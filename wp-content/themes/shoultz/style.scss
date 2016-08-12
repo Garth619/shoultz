@@ -56,7 +56,7 @@ header, section, nav, footer {
 }
 
 
-.button {
+.mybutton {
 	background: $gold;
 	display: inline-block;
 	color:$black;
@@ -696,7 +696,7 @@ header {
 				margin-bottom: 0;
 			}
 		}
-		.button.learn {
+		.mybutton.learn {
 			margin:40px 0;
 		}
 	}
@@ -753,13 +753,19 @@ header {
 }
 
 
-/* Request */
+/* Footer */
 
 
-.request {
+
+footer {
+  background:url(images/mobile/shoultz_mobile_footer_bg.jpg) bottom center no-repeat;
 	padding:0 20px;
 	text-align: center;
 	font-family: $proxreg;
+}
+
+.request {
+	
 	span.large_header {
 		color:#fff;
 		font-family: $unibold;
@@ -786,5 +792,121 @@ header {
 		margin:20px 0 40px;
 		display: inline-block;
 	}
+	ul {
+		list-style: none;
+		margin:0;
+		font-size:15px;
+		li {
+			width:100%;
+			margin-bottom:17px;
+			label {
+				display: none;
+			}
+			input {
+				font-size:15px;
+				padding:20px;
+			}
+			input, textarea {
+				width:100%;
+				border:none;
+			}
+			textarea {
+				font-family: $proxreg;
+				height:182px;
+				padding:20px;
+			}
+		}
+			 ::-webkit-input-placeholder {color:$black;}
+			 ::-moz-placeholder          {color:$black;} 
+			 :-moz-placeholder           {color:$black;}
+			 :-ms-input-placeholder      {color:$black;}
+			 ::-moz-placeholder {opacity: 1};
+	
+	
+	}
+}
+
+.gform_button {
+	background: $gold;
+	border:none;
+	font-family: $unibold;
+	font-size:15px;
+	text-transform: uppercase;
+	padding:13px 30px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-top:8px;
+	display: inline-block;
+}
+
+
+.office {
+	font-family:$proxreg;
+	text-align: center;
+	font-size:18px;
+	.address {
+		color:#fff;
+		margin-top:55px;
+		display:block;
+		line-height:1.5;
+	}
+	a.get_directions {
+		color:$gold;
+		text-decoration: none;
+		font-family: $uniultra;
+		text-transform: uppercase;
+		font-size:24px;
+		letter-spacing: 1.8px;
+		margin-top:4px;
+		display: block;
+		.arrow_right {
+			width: 0; 
+			height: 0; 
+			border-top: 7px solid transparent;
+			border-bottom: 7px solid transparent;
+			border-left: 7px solid $gold;
+			display: inline-block;
+			margin-left:4px;
+			position: relative;
+			top:-2px;
+		}
+	}
+	.office_info_wrapper {
+		margin-top:30px;
+		img {
+			display:block;
+			margin:0 auto 5px;
+		}
+		.office_info {
+			display:block;
+			color:#fff;
+			text-decoration: none;
+			margin-bottom:13px;
+		}
+	}
+}
+
+
+.social_icons {
+	margin:67px 0 35px;
+	img {
+		margin:0 5px;
+	}
+}
+
+.copyright {
+	color:$grey;
+	font-size:13px;
+	font-family: $proxreg;
+	a {
+		color:$grey;
+		text-decoration: none;
+	}
+}
+
+.ilawyer {
+	margin:25px 0;
+	width:205px;
 }
 
