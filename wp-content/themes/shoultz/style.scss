@@ -47,6 +47,7 @@ html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 
 body {
 	background: #29292e;
+	color:$black;
 }
 
 header, section, nav, footer {
@@ -528,8 +529,8 @@ header {
 	.reasons_inner {
 		background: $white;
 		width:100%;
-		height:500px;
-		margin-top:86px;
+		margin-top: 140px;
+		padding:0 20px 40px;
 		.five_reasons_header {
 			position: relative;
 			text-align: center;
@@ -537,12 +538,12 @@ header {
 			display: inline-block;
 			.gold_box {
 				background: #d3b167 none repeat scroll 0 0;
-				height: 333px;
+				height: 325px;
 				opacity: 0.2;
 				position: absolute;
-				right: 20px;
+				right: 0px;
 				top: 34px;
-				width: 50%;
+				width: 56%;
 			}
 			img.five {
 				position:relative;
@@ -557,6 +558,41 @@ header {
 				position:relative;
 				z-index:10;
 			}
+		}
+		.slide_buttons {
+			text-align: center;
+			overflow: hidden;
+			div {
+				width:25px;
+				height:25px;
+				display:inline-block !important;
+				margin:0 8px;
+			}
+			.reasons_back {
+				background:url(images/shoultz_content_arrowleft.png) top left no-repeat;
+				background-size:25px 25px;
+			}
+			.reasons_next {
+				background:url(images/shoultz_content_arrowright.png) top left no-repeat;
+				background-size:25px 25px;
+			}
+		}
+	}
+}
+
+.reasons_slider {
+	margin:60px 0 40px;
+	.reasons_single_slide {
+		span.large_header {
+			font-family:$uniultra;
+			font-size:20px;
+			letter-spacing: 2px;
+			margin-bottom:25px;
+			display: block
+		}
+		.reasons_content {
+			font-family: $proxreg;
+			line-height: 1.9;
 		}
 	}
 }

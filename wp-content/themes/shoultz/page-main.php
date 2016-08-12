@@ -298,6 +298,77 @@ get_header(); ?>
 					
 				</div><!-- five_reasons_header -->
 				
+				<div class="reasons_slider">
+					
+					<div class="reasons_single_slide">
+					
+					<span class="large_header">1 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
+					
+					<div class="reasons_content">
+						
+						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
+						
+					</div><!-- reasons_content -->
+					
+					</div><!-- reasons_single_slide -->
+					
+						<div class="reasons_single_slide">
+					
+					<span class="large_header">2 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
+					
+					<div class="reasons_content">
+						
+						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
+						
+					</div><!-- reasons_content -->
+					
+					</div><!-- reasons_single_slide -->
+					
+						<div class="reasons_single_slide">
+					
+					<span class="large_header">3 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
+					
+					<div class="reasons_content">
+						
+						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
+						
+					</div><!-- reasons_content -->
+					
+					</div><!-- reasons_single_slide -->
+					
+						<div class="reasons_single_slide">
+					
+					<span class="large_header">4 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
+					
+					<div class="reasons_content">
+						
+						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
+						
+					</div><!-- reasons_content -->
+					
+					</div><!-- reasons_single_slide -->
+					
+						<div class="reasons_single_slide">
+					
+					<span class="large_header">5 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
+					
+					<div class="reasons_content">
+						
+						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
+						
+					</div><!-- reasons_content -->
+					
+					</div><!-- reasons_single_slide -->
+					
+				</div><!-- reasons_slider -->
+				
+				<div class="slide_buttons">
+					
+					<div class="reasons_back"></div>
+					<div class="reasons_next"></div>
+					
+				</div><!-- slide_buttons -->
+				
 			</div><!-- reasons_inner -->
 			
 		</section><!-- reasons -->
