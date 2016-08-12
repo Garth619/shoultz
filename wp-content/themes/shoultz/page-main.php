@@ -403,14 +403,18 @@ get_header(); ?>
 				
 				<div class="shoultz_content">
 					
-					<p>Lorem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ex ea consequat. Duis aute irure dolor in represt
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p><span class="letter">L</span>orem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ex ea consequat. Duis aute irure dolor in represt
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est&nbsp;laborum.</p>
 	
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta</p>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&nbsp;dicta.</p>
 					
 				</div><!-- shoultz_content -->
 				
+				<a class="button learn" href="">LEARN MORE ABOUT YOUR ATTORNEY</a>
+				
 			</div><!-- shoultz_inner -->
+			
+			<div class="gold_box"></div>
 			
 		</section><!-- shoultz  -->
 		
