@@ -152,7 +152,11 @@ header {
 	.banner_content {
 		margin-top:200px;
 		color:#fff;
-		img.play {
+		.play {
+			background:url(images/desktop/internal_playbutton.png) top left no-repeat;
+			background-size:66px 66px;
+			width:66px;
+			height:66px;
 			display: block;
 			margin:0 auto 20px;
 		}
@@ -168,6 +172,7 @@ header {
 			.thirty_five {
 				color:$gold;
 				font-family: $unibolditalic;
+				letter-spacing: 2px;
 			}
 		}
 		span.main_banner_sub_header {
@@ -913,4 +918,93 @@ footer {
 	margin:25px 0;
 	width:205px;
 }
+
+@media screen and (min-width: 765px) {
+	
+
+/* Global */
+
+.mybutton {
+	
+	font-size:18px;
+	
+	padding:16px 35px;
+	letter-spacing: 1.5px;
+	margin:30px 0 0;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	
+	
+}
+
+
+
+/* Header */
+
+.logo {
+	width:200px;
+	padding:22px 0 22px 22px;
+}
+	
+.menu_wrapper {
+	padding: 24px 24px 24px 0;
+	span {
+		font-size:25px;
+	}
+	.menu_bars {
+		width:25px;
+		margin-top:9px;
+		.single_bars {
+			margin-bottom:6px;
+		}
+	}
+}
+
+/* Main Banner */
+
+
+.main_banner {
+	background:url(images/tablet/shoultz_tablet_mainimage.jpg) top center no-repeat;
+	background-size:cover;
+	padding:95px 24px 65px;
+	.tel {
+		font-size: 38px;
+	}
+	.banner_content {
+		margin-top:270px;
+		.play {
+			background:url(images/desktop/internal_playbutton.png) top left no-repeat;
+			background-size:81px 81px;
+			width:81px;
+			height:81px;
+			margin:0 auto 30px;
+		}
+		span.main_banner_header {
+			font-size:65px;
+			padding:16px 0;
+			line-height:1;
+			border-top:2px solid #fff;
+			border-bottom:2px solid #fff;
+			.thirty_five {
+				color:$gold;
+				font-family: $unibolditalic;
+				letter-spacing:3px;
+			}
+		}
+		span.main_banner_sub_header {
+			font-size:21px;
+			line-height:1.4;
+			padding:0;
+			margin-top:25px;
+			display: block;
+		}
+	}
+}
+
+
+	
+	
+	
+} /* Media Query */
 

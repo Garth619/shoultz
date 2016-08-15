@@ -7273,46 +7273,46 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_bio_attorneypic.png": {
+	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 236807,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_bio_attorneypic.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_bio_attorneypic.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_mainimage.png": {
+	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 923028,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_mainimage.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_mainimage.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_playbutton.png": {
+	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 28873,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_playbutton.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_playbutton.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_playbutton_hover.png": {
+	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton_hover.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 26596,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_playbutton_hover.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop_internals\/internal_playbutton_hover.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton_hover.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8314,6 +8314,17 @@
 		"initialSize": 622448,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_internal_mainimage.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_internal_mainimage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64049,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
