@@ -26,9 +26,9 @@ get_header(); ?>
 				<a href="">
 					<div class="play"></div>
 				</a>
-				
+								
 				<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
-				<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br/>companies to protext your rights to fair compensation.</span>
+				<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
 				
 				<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
 			
@@ -38,37 +38,107 @@ get_header(); ?>
 		
 		<section class="what_we_do">
 			
-			<div class="single_box">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon1.svg"/>
-				
-				<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE<div class="arrow_right"></div></span><!-- large_header -->
-				
-			</div><!-- single_box -->
+			<div class="single_box_wrapper">
 			
-			<div class="single_box">
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon1.svg"/>
+					<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
 				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon3.svg"/>
 				
-				<span class="large_header">We assume <br/>all the risk<div class="arrow_right"></div></span><!-- large_header -->
-				
-			</div><!-- single_box -->
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon1.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+						
+							<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE</span><!-- large_header -->
+							<p>Proven litigation skills with a record of over 200 jury trials</p>
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
 			
-			<div class="single_box">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon2.svg"/>
-				
-				<span class="large_header">Asscess to A<br/>Large Network<div class="arrow_right"></div></span><!-- large_header -->
-				
-			</div><!-- single_box -->
+			</div><!-- single_box_wrapper -->
 			
-			<div class="single_box">
+			<div class="single_box_wrapper">
+			
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon3.svg"/>
+					<span class="large_header">We Assume<br/>all the Risk<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
 				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon4.svg"/>
 				
-				<span class="large_header">Energy & Passion<br/>For Each Case<div class="arrow_right"></div></span><!-- large_header -->
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon3.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+						
+							<span class="large_header">We Assume<br/>all the Risk</span><!-- large_header -->
+							<p>Proven litigation skills with a record of over 200 jury trials</p>
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
+			
+			</div><!-- single_box_wrapper -->
+			
+			<div class="single_box_wrapper">
+			
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon2.svg"/>
+					<span class="large_header">Access to a<br/>Large Network<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
 				
-			</div><!-- single_box -->
+				
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon2.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+						
+							<span class="large_header">Access to a<br/>Large Network</span><!-- large_header -->
+							<p>Proven litigation skills with a record of over 200 jury trials</p>
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
+			
+			</div><!-- single_box_wrapper -->
+			
+			<div class="single_box_wrapper">
+			
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon4.svg"/>
+					<span class="large_header">Energy & Passion<br/>For Each Case<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
+				
+				
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon4.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+						
+							<span class="large_header">Energy & Passion<br/>For Each Case</span><!-- large_header -->
+							<p>Proven litigation skills with a record of over 200 jury trials</p>
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
+			
+			</div><!-- single_box_wrapper -->
+			
+			
 			
 		</section><!-- what_we_do -->
 		

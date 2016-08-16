@@ -1,6 +1,25 @@
 jQuery(document).ready(function(){
 	
 	
+	// What We Do 
+	
+	
+	jQuery(".single_box").click(function() {
+		
+		jQuery(this).next(".single_box_click_content").addClass("open");
+		
+	});
+	
+	
+	jQuery(".single_box_click_content").click(function() {
+		
+		jQuery(this).removeClass("open");
+		
+	});
+	
+	
+	
+	
 	
 	// Case Results
 	
