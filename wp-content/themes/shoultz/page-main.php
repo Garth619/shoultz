@@ -38,6 +38,10 @@ get_header(); ?>
 		
 		<section class="what_we_do">
 			
+			
+			<div class="two_column">
+			
+			
 			<div class="single_box_wrapper">
 			
 				<div class="single_box">
@@ -62,6 +66,20 @@ get_header(); ?>
 				</div><!-- single_box_click_content -->
 			
 			</div><!-- single_box_wrapper -->
+			
+			
+			
+			<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+			
+			
+			</div><!-- two_column -->
+			
+			<div class="two_column">
+			
+			
+			<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+			
+			
 			
 			<div class="single_box_wrapper">
 			
@@ -88,6 +106,14 @@ get_header(); ?>
 			
 			</div><!-- single_box_wrapper -->
 			
+			
+			</div><!-- two_col -->
+			
+			
+			
+			<div class="two_column">
+			
+			
 			<div class="single_box_wrapper">
 			
 				<div class="single_box">
@@ -113,6 +139,16 @@ get_header(); ?>
 			
 			</div><!-- single_box_wrapper -->
 			
+			
+			<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+			
+			</div><!-- two_column -->
+			
+			<div class="two_column">
+				
+				
+				<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+			
 			<div class="single_box_wrapper">
 			
 				<div class="single_box">
@@ -137,6 +173,11 @@ get_header(); ?>
 				</div><!-- single_box_click_content -->
 			
 			</div><!-- single_box_wrapper -->
+			
+			
+			
+			
+			</div><!-- two_column -->
 			
 			
 			

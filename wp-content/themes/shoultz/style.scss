@@ -263,12 +263,13 @@ header {
 				margin-top:10px;
 				font-size:14px;
 			}
-				
-				
-			}
-			
 		}
+			}
 	}
+}
+
+.pic_box {
+	display: block;
 }
 
 /* About Us */
@@ -1057,8 +1058,62 @@ footer {
 .content_break {
 	display: block;
 }
+
+
+/* What We Do */
+
+
+.two_column {
+	width:100%;
+	overflow: hidden;
+}
+
+
+.what_we_do {
+	
+	.single_box_wrapper {
+		width:50%;
+		float:left;
+		
+		img.icon {}
+		span.large_header {}
+		.single_box {
+			.arrow_right {}
+			span.large_header {}
+		}
+		.single_box_click_content.open {}
+		.single_box_click_content {
+			.inner_singlecontent_wrapper {
+				span.large_header {}
+			p {}
+		}
+		}
+	}
+}
+
+
+.pic_box {
+	background:url(images/shoultz_sp_image2.jpg) top left no-repeat;
+	background-size:cover;
+	width:100%;
+	height:245px;
+}
+
 	
 	
 	
+} /* Media Query */
+
+
+
+
+
+@media screen and (min-width: 780px) {
+
+
+
+
+
+
 } /* Media Query */
 
