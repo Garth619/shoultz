@@ -54,7 +54,8 @@ jQuery(document).ready(function(){
 				slidesToScroll: 1,
 				arrows:true,
 				prevArrow: ".back",
-				nextArrow: ".next"
+				nextArrow: ".next",
+				centerMode: false,
       }
     }
     // You can unslick at a given breakpoint now by adding:

@@ -21,7 +21,7 @@ $white:#ededed;
 /* Colors */
 
 $gold: #d3b167;
-$black: #2c2d33;
+$black: #29292e;
 $grey:#9d9d9d;
 
 
@@ -47,7 +47,7 @@ html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 
 
 body {
-	background: #29292e;
+	background: $black;
 	color:$black;
 }
 
@@ -593,7 +593,7 @@ header {
 
 
 .reasons {
-	background:$black;
+
 	.reasons_inner {
 		background: $white;
 		width:100%;
@@ -988,7 +988,7 @@ footer {
 
 
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 640px) {
 	
 
 /* Global */
@@ -1159,7 +1159,7 @@ footer {
 
 .about_us {
 	padding: 134px 20px 110px;
-	background:url(images/tablet/shoultz_tablet_content_image1.jpg) bottom center no-repeat;
+	background:url(images/tablet/shoultz_tablet_content_image1.jpg) center center no-repeat;
 	text-align: center;
 	.certified {
 		width:80%;
@@ -1211,6 +1211,257 @@ footer {
 }
 
 
+/* Case Results */
+
+
+	.case_results {
+		
+		.slide_buttons {
+			bottom: 33px;
+			position: absolute;
+			right: 25px;
+			z-index: 5000;
+			div {
+				width:39px;
+				height:39px;
+				float:left;
+			}
+			.back {
+				
+				margin-right:10px;
+			}
+			.next {
+				
+			}
+		}
+	}
+	
+	
+
+/* Testimonials */
+
+
+.testimonials {
+	
+	.testimonial_img {
+		
+	}
+	span.large_header {
+		font-size:36px;
+		max-width:450px;
+		border-bottom: 2px solid #d3b167;
+    border-top: 2px solid #d3b167;
+    padding:25px 0;
+	}
+	.slide_buttons {
+		width: 36%;
+		margin-top:52px;
+		div {
+			width:35px;
+			height:35px;
+		}
+		.test_back {
+			background:url(images/shoultz_test_arrowleft.png) top left no-repeat;
+			background-size:35px 35px;
+			float:left;
+			
+		}
+		.test_next {
+			background:url(images/shoultz_test_arrowright.png) top left no-repeat;
+			background-size:35px 35px;
+			float:right;
+		}
+	}
+	.slick-dots li button:before {
+    
+   }
+   .slick-dots {
+	   bottom: -80px !important;
+	   
+   	li {
+   		
+	 		button {
+	  		
+   		}
+   	}
+   	li.slick-active {
+	  	button {
+	   		
+	   	}
+   	}
+   }
+ }
+
+.test_wrapper {
+	margin-top:70px;
+	.single_test_wrapper {
+		
+		.stars_wrapper {
+			
+			img {
+				height: 24px;
+				width: 24px;
+			}
+		}
+		span.name_title {
+			font-size:36px;
+			
+		}
+		span.test_content {
+			font-size:24px;
+			max-width:700px;
+			margin-top:10px;
+			line-height:1.5;
+		}
+	}
+}
+
+
+/* Reasons */
+
+
+.reasons {
+	padding: 0px 20px;
+	position: relative;
+	z-index:5;
+	.reasons_inner {
+		width: 95%;
+		margin:140px auto 0;
+		text-align: center;
+		.five_reasons_header {
+			width:100%;
+			margin: -114px auto 0;
+			max-width: 474px;
+			.gold_box {
+				 background: #d3b167 none repeat scroll 0 0;
+				 height: 273px;
+				 opacity: 0.2;
+				 position: absolute;
+				 right: 0;
+				 top: 34px;
+				 width: 50%;
+			}
+			img.five {
+				float:left;
+				margin: 81px 20px 0 0;
+			}
+			span.large_header {
+				text-align: left;
+				margin-top: 157px;
+				max-width: 520px;
+				display: block;
+				font-size:34px;
+			}
+		}
+		.slide_buttons {
+			
+			div {
+				
+			}
+			.reasons_back {
+				
+			}
+			.reasons_next {
+				
+			}
+		}
+	}
+}
+
+
+.reasons_slider {
+	max-width: 70%;
+	margin:80px auto 40px;
+	.reasons_single_slide {
+		text-align: left;
+		span.large_header {
+			font-family:$uniultra;
+			font-size:22px;
+		}
+		.reasons_content {
+			font-size:18px;
+		}
+	}
+}
+
+
+/* Respect the Community */
+
+.respect {
+	background:url(images/tablet/shoultz_tablet_content_image2.png) bottom center  no-repeat $black;
+	padding: 160px 20px 20px;
+	margin-top: -75px;
+	position: relative;
+	text-align: center;
+	span.large_header {
+		font-size:40px;
+		border-bottom: 2px solid #d3b167;
+    border-top: 2px solid #d3b167;
+    padding:17px 0;
+	}
+	.respect_content {
+		font-size:17px;
+		text-align: left;
+		width:70%;
+		margin:58px auto 0;
+		
+		p {
+			line-height: 1.5;
+			
+		}
+	}
+	img.respect_img {
+		width:82%;
+	}
+}
+
+
+
+/* Shoultz */
+
+
+.shoultz {
+	padding: 32px 0;
+	.gold_line {
+		height: 2px;
+    width: 61%;
+	}
+	.shoultz_inner {
+		margin:52px auto 0;
+		width: 85%;
+		span.large_header {
+			
+		}
+		span.sub_header {
+			
+		}
+		img {
+			
+		}
+		.shoultz_content {
+			
+			p {
+				
+			}
+			p:last-of-type {
+				
+			}
+		}
+		.mybutton.learn {
+			
+		}
+	}
+	.gold_box {
+		left:0;
+	}
+	.gold_line.bottom {
+		
+	}
+}
+
+
+
+
 
 	
 	
@@ -1221,7 +1472,44 @@ footer {
 
 
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 870px) {
+
+
+/* Reasons */
+
+.reasons {
+
+	.reasons_inner {
+		
+		.five_reasons_header {
+			 max-width: 625px;
+			.gold_box {
+				 
+			}
+			img.five {
+				
+			}
+			span.large_header {
+				max-width: 625px;
+				margin-top: 183px;
+			}
+		}
+		.slide_buttons {
+			
+			div {
+				
+			}
+			.reasons_back {
+				
+			}
+			.reasons_next {
+				
+			}
+		}
+	}
+}
+
+
 
 
 
