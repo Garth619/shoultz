@@ -710,6 +710,7 @@ header {
 .shoultz {
 	text-align: center;
 	position: relative;
+	overflow: hidden;
 	.gold_line {
 		width:80%;
 		height:1px;
@@ -736,6 +737,7 @@ header {
 			display: block;
 			position: relative;
 			z-index:10;
+			
 		}
 		img {
 			max-width: 100%;
@@ -1388,9 +1390,9 @@ footer {
 /* Respect the Community */
 
 .respect {
-	background:url(images/tablet/shoultz_tablet_content_image2.png) bottom center  no-repeat $black;
-	padding: 160px 20px 20px;
-	margin-top: -75px;
+	background:url(images/tablet/shoultz_tablet_content_image2.png) top center  no-repeat $black;
+	padding: 280px 20px 20px;
+	margin-top: -225px;
 	position: relative;
 	text-align: center;
 	span.large_header {
@@ -1421,25 +1423,31 @@ footer {
 
 
 .shoultz {
-	padding: 32px 0;
+	padding: 32px 0 84px;
 	.gold_line {
 		height: 2px;
     width: 61%;
 	}
 	.shoultz_inner {
-		margin:52px auto 0;
+		margin:60px auto 0;
 		width: 85%;
+		padding: 55px 40px 0;
 		span.large_header {
-			
+			font-size:75px;
+			text-align: left;
+			margin-left:-70px;
+			letter-spacing:4px;
 		}
 		span.sub_header {
-			
+			font-size:20px;
+			margin-right: -93px;
 		}
 		img {
-			
+			margin-top: 30px;
 		}
 		.shoultz_content {
-			
+			line-height: 1.5;
+			font-size: 17px;
 			p {
 				
 			}
@@ -1448,14 +1456,14 @@ footer {
 			}
 		}
 		.mybutton.learn {
-			
+			margin: 60px 0;
 		}
 	}
 	.gold_box {
 		left:0;
 	}
 	.gold_line.bottom {
-		
+		margin-top: 60px;
 	}
 }
 
