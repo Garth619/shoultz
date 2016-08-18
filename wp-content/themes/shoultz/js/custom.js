@@ -58,9 +58,7 @@ jQuery(document).ready(function(){
 				centerMode: false,
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+    
   ]
 });
 	
@@ -89,12 +87,27 @@ jQuery(document).ready(function(){
 	
 	jQuery('.logo_slider').slick({
   	infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToShow: 2,
+		slidesToScroll: 2,
 		arrows:true,
 		prevArrow: ".reasons_back",
 		nextArrow: ".reasons_next",
-		dots:true
+		dots:true,
+		responsive: [
+    {
+      breakpoint: 620,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:true,
+				prevArrow: ".reasons_back",
+				nextArrow: ".reasons_next",
+				dots:true
+      }
+    }
+    
+  ]
 	
 	});
 	 	

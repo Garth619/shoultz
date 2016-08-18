@@ -786,6 +786,7 @@ header {
 	text-align: center;
 	.single_logo {
 		height:150px;
+		width:230px;
 		img {
 			position: relative;
 			top: 50%;
@@ -1423,13 +1424,13 @@ footer {
 
 
 .shoultz {
-	padding: 32px 0 84px;
+	padding: 50px 0 110px;
 	.gold_line {
 		height: 2px;
     width: 61%;
 	}
 	.shoultz_inner {
-		margin:60px auto 0;
+		margin:50px auto 0;
 		width: 85%;
 		padding: 55px 40px 0;
 		span.large_header {
@@ -1463,9 +1464,91 @@ footer {
 		left:0;
 	}
 	.gold_line.bottom {
-		margin-top: 60px;
+	  display: none;
 	}
 }
+
+
+
+/* Logos */
+
+.logos {
+	width:60%;
+	margin:-57px auto 0;
+	border-top:2px solid $gold;
+	padding-top: 70px;
+	.single_logo {
+		margin-bottom:22px;
+		img {
+			
+		}
+	}
+	.slick-dots li button:before {
+    
+   }
+   .slick-dots {
+	   
+	   
+   	li {
+   		
+	 		button {
+	  		
+   		}
+   	}
+   	li.slick-active {
+	  	button {
+	   		
+	   	}
+   	}
+  }
+}
+
+
+/* Footer */
+
+
+.request {
+	margin-top:45px;
+	span.large_header {
+		font-size:40px;
+		border-bottom: 2px solid #d3b167;
+    border-top: 2px solid #d3b167;
+    padding:13px 0;
+	}
+	span.description {
+		
+	}
+	.all_fields {
+		
+	}
+	ul {
+		
+		li {
+			
+			label {
+				
+			}
+			input {
+				
+			}
+			input, textarea {
+				
+			}
+			textarea {
+				
+			}
+		}
+			 
+	
+	
+	}
+}
+
+.gform_button {
+	
+
+}
+
 
 
 
