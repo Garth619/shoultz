@@ -201,7 +201,9 @@ header {
 		img.icon {
 			width:40px;
 			height:40px;
-			float:right;
+			position: absolute;
+			right: 25px;
+			top: 20px;
 		}
 		span.large_header {
 			display: block;
@@ -269,7 +271,7 @@ header {
 }
 
 .pic_box {
-	display: block;
+	display: none;
 }
 
 /* About Us */
@@ -1078,26 +1080,68 @@ footer {
 		img.icon {}
 		span.large_header {}
 		.single_box {
+			height:294px;
+			margin-bottom:0;
 			.arrow_right {}
-			span.large_header {}
+			span.large_header {
+				font-size:31px;
+				padding-top: 167px;
+			}
 		}
 		.single_box_click_content.open {}
 		.single_box_click_content {
+			height:294px;
 			.inner_singlecontent_wrapper {
-				span.large_header {}
-			p {}
+				max-width:95%;
+				span.large_header {
+					font-size:31px;
+				}
+				p {
+					font-size:17px;
+				}
 		}
 		}
 	}
 }
 
 
+
 .pic_box {
+	display: block;
+	height:294px;
+}
+
+
+.two_column:first-of-type .pic_box {
 	background:url(images/shoultz_sp_image2.jpg) top left no-repeat;
 	background-size:cover;
-	width:100%;
-	height:245px;
 }
+
+
+.two_column:nth-of-type(2) .pic_box {
+	background:url(images/shoultz_sp_image1.jpg) top left no-repeat;
+	background-size:cover;
+	height:294px;
+}
+
+
+.two_column:nth-of-type(3) .pic_box {
+	background:url(images/shoultz_sp_image4.jpg) top left no-repeat;
+	background-size:cover;
+	height:294px;
+}
+
+
+.two_column:nth-of-type(4) .pic_box {
+	background:url(images/shoultz_sp_image3.jpg) top left no-repeat;
+	background-size:cover;
+	height:294px;
+}
+
+
+
+
+
 
 	
 	
