@@ -38,12 +38,30 @@ jQuery(document).ready(function(){
 	
 	jQuery('.case_results_init').slick({
   	infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToShow: 2,
+		slidesToScroll: 2,
 		arrows:true,
 		prevArrow: ".back",
-		nextArrow: ".next"
-	});
+		nextArrow: ".next",
+		centerMode: true,
+	
+		responsive: [
+    {
+      breakpoint: 620,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:true,
+				prevArrow: ".back",
+				nextArrow: ".next"
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
 	
 	
 	jQuery('.test_wrapper').slick({
