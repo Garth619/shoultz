@@ -36,54 +36,59 @@ get_header(); ?>
 				<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
 				
 				
-				<div class="scroll_down">
+				
+			
+			</div><!-- banner_content -->
+			
+			<div class="scroll_down">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/shoultz_header_icon_scrolldown.svg"/>
 					<span>Scroll Down</span>
 					
 				</div><!-- scroll_down -->
 			
-			</div><!-- banner_content -->
-			
 		</section><!-- main_banner -->
 		
 		<section class="what_we_do">
 			
 			
-			<div class="two_column">
+			<div class="four_column">
 			
-			
-			<div class="single_box_wrapper">
-			
-				<div class="single_box">
-					
-					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon1.svg"/>
-					<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE<div class="arrow_right"></div></span><!-- large_header -->
-					
-				</div><!-- single_box -->
+				<div class="two_column">
 				
 				
-				<div class="single_box_click_content">
-					
-					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon1.svg"/>
+				<div class="single_box_wrapper">
+				
+					<div class="single_box">
 						
-						<div class="inner_singlecontent_wrapper">
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon1.svg"/>
+						<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE<div class="arrow_right"></div></span><!-- large_header -->
 						
-							<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE</span><!-- large_header -->
-							<p>Proven litigation skills with a record of over 200 jury trials</p>
+					</div><!-- single_box -->
 					
-						</div><!-- inner_singlecontent_wrapper -->
 					
-				</div><!-- single_box_click_content -->
+					<div class="single_box_click_content">
+						
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon1.svg"/>
+							
+							<div class="inner_singlecontent_wrapper">
+							
+								<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE</span><!-- large_header -->
+								<p>Proven litigation skills with a record of over 200 jury trials</p>
+						
+							</div><!-- inner_singlecontent_wrapper -->
+						
+					</div><!-- single_box_click_content -->
+				
+				</div><!-- single_box_wrapper -->
+				
+				
+				
+				<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+				
+				
+				</div><!-- two_column -->
 			
-			</div><!-- single_box_wrapper -->
-			
-			
-			
-			<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
-			
-			
-			</div><!-- two_column -->
 			
 			<div class="two_column">
 			
@@ -120,6 +125,10 @@ get_header(); ?>
 			
 			</div><!-- two_col -->
 			
+			</div><!-- four_column -->
+			
+			
+			<div class="four_column">
 			
 			
 			<div class="two_column">
@@ -185,12 +194,9 @@ get_header(); ?>
 			
 			</div><!-- single_box_wrapper -->
 			
+		</div><!-- two_column -->
 			
-			
-			
-			</div><!-- two_column -->
-			
-			
+			</div><!-- four_column -->
 			
 		</section><!-- what_we_do -->
 		
