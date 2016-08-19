@@ -2012,9 +2012,64 @@ display: none;
 	}
 }
 
+
+
+
+
+/* Testimonials */
+
+
+.testimonials {
+	position: relative;
+	padding: 207px 20px 50px;
+	.testimonial_img {
+		left: 0;
+		position: absolute;
+		top: 120px;
+		width: 71%;
+	}
+	span.large_header {
+		max-width:auto;
+	}
+	.slide_buttons {
+		
+		div {
+			
+		}
+		.test_back {
+						
+		}
+		.test_next {
+			
+		}
+	}
+	.slick-dots li button:before {
+    
+   }
+   .slick-dots {
+	   
+	   
+   	li {
+   		
+	 		button {
+	  		
+   		}
+   	}
+   	li.slick-active {
+	  	button {
+	   		
+	   	}
+   	}
+   }
+ }
+
+
+
+
+
 	
 	
-}
+} /* Media Query */
 
 
 
@@ -2039,23 +2094,8 @@ display: none;
 
 
 	.case_results {
-		
-		.slide_buttons {
-			
-			div {
-				
-			}
-			.back {
-				
-			}
-			.next {
-				
-			}
-		}
 		.case_results_single_wrapper {
-			
-		
-				.init_box.first {
+			.init_box.first {
 					span.rotate {
 						left: -79px;
 						bottom: 135px; 
@@ -2091,11 +2131,7 @@ display: none;
 						font-size: 21px;
 					}
 					span.rotate {
-						 font-size: 23px;
-						.arrow_right {
-							
-							
-						}
+						font-size: 23px;
 					}
 				}
 				.click_box {
@@ -2128,7 +2164,9 @@ display: none;
 
 
 @media screen and (min-width: 1850px) {
-	
+
+
+/* Main Banner */
 	
 .main_banner {
 	.banner_content {
@@ -2149,6 +2187,75 @@ display: none;
 		}
 	}
 }
+
+
+
+/* Case Results */
+
+
+	.case_results {
+		.case_results_single_wrapper {
+			.init_box.first {
+					span.rotate {
+						bottom: 166px;
+						left: -53px; 
+					}
+				}
+				.init_box.second {
+					span.rotate {
+						bottom: 144px;
+						left: -40px;
+					}
+				}
+				.init_box.third {
+					span.rotate {
+						 bottom: 207px;
+						 left: -111px;
+					}
+				}
+				.init_box.fourth {
+					span.rotate {
+						bottom: 137px;
+						left: -54px;
+					}
+				}
+			.init_box {
+					height: 745px;
+					span.large_header {
+						font-size:60px;
+						padding-top: 105px;
+					}
+					span.sub_header {
+						font-size: 21px;
+						
+					}
+					span.rotate {
+						font-size: 23px;
+					}
+				}
+				.click_box {
+					height: 745px;
+					.click_content {
+						span.large_header {
+							font-size:60px;
+						}
+						span.sub_header {
+							font-size: 23px;
+							border-bottom: 2px solid #29292e;
+							border-top: 2px solid #29292e;
+							padding: 15px 32px;
+						}
+						p {
+							font-size:18px;
+							line-height: 1.6;
+							margin-top: 44px;
+						}
+					}
+				}
+			}
+		}
+
+
 	
 	
 	
