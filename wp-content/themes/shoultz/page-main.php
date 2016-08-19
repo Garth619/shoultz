@@ -235,9 +235,7 @@ get_header(); ?>
 		
 		<section class="case_results">
 			
-		
-				
-				<div class="slide_buttons">
+			<div class="slide_buttons">
 					
 					<div class="back"></div>
 					<div class="next"></div>
@@ -262,7 +260,7 @@ get_header(); ?>
 								
 									<span class="large_header">$2,500,000</span><!-- large_header -->
 									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
 								
 								</div>
 							
@@ -286,7 +284,7 @@ get_header(); ?>
 								
 									<span class="large_header">$1,500,000</span><!-- large_header -->
 									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
 								
 								</div>
 							
@@ -310,7 +308,7 @@ get_header(); ?>
 								
 									<span class="large_header">$547,706</span><!-- large_header -->
 									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
 								
 								</div>
 							
@@ -334,7 +332,7 @@ get_header(); ?>
 								
 									<span class="large_header">$547,706</span><!-- large_header -->
 									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
 								
 								</div>
 							

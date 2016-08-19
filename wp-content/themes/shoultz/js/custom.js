@@ -37,15 +37,26 @@ jQuery(document).ready(function(){
 	});
 	
 	jQuery('.case_results_init').slick({
-  	infinite: true,
-		slidesToShow: 2,
-		slidesToScroll: 2,
-		arrows:true,
-		prevArrow: ".back",
-		nextArrow: ".next",
-		centerMode: true,
+  	
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		arrows:false,
+		
+		centerMode: false,
 	
 		responsive: [
+    {
+      breakpoint: 1150,
+      settings: {
+        infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows:true,
+				prevArrow: ".back",
+				nextArrow: ".next",
+				centerMode: true,
+      }
+    },
     {
       breakpoint: 620,
       settings: {
