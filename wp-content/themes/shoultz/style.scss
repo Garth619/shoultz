@@ -87,7 +87,10 @@ header, section, nav, footer {
 }
 
 
-/* Main Pge */
+/* Main Page */
+
+
+/* Header */
 
 header {
 	width:100%;
@@ -132,6 +135,8 @@ header {
 	}
 }
 
+/* Main Banner */
+
 
 .main_banner {
 	width:100%;
@@ -152,7 +157,9 @@ header {
 	.banner_content {
 		margin-top:200px;
 		color:#fff;
-	
+		.thirty_five_img {
+			display: none;
+		}
 		.play {
 			background:url(images/desktop/internal_playbutton.png) top left no-repeat;
 			background-size:66px 66px;
@@ -188,6 +195,10 @@ header {
 }
 
 .content_break {
+	display: none;
+}
+
+.scroll_down {
 	display: none;
 }
 
@@ -1068,11 +1079,21 @@ footer {
 	background:url(images/tablet/shoultz_tablet_mainimage.jpg) top center no-repeat;
 	background-size:cover;
 	padding:95px 24px 65px;
+	
 	.tel {
 		font-size: 38px;
 	}
 	.banner_content {
-		margin-top:36%;
+		position: relative;
+		max-width:600px;
+		margin:36% auto 0;
+		.thirty_five_img {
+			display: block;
+			position: absolute;
+			right: -4%;
+			top: -45px;
+			width: 350px;
+		}
 		.play {
 			background:url(images/desktop/internal_playbutton.png) top left no-repeat;
 			background-size:81px 81px;
@@ -1660,7 +1681,68 @@ footer {
 
 
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 900px) {
+
+/* Header */
+
+header {
+display: none;
+}
+
+.logo {
+	
+}
+
+.menu_wrapper {
+	
+	span {
+		
+	}
+	.menu_bars {
+		
+		.single_bars {
+			
+			
+		}
+	}
+}
+
+/* Main Page */
+
+
+/* Main Banner */
+
+.main_banner {
+	padding-bottom: 62px;
+	background:url(images/shoultz_header_mainimage.jpg) top center no-repeat;
+	background-size:cover;
+	padding-top:0;
+	overflow: hidden;
+	.tel {
+		display:none;
+	}
+	.banner_content {
+		margin:21% auto 0;
+	}
+}
+
+.scroll_down {
+	display:none;
+	
+	margin:50px auto 0;
+	img {
+		width:27px;
+		display: block;
+		margin: 0 auto 10px;
+	}
+	span {
+		font-family:$uniultra;
+		text-transform:uppercase;
+		display: inline-block;
+	}
+}
+
+
 
 
 /* Reasons */
@@ -1725,4 +1807,71 @@ footer {
 
 
 } /* Media Query */
+
+
+
+
+@media screen and (min-width: 1150px) {
+	
+	
+/* Main Banner */
+
+.main_banner {
+	padding-bottom:100px;
+	.banner_content {
+		margin:15% auto 0;
+	}
+}
+
+.scroll_down {
+	display:block;
+	
+	margin:50px auto 0;
+	img {
+		width:27px;
+		display: block;
+		margin: 0 auto 10px;
+	}
+	span {
+		font-family:$uniultra;
+		text-transform:uppercase;
+		display: inline-block;
+	}
+}
+
+	
+	 
+} /* Medis Query */
+
+
+
+@media screen and (min-width: 1680px) {
+	
+	
+	
+	
+/* Main Banner */
+
+.main_banner {
+	
+	
+	.banner_content {
+		margin: 10% auto 0;
+		.play {
+					}
+		span.main_banner_header {
+			
+			.thirty_five {
+				
+			}
+		}
+		span.main_banner_sub_header {
+			
+		}
+	}
+}
+	
+	
+	
+}
 

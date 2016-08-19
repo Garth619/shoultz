@@ -23,14 +23,25 @@ get_header(); ?>
 			
 			<div class="banner_content">
 			
+				<img class="thirty_five_img" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
+				
+				
 				<a href="">
 					<div class="play"></div>
 				</a>
-								
+				
 				<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
 				<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
 				
 				<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
+				
+				
+				<div class="scroll_down">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_header_icon_scrolldown.svg"/>
+					<span>Scroll Down</span>
+					
+				</div><!-- scroll_down -->
 			
 			</div><!-- banner_content -->
 			
