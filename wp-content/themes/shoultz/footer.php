@@ -15,20 +15,36 @@
 		
 		<section class="office">
 			
-			<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
+			<div class="address_wrapper">
 			
-			<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+				<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
+			
+				<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+			
+			</div><!-- left_col -->
 			
 			<div class="office_info_wrapper">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
-				<a class="office_info" href="tel:2149601551">214.960.1551</a>
+				<div class="single_office_info">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-				<a class="office_info" href="tel:0000000000">000.000.0000</a>
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
+					<a class="office_info" href="tel:2149601551">214.960.1551</a>
 				
-				<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-				<a class="office_info" href="tel:email@email.com">email@email.com</a>
+				</div><!-- single_office_info -->
+				
+				<div class="single_office_info">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
+					<a class="office_info" href="tel:0000000000">000.000.0000</a>
+				
+				</div><!-- single_office_info -->
+				
+				<div class="single_office_info">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
+					<a class="office_info" href="tel:email@email.com">email@email.com</a>
+				
+				</div><!-- single_office_info -->
 				
 			</div><!-- office_info -->
 			
@@ -36,18 +52,23 @@
 		
 		<div class="social_icons">
 			
-			<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/mobile/shoultz_mobile_social_fb.png"/></a>
-			<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/mobile/shoultz_mobile_social_twitter.png"/></a>
-			<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/mobile/shoultz_mobile_social_linkedin.png"/></a>
-			<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/mobile/shoultz_mobile_social_google.png"/></a>
-			<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/mobile/shoultz_mobile_social_yelp.png"/></a>
+			<a href="" target="_blank"></a>
+			<a href="" target="_blank"></a>
+			<a href="" target="_blank"></a>
+			<a href="" target="_blank"></a>
+			<a href="" target="_blank"></a>
+		
 			
 		</div><!-- social_icons -->
 		
-		<span class="copyright">&copy; 2016 Law Offices of Stephen W. Shoultz. 
-<br/>All rights reserved.  |  <a href="">DISCLAIMER</span></span>
+		<div class="copy_logo_wrapper">
+		
+			<span class="copyright">&copy; 2016 Law Offices of Stephen W. Shoultz. 
+			<br class="copy_break"/>All rights reserved.  |  <a href="">DISCLAIMER</a></span>
 	
-	<img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/shoultz_footer_ilawyer.png"/>
+			<img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/shoultz_footer_ilawyer.png"/>
+	
+		</div><!-- copy_logo_wrapper -->
 			
 	</footer>
 		

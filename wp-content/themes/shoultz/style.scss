@@ -711,6 +711,7 @@ header {
 	text-align: center;
 	position: relative;
 	overflow: hidden;
+	padding: 25px 0;
 	.gold_line {
 		width:80%;
 		height:1px;
@@ -844,6 +845,7 @@ footer {
 		margin-top: 30px;
 		text-transform: uppercase;
 		letter-spacing:1.2px;
+		
 	}
 	span.description {
 		color:$grey;
@@ -851,6 +853,7 @@ footer {
 		margin-top:20px;
 		display: inline-block;
 		line-height: 1.4;
+		max-width:440px;
 	}
 	.all_fields {
 		color:$gold;
@@ -960,8 +963,31 @@ footer {
 
 .social_icons {
 	margin:67px 0 35px;
-	img {
+	a {
 		margin:0 4px;
+		display:inline-block;
+		width:43px;
+		height:43px;
+	}
+	a:nth-of-type(1) {
+		background: url(images/shoultz_social_facebook.png) top left no-repeat;
+		background-size:43px 43px;
+	}
+	a:nth-of-type(2) {
+		background: url(images/shoultz_social_twitter.png) top left no-repeat;
+		background-size:43px 43px;
+	}
+	a:nth-of-type(3) {
+		background: url(images/shoultz_social_linkedin.png) top left no-repeat;
+		background-size:43px 43px;
+	}
+	a:nth-of-type(4) {
+		background: url(images/shoultz_social_google.png) top left no-repeat;
+		background-size:43px 43px;
+	}
+	a:nth-of-type(5) {
+		background: url(images/shoultz_social_yelp.png) top left no-repeat;
+		background-size:43px 43px;
 	}
 }
 
@@ -969,6 +995,7 @@ footer {
 	color:$grey;
 	font-size:13px;
 	font-family: $proxreg;
+	display: block;
 	a {
 		color:$grey;
 		text-decoration: none;
@@ -1473,10 +1500,11 @@ footer {
 /* Logos */
 
 .logos {
-	width:60%;
+	width: 76%;
 	margin:-57px auto 0;
 	border-top:2px solid $gold;
 	padding-top: 70px;
+	max-width: 590px;
 	.single_logo {
 		margin-bottom:22px;
 		img {
@@ -1516,45 +1544,114 @@ footer {
     padding:13px 0;
 	}
 	span.description {
-		
+		max-width:575px;
+		font-size:22px;
+		display: block;
+		margin:30px auto 0;
 	}
 	.all_fields {
-		
+		font-size:14px;
 	}
 	ul {
-		
+		overflow: hidden;
 		li {
-			
-			label {
-				
-			}
+			float: left;
+			margin: 0 1%;
+			width: 31.6%;
 			input {
-				
-			}
-			input, textarea {
-				
-			}
-			textarea {
-				
+				padding:17px;
 			}
 		}
-			 
-	
-	
+		li#field_1_3 {
+			margin-right:0;
+		}
+		li#field_1_4 {
+			width: 98.7%;
+			margin-top:2%;
+		}
 	}
 }
 
-.gform_button {
-	
 
+
+.gform_button {
+	font-size:18px;
+	margin-top: 15px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	margin:30px 0;
+	padding: 15px 30px;
 }
 
 
 
 
+.office {
+	max-width:475px;
+	margin:60px auto 0;
+	overflow: hidden;
+	.address_wrapper {
+		text-align: left;
+		float:left;
+		.address {
+			margin-top:0;
+		}
+		a.get_directions {
+			 margin-top: 14px;
+			.arrow_right {
+			
+			}
+		}
+	}
+	.office_info_wrapper {
+		float:right;
+		margin-top: 3px;
+		.single_office_info {
+			overflow: hidden;
+			img {
+				float:left;
+				margin-right:8px;
+			}
+			.office_info {
+				float:left;
+			}
+		}
+	}
+}
+
+.social_icons {
+	margin:72px 0px 67px;
+	a {
+		margin:0 10px;
+		display:inline-block;
+		width:63px;
+		height:63px;
+	}
+	a:nth-of-type(1) {
+		background: url(images/shoultz_social_facebook.png) top left no-repeat;
+		background-size:63px 63px;
+	}
+	a:nth-of-type(2) {
+		background: url(images/shoultz_social_twitter.png) top left no-repeat;
+		background-size:63px 63px;
+	}
+	a:nth-of-type(3) {
+		background: url(images/shoultz_social_linkedin.png) top left no-repeat;
+		background-size:63px 63px;
+	}
+	a:nth-of-type(4) {
+		background: url(images/shoultz_social_google.png) top left no-repeat;
+		background-size:63px 63px;
+	}
+	a:nth-of-type(5) {
+		background: url(images/shoultz_social_yelp.png) top left no-repeat;
+		background-size:63px 63px;
+	}
+}
 
 
-	
+
 	
 	
 } /* Media Query */
@@ -1602,7 +1699,27 @@ footer {
 
 
 
+.copy_logo_wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	max-width:690px;
+	.copyright {
+		font-size:13px;
+		float:left;
+		margin-right:2.5%;
+		margin-bottom:45px;
+		.copy_break {
+			display:none;
+		}
+	}
 
+	.ilawyer {
+		margin:0px 0 0px 2.5%;
+		width:205px;
+		float:left;
+	}
+
+}
 
 
 
