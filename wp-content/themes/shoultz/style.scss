@@ -1179,30 +1179,30 @@ footer {
 }
 
 
-.two_column:first-of-type .pic_box {
-	background:url(images/shoultz_sp_image2.jpg) top left no-repeat;
-	background-size:cover;
-}
-
-
-.two_column:nth-of-type(2) .pic_box {
+.four_column:nth-of-type(1) .pic_box:nth-of-type(1) {
 	background:url(images/shoultz_sp_image1.jpg) top left no-repeat;
 	background-size:cover;
-	height:294px;
 }
 
 
-.two_column:nth-of-type(3) .pic_box {
-	background:url(images/shoultz_sp_image4.jpg) top left no-repeat;
+.four_column:nth-of-type(1) .pic_box:nth-of-type(2) {
+	background:url(images/shoultz_sp_image2.jpg) top left no-repeat;
 	background-size:cover;
-	height:294px;
+
 }
 
 
-.two_column:nth-of-type(4) .pic_box {
+.four_column:nth-of-type(2) .pic_box:nth-of-type(1) {
 	background:url(images/shoultz_sp_image3.jpg) top left no-repeat;
 	background-size:cover;
-	height:294px;
+
+}
+
+
+.four_column:nth-of-type(2) .pic_box:nth-of-type(2) {
+	background:url(images/shoultz_sp_image4.jpg) top left no-repeat;
+	background-size:cover;
+
 }
 
 
@@ -1817,7 +1817,7 @@ display: none;
 /* Main Banner */
 
 .main_banner {
-	padding-bottom:30px;
+	padding-bottom:400px;
 	.banner_content {
 		margin:15% auto 0;
 		span.main_banner_header {
@@ -1859,8 +1859,9 @@ display: none;
 
 .what_we_do {
 	width:100%;
-	padding:0 4%;
 	overflow: hidden;
+	margin: -373px auto 0;
+	max-width:1500px;
 	.single_box_wrapper {
 		
 		img.icon {
@@ -1870,7 +1871,7 @@ display: none;
 			
 		}
 		.single_box {
-			
+			height:330px;
 			.arrow_right {
 				
 			}
@@ -1883,7 +1884,7 @@ display: none;
 			
 		}
 		.single_box_click_content {
-			
+			height:330px;
 			.inner_singlecontent_wrapper {
 				
 				span.large_header {
@@ -1897,7 +1898,9 @@ display: none;
 	}
 }
 
-
+ .pic_box {
+	height:330px;
+}
 
 
 	
