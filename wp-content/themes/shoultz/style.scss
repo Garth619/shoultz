@@ -603,6 +603,11 @@ header {
 /* Reasons */
 
 
+.desktop_reasons_respect {
+	overflow: hidden;
+}
+
+
 .reasons {
 
 	.reasons_inner {
@@ -707,13 +712,15 @@ header {
 			
 		}
 	}
-	img.respect_img {
-		width:95%;
+	
+}
+
+img.respect_img {
+		width:80%;
 		float:right;
-		margin-right:-20px;
+// 		margin-right:-20px;
 		margin-bottom: 35px;
 	}
-}
 
 /* Shoultz */
 
@@ -1463,9 +1470,7 @@ footer {
 			
 		}
 	}
-	img.respect_img {
-		width:82%;
-	}
+	
 }
 
 
@@ -1481,7 +1486,7 @@ footer {
 	}
 	.shoultz_inner {
 		margin:50px auto 0;
-		width: 85%;
+		width: 90%;
 		padding: 55px 40px 0;
 		span.large_header {
 			font-size:75px;
@@ -2193,11 +2198,16 @@ display: none;
 	}
 }
 
+
+img.respect_img {
+	width:52%;
+}
+
 .reasons_slider {
 	
 	.reasons_single_slide {
 		span.large_header {
-			
+			 font-size: 23px;
 		}
 		.reasons_content {
 			
@@ -2231,7 +2241,7 @@ display: none;
 		}
 	}
 	img.respect_img {
-		
+		width:95%;
 	}
 }
 
