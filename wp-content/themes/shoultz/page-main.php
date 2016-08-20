@@ -421,7 +421,7 @@ get_header(); ?>
 			
 		</section><!-- testimonials -->
 		
-		
+		<div class="desktop_reasons_respect">
 		
 		<section class="reasons">
 			
@@ -528,6 +528,9 @@ get_header(); ?>
 			<img class="respect_img" src="<?php bloginfo('template_directory');?>/images/shoultz_content_results-01.svg"/>
 			
 		</section><!-- respect -->
+		
+		
+		</div><!-- desktop_reasons_respect -->
 		
 		
 		<section class="shoultz">
