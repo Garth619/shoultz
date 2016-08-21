@@ -423,6 +423,9 @@ get_header(); ?>
 		
 		<div class="desktop_reasons_respect">
 		
+		<div class="desktop_reasons_respect_inner_wrapper">
+		
+		
 		<section class="reasons">
 			
 			<div class="reasons_inner">
@@ -533,7 +536,12 @@ get_header(); ?>
 			<img class="respect_img" src="<?php bloginfo('template_directory');?>/images/shoultz_content_results-01.svg"/>
 		
 		
-		</div><!-- desktop_reasons_respect -->
+		
+		</div><!-- desktop_reasons_respect_inner_wrapper -->
+		
+		
+		
+	</div><!-- desktop_reasons_respect -->
 		
 		
 		<section class="shoultz">

@@ -141,6 +141,13 @@
 		
 		
 	</div><!-- main -->
+	
+	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook_hover.png"/>
+	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter_hover.png"/>
+	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin_hover.png"/>
+	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google_hover.png"/>
+	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp_hover.png"/>
+	
 
 <?php wp_footer(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
