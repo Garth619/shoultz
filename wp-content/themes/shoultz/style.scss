@@ -1624,7 +1624,7 @@ footer {
 
 
 .office {
-	max-width:475px;
+	max-width: 500px;
 	margin:60px auto 0;
 	overflow: hidden;
 	.address_wrapper {
@@ -2075,7 +2075,7 @@ display: none;
 
 
 footer {
-  background:url(images/shoultz_footer_bg.jpg) bottom center no-repeat;
+  background:url(images/shoultz_footer_bg.jpg) center center no-repeat;
 
 }
 
@@ -2094,8 +2094,11 @@ footer {
 .request_desktop {
 	display: block;
 	overflow: hidden;
+	padding-top:150px;
+	max-width:1260px;
+	margin:0 auto;
 	.request_left {
-		width:50%;
+		width:46%;
 		float:left;
 		.request {
 			margin:0 auto;
@@ -2111,20 +2114,18 @@ footer {
 				margin-top:50px;
 				font-size:22px;
 			}
-			.office {
-				max-width: 500px;
-			}
+			
 		}
 	}
 	.request_right {
-		width:50%;
+		width:52%;
 		float:right;
 		.gform_button {
 			float:right;
 		}
 		.all_fields {
 			color:$gold;
-			font-size:13px;
+			font-size:14px;
 			margin: 30px 0 0 6px;
 			float:left;
 			text-align: left;
@@ -2149,7 +2150,7 @@ footer {
 					display: none;
 				}
 				input {
-					font-size:15px;
+					font-size:18px;
 					padding: 17px;
 				}
 				input, textarea {
@@ -2174,7 +2175,10 @@ footer {
 	}
 
 
-
+.office {
+	max-width: 500px;
+	margin-top:40px;
+}
 
 /*
 .social_icons {
