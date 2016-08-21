@@ -49,7 +49,7 @@
 
 <header>
 	
-	<a hrer="<?php bloginfo('url');?>">
+	<a href="<?php bloginfo('url');?>">
 		<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_stevenshoultz.png"/>
 	</a>
 	

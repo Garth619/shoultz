@@ -7264,6 +7264,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17272,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8559,6 +8570,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/loop.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/shoultz\/page-bio.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/page-bio.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

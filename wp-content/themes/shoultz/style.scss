@@ -1046,6 +1046,98 @@ footer {
 }
 
 
+/* Internal Pages */
+
+
+#main {
+	overflow: hidden;
+	width:100%;
+	margin-top:50px;
+	padding:50px 25px;
+	
+	
+	span.large_header {
+		text-align: center;
+		color:#fff;
+		font-family: $unibold;
+		font-size:30px;
+		display: block;
+		border-top:1px solid $gold;
+		border-bottom:1px solid $gold;
+		padding:8px 0;
+		margin-top: -18px;
+		text-transform: uppercase;
+		letter-spacing:1.2px;
+	}
+	.bio_sidebar {
+		text-align: center;
+		img {
+			margin-bottom:40px;
+			max-width: 100%;
+			height:auto;
+		}
+	}
+}
+
+#content {
+	padding-top:75px;
+	text-align: left;
+	font-size:18px;
+	line-height: 1.3;
+	color:#fff;
+	font-family: $proxreg;
+	font-weight:300;
+	font-size: 18px;
+	img {
+		max-width: 100%;
+		height:auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	h2 {
+		color: $gold;
+		text-transform: uppercase;
+		font-family: $uniultra;
+		font-weight: 300;
+		font-size:25px;
+		letter-spacing: 2px;
+		margin-bottom:18px;
+		text-align: center;
+	}
+	p {
+		color:#fff;
+		margin-bottom:30px;
+	}
+	ul {
+		margin:0 0 0 20px;
+		li {
+			
+		}
+	}
+	i {
+		font-style: italic;
+		color: $gold;
+	}
+	hr {
+		background: #fff;
+		margin-bottom:30px;
+	}
+	#container {
+		margin-top:50px;
+		p:first-of-type:first-letter {
+			color: #d3b167;
+			display: block;
+			float: left;
+			font-family: $abril;
+			font-size: 81px;
+			margin-right: 8px;
+			margin-top: 7px;
+		}
+	}
+}
+
+
 
 @media screen and (min-width: 420px) {
 	
