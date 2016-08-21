@@ -1487,7 +1487,7 @@ footer {
 	.shoultz_inner {
 		margin:50px auto 0;
 		width: 90%;
-		padding: 55px 40px 0;
+		padding: 41px 40px 55px;
 		span.large_header {
 			font-size:75px;
 			text-align: left;
@@ -1963,6 +1963,55 @@ display: none;
 				}
 			}
 		}
+		
+		
+		
+		
+/* Shoultz */
+
+
+.shoultz {
+	
+	.gold_line {
+		
+	}
+	.shoultz_inner {
+		
+		span.large_header {
+			
+		}
+		span.sub_header {
+			text-align: left;
+			margin-left: 223px;
+			margin-right:0;
+			
+		}
+		img {
+			float: left;
+			margin-right:60px;
+		}
+		.shoultz_content {
+			margin-top: 21px;
+			
+			p {
+				
+			}
+			p:last-of-type {
+				
+			}
+		}
+		.mybutton.learn {
+			margin: 45px 0;
+		}
+	}
+	.gold_box {
+		
+	}
+	.gold_line.bottom {
+		
+	}
+}
+		
 
 
 
@@ -2244,6 +2293,9 @@ img.respect_img {
 		width:95%;
 	}
 }
+
+
+
 
 
 	
