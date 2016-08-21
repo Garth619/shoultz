@@ -773,6 +773,9 @@ img.respect_img {
 			margin-top:33px;
 			position: relative;
 			z-index:10;
+			.gold_box_two {
+				display: none;
+			}
 			p {
 				margin-bottom:20px;
 			}
@@ -781,7 +784,7 @@ img.respect_img {
 			}
 		}
 		.mybutton.learn {
-			margin:40px 0;
+			margin: 42px 0 0;
 		}
 	}
 	.gold_box {
@@ -1976,28 +1979,40 @@ display: none;
 		
 	}
 	.shoultz_inner {
-		
+		min-height: 684px;
+		margin: 90px auto 0;
+		width:85%;
 		span.large_header {
-			
+			margin-left: -100px;
 		}
 		span.sub_header {
 			text-align: left;
-			margin-left: 223px;
+			margin-left: 195px;
 			margin-right:0;
 			
 		}
 		img {
 			float: left;
-			margin-right:60px;
+			margin-right:40px;
 		}
 		.shoultz_content {
 			margin-top: 21px;
-			
+			position: relative;
 			p {
 				
 			}
 			p:last-of-type {
 				
+			}
+			.gold_box_two {
+				background: #d3b167 none repeat scroll 0 0;
+				height: 117%;
+				opacity: 0.13;
+				position: absolute;
+				right: -120px;
+				top: -28px;
+				width: 340px;
+				display: block;
 			}
 		}
 		.mybutton.learn {
@@ -2005,7 +2020,7 @@ display: none;
 		}
 	}
 	.gold_box {
-		
+		width: 24%;
 	}
 	.gold_line.bottom {
 		
@@ -2106,6 +2121,53 @@ display: none;
 		span.test_content {
 			max-width: 830px;
 		}
+	}
+}
+
+
+
+/* Shoultz */
+
+
+.shoultz {
+	max-width:1390px;
+	margin: 0 auto;
+	.gold_line {
+		
+	}
+	.shoultz_inner {
+		
+		span.large_header {
+			
+		}
+		span.sub_header {
+						
+		}
+		img {
+			
+		}
+		.shoultz_content {
+			
+			p {
+				font-size:18px;
+				line-height:1.5;
+			}
+			p:last-of-type {
+				
+			}
+			.gold_box_two {
+				
+			}
+		}
+		.mybutton.learn {
+			
+		}
+	}
+	.gold_box {
+		
+	}
+	.gold_line.bottom {
+		
 	}
 }
 

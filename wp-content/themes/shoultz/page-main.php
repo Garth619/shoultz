@@ -554,6 +554,8 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 	
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&nbsp;dicta.</p>
 					
+					<div class="gold_box_two"></div><!-- gold_box_two -->
+					
 				</div><!-- shoultz_content -->
 				
 				<a class="mybutton learn" href="">LEARN MORE ABOUT YOUR ATTORNEY</a>
