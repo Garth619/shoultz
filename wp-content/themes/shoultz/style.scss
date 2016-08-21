@@ -1514,9 +1514,7 @@ footer {
 				
 			}
 		}
-		.mybutton.learn {
-			margin: 60px 0;
-		}
+		
 	}
 	.gold_box {
 		left:0;
@@ -2021,14 +2019,47 @@ display: none;
 	}
 	.gold_box {
 		width: 24%;
+		height:97%;
 	}
 	.gold_line.bottom {
-		
+		display: block;
+		margin-top: 92px;
 	}
 }
 		
 
+/* Logos */
 
+.logos {
+	 max-width: 750px;
+	 margin: 0px auto 0;
+	 border-top: none;
+	 padding-top:0;
+	.single_logo {
+		
+		img {
+			
+		}
+	}
+	.slick-dots li button:before {
+    
+   }
+   .slick-dots {
+	   
+	   
+   	li {
+   		
+	 		button {
+	  		
+   		}
+   	}
+   	li.slick-active {
+	  	button {
+	   		
+	   	}
+   	}
+  }
+}
 
 	
 	 
@@ -2311,7 +2342,9 @@ display: none;
 
 
 img.respect_img {
-	width:52%;
+	position: relative;
+  top: 33px;
+  width: 52%;
 }
 
 .reasons_slider {
