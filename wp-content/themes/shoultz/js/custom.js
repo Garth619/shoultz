@@ -98,22 +98,28 @@ jQuery(document).ready(function(){
 	
 	jQuery('.logo_slider').slick({
   	infinite: true,
-		slidesToShow: 2,
-		slidesToScroll: 2,
-		arrows:true,
-		prevArrow: ".reasons_back",
-		nextArrow: ".reasons_next",
-		dots:true,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		dots:false,
+		arrows:false,
 		responsive: [
+    {
+      breakpoint: 1150,
+      settings: {
+        infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				dots:true,
+				arrows:false,
+      }
+    },
     {
       breakpoint: 620,
       settings: {
         infinite: true,
 				slidesToShow: 1,
 				slidesToScroll: 1,
-				arrows:true,
-				prevArrow: ".reasons_back",
-				nextArrow: ".reasons_next",
+				arrows:false,
 				dots:true
       }
     }
