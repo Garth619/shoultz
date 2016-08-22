@@ -1065,12 +1065,14 @@ footer {
 		border-top:1px solid $gold;
 		border-bottom:1px solid $gold;
 		padding:8px 0;
-		margin-top: -18px;
+		margin-top: -45px;
 		text-transform: uppercase;
 		letter-spacing:1.2px;
 	}
 	.bio_sidebar {
-		text-align: center;
+		margin: 0 auto;
+    max-width: 306px;
+    text-align: center;
 		img {
 			margin-bottom:40px;
 			max-width: 100%;
@@ -1921,6 +1923,53 @@ display: none;
 }
 
 
+/* Internal Pages */
+
+
+img.strong {
+	width:50%;
+	position: absolute;
+	top:0px;
+	right:0;
+}
+
+#main {
+	position: relative;
+	z-index:10;
+	span.large_header {
+		text-align: left;
+		overflow: hidden;
+		margin-top: 61px;
+		display: inline-block;
+	}
+	.bio_sidebar {
+		float:left;
+		margin: 8px 0px 0 0;
+		width: 30%;
+		img {
+			
+		}
+	}
+}
+
+#content {
+	max-width:1045px;
+	margin:0 auto;
+	overflow: hidden;
+	
+	
+	
+	
+	#container {
+		margin-top:0px;
+		float:left;
+		width:70%;
+		padding-left:60px;
+
+	}
+}
+
+
 
 
 } /* Media Query */
@@ -2181,7 +2230,7 @@ display: none;
 footer {
   background:url(images/shoultz_footer_bg.jpg) center center no-repeat;
   background-size: cover;
-  margin-top: -120px;
+  margin-top: -200px;
   position: relative;
 	z-index:1;
 }
@@ -2201,7 +2250,7 @@ footer {
 .request_desktop { /* There is a different layout for the request and office sections on mobile, had to have repeated styels */
 	display: block;
 	overflow: hidden;
-	padding-top: 230px;
+	padding-top: 340px;
 	max-width:1275px;
 	margin:0 auto;
 	

@@ -11,9 +11,9 @@ get_header(); ?>
 <div id="main">
 	
 	
-	<img src="<?php bloginfo('template_directory');?>/images/desktop/internal_bio_strong.svg"/>
+	<img class="strong" src="<?php bloginfo('template_directory');?>/images/desktop/internal_bio_strong.svg"/>
 	
-	<span class="large_header">STEPhEN W. SHOULTZ, DALLAS PERSONAL INJURY LAWYER</span><!-- large_header -->
+	<span class="large_header">STEPhEN W. SHOULTZ, DALLAS PERSONAL INJURY&nbsp;LAWYER</span><!-- large_header -->
 	
 	
 	<div id="content">
