@@ -6,6 +6,7 @@ jQuery(document).ready(function(){
 	// Mobile Menu 
 	
 	
+/*
 	jQuery('.mobile_dropdown').hide();
 	
 	
@@ -16,6 +17,23 @@ jQuery(document).ready(function(){
 		jQuery('header').toggleClass('black');
 		
 	});
+*/
+
+
+
+
+	
+	
+	
+	jQuery(".menu_wrapper").click(function() {
+		
+		jQuery('.mobile_dropdown').toggleClass('mobile_open');
+		jQuery('header').toggleClass('black');
+		
+	});
+
+
+
 	
 	
 // What We Do 
