@@ -1150,6 +1150,39 @@ footer {
 
 
 
+/* Firm Overview */
+
+
+body.page-template-page-firmoverview { 
+	#main {
+		#container {
+			margin-top:0;
+		}
+	.pull_quote {
+		color:$gold;
+		border-top:2px solid $grey;
+		border-bottom:2px solid $grey;
+		font-size:33px;
+		padding:30px 0;
+		font-family: $uniultra;
+		text-transform: uppercase;
+		display: inline-block;
+		text-align: center;
+		margin:50px 0;
+	}
+	.logos {
+		border-top:none;
+	}
+	
+	}
+	
+}
+
+
+
+
+
+
 @media screen and (min-width: 420px) {
 	
 	
@@ -1945,7 +1978,7 @@ display: none;
 	text-align: center;
 	margin:0 auto;
 	position: relative;
-	right:-187px;
+	right: -8%;
 	max-width: 664px;
 	overflow: hidden;
 	padding-top: 116px;
@@ -1983,7 +2016,7 @@ display: none;
 	}
 }
 
-
+/* General, Bio and also Firm OverView */
 
 img.strong {
 	width:50%;
@@ -2017,6 +2050,9 @@ img.strong {
 	}
 }
 
+
+
+
 #content {
 	max-width:1045px;
 	margin:0 auto;
@@ -2038,6 +2074,39 @@ img.strong {
 	}
 }
 
+
+/* Firm Overview */
+
+
+body.page-template-page-firmoverview { 
+	#main {
+		text-align: center;
+		span.large_header {
+			margin-top:-20px;
+		}
+		#container {
+			width:100%;
+			padding:0;
+			max-width:1140px;
+			margin: 0 auto;
+			-moz-column-count: 2;
+			-webkit-column-count: 2;
+			column-count: 2;
+			-moz-column-gap: 65px;
+			-webkit-column-gap: 65px;
+			column-gap: 65px;
+		}
+	.pull_quote {
+		margin:100px 0;
+	}
+	}
+}
+
+img.about_img {
+	left:0;
+	width:50%;
+	display: block;
+}
 
 
 
@@ -2258,7 +2327,7 @@ img.strong {
 /* Logos */
 
 .logos {
-	 max-width: 100%;
+	 max-width: 1400px;
 	 margin: 0px auto 0;
 	 border-top: none;
 	 padding-top:0;
