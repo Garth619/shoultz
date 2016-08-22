@@ -1936,6 +1936,7 @@ img.strong {
 #main {
 	position: relative;
 	z-index:10;
+	padding: 50px 25px 30px;
 	span.large_header {
 		text-align: left;
 		overflow: hidden;
@@ -1956,9 +1957,13 @@ img.strong {
 	max-width:1045px;
 	margin:0 auto;
 	overflow: hidden;
+	h1,h2 {
+		text-align: left;
+	}
 	
-	
-	
+	.bio_sidebar {
+		text-align: left;
+	}
 	
 	#container {
 		margin-top:0px;
