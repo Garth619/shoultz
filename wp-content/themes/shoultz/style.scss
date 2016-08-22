@@ -1227,6 +1227,64 @@ body.page-template-page-practiceareas {
 }
 
 
+/* Testmonials */
+
+
+
+body.page-template-page-testimonials {
+	#main {
+		text-align: center;
+		margin-bottom:50px;
+		span.large_header {
+			margin-top:-5px;
+			display: inline-block;
+		}
+		#content {
+			#container {
+				width:100%;
+				float:none;
+				padding:0;
+				max-width:780px;
+				margin: 0 auto;
+			
+			}
+		}
+	}
+	.single_test_wrapper:first-of-type {
+		margin-top:0;
+	}
+	.single_test_wrapper {
+		text-align: center;
+		margin-top:90px;
+		.stars_wrapper {
+			margin-bottom:35px;
+			img {
+				display: inline-block;
+				width:25px;
+				height:25px;
+				margin:0 3px
+			}
+		}
+		span.test_title {
+			color:$gold;
+			font-family: $uniultra;
+			display: block;
+			font-size:18px;
+			letter-spacing: 1.5px;
+		}
+		span.test_content {
+			margin-top:12px;
+			display: block;
+		}
+		span.test_name {
+			color:$gold;
+			display: block;
+			margin-top:35px;
+		}
+	}
+}
+
+
 
 
 
