@@ -67,6 +67,23 @@
 		
 	</div><!-- menu_wrapper -->
 	
-	
 </header>
+
+<nav class="mobile_dropdown">
+	
+	<div class="inner_mobile_dropdown">
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+	
+	</div><!-- inner_mobile_dropdown -->
+	
+</nav><!-- mobile_dropdown -->
+
+
+
+
+
+
+
+
 
