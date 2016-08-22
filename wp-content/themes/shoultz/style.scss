@@ -1341,7 +1341,7 @@ body.page-template-page-contactus {
 	#main {
 		color:#fff;
 		margin-bottom:50px;
-		.contact_wrapper {
+		.contact_sidebar {
 			text-align: center;
 			span.large_header {
 				margin:-13px 0 50px;
@@ -2343,6 +2343,34 @@ img.about_img {
 
 
 
+/* Contact Us */
+
+body.page-template-page-contactus {
+	#main {
+		.contact_wrapper {
+			max-width:1255px;
+			margin:0 auto;
+			.contact_sidebar {
+				width:30%;
+				float:left;
+				text-align: left;
+				span.large_header {
+					margin-top:-5px;
+				}
+			}
+			.map {
+				width:70%;
+				float:left;
+				margin: -5px 0 0 0;
+				padding:0 0 0 0px;
+			}
+		}
+	}
+}
+
+
+
+
 } /* Media Query */
 
 
@@ -2804,7 +2832,7 @@ img.dedicated_img {
 }
 
 
-/* Interna Pages */
+/* Internal Pages */
 
 
 /* Video Center */
@@ -2843,6 +2871,34 @@ body.page-template-page-videocenter {
 	}
 	
 }
+
+
+
+/* Contact Us */
+
+body.page-template-page-contactus {
+	#main {
+		.contact_wrapper {
+			max-width:1255px;
+			margin:0 auto;
+			.contact_sidebar {
+				width:23%;
+				float:left;
+				text-align: left;
+				span.large_header {
+					margin-top:-5px;
+				}
+			}
+			.map {
+				width:77%;
+				float:right;
+				margin: -5px 0 0 0;
+				padding:0 0 0 50px;
+			}
+		}
+	}
+}
+
 
 
 
