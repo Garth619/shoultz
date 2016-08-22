@@ -1157,6 +1157,7 @@ body.page-template-page-firmoverview {
 	#main {
 		#container {
 			margin-top:0;
+			float:none;
 		}
 	.pull_quote {
 		color:$gold;
@@ -1178,6 +1179,52 @@ body.page-template-page-firmoverview {
 	
 }
 
+
+/* Practice Areas */
+
+
+body.page-template-page-practiceareas {
+	#main {
+		text-align: center;
+		margin-bottom:50px;
+		span.large_header {
+			margin-top:-5px;
+			display: inline-block;
+		}
+		#content {
+			#container {
+				width:100%;
+				float:none;
+				padding:0;
+			}
+		}
+	}
+}
+
+#content ul.practice_area {
+	color:#fff;
+	list-style: none;
+	margin:0;
+	text-align: center;
+	li {
+		font-family: $uniultra;
+		letter-spacing:1.5px;
+		a {
+			color:#fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size:23px;
+			display: block;
+			border-bottom:1px solid $grey;
+			padding:15px 0;
+			transition:all .3s ease-in-out;
+			
+		}
+		a:first-of-type {
+			border-top:1px solid $grey;
+		}
+	}
+}
 
 
 
@@ -1372,8 +1419,9 @@ body.page-template-page-firmoverview {
 /* About Us */
 
 .about_us {
-	padding: 134px 20px 110px;
+	padding: 60px 20px 80px;
 	background:url(images/tablet/shoultz_tablet_content_image1.jpg) center center no-repeat;
+	background-size:cover;
 	text-align: center;
 	.certified {
 		width:80%;
@@ -1833,6 +1881,31 @@ body.page-template-page-firmoverview {
 }
 
 
+/* Internals */
+
+
+/* Practice Areas */
+
+
+img.dedicated_img {
+	display: block;
+  width: 70%;
+}
+
+
+
+#content ul.practice_area {
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+	-webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+}
+
+
+
+
 
 	
 	
@@ -2103,7 +2176,7 @@ body.page-template-page-firmoverview {
 }
 
 img.about_img {
-	left:0;
+	
 	width:50%;
 	display: block;
 }
@@ -2543,7 +2616,32 @@ footer {
 }
 
 
+/* Internal Pages */
 
+
+/* Practice Areas */
+
+
+img.dedicated_img {
+	display: block;
+  width: 70%;
+}
+
+
+
+#content ul.practice_area {
+	-webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+	-webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+	li {
+		a:hover {
+			color:$gold;
+		}
+	}
+}
 
 	
 	 
