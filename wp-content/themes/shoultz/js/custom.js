@@ -1,7 +1,24 @@
 jQuery(document).ready(function(){
 	
 	
-	// What We Do 
+	
+	
+	// Mobile Menu 
+	
+	
+	jQuery('.mobile_dropdown').hide();
+	
+	
+	
+	jQuery(".menu_wrapper").click(function() {
+		
+		jQuery('.mobile_dropdown').slideToggle();
+		jQuery('header').toggleClass('black');
+		
+	});
+	
+	
+// What We Do 
 	
 	
 	jQuery(".single_box").click(function() {

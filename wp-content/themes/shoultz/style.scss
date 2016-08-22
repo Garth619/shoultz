@@ -116,6 +116,11 @@ header {
 	top:0;
 	overflow: hidden;
 	z-index: 500;
+	transition:all .3s ease-in-out;
+}
+
+header.black {
+	background:$black;
 }
 
 .logo {
@@ -128,6 +133,7 @@ header {
 	float: right;
 	padding:14px 12px 12px 0px;
 	overflow: hidden;
+	cursor: pointer;
 	span {
 		font-family:$uniultra;
 		color:#fff;
@@ -1571,6 +1577,33 @@ body.page-template-page-caseresults {
 	}
 }
 
+
+/* Mobile Nav */
+
+
+
+.mobile_dropdown {
+	
+	top:80px;
+	
+	.inner_mobile_dropdown {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
 /* Main Banner */
 
 
@@ -2216,7 +2249,34 @@ body.page-template-page-caseresults {
 	
 } /* Media Query */
 
+@media screen and (min-width: 725px) {
+	
+	
+/* Mobile Nav */
 
+
+
+.mobile_dropdown {
+	
+
+	
+	.inner_mobile_dropdown {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+				}
+			}
+		}
+	}
+}
+
+		
+	
+} /* Media Query */
 
 
 
