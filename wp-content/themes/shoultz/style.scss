@@ -71,6 +71,9 @@ header, section, nav, footer {
 	
 }
 
+
+
+
 .gold {
 	color:$gold;
 }
@@ -1049,6 +1052,12 @@ footer {
 /* Internal Pages */
 
 
+.inner_banner {
+	display: none;
+}
+
+
+
 #main {
 	overflow: hidden;
 	width:100%;
@@ -1926,17 +1935,67 @@ display: none;
 /* Internal Pages */
 
 
+.inner_banner {
+	display: block;
+	width:100%;
+	height:500px;
+	background: url(images/desktop/internal_mainimage.jpg) top center no-repeat;
+	background-size:cover;
+	.inner_banner_wrapper {
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	right:-187px;
+	max-width: 664px;
+	overflow: hidden;
+	padding-top: 116px;
+	.play {
+			background:url(images/desktop/internal_playbutton.png) top left no-repeat;
+			background-size:98px 98px;
+			width:98px;
+			height:98px;
+			display: block;
+			margin: 34px 0 20px;
+			float:left;
+		}
+	.inner_banner_content {
+		max-width:500px;
+		float:right;
+		
+		span.main_banner_header {
+			font-family:$unibold;
+			text-transform: uppercase;
+			font-size:62px;
+			display: block;
+			border-top:2px solid #fff;
+			border-bottom:2px solid #fff;
+			padding:16px 0;
+			line-height:1.1;
+			color:#fff;
+			margin-bottom:15px;
+			.thirty_five {
+				color:$gold;
+				font-family: $unibolditalic;
+				letter-spacing: 2px;
+			}
+		}
+	}
+	}
+}
+
+
+
 img.strong {
 	width:50%;
 	position: absolute;
-	top:0px;
+	top:60px;
 	right:0;
 }
 
 #main {
 	position: relative;
 	z-index:10;
-	padding: 50px 25px 30px;
+	padding: 110px 25px 30px;
 	max-width:1385px;
 	margin:0 auto;
 	span.large_header {
@@ -1944,6 +2003,9 @@ img.strong {
 		overflow: hidden;
 		margin-top: 61px;
 		display: inline-block;
+		border-top:2px solid $gold;
+		border-bottom:2px solid $gold;
+		padding:13px 0;
 	}
 	.bio_sidebar {
 		float:left;
@@ -2315,7 +2377,7 @@ footer {
 				}
 				input {
 					font-size:18px;
-					padding: 17px;
+					padding: 14px;
 				}
 				input, textarea {
 					width:100%;
@@ -2325,8 +2387,8 @@ footer {
 				textarea {
 					font-family: $proxreg;
 					height:182px;
-					padding:20px;
-					font-size:15px;
+					padding:14px;
+					font-size:18px;
 				}
 			}
 			 ::-webkit-input-placeholder {color:$black;}
