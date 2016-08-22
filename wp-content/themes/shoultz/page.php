@@ -19,6 +19,7 @@ get_header(); ?>
 
 <div id="content">
 	<?php get_sidebar(); ?>
+	
 	<div class="container">
 	
 	<h1>DALLAS PERSONAL INJURY LAWYER FOR CAR ACCIDENTS</h1>

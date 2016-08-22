@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
 	
 	
 	
-	// Case Results
+	// Case Results Main Page
 	
 	
 	jQuery('.init_box').click(function(){
@@ -127,6 +127,24 @@ jQuery(document).ready(function(){
   ]
 	
 	});
+	
+	
+	
+	
+	jQuery('.single_case').click(function(){
+		
+		jQuery(this).next('.single_case_click').addClass('open');
+		
+	});
+	
+	
+	jQuery('.single_case_click').click(function(){
+		
+		jQuery(this).removeClass('open');
+		
+	});
+	
+	
 	 	
 	
-});
+}); // Document Ready

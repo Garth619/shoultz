@@ -69,7 +69,6 @@ header, section, nav, footer {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	margin:30px 0;
-	
 }
 
 .gold {
@@ -1398,6 +1397,88 @@ body.page-template-page-contactus {
 }
 
 
+/* Case Results */
+
+
+body.page-template-page-caseresults {
+	#main {
+		text-align: center;
+		margin-bottom:50px;
+		span.large_header {
+			margin-top:-13px;
+			display: inline-block;
+		}
+		.case_content {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			max-width:430px;
+			margin: 0 auto;
+			}
+		.case_results_wrapper {
+			margin-top:75px;
+		}
+		.single_case_wrapper {
+			color:#fff;
+			margin-top:27px;
+			position: relative;
+			.single_case {
+				border:2px solid $greydark;
+				padding:0px 45px;
+				height:410px;
+				width:100%;
+				span.case_header {
+					font-family: $abril;
+					font-size:32px;
+					display: block;
+					margin-bottom:5px;
+					letter-spacing: 1.5px;
+				}
+				span.case_sub_header {
+					text-transform: uppercase;
+					font-family: $uniultra;
+					font-size:23px;
+					letter-spacing: 1.4px;
+					border-top:2px solid $gold;
+					border-bottom:2px solid $gold;
+					padding:10px 0;
+					display: block;
+					
+				}
+				
+			}
+			.single_case_click {
+				background: $gold;
+				height:410px;
+				padding:35px;
+				position: absolute;
+				top:0;
+				opacity: 0;
+				visibility: hidden;
+				transition:all .3s ease-in-out;
+				width:100%;
+				span.click_header {
+					display: block;
+					color:$black;
+					font-size:28px;
+					font-family:$uniultra;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					margin-bottom:15px;
+				}
+				span.click_content {
+					font-size:16px;
+					font-family: $proxreg;
+				}
+			}
+			.single_case_click.open {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+}
+
 
 
 @media screen and (min-width: 420px) {
@@ -2075,6 +2156,22 @@ img.dedicated_img {
 
 
 
+/* Case Results */
+
+
+body.page-template-page-caseresults {
+	#main {
+		.case_results_wrapper {
+			overflow: hidden;
+		}
+		.single_case_wrapper {
+			width:48%;
+			float:left;
+			margin:0 1% 17px;
+		}
+	}
+}
+
 
 
 	
@@ -2377,6 +2474,10 @@ body.page-template-page-contactus {
 		}
 	}
 }
+
+
+
+
 
 
 
@@ -2912,9 +3013,6 @@ img.inner_contact_img {
 
 /* Default Pages */
 
-
-
-
 body.page-template-default {
 	#main {
 		.container {
@@ -2957,6 +3055,56 @@ body.page-template-default {
 
 
 
+
+/* Case Results */
+
+
+body.page-template-page-caseresults {
+	#main {
+		
+		span.large_header {
+		
+		}
+		.case_content {
+			 
+			}
+		.case_results_wrapper {
+			overflow: hidden;
+		}
+		.single_case_wrapper {
+			width: 31.7%;
+			float:left;
+			margin:0 .8% 1.7%;
+			.single_case {
+				
+				
+				span.case_header {
+					font-size:48px;
+					margin-bottom:25px;
+				}
+				span.case_sub_header {
+					padding:20px 0;
+					max-width: 300px;
+					margin: 0 auto;
+				}
+				
+			}
+			.single_case_click {
+				
+				span.click_header {
+					
+				}
+				span.click_content {
+					font-size:17px;
+					max-width:300px;
+				}
+			}
+			.single_case_click.open {
+				
+			}
+		}
+	}
+}
 
 
 	
