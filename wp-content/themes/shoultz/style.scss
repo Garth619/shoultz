@@ -2408,7 +2408,7 @@ header {
 		li.current-menu-parent {
 			padding-bottom:20px;
 		}
-		li.current-menu-parent:after {
+		li.menu-item-has-children:after {
 			content:"";
 			width: 0; 
 			height: 0; 
@@ -2789,78 +2789,22 @@ body.page-template-page-contactus {
 
 	
 .desktop_nav {
-	margin-top: 18px;
+	margin-top: 25px;
   text-align: right;
   padding-right:1%;
 	ul {
-		
-		li:hover > a {
-			
-		}
-		li:hover ul.sub-menu {
-			
-		}
-		li.current-menu-item > a {
-			
-		}
-		li.current-menu-parent {
-			
-		}
-		li.current-menu-parent:after {
-		}
-		li.current-menu-parent > a {
-			
-		}
-		 li {
-				font-size:18px;
-				 margin: 0 1.2%;
-			> a {
-							
-			}
-			a:hover {
-				
-			}
-			ul.sub-menu {
-				
-				li.current-menu-item > a {
-					
-				}
-				li:first-of-type {
-					a {
-						
-					}
-				}
-				li:last-of-type {
-					
-				}
-				li {
-					
-					a:hover {
-						
-					}
-					a {
-						
-						ul.sub-menu {
-							li {
-								a {
-									
-								}
-							}
-						}
-					}
-				}
-			}
+		li {
+			font-size:18px;
+			margin: 0 1.2%;
 		}
 	}
 }
 
 .desktop_phone {
 	margin-top: 16px;
+	font-size:28px;
 }
 
-	
-	
-	
 	
 } /* Media Query */
 
@@ -3503,16 +3447,89 @@ body.page-template-page-caseresults {
 } /* Media Query */
 
 
+
+
+
+
+@media screen and (min-width: 1240px) {
+	
+
+.inner_header {
+	max-width:1845px;
+	margin:0 auto;
+}
+
+	
+.desktop_nav {
+	margin-top: 25px;
+  text-align: right;
+  padding-right:1%;
+	ul {
+		li {
+			font-size:19px;
+			margin: 0 1.2%;
+		}
+	}
+}
+
+.desktop_phone {
+	margin-top: 16px;
+	font-size:28px;
+}
+
+
+} /* Media Query */
+
+
+
+
+	
 @media screen and (min-width: 1450px) {
 	
 
-/* Golbal */
+/* Global */
 
 .letter {
  	font-size: 87px;
   height: 93px;
   margin-top: -25px;
 }
+
+
+
+
+.inner_header {
+	
+}
+
+.large_monitor {
+	float:right;
+	width:75%;
+}
+	
+.desktop_nav {
+	width:78%;
+	margin-top: 27px;
+	ul {
+		li {
+			
+			margin: 0 1.9%;
+		}
+	}
+}
+
+.desktop_phone {
+	margin-top: 6px;
+	font-size:46px;
+	float:right;
+	letter-spacing: 2px;
+	width:auto;
+	padding-right:1%;
+}
+
+
+
+
 
 
 /* About Us */
@@ -3840,6 +3857,38 @@ img.respect_img {
 	
 	
 } /* Media Query */
+
+
+
+
+@media screen and (min-width: 1760px) {
+	
+
+.large_monitor {
+	
+}
+	
+.desktop_nav {
+	width:82%;
+	
+	ul {
+		li {
+			margin: 0 2.1%;
+		}
+	}
+}
+
+.desktop_phone {
+	
+}
+
+
+
+
+} /* Media Query */
+
+
+
 
 
 @media screen and (min-width: 1850px) {

@@ -60,28 +60,31 @@
 		</div><!-- logo_wrapper -->
 	
 	
-	<div class="menu_wrapper">
+		<div class="menu_wrapper">
 		
-		<span class="menu_text">Menu</span>
+			<span class="menu_text">Menu</span>
 		
-		<div class="menu_bars">
+			<div class="menu_bars">
 			
-			<div class="single_bars"></div><!-- single_bars -->
-			<div class="single_bars"></div><!-- single_bars -->
-			<div class="single_bars"></div><!-- single_bars -->
+				<div class="single_bars"></div><!-- single_bars -->
+				<div class="single_bars"></div><!-- single_bars -->
+				<div class="single_bars"></div><!-- single_bars -->
 		
-		</div><!-- menu_bars -->
+			</div><!-- menu_bars -->
 		
-	</div><!-- menu_wrapper -->
+		</div><!-- menu_wrapper -->
 	
-	<nav class="desktop_nav">
-		
-		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-		
-	</nav><!-- desktop_nav -->
+		<div class="large_monitor">
 	
-	<a class="desktop_phone" href="tel:2149601551">214.960.1551</a>
+			<nav class="desktop_nav">
+		
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+		
+			</nav><!-- desktop_nav -->
 	
+			<a class="desktop_phone" href="tel:2149601551">214.960.1551</a>
+	
+		</div><!-- large_monitor -->
 	
 	</div><!-- inner_header -->
 	
