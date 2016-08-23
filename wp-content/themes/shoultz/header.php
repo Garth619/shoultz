@@ -55,7 +55,7 @@
 	
 	<div class="menu_wrapper">
 		
-		<span>Menu</span>
+		<span class="menu_text">Menu</span>
 		
 		<div class="menu_bars">
 			
