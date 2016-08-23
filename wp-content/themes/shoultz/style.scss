@@ -159,15 +159,12 @@ header.black {
 }
 
 
-.menu_bars.mobile_open {
-	
-}
 
 .menu_bars.mobile_open .single_bars:first-of-type {
     transform: rotate(45deg);
-    transform-origin: 4px 9px 0;
+    transform-origin: -1px 0 0;
     transition: all 0.2s ease 0s;
-    width:24px;
+    width:16px;
 }
 
 .menu_bars.mobile_open .single_bars:nth-of-type(2) {
@@ -177,9 +174,10 @@ header.black {
 
 .menu_bars.mobile_open .single_bars:last-of-type {
     transform: rotate(-45deg);
-    transform-origin: 4px -7px 0;
-    width:24px;
+    transform-origin: 1px 3px 0;
+    width:16px;
 }
+
 
 
 
@@ -1637,6 +1635,23 @@ body.page-template-page-caseresults {
 	}
 }
 
+.menu_bars.mobile_open .single_bars:first-of-type {
+    transform: rotate(45deg);
+    transform-origin: 4px 9px 0;
+    transition: all 0.2s ease 0s;
+    width:24px;
+}
+
+.menu_bars.mobile_open .single_bars:nth-of-type(2) {
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+}
+
+.menu_bars.mobile_open .single_bars:last-of-type {
+    transform: rotate(-45deg);
+    transform-origin: 4px -7px 0;
+    width:24px;
+}
 
 
 
