@@ -116,7 +116,6 @@ header {
 	background: rgba(0, 0, 0, 0.4);
 	position: fixed;
 	top:0;
-	overflow: hidden;
 	z-index: 60000;
 	transition:all .3s ease-in-out;
 }
@@ -2353,6 +2352,7 @@ header {
 	background: transparent;
 	position: absolute;
 	top:0;
+	
 }
 
 
@@ -2395,16 +2395,83 @@ header {
   text-align: center;
 	ul {/*first of type? */
 		list-style: none;
-		li {
+		li:hover > a {
+			color: $gold;
+		}
+		li:hover ul.sub-menu {
+			opacity: 1;
+			visibility: visible;
+		}
+		li.current-menu-item > a {
+			color:$gold;
+		}
+		li.current-menu-parent {
+			padding-bottom:20px;
+		}
+		li.current-menu-parent > a {
+			color:$gold;
+		}
+		 li {
 			color:#fff;
 			font-family: $uniultra;
 			text-transform: uppercase;
 			display: inline-block;
 			margin: 0 .9%;
 			letter-spacing:1.3px;
-			a {
+			position: relative;
+			font-size:16px;
+			
+			> a {
 				color:#fff;
 				text-decoration: none;
+				transition:all .2s ease-in-out;
+			
+			}
+			a:hover {
+				color:$gold;
+			}
+			ul.sub-menu {
+				background: #fff;
+				position: absolute;
+				padding: 15px 15px 5px;
+				min-width:200px;
+				top: 28px;
+				opacity: 0;
+				visibility: hidden;
+				transition:all .3s ease-in-out;
+				li.current-menu-item > a {
+					color:$gold;
+				}
+				li:first-of-type {
+					a {
+						padding-top:0;
+					}
+				}
+				li:last-of-type {
+					border-bottom:none;
+				}
+				li {
+					color:$black;
+					display: block;
+					text-align: left;
+					border-bottom:1px solid $gold;
+					a:hover {
+						color:$gold;
+					}
+					a {
+						color:$black;
+						display: block;
+						padding:10px 0;
+						transition:all .2s ease-in-out;
+						ul.sub-menu {
+							li {
+								a {
+									
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -2420,7 +2487,6 @@ header {
 	width:11%;
 	font-weight:300;
 	 margin-top: 18px;
-	
 }
 
 
