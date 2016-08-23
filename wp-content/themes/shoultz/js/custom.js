@@ -11,14 +11,20 @@ jQuery(".menu_wrapper").click(function() {
 		jQuery('.mobile_dropdown').toggleClass('mobile_open');
 		jQuery('header').toggleClass('black');
 		jQuery('.menu_bars').toggleClass('mobile_open');
-		
-		
-		
 		jQuery(".menu_text").html(jQuery(".menu_text").html() == 'CLOSE' ? 'MENU' : 'CLOSE');
 		
-		
-		
-		
+});
+
+
+
+
+jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function() {
+	
+	
+	jQuery(this).next('ul.sub-menu').slideToggle();
+	
+	
+	
 });
 
 
