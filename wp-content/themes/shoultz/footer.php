@@ -1,74 +1,21 @@
 <footer>
 			
-		<section class="request mobile">
+		<section class="request">
 			
-			<span class="large_header">REQUEST A FREE CONSULTATION</span><!-- large_header -->
-			
-			<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four hours.</span><!-- description -->
-			<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
-			
-			<div class="forms">
-				<?php gravity_form( 1, false, false, false, '', true ,4); ?>
-			</div><!-- forms -->
-			
-		</section>
-		
-		<section class="office mobile">
-			
-			<div class="address_wrapper">
-			
-				<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
-			
-				<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
-			
-			</div><!-- address_wrapper -->
-			
-			<div class="office_info_wrapper">
-				
-				<div class="single_office_info">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
-					<a class="office_info" href="tel:2149601551">214.960.1551</a>
-				
-				</div><!-- single_office_info -->
-				
-				<div class="single_office_info">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-					<a class="office_info" href="tel:0000000000">000.000.0000</a>
-				
-				</div><!-- single_office_info -->
-				
-				<div class="single_office_info">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-					<a class="office_info" href="tel:email@email.com">email@email.com</a>
-				
-				</div><!-- single_office_info -->
-				
-			</div><!-- office_info -->
-			
-		</section><!-- office -->
-		
-		
-		<section class="request_desktop"><!-- this is a different layout than "request" and "office" above for desktop -->
 			
 			<div class="request_left">
+				
+				<span class="large_header">REQUEST A FREE CONSULTATION</span><!-- large_header -->
 			
-				<section class="request">
-			
-					<span class="large_header">REQUEST A FREE CONSULTATION</span><!-- large_header -->
-			
-					<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four hours.</span><!-- description -->
-			
-				</section><!-- request -->
-			
-				<section class="office">
-			
+				<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four hours.</span><!-- description -->
+				<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
+				
+				
+				<div class="office_desktop">
+				
 					<div class="address_wrapper">
 			
 						<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
-			
 						<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
 			
 					</div><!-- address_wrapper -->
@@ -77,8 +24,8 @@
 				
 						<div class="single_office_info">
 				
-						<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
-						<a class="office_info" href="tel:2149601551">214.960.1551</a>
+							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
+							<a class="office_info" href="tel:2149601551">214.960.1551</a>
 				
 						</div><!-- single_office_info -->
 				
@@ -91,28 +38,81 @@
 				
 						<div class="single_office_info">
 				
-						<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-						<a class="office_info" href="tel:email@email.com">email@email.com</a>
+							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
+							<a class="office_info" href="tel:email@email.com">email@email.com</a>
 				
-					</div><!-- single_office_info -->
+						</div><!-- single_office_info -->
 				
-				</div><!-- office_info -->
+					</div><!-- office_info -->
 			
-			</section><!-- office -->
-			
-		</div><!-- request_left -->
-			
-		<div class="request_right">
+				</div><!-- office_desktop -->
+
 				
-			<div class="forms">
-				<?php gravity_form( 1, false, false, false, '', true,12 ); ?>
-			</div><!-- forms -->
-				
-			<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
-				
-		</div><!-- request_right -->
+			</div><!-- request_left -->
 			
-	</section><!-- request_desktop -->
+			
+			<div class="request_right">
+				
+				
+				<div class="forms">
+					
+					<?php gravity_form( 1, false, false, false, '', true); ?>
+			
+				</div><!-- forms -->
+				
+				
+				
+				<div class="office_mobile">
+				
+					<div class="address_wrapper">
+			
+						<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
+						<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+			
+					</div><!-- address_wrapper -->
+			
+					<div class="office_info_wrapper">
+				
+						<div class="single_office_info">
+				
+							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
+							<a class="office_info" href="tel:2149601551">214.960.1551</a>
+				
+						</div><!-- single_office_info -->
+				
+						<div class="single_office_info">
+				
+							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
+							<a class="office_info" href="tel:0000000000">000.000.0000</a>
+				
+						</div><!-- single_office_info -->
+				
+						<div class="single_office_info">
+				
+							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
+							<a class="office_info" href="tel:email@email.com">email@email.com</a>
+				
+						</div><!-- single_office_info -->
+				
+					</div><!-- office_info -->
+			
+				</div><!-- office_mobile -->
+				
+				
+				
+			</div><!-- request_right -->
+			
+			
+			
+			<div class="request_right">
+				
+				
+			
+			</div><!-- request_right -->
+			
+			
+			
+		</section><!-- request -->
 			
 	
 		

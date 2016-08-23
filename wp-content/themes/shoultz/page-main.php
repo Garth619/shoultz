@@ -35,7 +35,7 @@ get_header(); ?>
 					<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
 					<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
 				
-					<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
+					<a class="mybutton" href="#free-consultation">CLICK HERE FOR A FREE CONSULTATION</a>
 				
 			</div><!-- banner_content -->
 			
@@ -610,6 +610,8 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 				</div><!-- single_logo -->
 				
 			</div><!-- logo_slider -->
+			
+			<a name="free-consultation"></a>
 			
 		</section><!-- logos -->
 		
