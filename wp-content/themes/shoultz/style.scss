@@ -103,15 +103,17 @@ header, section, nav, footer {
 }
 
 
+.desktop_nav, .desktop_phone {
+	display: none;
+}
 
-/* Main Page */
 
 
 /* Header */
 
 header {
 	width:100%;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.4);
 	position: fixed;
 	top:0;
 	overflow: hidden;
@@ -123,10 +125,18 @@ header.black {
 	background:$black;
 }
 
-.logo {
+
+
+
+.logo_wrapper {
 	width:140px;
 	float:left;
 	padding:12px 0 12px 12px;
+	.logo {
+		max-width: 100%;
+		height:auto;
+	 display: block;
+	}
 }
 
 .menu_wrapper {
@@ -227,6 +237,11 @@ header.black {
 }
 
 
+
+
+
+
+/* Main Page */
 
 /* Main Banner */
 
@@ -1590,10 +1605,21 @@ body.page-template-page-caseresults {
 
 /* Header */
 
-.logo {
-	width:200px;
-	padding:22px 0 22px 22px;
+
+
+.logo_wrapper {
+	float: left;
+  padding: 22px;
+  width: 221px;
+	.logo {
+		max-width: 100%;
+		height:auto;
+		display: block;
+	}
 }
+
+
+
 	
 .menu_wrapper {
 	padding: 24px 24px 24px 0;
@@ -2103,6 +2129,7 @@ body.page-template-page-caseresults {
 
 /* Logos */
 
+
 .logos {
 	width: 76%;
 	margin:-57px auto 0;
@@ -2307,10 +2334,30 @@ body.page-template-page-caseresults {
 
 @media screen and (min-width: 900px) {
 
+
 /* Header */
 
+
 header {
-display: none;
+	background: transparent;
+	position: absolute;
+	top:0;
+}
+
+
+.logo_wrapper {
+	float: left;
+  padding: 22px;
+  width: 25%;
+	.logo {
+		max-width: 100%;
+		height:auto;
+		display: block;
+	}
+}
+	
+.menu_wrapper {
+	display: none;
 }
 
 
@@ -2321,6 +2368,39 @@ display: none;
 
 .mobile_dropdown {
 	display: none;
+}
+
+
+
+
+/* Desktop Nav */
+
+
+.desktop_nav {
+	display: block;
+  float: left;
+  Width:50%;
+  
+	ul {/*first of type? */
+		list-style: none;
+		
+		
+		li {
+			color:#fff;
+			font-family: $uniultra;
+			text-transform: uppercase;
+			display: inline-block;
+			a {
+				color:#fff;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.desktop_phone {
+	display: block;
+	float:left;
 }
 
 

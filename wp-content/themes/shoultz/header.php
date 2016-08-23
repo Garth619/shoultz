@@ -50,7 +50,11 @@
 <header>
 	
 	<a href="<?php bloginfo('url');?>">
-		<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_stevenshoultz.png"/>
+		<div class="logo_wrapper">
+		
+			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_stevenshoultz.png"/>
+		
+		</div><!-- logo_wrapper -->
 	</a>
 	
 	<div class="menu_wrapper">
@@ -66,6 +70,14 @@
 		</div><!-- menu_bars -->
 		
 	</div><!-- menu_wrapper -->
+	
+	<nav class="desktop_nav">
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+		
+	</nav><!-- desktop_nav -->
+	
+	<a class="desktop_phone" href="tel:2149601551">214.960.1551</a>
 	
 </header>
 
