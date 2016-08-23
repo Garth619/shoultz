@@ -15,7 +15,7 @@ get_header(); ?>
 			
 <div id="main">
 	
-	<img class="inner_page_img" src="<?php bloginfo('template_directory');?>/images/desktop/internal_pa_dedicated.svg"/>
+	<img class="inner_page_img" src="<?php bloginfo('template_directory');?>/images/desktop/internal_sidebar_experience.svg"/>
 
 <div id="content">
 	<?php get_sidebar(); ?>

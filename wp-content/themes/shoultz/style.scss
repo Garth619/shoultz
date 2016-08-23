@@ -117,7 +117,7 @@ header {
 	position: fixed;
 	top:0;
 	overflow: hidden;
-	z-index: 500;
+	z-index: 60000;
 	transition:all .3s ease-in-out;
 }
 
@@ -207,7 +207,7 @@ header.black {
 	top:50px;
 	width:100%;
 	text-align: center;
-	z-index:1000;
+	z-index: 60000;
 	height:0;
 	padding:10px 40px;
 	overflow-y:scroll;
@@ -1572,6 +1572,17 @@ body.page-template-page-caseresults {
 
 
 
+body.page-template-default {
+	#main {
+	#content {
+		margin-top: -34px;
+		padding-top:0;
+	}
+	}
+}
+
+
+
 @media screen and (min-width: 420px) {
 	
 	
@@ -2379,17 +2390,18 @@ header {
 .desktop_nav {
 	display: block;
   float: left;
-  Width:50%;
-  
+  width:63%;
+  margin-top: 25px;
+  text-align: center;
 	ul {/*first of type? */
 		list-style: none;
-		
-		
 		li {
 			color:#fff;
 			font-family: $uniultra;
 			text-transform: uppercase;
 			display: inline-block;
+			margin: 0 .9%;
+			letter-spacing:1.3px;
 			a {
 				color:#fff;
 				text-decoration: none;
@@ -2401,6 +2413,14 @@ header {
 .desktop_phone {
 	display: block;
 	float:left;
+	color:$gold;
+	text-decoration: none;
+	font-family: $uniultra;
+	font-size:23px;
+	width:11%;
+	font-weight:300;
+	 margin-top: 18px;
+	
 }
 
 
@@ -3209,8 +3229,19 @@ img.inner_contact_img {
 
 /* Default Pages */
 
+
+
+img.inner_page_img {
+	width:80%;
+	
+}
+
+
 body.page-template-default {
 	#main {
+		#content {
+			margin-top:-85px;
+		}
 		.container {
 			width:75%;
 			float:left;

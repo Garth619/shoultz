@@ -49,13 +49,15 @@
 
 <header>
 	
-	<a href="<?php bloginfo('url');?>">
+	
 		<div class="logo_wrapper">
 		
-			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_stevenshoultz.png"/>
+			<a href="<?php bloginfo('url');?>">
+				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_stevenshoultz.png"/>
+			</a>
 		
 		</div><!-- logo_wrapper -->
-	</a>
+	
 	
 	<div class="menu_wrapper">
 		
