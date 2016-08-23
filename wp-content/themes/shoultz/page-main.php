@@ -19,10 +19,9 @@ get_header(); ?>
 		
 		<section class="main_banner">
 			
+			<a class="tel" href="tel:2149601551">214.960.1551</a>
 			
 			<div class="main_banner_inner_wrapper">
-			
-				<a class="tel" href="tel:2149601551">214.960.1551</a>
 			
 				<div class="banner_content">
 			

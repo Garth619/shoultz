@@ -3686,12 +3686,24 @@ body.page-template-page-caseresults {
 	
 	
 /* Main Banner */
-
+	
 .main_banner {
 	.banner_content {
-		margin: 5% auto 0;
+		margin: 120px auto 0;
 		position: relative;
-		right:-8%;
+		right: -18%;
+		.thirty_five_img {
+			left: -171px;
+			width: 387px;
+			top:35px;
+		}
+		span.main_banner_header {
+			
+			
+		}
+		span.main_banner_sub_header {
+			
+		}
 	}
 }
 
@@ -3908,27 +3920,7 @@ img.respect_img {
 @media screen and (min-width: 1850px) {
 
 
-/* Main Banner */
-	
-.main_banner {
-	.banner_content {
-		margin: 5% auto 0;
-		position: relative;
-		right: -16%;
-		.thirty_five_img {
-			left: -171px;
-			width: 387px;
-			top:35px;
-		}
-		span.main_banner_header {
-			
-			
-		}
-		span.main_banner_sub_header {
-			
-		}
-	}
-}
+
 
 
 
