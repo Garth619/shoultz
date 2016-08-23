@@ -49,7 +49,8 @@
 
 <header>
 	
-	
+	<div class="inner_header">
+		
 		<div class="logo_wrapper">
 		
 			<a href="<?php bloginfo('url');?>">
@@ -80,6 +81,9 @@
 	</nav><!-- desktop_nav -->
 	
 	<a class="desktop_phone" href="tel:2149601551">214.960.1551</a>
+	
+	
+	</div><!-- inner_header -->
 	
 </header>
 

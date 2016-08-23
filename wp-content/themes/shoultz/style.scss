@@ -2408,6 +2408,17 @@ header {
 		li.current-menu-parent {
 			padding-bottom:20px;
 		}
+		li.current-menu-parent:after {
+			content:"";
+			width: 0; 
+			height: 0; 
+			border-left:5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid $gold;
+			position:relative;
+			top:13px;
+			left:4px;
+		}
 		li.current-menu-parent > a {
 			color:$gold;
 		}
@@ -2416,7 +2427,7 @@ header {
 			font-family: $uniultra;
 			text-transform: uppercase;
 			display: inline-block;
-			margin: 0 .9%;
+			margin: 0 .8%;
 			letter-spacing:1.3px;
 			position: relative;
 			font-size:16px;
@@ -2483,10 +2494,10 @@ header {
 	color:$gold;
 	text-decoration: none;
 	font-family: $uniultra;
-	font-size:23px;
+	font-size:21px;
 	width:11%;
 	font-weight:300;
-	 margin-top: 18px;
+	 margin-top: 21px;
 }
 
 
@@ -2764,6 +2775,93 @@ body.page-template-page-contactus {
 
 
 
+} /* Media Query */
+
+
+
+@media screen and (min-width: 1060px) {
+	
+
+.inner_header {
+	max-width:1845px;
+	margin:0 auto;
+}
+
+	
+.desktop_nav {
+	margin-top: 18px;
+  text-align: right;
+  padding-right:1%;
+	ul {
+		
+		li:hover > a {
+			
+		}
+		li:hover ul.sub-menu {
+			
+		}
+		li.current-menu-item > a {
+			
+		}
+		li.current-menu-parent {
+			
+		}
+		li.current-menu-parent:after {
+		}
+		li.current-menu-parent > a {
+			
+		}
+		 li {
+				font-size:18px;
+				 margin: 0 1.2%;
+			> a {
+							
+			}
+			a:hover {
+				
+			}
+			ul.sub-menu {
+				
+				li.current-menu-item > a {
+					
+				}
+				li:first-of-type {
+					a {
+						
+					}
+				}
+				li:last-of-type {
+					
+				}
+				li {
+					
+					a:hover {
+						
+					}
+					a {
+						
+						ul.sub-menu {
+							li {
+								a {
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.desktop_phone {
+	margin-top: 16px;
+}
+
+	
+	
+	
+	
 } /* Media Query */
 
 
