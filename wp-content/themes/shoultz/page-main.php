@@ -19,25 +19,25 @@ get_header(); ?>
 		
 		<section class="main_banner">
 			
-			<a class="tel" href="tel:2149601551">214.960.1551</a>
 			
-			<div class="banner_content">
+			<div class="main_banner_inner_wrapper">
 			
-				<img class="thirty_five_img" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
-				
-				
-				<a href="">
-					<div class="play"></div>
-				</a>
-				
-				<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
-				<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
-				
-				<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
-				
-				
-				
+				<a class="tel" href="tel:2149601551">214.960.1551</a>
 			
+				<div class="banner_content">
+			
+					<img class="thirty_five_img" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
+				
+				
+					<a href="">
+						<div class="play"></div>
+					</a>
+				
+					<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
+					<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
+				
+					<a class="mybutton" href="">CLICK HERE FOR A FREE CONSULTATION</a>
+				
 			</div><!-- banner_content -->
 			
 			<div class="scroll_down">
@@ -46,6 +46,8 @@ get_header(); ?>
 					<span>Scroll Down</span>
 					
 				</div><!-- scroll_down -->
+				
+			</div><!-- main_banner_inner_wrapper -->
 			
 		</section><!-- main_banner -->
 		
@@ -202,34 +204,39 @@ get_header(); ?>
 		
 		<section class="about_us">
 			
-			<img class="certified" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
+			<div class="about_us_inner_wrapper">
 			
-			<span class="large_header">CERTIFIED EXPERT PERSONAL INJURY&nbsp;LAWYER</span>
 			
-			<div class="about_us_content">
+				<img class="certified" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
+			
+				<span class="large_header">CERTIFIED EXPERT PERSONAL INJURY&nbsp;LAWYER</span>
+			
+				<div class="about_us_content">
 				
-				<p><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. ipsum quia dolor sit amet</p> 
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. ipsum quia dolor sit amet</p> 
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
 				<span class="read_more">READ MORE</span>
 				
 				
-			</div><!-- about_us_content -->
+				</div><!-- about_us_content -->
 			
 			
-			<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
+				<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
 			
-			<img class="expert" src="<?php bloginfo('template_directory');?>/images/shoultz_content_expert.svg"/>
+				<img class="expert" src="<?php bloginfo('template_directory');?>/images/shoultz_content_expert.svg"/>
 			
+			</div><!-- about_us_inner_wrapper -->
+		
 		</section><!-- about_us -->
 		
 		
@@ -345,7 +352,6 @@ get_header(); ?>
 		</section><!-- case_results -->
 		
 		<section class="testimonials">
-			
 			
 			<img class="testimonial_img" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
 			

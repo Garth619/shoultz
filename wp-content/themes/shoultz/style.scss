@@ -310,6 +310,12 @@ header.black {
 }
 
 
+.main_banner_inner_wrapper {
+	max-width:1800px;
+	margin:0 auto;
+}
+
+
 /* What We Do */
 
 
@@ -443,6 +449,12 @@ header.black {
     margin-right: -20px;
     width: 65%;
 	}
+}
+
+.about_us_inner_wrapper {
+	max-width:1880px;
+	margin:0 auto;
+	position: relative;
 }
 
 
@@ -609,6 +621,8 @@ header.black {
 	padding:35px 20px 50px;
 	overflow:hidden;
 	text-align: center;
+	max-width:1800px;
+	margin:0 auto;
 	.testimonial_img {
 		width:113%;
 		margin-left:-20px;
@@ -2351,7 +2365,7 @@ body.page-template-page-caseresults {
 header {
 	background: transparent;
 	position: absolute;
-	top:0;
+	top:20px;
 	
 }
 
