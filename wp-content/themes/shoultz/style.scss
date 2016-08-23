@@ -1541,7 +1541,7 @@ body.page-template-page-caseresults {
 
 
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 600px) {
 	
 
 /* Global */
@@ -1589,12 +1589,24 @@ body.page-template-page-caseresults {
 
 
 
+.mobile_dropdown.mobile_open {
+	opacity: 1;
+	visibility: visible;
+	width:240px;
+	right:0;
+}
+
+
+
+
 .mobile_dropdown {
-	
-	top:80px;
-	
+	top:82px;
+	height:100%;
+	right:-500px;
+	padding: 10px 25px;
+	width:0;
 	.inner_mobile_dropdown {
-		
+		text-align: left;
 		ul {
 			
 			li {
