@@ -100,6 +100,20 @@ header, section, nav, footer {
 	font-family: $abril;
 }
 
+
+.letter-inner-pages {
+	color: $gold;
+  display: inline-block;
+  float: left;
+  font-family: $abril;
+  font-size: 77px;
+  height: 63px;
+  margin-right: 8px;
+  margin-top: 0px;
+  line-height:87px;
+}
+
+
 .preload {
 	width:1;
 	height:1;
@@ -1348,7 +1362,8 @@ footer {
 	}
 	#container {
 		margin-top:50px;
-		p:first-of-type:first-letter {
+/*
+		p:first-of-type::first-letter {
 			float: left;
 			color: $gold;
 			font-size: 75px;
@@ -1358,6 +1373,7 @@ footer {
 			padding-left: 3px;
 			font-family: $abril;
 		}
+*/
 	}
 }
 
@@ -1720,7 +1736,8 @@ body.page-template-page-thankyou {
 				float:none;
 				padding:0;
 				text-align: center;
-				p:first-of-type:first-letter {
+/*
+				p:first-of-type::first-letter {
 					color: #fff;
 					display: inline;
 					float: none;
@@ -1729,6 +1746,7 @@ body.page-template-page-thankyou {
 					margin-right: 0px;
 					margin-top: 0px;
 				}
+*/
 			}
 		}
 	}
@@ -3108,6 +3126,7 @@ img.inner_video_img {
 		display: inline-block;
 		color:#fff;
 		margin-top:15px;
+		letter-spacing:1.5px;
 	}
 }
 

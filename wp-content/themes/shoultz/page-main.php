@@ -23,7 +23,7 @@ get_header(); ?>
 			
 			<div class="main_banner_inner_wrapper">
 			
-				<div class="banner_content">
+				<div class="banner_content wow fadeInUp" data-wow-delay=".5s">
 			
 					<img class="thirty_five_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
 				
@@ -50,7 +50,7 @@ get_header(); ?>
 			
 		</section><!-- main_banner -->
 		
-		<section class="what_we_do">
+		<section class="what_we_do wow fadeInUp" data-wow-delay=".75s">
 			
 			
 			<div class="four_column">

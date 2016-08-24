@@ -2,13 +2,26 @@ jQuery(document).ready(function(){
 	
 
 
-// Body FadeIn
+// Body and Header FadeIn
 
 jQuery('body').delay(600).queue(function(){
 	
 	jQuery(this).addClass('fadein').clearQueue();
 
 });
+
+
+jQuery('header').delay(600).queue(function(){
+	
+	jQuery(this).addClass('fadein').clearQueue();
+
+});
+
+
+// Animations
+
+
+new WOW().init();
 
 
 	
@@ -60,12 +73,24 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 	
 	// First Letter 
 	
-/*
-	
-	jQuery('div#content div#container p:first-of-type').addClass('garrett');
 
-	jQuery('.garrett:first-letter').css("color","red");
-*/
+	
+// 	jQuery('div#content div#container p::first-of-type::first-letter').hide();
+
+
+
+
+jQuery(function($) {
+    //Grab first character for Drop Caps
+    jQuery("div#container p:eq(0)").each(function() {
+        var text = jQuery(this).html();
+        var first = jQuery('<span>'+text.charAt(0)+'</span>').addClass('letter-inner-pages');
+        jQuery(this).html(text.substring(1)).prepend(first);
+    });
+});
+
+
+
 	
 	
 	// Consultation Scroll 
