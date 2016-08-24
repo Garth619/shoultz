@@ -413,16 +413,17 @@ header.black {
 			visibility: hidden;
 			transition:all .3s ease;
 			.inner_singlecontent_wrapper {
-				max-width: 250px;
+// 				max-width: 250px;
 				span.large_header {
 					padding:80px 0 10px 0;
-					border-bottom: 1px solid #fff;
+					
 			}
 			p {
 				font-family: $proxreg;
 				font-weight: 300;
-				margin-top:10px;
+ 				padding-top:10px;
 				font-size:14px;
+				border-top: 1px solid #fff;
 			}
 		}
 			}
@@ -1896,16 +1897,6 @@ body.page-template-page-thankyou {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* What We Do */
 
 
@@ -1922,23 +1913,26 @@ body.page-template-page-thankyou {
 		float:left;
 		
 		img.icon {}
-		span.large_header {}
+		span.large_header {
+			
+		}
 		.single_box {
 			height:294px;
 			margin-bottom:0;
 			.arrow_right {}
 			span.large_header {
-				font-size:31px;
-				padding-top: 167px;
+				font-size:24px;
+				padding-top:181px;
 			}
 		}
 		.single_box_click_content.open {}
 		.single_box_click_content {
 			height:294px;
 			.inner_singlecontent_wrapper {
-				max-width:95%;
+				max-width:300px;
 				span.large_header {
-					font-size:31px;
+					font-size:24px;
+					padding: 117px 0 10px;
 				}
 				p {
 					font-size:17px;
@@ -2184,15 +2178,22 @@ body.page-template-page-thankyou {
 			}
 		}
 		.slide_buttons {
-			
+			top: -171px;
+			position: relative;
+			z-index: 600;
 			div {
+				width:39px;
+				height:39px;
+				
 				
 			}
 			.reasons_back {
-				
+				background-size:39px 39px;
+				float:left;
 			}
 			.reasons_next {
-				
+				background-size:39px 39px;
+				float:right;
 			}
 		}
 	}
@@ -2201,7 +2202,7 @@ body.page-template-page-thankyou {
 
 .reasons_slider {
 	max-width: 70%;
-	margin:80px auto 40px;
+	margin:80px auto 0px;
 	.reasons_single_slide {
 		text-align: left;
 		span.large_header {
@@ -2507,6 +2508,51 @@ body.page-template-page-caseresults {
 
 
 
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (min-width: 750px) {
+	
+	
+	
+	.what_we_do {
+	
+	.single_box_wrapper {
+				
+		img.icon {}
+		span.large_header {
+			
+		}
+		.single_box {
+			
+			.arrow_right {}
+			span.large_header {
+				font-size:31px;
+				padding-top: 170px;
+			}
+		}
+		.single_box_click_content.open {}
+		.single_box_click_content {
+			
+			.inner_singlecontent_wrapper {
+				
+				span.large_header {
+					font-size:31px;
+					padding: 103px 0 10px;
+				}
+				p {
+					
+				}
+		}
+		}
+	}
+}
+
+	
+	
 	
 	
 } /* Media Query */

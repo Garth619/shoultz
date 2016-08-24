@@ -611,7 +611,7 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 				
 			</div><!-- logo_slider -->
 			
-			<a name="free-consultation"></a>
+			
 			
 		</section><!-- logos -->
 		
