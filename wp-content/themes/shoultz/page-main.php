@@ -230,7 +230,11 @@ get_header(); ?>
 				</div><!-- about_us_content -->
 			
 			
-				<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
+				<div class="pull_quote_wrapper">
+				
+					<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
+				
+				</div>
 			
 				<img class="expert svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_expert.svg"/>
 			
