@@ -59,6 +59,12 @@ body.fadein {
 	background: $black;
 }
 
+body.logged-in {
+	
+
+	
+}
+
 header, section, nav, footer {
 	display: block;
 }
@@ -127,7 +133,7 @@ header, section, nav, footer {
 
 header {
 	width:100%;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.3);
 	position: fixed;
 	top:0;
 	z-index: 60000;
@@ -282,7 +288,7 @@ header.black {
 	width:100%;
 	background:url(images/mobile/mobile_mainimage.jpg) top center no-repeat;
 	background-size:cover;
-	padding:13px 12px 30px;
+	padding:58px 12px 30px;
 	text-align: center;
 	.tel {
 		float:right;
@@ -506,16 +512,18 @@ header.black {
 			right: 25px;
 			z-index: 5000;
 			div {
-				width:39px;
-				height:39px;
+				width:28px;
+				height:28px;
 				float:left;
 			}
 			.back {
 				background:url(images/shoultz_test_arrowleft.png) top left no-repeat;
 				margin-right:10px;
+				background-size:28px 28px;
 			}
 			.next {
 				background:url(images/shoultz_test_arrowright.png) top left no-repeat;
+				background-size:28px 28px;
 			}
 		}
 		.case_results_single_wrapper {
@@ -1335,19 +1343,20 @@ footer {
 		color: $gold;
 	}
 	hr {
-		background: #fff;
+		background: $greydark;
 		margin-bottom:30px;
 	}
 	#container {
 		margin-top:50px;
 		p:first-of-type:first-letter {
-			color: #d3b167;
-			display: block;
 			float: left;
+			color: $gold;
+			font-size: 75px;
+			line-height: 60px;
+			margin-top: 11px;
+			padding-right: 8px;
+			padding-left: 3px;
 			font-family: $abril;
-			font-size: 81px;
-			margin-right: 8px;
-			margin-top: 7px;
 		}
 	}
 }
@@ -1553,6 +1562,12 @@ body.page-template-page-contactus {
 			}
 			span {
 				display: block;
+				a {
+				color:#fff;
+			}
+			}
+			a {
+				color:#fff;
 			}
 			span.title {
 				color:$gold;
@@ -1749,7 +1764,7 @@ body.page-template-page-thankyou {
 .letter {
 	 font-size: 85px;
     height: 87px;
-    margin-top: -17px;
+    margin-top: -15px;
 }
 
 /* Header */
@@ -1845,7 +1860,7 @@ body.page-template-page-thankyou {
 .main_banner {
 	background:url(images/tablet/shoultz_tablet_mainimage.jpg) top center no-repeat;
 	background-size:cover;
-	padding:50px 24px 65px;
+	padding:90px 24px 65px;
 	
 	.tel {
 		font-size: 38px;
@@ -1981,7 +1996,7 @@ body.page-template-page-thankyou {
 /* About Us */
 
 .about_us {
-	padding: 60px 20px 80px;
+	padding: 120px 20px 80px;
 	background:url(images/tablet/shoultz_tablet_content_image1.jpg) center center no-repeat;
 	background-size:cover;
 	text-align: center;
@@ -2041,21 +2056,26 @@ body.page-template-page-thankyou {
 	.case_results {
 		
 		.slide_buttons {
-			bottom: 33px;
+			bottom: 238px;
+			left: 0;
 			position: absolute;
-			right: 25px;
 			z-index: 5000;
+			
 			div {
 				width:39px;
 				height:39px;
-				float:left;
+				
 			}
 			.back {
-				
+				background-size:39px 39px;
 				margin-right:10px;
+				float:left;
+				margin-left:5px;
 			}
 			.next {
-				
+				background-size:39px 39px;
+				float:right;
+				margin-right: -19px;
 			}
 		}
 	}
@@ -2191,10 +2211,12 @@ body.page-template-page-thankyou {
 			.reasons_back {
 				background-size:39px 39px;
 				float:left;
+				margin-left:20px;
 			}
 			.reasons_next {
 				background-size:39px 39px;
 				float:right;
+				margin-right:20px;
 			}
 		}
 	}
@@ -2358,6 +2380,7 @@ body.page-template-page-thankyou {
 		}
 	}
 	.request_right {
+		 
 		.office_info_wrapper {
 			float:right;
 			margin-top: 3px;
@@ -2404,6 +2427,10 @@ body.page-template-page-thankyou {
 					width: 31.6%;
 					input {
 						padding:17px;
+						font-size:18px;
+					}
+					textarea {
+						font-size:18px;
 					}
 				}
 				li#field_1_3 {
@@ -2635,8 +2662,9 @@ header, header.black {
 			border-right: 5px solid transparent;
 			border-top: 5px solid $gold;
 			position:relative;
-			top:13px;
+			top:-4px;
 			left:4px;
+			display: inline-block;
 		}
 		li.current-menu-parent > a {
 			color:$gold;
@@ -2905,7 +2933,7 @@ img.strong {
 
 
 #content {
-	max-width:1045px;
+	max-width:1145px;
 	margin:0 auto;
 	overflow: hidden;
 	h1,h2 {
@@ -2990,6 +3018,16 @@ body.page-template-page-contactus {
 .gform_button:hover {
 	background: $grey;
 	color:#fff;
+}
+
+
+
+/* Video Center */
+
+
+img.inner_video_img {
+    display: block;
+    width: 60%;
 }
 
 
@@ -3117,7 +3155,7 @@ body.page-template-page-contactus {
 				
 			}
 			span.large_header {
-				
+				padding-top: 203px;
 				
 			}
 		}
@@ -3129,7 +3167,7 @@ body.page-template-page-contactus {
 			.inner_singlecontent_wrapper {
 				
 				span.large_header {
-					
+					padding: 131px 0 10px;
 			}
 			p {
 				
@@ -3376,7 +3414,7 @@ footer {
 		
 	}
 	.request_right {
-		width:52%;
+		width:53%;
 		float:right;
 		.all_fields {
 				display: block;
@@ -3425,9 +3463,11 @@ footer {
 
 
 .social_icons {
+	margin-bottom:150px;
 	a {
 		width:63px;
 		height:63px;
+		margin:0 9px;
 	}
 	a:nth-of-type(1) {
 		background: url(images/shoultz_social_facebook.png) top left no-repeat;
@@ -3738,11 +3778,13 @@ body.page-template-page-caseresults {
 
 /* Global */
 
+
 .letter {
  	font-size: 87px;
-  height: 93px;
-  margin-top: -25px;
+  height: 87px;
+ 
 }
+
 
 
 
@@ -3788,10 +3830,11 @@ body.page-template-page-caseresults {
 	text-align: left;
 	background:url(images/shoultz_content_image1.jpg) center center no-repeat;
 	background-size: cover;
+	padding-top:0;
 	.certified {
 		width: 49%;
 		position: absolute;
-		top:120px;
+		top:60px;
 		left:0;
 	}
 	span.large_header {
@@ -3812,7 +3855,7 @@ body.page-template-page-caseresults {
 	.pull_quote_wrapper {
 		
 		span.pull_quote {
-			float:right;
+			
 		}
 	}
 	.expert {
@@ -3821,7 +3864,9 @@ body.page-template-page-caseresults {
 	}
 }
 
-
+.about_us_inner_wrapper {
+	padding-top: 49px;
+}
 
 
 
@@ -3854,7 +3899,7 @@ body.page-template-page-caseresults {
 	margin-top: 110px;
 	.single_test_wrapper {
 		span.name_title {
-			margin-top: 45px;
+			margin: 45px 0 15px;;
 		}
 		span.test_content {
 			max-width: 830px;
@@ -4021,7 +4066,7 @@ body.page-template-page-caseresults {
 	background-size: cover;
 	margin-top: -330px;
   overflow: hidden;
-  padding: 590px 0 0;
+  padding: 630px 0 0;
 }
 
 .desktop_reasons_respect_inner_wrapper {
@@ -4040,7 +4085,8 @@ body.page-template-page-caseresults {
 		.five_reasons_header {
 			
 			.gold_box {
-				
+				top:11px;
+				height:280px;
 			}
 			img.five {
 				
@@ -4138,6 +4184,7 @@ img.respect_img {
 	ul {
 		li {
 			margin: 0 2.1%;
+			font-size:20px;
 		}
 	}
 }

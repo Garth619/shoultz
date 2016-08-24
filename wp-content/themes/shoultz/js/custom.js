@@ -58,9 +58,14 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 	});
 	
 	
+	// First Letter 
 	
+/*
+	
+	jQuery('div#content div#container p:first-of-type').addClass('garrett');
 
-	
+	jQuery('.garrett:first-letter').css("color","red");
+*/
 	
 	
 	// Consultation Scroll 

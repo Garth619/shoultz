@@ -106,12 +106,7 @@
 			
 			
 			
-			<div class="request_right">
-				
-				
-			
-			</div><!-- request_right -->
-			
+	
 			
 			
 		</section><!-- request -->
@@ -142,7 +137,7 @@
 		
 		
 		
-	</div><!-- main -->
+
 	
 	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook_hover.png"/>
 	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter_hover.png"/>

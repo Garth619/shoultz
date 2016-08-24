@@ -356,7 +356,7 @@ get_header(); ?>
 		
 		<section class="testimonials">
 			
-			<img class="testimonial_img" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
+			<img class="testimonial_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
 			
 			<span class="large_header">An attorney that truly cares about his&nbsp;clients</span>
 			
@@ -393,7 +393,7 @@ get_header(); ?>
 					
 					</div><!-- stars_wrapper -->
 					
-					<span class="name_title">Debbie &nbsp;|&nbsp;  avvo</span>
+					<span class="name_title">DebbieTwo &nbsp;|&nbsp;  avvo</span>
 					
 					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
 					
@@ -411,7 +411,7 @@ get_header(); ?>
 					
 					</div><!-- stars_wrapper -->
 					
-					<span class="name_title">Debbie &nbsp;|&nbsp;  avvo</span>
+					<span class="name_title">DebbieThree &nbsp;|&nbsp;  avvo</span>
 					
 					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
 					
@@ -443,7 +443,7 @@ get_header(); ?>
 					
 
 					<img class="five" src="<?php bloginfo('template_directory');?>/images/shoultz_content_5.png"/>
-					<span class="large_header">REASoNS YOU NEED A PERSONAL INJURY LAWYER ON YOUR SIDE</span>
+					<span class="large_header">REASoNS YOU NEED A PERSONAL INJURY LAWYER ON YOUR&nbsp;SIDE</span>
 					<div class="gold_box"></div><!-- gold_box -->
 					
 				</div><!-- five_reasons_header -->
@@ -620,7 +620,7 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 		</section><!-- logos -->
 		
 		
-	
+	</div><!-- main -->
 
 
 <?php get_footer(); ?>
