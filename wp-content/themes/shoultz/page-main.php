@@ -203,7 +203,7 @@ get_header(); ?>
 		
 		<section class="about_us">
 			
-			<div class="about_us_inner_wrapper">
+			<div class="about_us_inner_wrapper fadeInUp" data-wow-delay=".75s">
 			
 			
 				<img class="certified svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>

@@ -152,10 +152,18 @@ header {
 	top:0;
 	z-index: 60000;
 	transition:all .3s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
 }
 
 header.black {
 	background:$black;
+}
+
+
+header.fadein {
+	opacity: 1;
+	visibility: visible;
 }
 
 

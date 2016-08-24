@@ -11,7 +11,7 @@ jQuery('body').delay(600).queue(function(){
 });
 
 
-jQuery('header').delay(600).queue(function(){
+jQuery('header').delay(1000).queue(function(){
 	
 	jQuery(this).addClass('fadein').clearQueue();
 
