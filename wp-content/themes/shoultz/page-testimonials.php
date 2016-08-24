@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="main">
 	
 	
-	<img class="inner_testimonial_img" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
+	<img class="inner_testimonial_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
 	
 	<span class="large_header about_us_header">What Our CLients are saying</span><!-- large_header -->
 	

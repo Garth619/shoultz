@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="main">
 	
 	
-	<img class="inner_contact_img" src="<?php bloginfo('template_directory');?>/images/desktop/internal_contact.svg"/>
+	<img class="inner_contact_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_contact.svg"/>
 	
 	
 	<div class="contact_wrapper">

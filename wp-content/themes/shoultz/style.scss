@@ -115,6 +115,12 @@ header, section, nav, footer {
 }
 
 
+.svg {
+	/* Safari Bug */
+		opacity: 0.4; 
+}
+
+
 
 /* Header */
 
@@ -1123,9 +1129,17 @@ footer {
 				}
 			}
 		}
-		
-		
 		.forms {
+			.validation_error {
+				display: none;
+			}
+			.validation_message {
+				color:$gold;
+				margin-top:3px;
+			}
+			.all_fields {
+				display: none;
+			}
 			ul {
 				list-style: none;
 				margin:0;
@@ -1177,6 +1191,8 @@ footer {
 	display: inline-block;
 	-webkit-appearance: none;
 	cursor: pointer;
+	position:relative;
+	z-index:500;
 }
 
 
@@ -1786,6 +1802,7 @@ body.page-template-page-caseresults {
 	}
 }
 
+/* Default */
 
 
 body.page-template-default {
@@ -1793,7 +1810,40 @@ body.page-template-default {
 	#content {
 		margin-top: -34px;
 		padding-top:0;
+		position:relative;
+		z-index:500;
 	}
+	}
+}
+
+
+/* Thank You */
+
+body.page-template-page-thankyou {
+	#main {
+		text-align: center;
+		margin-bottom:50px;
+		span.large_header {
+			margin-top:-5px;
+			display: inline-block;
+		}
+		#content {
+			#container {
+				width:100%;
+				float:none;
+				padding:0;
+				text-align: center;
+				p:first-of-type:first-letter {
+					color: #fff;
+					display: inline;
+					float: none;
+					font-family: $proxreg;
+					font-size: 18px;
+					margin-right: 0px;
+					margin-top: 0px;
+				}
+			}
+		}
 	}
 }
 
@@ -1972,6 +2022,18 @@ body.page-template-default {
 .content_break {
 	display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* What We Do */
@@ -2850,21 +2912,7 @@ header, header.black {
 	}
 }
 
-.scroll_down {
-	display:none;
-	
-	margin:50px auto 0;
-	img {
-		width:27px;
-		display: block;
-		margin: 0 auto 10px;
-	}
-	span {
-		font-family:$uniultra;
-		text-transform:uppercase;
-		display: inline-block;
-	}
-}
+
 
 
 
@@ -3149,7 +3197,7 @@ body.page-template-page-contactus {
 .main_banner {
 	padding-bottom:400px;
 	.banner_content {
-		margin:15% auto 0;
+		margin: 13% auto 0%;
 		span.main_banner_header {
 			font-size:68px;
 			line-height:1.1;
@@ -3164,20 +3212,40 @@ body.page-template-page-contactus {
 
 .scroll_down {
 	display:block;
-	margin:20px auto 0;
-	color:#fff;
+	margin:15px auto 0;
 	img {
-		width:27px;
+		width:22px;
 		display: block;
 		margin: 0 auto 10px;
+		-webkit-animation: 2s ease 0s normal none infinite running myscroll;
+		-moz-animation: 2s ease 0s normal none infinite running myscroll;
+		animation: 2s ease 0s normal none infinite running myscroll;
 	}
 	span {
 		font-family:$uniultra;
 		text-transform:uppercase;
 		display: inline-block;
+		color:#fff;
+		margin-top:15px;
 	}
 }
 
+
+@-webkit-keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(20px);}
+}
+@-moz-keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(20px);}
+}
+@keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(20px);}
+}
 
 /* What We do */
 
@@ -3467,9 +3535,22 @@ footer {
 	.request_right {
 		width:52%;
 		float:right;
-		
+		.all_fields {
+				display: block;
+				color:$gold;
+				font-size: 14px;
+				text-transform: uppercase;
+				font-family: $proxreg;
+				float: left;
+				text-align: left;
+				width:100%;
+				position: relative;
+				top:-75px;
+				left:4px;
+			}
 		
 		.forms {
+			
 			ul {
 				
 				li {
@@ -3494,6 +3575,7 @@ footer {
 
 .gform_button {
 	float:right;
+	margin:20px 0;
 }
 
 

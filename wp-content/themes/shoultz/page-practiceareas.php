@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="main">
 	
 	
-	<img class="dedicated_img" src="<?php bloginfo('template_directory');?>/images/desktop/internal_pa_dedicated.svg"/>
+	<img class="dedicated_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_pa_dedicated.svg"/>
 	
 	<span class="large_header about_us_header">Practice Areas</span><!-- large_header -->
 	

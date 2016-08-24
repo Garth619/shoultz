@@ -7,7 +7,7 @@
 				
 				<span class="large_header">REQUEST A FREE CONSULTATION</span><!-- large_header -->
 			
-				<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four hours.</span><!-- description -->
+				<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four&nbsp;hours.</span><!-- description -->
 				<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
 				
 				
@@ -60,6 +60,7 @@
 			
 				</div><!-- forms -->
 				
+				<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
 				
 				
 				<div class="office_mobile">

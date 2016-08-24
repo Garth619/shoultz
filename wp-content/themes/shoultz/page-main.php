@@ -25,7 +25,7 @@ get_header(); ?>
 			
 				<div class="banner_content">
 			
-					<img class="thirty_five_img" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
+					<img class="thirty_five_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
 				
 				
 					<a href="">
@@ -206,7 +206,7 @@ get_header(); ?>
 			<div class="about_us_inner_wrapper">
 			
 			
-				<img class="certified" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
+				<img class="certified svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
 			
 				<span class="large_header">CERTIFIED EXPERT PERSONAL INJURY&nbsp;LAWYER</span>
 			
@@ -232,7 +232,7 @@ get_header(); ?>
 			
 				<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
 			
-				<img class="expert" src="<?php bloginfo('template_directory');?>/images/shoultz_content_expert.svg"/>
+				<img class="expert svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_expert.svg"/>
 			
 			</div><!-- about_us_inner_wrapper -->
 		
@@ -538,7 +538,7 @@ get_header(); ?>
 		</section><!-- respect -->
 		
 			
-			<img class="respect_img" src="<?php bloginfo('template_directory');?>/images/shoultz_content_results-01.svg"/>
+			<img class="respect_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_results-01.svg"/>
 		
 		
 		

@@ -144,6 +144,8 @@ jQuery(function() {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows:true,
+		fade:true,
+		adaptiveHeight: true,
 		prevArrow: ".test_back",
 		nextArrow: ".test_next",
 		dots:true

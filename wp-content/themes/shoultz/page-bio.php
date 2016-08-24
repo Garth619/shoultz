@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="main">
 	
 	
-	<img class="strong" src="<?php bloginfo('template_directory');?>/images/desktop/internal_bio_strong.svg"/>
+	<img class="strong svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_bio_strong.svg"/>
 	
 	<span class="large_header">STEPhEN W. SHOULTZ, DALLAS PERSONAL INJURY&nbsp;LAWYER</span><!-- large_header -->
 	

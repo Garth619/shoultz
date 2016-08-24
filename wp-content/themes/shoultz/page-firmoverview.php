@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="main">
 	
 	
-	<img class="about_img" src="<?php bloginfo('template_directory');?>/images/desktop/internal_firmoverview_about.svg"/>
+	<img class="about_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_firmoverview_about.svg"/>
 	
 	<span class="large_header about_us_header">PERSONALIZED ATTENTION & INDIVIDUALIZED APPROACH</span><!-- large_header -->
 	

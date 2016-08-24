@@ -20,17 +20,10 @@ get_header(); ?>
 	
 	<div id="content">
 	
-		
-	
+		<p>Apologies, but this page cannot be fount</p>
 			
-			<p>Apologies, but this page cannot be fount</p>
-			
-		</div><!-- container -->
+	</div><!-- content -->
 
-	
-	
-	
-		
 </div><!-- main -->
 
 
