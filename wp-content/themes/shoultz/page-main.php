@@ -571,7 +571,7 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 					
 				</div><!-- shoultz_content -->
 				
-				<a class="mybutton learn" href="">LEARN MORE ABOUT YOUR ATTORNEY</a>
+				<a class="mybutton learn" href="<?php bloginfo('url');?>/stephen-w-shoultz/">LEARN MORE ABOUT YOUR ATTORNEY</a>
 				
 			</div><!-- shoultz_inner -->
 			

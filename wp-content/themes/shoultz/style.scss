@@ -22,7 +22,7 @@ $white:#ededed;
 
 $gold: #d3b167;
 $black: #29292e;
-$grey:#9d9d9d;
+$grey:#979798;
 $greydark:#515156;
 
 
@@ -76,6 +76,7 @@ header, section, nav, footer {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	margin:30px 0;
+	transition:all .3s ease-in-out;
 }
 
 .gold {
@@ -83,13 +84,13 @@ header, section, nav, footer {
 }
 
 .letter {
-	display: inline-block;
-	color:$gold;
-	font-size:65px;
-	float:left;
-	height:69px;
-	margin-top:-14px;
-	margin-right:8px;
+	color: #d3b167;
+  display: inline-block;
+  float: left;
+  font-size: 65px;
+  height: 63px;
+  margin-right: 8px;
+  margin-top: -6px;
 	font-family: $abril;
 }
 
@@ -281,7 +282,7 @@ header.black {
 	width:100%;
 	background:url(images/mobile/mobile_mainimage.jpg) top center no-repeat;
 	background-size:cover;
-	padding:60px 12px 30px;
+	padding:13px 12px 30px;
 	text-align: center;
 	.tel {
 		float:right;
@@ -306,6 +307,8 @@ header.black {
 			height:66px;
 			display: block;
 			margin:0 auto 20px;
+			position: relative;
+			z-index:500;
 		}
 		span.main_banner_header {
 			font-family:$unibold;
@@ -1193,141 +1196,8 @@ footer {
 	cursor: pointer;
 	position:relative;
 	z-index:500;
+	transition:all .3s ease-in-out;
 }
-
-
-
-/*
-.request {
-	
-	span.large_header {
-		color:#fff;
-		font-family: $unibold;
-		font-size:30px;
-		text-align: center;
-		display: inline-block;
-		border-top:1px solid $gold;
-		border-bottom:1px solid $gold;
-		padding:8px 0;
-		margin-top: 30px;
-		text-transform: uppercase;
-		letter-spacing:1.2px;
-		
-	}
-	span.description {
-		color:$grey;
-		font-size:18px;
-		margin-top:20px;
-		display: inline-block;
-		line-height: 1.4;
-		max-width:440px;
-	}
-	.all_fields {
-		color:$gold;
-		font-size:13px;
-		margin:20px 0 40px;
-		display: inline-block;
-	}
-	ul {
-		list-style: none;
-		margin:0;
-		font-size:15px;
-		li {
-			width:100%;
-			margin-bottom:17px;
-			label {
-				display: none;
-			}
-			input {
-				font-size:15px;
-				padding:20px;
-			}
-			input, textarea {
-				width:100%;
-				border:none;
-				border-radius: 0;
-			}
-			textarea {
-				font-family: $proxreg;
-				height:182px;
-				padding:20px;
-				font-size:15px;
-			}
-		}
-			 ::-webkit-input-placeholder {color:$black;}
-			 ::-moz-placeholder          {color:$black;} 
-			 :-moz-placeholder           {color:$black;}
-			 :-ms-input-placeholder      {color:$black;}
-			 ::-moz-placeholder {opacity: 1};
-	
-	
-	}
-}
-
-.gform_button {
-	background: $gold;
-	border:none;
-	font-family: $unibold;
-	font-size:15px;
-	text-transform: uppercase;
-	padding:13px 30px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	margin-top:8px;
-	display: inline-block;
-	-webkit-appearance: none;
-	cursor: pointer;
-}
-
-
-.office {
-	font-family:$proxreg;
-	text-align: center;
-	font-size:18px;
-	.address {
-		color:#fff;
-		margin-top:55px;
-		display:block;
-		line-height:1.5;
-	}
-	a.get_directions {
-		color:$gold;
-		text-decoration: none;
-		font-family: $uniultra;
-		text-transform: uppercase;
-		font-size:24px;
-		letter-spacing: 1.8px;
-		margin-top:4px;
-		display: block;
-		.arrow_right {
-			width: 0; 
-			height: 0; 
-			border-top: 7px solid transparent;
-			border-bottom: 7px solid transparent;
-			border-left: 7px solid $gold;
-			display: inline-block;
-			margin-left:4px;
-			position: relative;
-			top:-2px;
-		}
-	}
-	.office_info_wrapper {
-		margin-top:30px;
-		img {
-			display:block;
-			margin:0 auto 5px;
-		}
-		.office_info {
-			display:block;
-			color:#fff;
-			text-decoration: none;
-			margin-bottom:13px;
-		}
-	}
-}
-*/
-
 
 .social_icons {
 	margin:67px 0 35px;
@@ -1875,9 +1745,9 @@ body.page-template-page-thankyou {
 
 
 .letter {
-	font-size:85px;
-	height:93px;
-	margin-top:-28px;
+	 font-size: 85px;
+    height: 87px;
+    margin-top: -17px;
 }
 
 /* Header */
@@ -1973,7 +1843,7 @@ body.page-template-page-thankyou {
 .main_banner {
 	background:url(images/tablet/shoultz_tablet_mainimage.jpg) top center no-repeat;
 	background-size:cover;
-	padding:95px 24px 65px;
+	padding:50px 24px 65px;
 	
 	.tel {
 		font-size: 38px;
@@ -1981,7 +1851,7 @@ body.page-template-page-thankyou {
 	.banner_content {
 		position: relative;
 		max-width:600px;
-		margin:36% auto 0;
+		margin:40% auto 0;
 		.thirty_five_img {
 			display: block;
 			position: absolute;
@@ -2513,8 +2383,13 @@ body.page-template-page-thankyou {
 			}
 			a.get_directions {
 				margin-top: 14px;
+				transition:all .2s ease;
 				.arrow_right {
 					
+				}
+				&:hover {
+					
+					color:#fff;
 				}
 			}
 		}
@@ -2553,104 +2428,10 @@ body.page-template-page-thankyou {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 
 
 /*
-.request {
-	margin-top:45px;
-	span.large_header {
-		font-size:40px;
-		border-bottom: 2px solid #d3b167;
-    border-top: 2px solid #d3b167;
-    padding:13px 0;
-	}
-	span.description {
-		max-width:575px;
-		font-size:22px;
-		display: block;
-		margin:30px auto 0;
-	}
-	.all_fields {
-		font-size:14px;
-	}
-	ul {
-		overflow: hidden;
-		li {
-			float: left;
-			margin: 0 1%;
-			width: 31.6%;
-			input {
-				padding:17px;
-			}
-		}
-		li#field_1_3 {
-			margin-right:0;
-		}
-		li#field_1_4 {
-			width: 98.7%;
-			margin-top:2%;
-		}
-	}
-}
-
-
-
-.gform_button {
-	font-size:18px;
-	margin-top: 15px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	margin:30px 0;
-	padding: 15px 30px;
-}
-
-
-
-
-.office {
-	max-width: 500px;
-	margin:60px auto 0;
-	overflow: hidden;
-	.address_wrapper {
-		text-align: left;
-		float:left;
-		.address {
-			margin-top:0;
-		}
-		a.get_directions {
-			 margin-top: 14px;
-			.arrow_right {
-			
-			}
-		}
-	}
-	.office_info_wrapper {
-		float:right;
-		margin-top: 3px;
-		.single_office_info {
-			overflow: hidden;
-			img {
-				float:left;
-				margin-right:8px;
-			}
-			.office_info {
-				float:left;
-			}
-		}
-	}
-}
 
 .social_icons {
 	margin:72px 0px 67px;
@@ -2909,11 +2690,24 @@ header, header.black {
 	}
 	.banner_content {
 		margin:21% auto 0;
+		.play:hover {
+			background:url(images/shoultz_header_playbutton_hover.png) top left no-repeat;
+			background-size:81px 81px;
+		}
 	}
 }
 
 
 
+
+
+
+
+
+.mybutton:hover {
+	background: $grey;
+	color:#fff;
+}
 
 
 
@@ -3147,7 +2941,10 @@ body.page-template-page-contactus {
 }
 
 
-
+.gform_button:hover {
+	background: $grey;
+	color:#fff;
+}
 
 
 

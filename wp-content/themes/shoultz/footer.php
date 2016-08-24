@@ -148,6 +148,7 @@
 	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin_hover.png"/>
 	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google_hover.png"/>
 	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp_hover.png"/>
+	<img class="preload" src="<?php bloginfo('template_directory');?>/images/shoultz_header_playbutton_hover.png"/>
 	
 
 <?php wp_footer(); ?>
