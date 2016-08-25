@@ -552,7 +552,7 @@ header.fadein {
 			position: relative;
 		
 				.init_box.first {
-					background:url(images/shoultz_results_image1.jpg);
+					background:url(images/shoultz_results_image1.jpg) top center;
 					background-size:cover;
 					span.rotate {
 						 bottom: 113px;
@@ -560,24 +560,27 @@ header.fadein {
 					}
 				}
 				.init_box.second {
-					background:url(images/shoultz_results_image2.jpg);
+					background:url(images/shoultz_results_image2.jpg) top center;
 					background-size:cover;
+					transition:all .2s ease-in-out;
 					span.rotate {
 						bottom: 101px;
 						left: -40px;
 					}
 				}
 				.init_box.third {
-					background:url(images/shoultz_results_image3.jpg);
+					background:url(images/shoultz_results_image3.jpg) top center;
 					background-size:cover;
+					transition:all .2s ease-in-out;
 					span.rotate {
 						bottom: 161px;
 						left: -93px;
 					}
 				}
 				.init_box.fourth {
-					background:url(images/shoultz_results_image4.jpg);
+					background:url(images/shoultz_results_image4.jpg) top center;
 					background-size:cover;
+					transition:all .2s ease-in-out;
 					span.rotate {
 						bottom: 106px;
 						left: -46px;
@@ -598,6 +601,9 @@ header.fadein {
 						font-size:38px;
 						letter-spacing: 4px;
 						padding-top:65px;
+						transition:all .2s ease-in-out;
+						position: relative;
+						top:0;
 					}
 					span.sub_header {
 						font-family: $uniultra;
@@ -606,6 +612,9 @@ header.fadein {
 						font-size:13px;
 						letter-spacing: 1.3px;
 						margin-top:3px;
+						transition:all .2s ease-in-out;
+						position: relative;
+						top:0;
 					}
 					span.rotate {
 						position: absolute;
@@ -621,6 +630,7 @@ header.fadein {
 						transform: rotate(-90deg);
 						-ms-transform: rotate(-90deg);
 						filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+						transition:all .2s ease-in-out;
 						.arrow_right {
 							width: 0; 
 							height: 0; 
@@ -3219,27 +3229,64 @@ img.inner_video_img {
 			display: none;
 		}
 		.case_results_single_wrapper {
+			.init_box:hover {
+				span.large_header {
+					top:4px;
+				}
+				span.sub_header{
+					top:4px;
+				}
+			}
 			.init_box.first {
+				background-size:100% 100%;
+				transition:all .2s ease-in-out;
 				span.rotate {
 					left: -58px;
 					}
 				}
+			.init_box.first:hover {
+				background-size:106% 106%;
+				span.rotate {
+					bottom:120px;
+					}
+				}
 				.init_box.second {
+					background-size:100% 100%;
 					span.rotate {
 						bottom: 103px;
 						left: -47px;
 					}
 				}
+				.init_box.second:hover {
+					background-size:106% 106%;
+					span.rotate {
+						bottom:110px;
+					}
+				}
 				.init_box.third {
+					background-size:100% 100%;
 					span.rotate {
 						bottom: 162px;
 						left: -102px;
 					}
 				}
+				.init_box.third:hover {
+					background-size:106% 106%;
+					span.rotate {
+						bottom:168px;
+					}
+				}
 				.init_box.fourth {
+					background-size:100% 100%;
 					span.rotate {
 						left: -50px;
 						bottom: 112px;
+					}
+				}
+				.init_box.fourth:hover {
+					background-size:106% 106%;
+					span.rotate {
+						bottom:117px;
 					}
 				}
 				.init_box {
