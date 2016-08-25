@@ -23,7 +23,7 @@ get_header(); ?>
 			
 			<div class="main_banner_inner_wrapper">
 			
-				<div class="banner_content wow fadeInUp" data-wow-delay=".25s">
+				<div class="banner_content wow fadeInDown" data-wow-delay=".25s">
 			
 					<img class="thirty_five_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
 				
@@ -437,7 +437,7 @@ get_header(); ?>
 		
 		<section class="reasons">
 			
-			<div class="reasons_inner">
+			<div class="reasons_inner wow fadeInDown" data-wow-delay=".3s">
 				
 				<div class="five_reasons_header">
 					
@@ -523,7 +523,7 @@ get_header(); ?>
 			
 		</section><!-- reasons -->
 		
-		<section class="respect">
+		<section class="respect wow fadeInUp" data-wow-delay=".3s">
 			
 			<span class="large_header">RESPECTED BY THE LEGAL COMMUNITY</span><!-- large_header -->
 			
@@ -559,12 +559,12 @@ get_header(); ?>
 			
 			<div class="shoultz_inner">
 				
-				<span class="large_header"><span class="gold">STEPHEN</span> W. SHOULTZ</span>
-				<span class="sub_header">PERSONAL INJURY ATTORNEY</span>
+				<span class="large_header wow fadeInLeft" data-wow-delay=".3s"><span class="gold">STEPHEN</span> W. SHOULTZ</span>
+				<span class="sub_header wow fadeInRight" data-wow-delay=".3s">PERSONAL INJURY ATTORNEY</span>
 				
-				<img src="<?php bloginfo('template_directory');?>/images/shoultz_attorney_stevenshoultz.jpg"/>
+				<img class="wow fadeInUp" data-wow-delay=".3s" src="<?php bloginfo('template_directory');?>/images/shoultz_attorney_stevenshoultz.jpg"/>
 				
-				<div class="shoultz_content">
+				<div class="shoultz_content wow fadeInUp" data-wow-delay=".3s">
 					
 					<p><span class="letter">L</span>orem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ex ea consequat. Duis aute irure dolor in represt
 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est&nbsp;laborum.</p>
@@ -575,7 +575,7 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 					
 				</div><!-- shoultz_content -->
 				
-				<a class="mybutton learn" href="<?php bloginfo('url');?>/stephen-w-shoultz/">LEARN MORE ABOUT YOUR ATTORNEY</a>
+				<a class="mybutton learn wow fadeInUp" data-wow-delay=".3s" href="<?php bloginfo('url');?>/stephen-w-shoultz/">LEARN MORE ABOUT YOUR ATTORNEY</a>
 				
 			</div><!-- shoultz_inner -->
 			
