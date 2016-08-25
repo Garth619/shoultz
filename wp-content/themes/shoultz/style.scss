@@ -4071,10 +4071,15 @@ body.page-template-page-caseresults {
 
 	.case_results {
 		.case_results_single_wrapper {
-			.init_box.first {
+				.init_box.first {
 					span.rotate {
 						left: -79px;
 						bottom: 135px; 
+					}
+				}
+				.init_box.first:hover {
+					span.rotate {
+						bottom: 141px; 
 					}
 				}
 				.init_box.second {
@@ -4083,16 +4088,32 @@ body.page-template-page-caseresults {
 						left: -63px;
 					}
 				}
+				.init_box.second:hover {
+					span.rotate {
+						bottom: 123px;
+						
+					}
+				}
 				.init_box.third {
 					span.rotate {
-						bottom: 187px;
+						bottom: 191px;
 						left: -135px;
+					}
+				}
+				.init_box.third:hover {
+					span.rotate {
+						bottom: 195px;
 					}
 				}
 				.init_box.fourth {
 					span.rotate {
 						bottom: 126px;
 						left: -67px;
+					}
+				}
+				.init_box.fourth:hover {
+					span.rotate {
+						bottom: 131px;
 					}
 				}
 				.init_box {
