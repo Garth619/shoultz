@@ -6,7 +6,7 @@
 		<div class="play"></div>
 	</a>
 	
-	<div class="inner_banner_content">
+	<div class="inner_banner_content wow fadeInDown" data-wow-delay=".25s">
 			
 		<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
 				

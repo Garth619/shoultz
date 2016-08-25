@@ -2908,18 +2908,22 @@ header, header.black {
 	overflow: hidden;
 	padding-top: 146px;
 	.play {
-			background:url(images/desktop/internal_playbutton.png) top left no-repeat;
-			background-size:98px 98px;
-			width:98px;
-			height:98px;
-			display: block;
-			margin: 34px 0 20px;
-			float:left;
-		}
+		background:url(images/desktop/internal_playbutton.png) top left no-repeat;
+		background-size:98px 98px;
+		width:98px;
+		height:98px;
+		display: block;
+		margin: 34px 0 20px;
+		float:left;
+	}
+	.play:hover {
+		background:url(images/shoultz_header_playbutton_hover.png) top left no-repeat;
+		background-size:98px 98px;
+	}
 	.inner_banner_content {
 		max-width:500px;
 		float:right;
-		
+		padding-bottom: 5px;
 		span.main_banner_header {
 			font-family:$unibold;
 			text-transform: uppercase;
