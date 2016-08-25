@@ -1674,6 +1674,7 @@ body.page-template-page-caseresults {
 			color:#fff;
 			margin-top:27px;
 			position: relative;
+			cursor: pointer;
 			.single_case {
 				border:2px solid $greydark;
 				padding:0px 45px;
@@ -1709,6 +1710,14 @@ body.page-template-page-caseresults {
 				visibility: hidden;
 				transition:all .3s ease-in-out;
 				width:100%;
+				.case_content {
+					position: relative;
+					top:0;
+					transform: translateY(-50%);
+					max-width:430px;
+					margin: 0 auto;
+					transition:all .3s ease;
+				}
 				span.click_header {
 					display: block;
 					color:$black;
@@ -1726,7 +1735,14 @@ body.page-template-page-caseresults {
 			.single_case_click.open {
 				opacity: 1;
 				visibility: visible;
-
+				.case_content {
+					position: relative;
+					top:50%;
+					transform: translateY(-50%);
+					max-width:430px;
+					margin: 0 auto;
+					transition:all .3s ease;
+				}
 			}
 		}
 	}

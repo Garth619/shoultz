@@ -18,7 +18,7 @@ get_header(); ?>
 	<span class="large_header about_us_header">Practice Areas</span><!-- large_header -->
 	
 	
-	<div id="content">
+	<div id="content" class="wow fadeInUp" data-wow-delay=".25s">
 	
 		
 		<div id="container">

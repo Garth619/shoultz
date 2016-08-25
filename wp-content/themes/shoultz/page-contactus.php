@@ -18,7 +18,7 @@ get_header(); ?>
 	
 	<div class="contact_wrapper">
 	
-		<div class="contact_sidebar">
+		<div class="contact_sidebar wow fadeInUp" data-wow-delay=".25s">
 		
 			<span class="large_header about_us_header">Contact</span><!-- large_header -->
 			
@@ -36,7 +36,7 @@ get_header(); ?>
 		
 		</div><!-- contact_wrapper -->
 		
-		<div class="map">
+		<div class="map wow fadeInDown" data-wow-delay=".25s">
 			
 		
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.541530131915!2d-96.80551344914085!3d32.77789769115421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e991766ad75e1%3A0x9ba9a4de594a454b!2sLaw+Office+of+Stephen+W.+Shoultz!5e0!3m2!1sen!2sus!4v1471883636983" width="100%" height="289" frameborder="0" style="border:0" allowfullscreen></iframe>

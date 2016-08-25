@@ -15,10 +15,10 @@ get_header(); ?>
 	
 	<img class="inner_caseresults_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_results_successful.svg"/>
 	
-	<span class="large_header about_us_header">case Results</span><!-- large_header -->
+	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">case Results</span><!-- large_header -->
 	
 	
-		<div class="case_results_wrapper">
+		<div class="case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
 				
 				
 				<div class="single_case_wrapper">

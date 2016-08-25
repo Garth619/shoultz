@@ -7246,15 +7246,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/shoultz\/footer copy.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/footer copy.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/shoultz\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9159,22 +9150,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/shoultz\/style copy.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/style copy.scss",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/css\/style copy.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/wp-content\/themes\/shoultz\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -9208,6 +9183,138 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15230,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-180x180.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17834,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-180x180.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-180x180.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-192x192.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5984,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-192x192.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-192x192.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-270x270.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44549,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-270x270.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-270x270.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-300x300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50018,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-300x300.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-300x300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-32x32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 643,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-32x32.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-32x32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon-512x198.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4583,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-512x198.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon-512x198.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/cropped-favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10120,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/cropped-favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/favicon-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15230,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/favicon-300x300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50018,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon-300x300.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon-300x300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/favicon-512x198.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4583,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon-512x198.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon-512x198.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32684,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-cron.php": {
 		"fileType": 8192,

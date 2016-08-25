@@ -42,6 +42,7 @@
 <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/js/wow/css/libs/animate.css">
 <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <?php wp_head(); ?>
 </head>
 

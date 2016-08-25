@@ -15,13 +15,13 @@ get_header(); ?>
 	
 	<img class="inner_testimonial_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
 	
-	<span class="large_header about_us_header">What Our CLients are saying</span><!-- large_header -->
+	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">What Our CLients are saying</span><!-- large_header -->
 	
 	
 	<div id="content">
 	
 		
-		<div id="container">
+		<div id="container" class="wow fadeInUp" data-wow-delay=".25s">
 			
 			<div class="single_test_wrapper">
 					

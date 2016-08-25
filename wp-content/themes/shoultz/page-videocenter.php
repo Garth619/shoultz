@@ -15,13 +15,13 @@ get_header(); ?>
 	
 	<img class="inner_video_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_video_reliable.svg"/>
 	
-	<span class="large_header about_us_header">Video Center</span><!-- large_header -->
+	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">Video Center</span><!-- large_header -->
 	
 	
 	<div id="content">
 	
 		
-		<div id="container">
+		<div id="container" class="wow fadeInUp" data-wow-delay=".25s">
 			
 			
 			

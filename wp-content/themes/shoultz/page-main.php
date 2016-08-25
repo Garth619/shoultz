@@ -50,7 +50,7 @@ get_header(); ?>
 			
 		</section><!-- main_banner -->
 		
-		<section class="what_we_do wow fadeInUp" data-wow-delay=".5s">
+		<section class="what_we_do wow fadeInUp" data-wow-delay=".25s">
 			
 			
 			<div class="four_column">
@@ -208,9 +208,9 @@ get_header(); ?>
 			
 				<img class="certified svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
 			
-				<span class="large_header wow fadeInUp" data-wow-delay=".4s">CERTIFIED EXPERT PERSONAL INJURY&nbsp;LAWYER</span>
+				<span class="large_header wow fadeInUp" data-wow-delay=".25s">CERTIFIED EXPERT PERSONAL INJURY&nbsp;LAWYER</span>
 			
-				<div class="about_us_content wow fadeInUp" data-wow-delay=".6s">
+				<div class="about_us_content wow fadeInUp" data-wow-delay=".4s">
 				
 					<p><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -230,7 +230,7 @@ get_header(); ?>
 				</div><!-- about_us_content -->
 			
 			
-				<div class="pull_quote_wrapper wow fadeInUp" data-wow-delay=".6s">
+				<div class="pull_quote_wrapper wow fadeInUp" data-wow-delay=".4s">
 				
 					<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
 				

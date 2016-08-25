@@ -20,7 +20,7 @@ get_header(); ?>
 <div id="content">
 	<?php get_sidebar(); ?>
 	
-	<div class="container">
+	<div class="container wow fadeInUp" data-wow-delay="1s">
 	
 	<h1>DALLAS PERSONAL INJURY LAWYER FOR CAR ACCIDENTS</h1>
 	
