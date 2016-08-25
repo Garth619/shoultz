@@ -74,13 +74,7 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 	// First Letter 
 	
 
-	
-// 	jQuery('div#content div#container p::first-of-type::first-letter').hide();
-
-
-
-
-jQuery(function($) {
+	jQuery(function($) {
     //Grab first character for Drop Caps
     jQuery("div#container p:eq(0)").each(function() {
         var text = jQuery(this).html();
@@ -122,12 +116,14 @@ jQuery(function() {
 	jQuery('.init_box').click(function(){
 		
 		jQuery(this).next('.click_box').addClass('open');
+		jQuery(this).next('.click_box').children('.click_content').addClass('open');
 		
 	});
 	
 	jQuery('.click_box').click(function(){
 		
 		jQuery(this).removeClass('open');
+		jQuery(this).children('.click_content').removeClass('open');
 		
 	});
 	
@@ -225,12 +221,13 @@ jQuery(function() {
 	
 	});
 	
-	
+// Inner Page Case Results
 	
 	
 	jQuery('.single_case').click(function(){
 		
 		jQuery(this).next('.single_case_click').addClass('open');
+		
 		
 	});
 	
