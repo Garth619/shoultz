@@ -5994,6 +5994,77 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/bugherd\/bugherd.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/bugherd.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107236,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56953,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60422,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-3.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72074,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-4.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/screenshot-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/wp-bugherd-client.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/wp-bugherd-client.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/wp-bugherd-view.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bugherd\/wp-bugherd-view.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/gfmailgun\/gfmailgun.php": {
 		"fileType": 8192,
 		"ignore": 0,
