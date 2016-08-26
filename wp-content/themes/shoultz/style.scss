@@ -1582,10 +1582,10 @@ body.page-template-page-videocenter {
 		display: inline-block;
 		letter-spacing: 1.5px;
 		transition:all .3s ease-in-out;
+		text-transform: uppercase;
 	}
 	.video_title:hover {
 		color: $gold;
-		
 		font-weight: 300;
 	}
 }
@@ -3700,9 +3700,10 @@ body.page-template-page-videocenter {
 
 
 .single_video {
-	max-width: 1120px;
-	display: inline-block;
-	margin:0 20px 50px;
+	width:40%;
+	max-width: 100%;
+	float:left;
+	margin:0 5% 75px;
 	.video_temp {
 	}
 	.video_title {

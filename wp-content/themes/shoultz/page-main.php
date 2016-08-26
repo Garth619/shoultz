@@ -28,10 +28,16 @@ get_header(); ?>
 					<img class="thirty_five_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
 				
 				
-					<a href="">
+				
+				<script src="//fast.wistia.com/embed/medias/96awk1kced.jsonp" async></script>
+				<script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+				<span class="wistia_embed wistia_async_96awk1kced popover=true popoverContent=link" style="display:inline">
+					<a href="#">
 						<div class="play"></div>
 					</a>
+				</span>
 				
+					
 					<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
 					<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
 				

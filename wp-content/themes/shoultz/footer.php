@@ -1,6 +1,6 @@
 <footer>
 			
-		<section class="request wow fadeInDown" data-wow-delay=".4s">
+		<section class="request">
 			
 			<a name="free-consultation"></a>
 			
