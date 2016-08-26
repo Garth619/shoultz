@@ -423,6 +423,7 @@ header.fadein {
 			}
 			span.large_header {
 				padding-top:133px;
+				line-height: 1.1;
 				
 			}
 		}
@@ -446,7 +447,7 @@ header.fadein {
 // 				max-width: 250px;
 				span.large_header {
 					padding:80px 0 10px 0;
-					
+					line-height: 1.1;
 			}
 			p {
 				font-family: $proxreg;
@@ -2133,10 +2134,16 @@ body.page-template-page-thankyou {
 				float:left;
 				margin-left:5px;
 			}
+			.back:hover {
+				background:url(images/shoultz_results_arrowleft_hover.png) top left no-repeat;
+			}
 			.next {
 				background-size:39px 39px;
 				float:right;
 				margin-right: -19px;
+			}
+			.next:hover {
+				background:url(images/shoultz_results_arrowright_hover.png) top left no-repeat;
 			}
 		}
 	}
@@ -2171,10 +2178,18 @@ body.page-template-page-thankyou {
 			float:left;
 			
 		}
+		.test_back:hover {
+			background:url(images/shoultz_results_arrowleft_hover.png) top left no-repeat;
+			background-size:35px 35px;
+		}
 		.test_next {
 			background:url(images/shoultz_test_arrowright.png) top left no-repeat;
 			background-size:35px 35px;
 			float:right;
+		}
+		.test_next:hover {
+			background:url(images/shoultz_results_arrowright_hover.png) top left no-repeat;
+			background-size:35px 35px;
 		}
 	}
 	.slick-dots li button:before {
@@ -3222,8 +3237,8 @@ img.inner_video_img {
 				
 			}
 			span.large_header {
-				padding-top: 203px;
-				
+				padding-top: 220px;
+				font-size:25px;
 			}
 		}
 		.single_box_click_content.open {
@@ -3234,7 +3249,8 @@ img.inner_video_img {
 			.inner_singlecontent_wrapper {
 				
 				span.large_header {
-					padding: 131px 0 10px;
+					padding: 149px 0 10px;
+					font-size:25px;
 			}
 			p {
 				
@@ -3923,6 +3939,30 @@ body.page-template-page-caseresults {
 }
 
 
+/* What We do */
+
+
+
+.what_we_do {
+	.single_box_wrapper {
+		.single_box {
+			span.large_header {
+				padding-top: 220px;
+				font-size:31px;
+				
+			}
+		}
+		.single_box_click_content {
+			.inner_singlecontent_wrapper {
+				span.large_header {
+					padding: 149px 0 10px;
+					font-size:31px;
+					
+			}
+		}
+		}
+	}
+}
 
 
 
