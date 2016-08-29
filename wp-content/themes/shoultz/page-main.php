@@ -312,9 +312,9 @@ get_header(); ?>
 					
 					<div class="init_box third">
 							
-							<span class="large_header">$400,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">INJURY AT WORK & DEATH Settlement<div class="arrow_right"></div></span><!-- rotate -->
+							<span class="large_header">$547,706</span><!-- large_header -->
+							<span class="sub_header">Verdict</span><!-- sub_header -->
+							<span class="rotate">Work Related Injury<div class="arrow_right"></div></span><!-- rotate -->
 							
 						</div><!-- init_box -->
 						
@@ -336,9 +336,9 @@ get_header(); ?>
 					
 					<div class="init_box fourth">
 							
-							<span class="large_header">$547,706</span><!-- large_header -->
-							<span class="sub_header">Verdict</span><!-- sub_header -->
-							<span class="rotate">WORK RELATED INJURy <div class="arrow_right"></div></span><!-- rotate -->
+							<span class="large_header">$400,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">INJURy at Work & Death<div class="arrow_right"></div></span><!-- rotate -->
 							
 						</div><!-- init_box -->
 						
@@ -346,8 +346,8 @@ get_header(); ?>
 							
 								<div class="click_content">
 								
-									<span class="large_header">$547,706</span><!-- large_header -->
-									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
+									<span class="large_header">$400,000</span><!-- large_header -->
+									<span class="sub_header">INJURy at Work & Death Settlement</span><!-- sub_header -->
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
 								
 								</div>
