@@ -18900,6 +18900,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/shoultz\/images\/bullet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 984,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/bullet.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/bullet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

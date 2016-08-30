@@ -15,13 +15,13 @@ get_header(); ?>
 	
 	<img class="about_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_firmoverview_about.svg"/>
 	
-	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">PERSONALIZED ATTENTION & INDIVIDUALIZED APPROACH</span><!-- large_header -->
+	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">PERSONALIZED ATTENTION & INDIVIDUALIZED&nbsp;APPROACH</span><!-- large_header -->
 	
 	
-	<div id="content">
+	<div id="content" class="wow fadeInUp" data-wow-delay=".25s">
 	
 		
-		<div id="container wow fadeInUp" data-wow-delay=".25s">
+		<div id="container">
 			
 			
 				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
