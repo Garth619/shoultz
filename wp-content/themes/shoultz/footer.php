@@ -61,7 +61,7 @@
 			
 				</div><!-- forms -->
 				
-				<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
+				<span class="all_fields desktop">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
 				
 				
 				<div class="office_mobile">
@@ -127,9 +127,11 @@
 		<div class="copy_logo_wrapper">
 		
 			<span class="copyright">&copy; 2016 Law Offices of Stephen W. Shoultz. 
-			<br class="copy_break"/>All rights reserved.  |  <a href="">DISCLAIMER</a></span>
+			<br class="copy_break"/>All rights reserved. &nbsp;|&nbsp;  <a href="">DISCLAIMER</a><span class="copyright_bar">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span>
 	
-			<img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/shoultz_footer_ilawyer.png"/>
+			<a href="//ilawyermarketing.com" target="_blank">
+				<img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/shoultz_footer_ilawyer.png"/>
+			</a>
 	
 		</div><!-- copy_logo_wrapper -->
 			

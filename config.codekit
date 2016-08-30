@@ -18988,6 +18988,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/shoultz\/images\/logo_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4201,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/logo_hover.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/logo_hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/shoultz\/images\/logo_stevenshoultz.png": {
 		"fileType": 32768,
 		"ignore": 0,

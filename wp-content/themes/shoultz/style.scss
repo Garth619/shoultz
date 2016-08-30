@@ -1214,6 +1214,7 @@ footer {
 					input {
 						font-size:14px;
 						color:$greydark;
+						padding:17px;
 					}
 					input, textarea {
 						width:100%;
@@ -1236,6 +1237,10 @@ footer {
 			}
 		}
 	}
+}
+
+.all_fields.desktop {
+	display: none;
 }
 
 
@@ -1294,16 +1299,23 @@ footer {
 	color:$grey;
 	font-size:13px;
 	font-family: $proxreg;
-	display: block;
+	display: inline-block;
 	a {
 		color:$grey;
 		text-decoration: none;
+		&:hover {
+			color:$gold;
+		}
+	}
+	.copyright_bar {
+		display:none;
 	}
 }
 
 .ilawyer {
-	margin:25px 0;
-	width:205px;
+	display: block;
+  margin: 25px auto;
+  width: 205px;
 }
 
 
@@ -2933,15 +2945,20 @@ header, header.black {
 	.copyright {
 		font-size:13px;
 		float:left;
-		margin-right:2.5%;
 		margin-bottom:45px;
+		a {
+			transition:all .2s ease-in-out;
+		}
 		.copy_break {
 			display:none;
+		}
+		.copyright_bar {
+			display: inline-block;
 		}
 	}
 
 	.ilawyer {
-		margin:0px 0 0px 2.5%;
+		margin:0px 0 0px;
 		width:205px;
 		float:left;
 	}
@@ -3552,7 +3569,7 @@ footer {
 	.request_right {
 		width:53%;
 		float:right;
-		.all_fields {
+		.all_fields.desktop {
 				display: block;
 				color:$gold;
 				font-size: 14px;
@@ -4606,10 +4623,22 @@ body.page-template-page-caseresults {
 
 .what_we_do {
     margin: -417px auto 0;
-   
+ }
+
+
+
+.desktop_reasons_respect {
+   padding: 630px 0 194px;
 }
 
 
+.shoultz {
+  margin: -160px auto 0;
+}
+
+img.respect_img {
+ 	top: 142px;
+}
 
 
 	
