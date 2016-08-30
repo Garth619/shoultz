@@ -1475,8 +1475,9 @@ body.page-template-page-practiceareas {
 #content ul.practice_area {
 	color:#fff;
 	list-style: none;
-	margin:0;
+	margin:0 auto;
 	text-align: center;
+	max-width:300px;
 	li {
 		font-family: $uniultra;
 		letter-spacing:1.5px;
@@ -1486,13 +1487,16 @@ body.page-template-page-practiceareas {
 			text-decoration: none;
 			font-size:23px;
 			display: block;
-			border-bottom:1px solid $grey;
+			border-bottom:1px solid #4d4d50;
 			padding:15px 0;
 			transition:all .3s ease-in-out;
 			
 		}
-		a:first-of-type {
-			border-top:1px solid $grey;
+		
+	}
+	li:first-of-type {
+		a {
+			border-top:1px solid #4d4d50;
 		}
 	}
 }
@@ -1906,9 +1910,10 @@ body.page-template-page-thankyou {
 			li {
 				a {
 					width:80%;
+					padding:15px 0;
 				}
 				ul.sub-menu {
-					padding:8px 0;
+					padding:15px 0;
 				}
 			}
 		}
@@ -2603,15 +2608,6 @@ img.dedicated_img {
 
 
 
-#content ul.practice_area {
-	-webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-	-webkit-column-gap: 25px;
-  -moz-column-gap: 25px;
-  column-gap: 25px;
-}
-
 
 
 /* Case Results */
@@ -2844,11 +2840,15 @@ header, header.black {
 	float:left;
 	color:$gold;
 	text-decoration: none;
-	font-family: $uniultra;
-	font-size:21px;
+	font-family: $unilight;
+	font-size:24px;
 	width:11%;
 	font-weight:300;
-	 margin-top: 21px;
+	 margin-top: 19px;
+	 letter-spacing: 2px;
+	 &:hover {
+		 text-decoration: none;
+	 }
 }
 
 
@@ -3167,7 +3167,7 @@ img.inner_video_img {
   padding-right:1%;
 	ul {
 		li {
-			font-size:18px;
+			font-size:17px;
 			margin: 0 1.2%;
 		}
 	}
@@ -3688,17 +3688,21 @@ img.dedicated_img {
 
 
 #content ul.practice_area {
-	-webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-	-webkit-column-gap: 25px;
-  -moz-column-gap: 25px;
-  column-gap: 25px;
+
+	max-width:1300px;
 	li {
+		float: left;
+		height: 65px; /* Fix this */
+		overflow:hidden;/* Fix this */
+		width: 45%;
+		margin:0 2.5%;
 		a:hover {
 			color:$gold;
 		}
 	}
+	li:nth-of-type(2) a {
+    border-top: 1px solid #4d4d50;
+}
 }
 
 /* Video Center */
@@ -4424,18 +4428,22 @@ body.page-template-page-caseresults {
 }
 	
 .desktop_nav {
-	width:82%;
+	width:85%;
 	
 	ul {
 		li {
 			margin: 0 2.1%;
 			font-size:20px;
+			a {
+				font-size:22px;
+			}
 		}
 	}
 }
 
 .desktop_phone {
-	
+	letter-spacing:2.5px;
+	margin-top: 10px;
 }
 
 
