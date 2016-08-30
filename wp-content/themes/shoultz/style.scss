@@ -1356,16 +1356,16 @@ footer {
 	color:#fff;
 	font-family: $proxreg;
 	font-weight:300;
-	letter-spacing: 1.3px;
+	letter-spacing: 1.6px;
 	img {
 		max-width: 100%;
 		height:auto;
 	}
 	h1 {
 		text-align: center;
-		font-family: $uniultra;
+		font-family: $unibold;
 		font-size:33px;
-		letter-spacing: 1.5px;
+		letter-spacing: 1.8px;
 		margin-bottom:45px;
 	}
 	h2 {
@@ -1383,15 +1383,7 @@ footer {
 		margin-bottom:30px;
 		font-size:18px;
 	}
-	ul {
-		margin:0 0 30px 0px;
-		li {
-			background:url(images/bullet.png) no-repeat scroll 0 10px;
-			list-style: none;
-			padding: 0 0 0 19px;
-			margin-bottom:10px;
-		} 
-	}
+	
 	i {
 		font-style: italic;
 		color: $gold;
@@ -1400,8 +1392,17 @@ footer {
 		background: $greydark;
 		margin-bottom:30px;
 	}
-	#container {
+	.container {
 		margin-top:50px;
+		ul {
+		margin:0 0 30px 0px;
+		li {
+			background:url(images/bullet.png) no-repeat scroll 0 10px;
+			list-style: none;
+			padding: 0 0 0 19px;
+			margin-bottom:10px;
+		} 
+	}
 /*
 		p:first-of-type::first-letter {
 			float: left;
@@ -1537,14 +1538,16 @@ body.page-template-page-testimonials {
 		}
 		span.test_title {
 			color:$gold;
-			font-family: $uniultra;
+			font-family: $unilight;
 			display: block;
-			font-size:18px;
-			letter-spacing: 1.5px;
+			font-size: 31px;
+			letter-spacing: 3px;
 		}
 		span.test_content {
-			margin-top:12px;
+			margin-top:7px;
 			display: block;
+			letter-spacing: 1.6px;
+			line-height: 1.6;
 		}
 		span.test_name {
 			color:$gold;
@@ -1589,12 +1592,12 @@ body.page-template-page-videocenter {
 	}
 	.video_title {
 		color:#fff;
-		font-family: $uniultra;
+		font-family: $unilight;
 		text-decoration: none;
 		font-size: 25px;
 		margin-top:10px;
 		display: inline-block;
-		letter-spacing: 1.5px;
+		letter-spacing: 3px;
 		transition:all .3s ease-in-out;
 		text-transform: uppercase;
 	}
@@ -1614,7 +1617,7 @@ body.page-template-page-contactus {
 		.contact_sidebar {
 			text-align: center;
 			span.large_header {
-				margin:-13px 0 50px;
+				margin:-13px 0 28px;
 				display: inline-block;
 			}
 			span {
@@ -1629,15 +1632,16 @@ body.page-template-page-contactus {
 			span.title {
 				color:$gold;
 				text-transform: uppercase;
-				font-family: $uniultra;
-				font-size:24px;
-				letter-spacing: 1.5px;
+				font-family: $unilight;
+				font-size:27px;
+				letter-spacing: 2.5px;
 				margin-bottom:5px;
 			}
 			span.contact_content {
 				font-family: $proxreg;
 				font-size:18px;
 				margin-bottom:15px;
+				letter-spacing: 1.6px;
 			}
 		}
 		.map {
@@ -1658,6 +1662,7 @@ body.page-template-page-contactus {
 				padding:15px 0;
 				text-decoration: none;
 				letter-spacing: 1.2px;
+				transition:all .2s ease;
 			}
 		}
 	}
@@ -1773,6 +1778,7 @@ body.page-template-default {
 		padding-top:0;
 		position:relative;
 		z-index:500;
+		max-width: 1345px;
 	}
 	}
 }
@@ -2879,7 +2885,7 @@ header, header.black {
 .mybutton:hover {
 	background: $grey;
 	color:#fff;
-	
+	text-decoration:none;
 }
 
 
@@ -3113,6 +3119,10 @@ body.page-template-page-contactus {
 				float:left;
 				margin: -5px 0 0 0;
 				padding:0 0 0 0px;
+				.get_directions_bar:hover {
+					background: $greydark;
+					color:#fff;
+				}
 			}
 		}
 	}
@@ -3780,6 +3790,7 @@ body.page-template-default {
 			width:75%;
 			float:left;
 			padding-left:87px;
+			margin-top:0px;
 		}
 		#sidebar {
 			display: block;
@@ -3792,9 +3803,10 @@ body.page-template-default {
 				margin:0;
 				li {
 					color:#fff;
-					font-family: $uniultra;
-					font-size:23px;
+					font-family: $unilight;
+					font-size:26px;
 					border-top:2px solid $greydark;
+					letter-spacing: 3px;
 					> a {
 						color:#fff;
 						text-decoration: none;
@@ -4381,7 +4393,7 @@ body.page-template-page-caseresults {
 					font-size:33px;
 				}
 				span.click_content {
-					margin-top:30px;
+					margin-top:25px;
 					text-align: left;
 					display: block;
 					font-size:18px;
