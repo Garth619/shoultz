@@ -2621,6 +2621,22 @@ body.page-template-page-caseresults {
 
 
 
+
+
+.social_icons_wrapper {
+	width:62px;
+	margin:80px 9px 60px;
+	a {
+		img.icon_show {
+			display: block;
+		}
+	}
+}
+
+
+
+
+
 	
 	
 } /* Media Query */
@@ -3595,7 +3611,7 @@ footer {
 
 
 .social_icons_wrapper {
-	margin: 0 auto 150px;
+ margin:80px 9px 150px;
 }
 
 .copyright {
