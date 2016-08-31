@@ -1268,36 +1268,21 @@ footer {
 
 .social_icons_wrapper {
 	margin:67px 0 35px;
-	.social_icons {
-		a {
-			margin:0 4px;
-			display:inline-block;
-			width:43px;
-			height:43px;
+	.single_social_wrapper {
+		position: relative;
+		top:0;
+		left:0;
+		img {
+			width:40px;
 		}
-		a#fb {
-			background: url(images/shoultz_social_facebook.png) top left no-repeat;
-			background-size:43px 43px;
+		img.icon_reg {
+			
 		}
-		a.twitter {
-			background: url(images/shoultz_social_twitter.png) top left no-repeat;
-			background-size:43px 43px;
+		img.icon_hover {
+			position: absolute;
+			top:-25px;
+			left:0px;
 		}
-		a.linkedin {
-			background: url(images/shoultz_social_linkedin.png) top left no-repeat;
-			background-size:43px 43px;
-		}
-		a.google {
-			background: url(images/shoultz_social_google.png) top left no-repeat;
-			background-size:43px 43px;
-		}
-		a.yelp {
-			background: url(images/shoultz_social_yelp.png) top left no-repeat;
-			background-size:43px 43px;
-		}
-	}
-	.social_icons.hovers{
-		display: none;
 	}
 }
 
@@ -3602,91 +3587,7 @@ footer {
 
 
 .social_icons_wrapper {
-	position: relative;
-	width:422px;
 	margin: 0 auto 150px;
-	.social_icons {
-		a {
-			width:63px;
-			height:63px;
-			margin:0 9px;
-		}
-		a#fb {
-			background-image: url(images/shoultz_social_facebook.png);
-			background-size:63px 63px;
-			transition:background-image .3s ease-in-out;
-		}
-		a.twitter  {
-			background: url(images/shoultz_social_twitter.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-		a.linkedin {
-			background: url(images/shoultz_social_linkedin.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-		a.google {
-			background: url(images/shoultz_social_google.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-		
-		a.yelp {
-			background: url(images/shoultz_social_yelp.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-	}
-	
-	
-	.social_icons.hovers {
-		display: block;
-position: absolute;
-		top:0;
-		left:0;
-z-index:50;
-
-		a {
-			width:63px;
-			height:63px;
-			margin:0 9px;
-/*
-			opacity: 0;
-			visibility: hidden;
-*/
-		}
-		a.icon_show {
-			opacity: 1;
-			visibility: visible;
-		}
-		
-		a#fb_hover {
-			background-image: url(images/shoultz_social_facebook_hover.png);
-			background-size:63px 63px;
-			transition:background-image .3s ease-in-out;
-		}
-		a.twitter_hover  {
-			background: url(images/shoultz_social_twitter_hover.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-		a.linkedin_hover  {
-			background: url(images/shoultz_social_linkedin_hover.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-		a.google_hover  {
-			background: url(images/shoultz_social_google_hover.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-		a.yelp_hover  {
-			background: url(images/shoultz_social_yelp_hover.png) top left no-repeat;
-			background-size:63px 63px;
-			transition:all .3s ease;
-		}
-	}
 }
 
 .copyright {

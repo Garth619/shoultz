@@ -247,45 +247,24 @@ jQuery(function() {
 // Social Icons 
 
 
+jQuery('.icon_hover').hide();
 
 
-
-jQuery('a#fb').mouseenter(function(){
+jQuery('.icon_reg').mouseenter(function(){
 	
-	jQuery('a#fb_hover').addClass('icon_show');
-
+	
+	jQuery(this).next('.icon_hover').fadeIn();
+	
+	
 });
 
 
-jQuery('.social_icons.reg a:nth-of-type(2)').mouseenter(function(){
+jQuery('.icon_hover').mouseleave(function(){
 	
-	jQuery('.social_icons.hovers a:nth-of-type(2)').addClass('icon_show');
-
-});
-
-jQuery('.social_icons.reg a:nth-of-type(3)').mouseenter(function(){
 	
-	jQuery('.social_icons.hovers a:nth-of-type(3)').addClass('icon_show');
-
-});
-
-jQuery('.social_icons.reg a:nth-of-type(4)').mouseenter(function(){
+	jQuery(this).fadeOut();
 	
-	jQuery('.social_icons.hovers a:nth-of-type(4)').addClass('icon_show');
-
-});
-
-jQuery('.social_icons.reg a:nth-of-type(5)').mouseenter(function(){
 	
-	jQuery('.social_icons.hovers a:nth-of-type(5)').addClass('icon_show');;
-
-});
-
-
-jQuery('.social_icons_wrapper a').mouseleave(function(){
-	
-	jQuery('.social_icons.hovers a').removeClass('icon_show');
-
 });
 
 
