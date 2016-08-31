@@ -708,7 +708,7 @@ header.fadein {
 
 
 .testimonials {
-	padding:35px 20px 50px;
+	padding:70px 20px 50px;
 	overflow:hidden;
 	text-align: center;
 	max-width:1800px;
@@ -810,6 +810,9 @@ header.fadein {
 		}
 	}
 }
+
+
+
 
 /* Reasons */
 
@@ -929,8 +932,9 @@ header.fadein {
 img.respect_img {
 		width:80%;
 		float:right;
-// 		margin-right:-20px;
+		
 		margin-bottom: 35px;
+	
 	}
 
 /* Shoultz */
@@ -2165,6 +2169,10 @@ body.page-template-page-thankyou {
 }
 
 
+
+
+
+
 /* Case Results */
 
 
@@ -2373,7 +2381,7 @@ body.page-template-page-thankyou {
 .respect {
 	background:url(images/tablet/shoultz_tablet_content_image2.jpg) top center  no-repeat $black;
 	background-size:cover;
-	padding: 280px 20px 20px;
+	padding: 280px 20px 370px;
 	margin-top: -225px;
 	position: relative;
 	text-align: center;
@@ -2398,12 +2406,18 @@ body.page-template-page-thankyou {
 }
 
 
+img.respect_img {
+	margin-top:-330px;
+}
+
+
 
 /* Shoultz */
 
 
 .shoultz {
 	padding: 50px 0 110px;
+	margin-top: -173px;
 	.gold_line {
 		height: 2px;
     width: 61%;
@@ -2935,6 +2949,39 @@ header, header.black {
 
 
 
+/* Respect */
+
+.respect {
+	
+	span.large_header {
+		
+	}
+	.respect_content {
+		
+		p {
+			
+			
+		}
+	}
+	
+}
+
+
+img.respect_img {
+	width:70%;
+}
+
+
+
+/* Shoultz */
+
+
+.shoultz {
+	margin-top: -82px;
+}
+
+
+
 .copy_logo_wrapper {
 	overflow: hidden;
 	margin: 0 auto;
@@ -3379,6 +3426,10 @@ img.inner_video_img {
 		}
 		
 		
+
+img.respect_img {
+	margin-top:-270px;
+}
 		
 		
 /* Shoultz */
@@ -4215,12 +4266,13 @@ body.page-template-page-caseresults {
 	background-size: cover;
 	margin-top: -330px;
   overflow: hidden;
-  padding: 630px 0 0;
+  padding: 630px 0 10px;
 }
 
 .desktop_reasons_respect_inner_wrapper {
 	max-width:1650px;
 	margin:0 auto;
+	
 }
 
 
@@ -4261,9 +4313,16 @@ body.page-template-page-caseresults {
 
 
 img.respect_img {
+
+/*
 	position: relative;
-  top: 33px;
-  width: 52%;
+  top: 63px;
+*/
+  width: 58%;
+	
+	margin-top:60px;
+
+
 }
 
 .reasons_slider {
@@ -4566,8 +4625,6 @@ body.page-template-page-caseresults {
  }
 
 
-
-/* start earlier 
 .desktop_reasons_respect {
    padding: 630px 0 194px;
 }
@@ -4578,9 +4635,10 @@ body.page-template-page-caseresults {
 }
 
 img.respect_img {
- 	top: 142px;
+ 	top: 150px;
+ 	position: relative;
 }
-*/
+
 
 
 	
