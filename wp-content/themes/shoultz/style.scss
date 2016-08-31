@@ -1275,23 +1275,23 @@ footer {
 			width:43px;
 			height:43px;
 		}
-		a:nth-of-type(1) {
+		a#fb {
 			background: url(images/shoultz_social_facebook.png) top left no-repeat;
 			background-size:43px 43px;
 		}
-		a:nth-of-type(2) {
+		a.twitter {
 			background: url(images/shoultz_social_twitter.png) top left no-repeat;
 			background-size:43px 43px;
 		}
-		a:nth-of-type(3) {
+		a.linkedin {
 			background: url(images/shoultz_social_linkedin.png) top left no-repeat;
 			background-size:43px 43px;
 		}
-		a:nth-of-type(4) {
+		a.google {
 			background: url(images/shoultz_social_google.png) top left no-repeat;
 			background-size:43px 43px;
 		}
-		a:nth-of-type(5) {
+		a.yelp {
 			background: url(images/shoultz_social_yelp.png) top left no-repeat;
 			background-size:43px 43px;
 		}
@@ -3611,28 +3611,28 @@ footer {
 			height:63px;
 			margin:0 9px;
 		}
-		a:nth-of-type(1) {
+		a#fb {
 			background-image: url(images/shoultz_social_facebook.png);
 			background-size:63px 63px;
 			transition:background-image .3s ease-in-out;
 		}
-		a:nth-of-type(2) {
+		a.twitter  {
 			background: url(images/shoultz_social_twitter.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
 		}
-		a:nth-of-type(3) {
+		a.linkedin {
 			background: url(images/shoultz_social_linkedin.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
 		}
-		a:nth-of-type(4) {
+		a.google {
 			background: url(images/shoultz_social_google.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
 		}
 		
-		a:nth-of-type(5) {
+		a.yelp {
 			background: url(images/shoultz_social_yelp.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
@@ -3642,36 +3642,46 @@ footer {
 	
 	.social_icons.hovers {
 		display: block;
-		
-		position: absolute;
+position: absolute;
 		top:0;
 		left:0;
+z-index:50;
+
 		a {
 			width:63px;
 			height:63px;
 			margin:0 9px;
+/*
+			opacity: 0;
+			visibility: hidden;
+*/
 		}
-		a:nth-of-type(1) {
+		a.icon_show {
+			opacity: 1;
+			visibility: visible;
+		}
+		
+		a#fb_hover {
 			background-image: url(images/shoultz_social_facebook_hover.png);
 			background-size:63px 63px;
 			transition:background-image .3s ease-in-out;
 		}
-		a:nth-of-type(2) {
+		a.twitter_hover  {
 			background: url(images/shoultz_social_twitter_hover.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
 		}
-		a:nth-of-type(3) {
+		a.linkedin_hover  {
 			background: url(images/shoultz_social_linkedin_hover.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
 		}
-		a:nth-of-type(4) {
+		a.google_hover  {
 			background: url(images/shoultz_social_google_hover.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;
 		}
-		a:nth-of-type(5) {
+		a.yelp_hover  {
 			background: url(images/shoultz_social_yelp_hover.png) top left no-repeat;
 			background-size:63px 63px;
 			transition:all .3s ease;

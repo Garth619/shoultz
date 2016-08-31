@@ -239,6 +239,78 @@ jQuery(function() {
 	});
 	
 	
+
+// Footer 
+
+
+
+// Social Icons 
+
+
+
+
+
+jQuery('a#fb').mouseenter(function(){
+	
+	jQuery('a#fb_hover').addClass('icon_show');
+
+});
+
+
+jQuery('.social_icons.reg a:nth-of-type(2)').mouseenter(function(){
+	
+	jQuery('.social_icons.hovers a:nth-of-type(2)').addClass('icon_show');
+
+});
+
+jQuery('.social_icons.reg a:nth-of-type(3)').mouseenter(function(){
+	
+	jQuery('.social_icons.hovers a:nth-of-type(3)').addClass('icon_show');
+
+});
+
+jQuery('.social_icons.reg a:nth-of-type(4)').mouseenter(function(){
+	
+	jQuery('.social_icons.hovers a:nth-of-type(4)').addClass('icon_show');
+
+});
+
+jQuery('.social_icons.reg a:nth-of-type(5)').mouseenter(function(){
+	
+	jQuery('.social_icons.hovers a:nth-of-type(5)').addClass('icon_show');;
+
+});
+
+
+jQuery('.social_icons_wrapper a').mouseleave(function(){
+	
+	jQuery('.social_icons.hovers a').removeClass('icon_show');
+
+});
+
+
+
+
+// Logo 
+
+
+jQuery('.ilawyer_hover').hide();
+
+jQuery('.ilawyer_wrapper').mouseenter(function(){
+	
+	jQuery('.ilawyer_reg').fadeOut();
+	jQuery('.ilawyer_hover').fadeIn();
+
+});
+
+jQuery('.ilawyer_wrapper').mouseleave(function(){
+	
+	jQuery('.ilawyer_reg').fadeIn();
+	jQuery('.ilawyer_hover').fadeOut();
+
+});
+	
+	
 	 	
 	
 }); // Document Ready

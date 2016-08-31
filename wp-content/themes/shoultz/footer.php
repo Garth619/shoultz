@@ -112,26 +112,50 @@
 		</section><!-- request -->
 			
 	
+		<div class="social_icons_wrapper">
 		
-		<div class="social_icons">
+			<div class="social_icons">
+				
+				<a id="fb" href="" target="_blank"></a>
+				<a class="twitter" href="" target="_blank"></a>
+				<a class="linkedin" href="" target="_blank"></a>
+				<a class="google" href="" target="_blank"></a>
+				<a class="yelp" href="" target="_blank"></a>
 			
-			<a href="" target="_blank"></a>
-			<a href="" target="_blank"></a>
-			<a href="" target="_blank"></a>
-			<a href="" target="_blank"></a>
-			<a href="" target="_blank"></a>
+				
+			</div><!-- social_icons -->
+			
+			
+			<div class="social_icons hovers">
+				
+				<a id="fb_hover" href="" target="_blank"></a>
+				<a class="twitter_hover" href="" target="_blank"></a>
+				<a class="linkedin_hover" href="" target="_blank"></a>
+				<a class="google_hover" href="" target="_blank"></a>
+				<a class="yelp_hover" href="" target="_blank"></a>
+			
+				
+			</div><!-- social_icons -->
 		
-			
-		</div><!-- social_icons -->
+		
+		</div><!-- social_icons_wrapper -->
+		
+		
+		
 		
 		<div class="copy_logo_wrapper">
 		
 			<span class="copyright">&copy; 2016 Law Offices of Stephen W. Shoultz. 
 			<br class="copy_break"/>All rights reserved. &nbsp;|&nbsp;  <a href="">DISCLAIMER</a><span class="copyright_bar">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span>
 	
+			<div class="ilawyer_wrapper">
+			
 			<a href="//ilawyermarketing.com" target="_blank">
-				<img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/shoultz_footer_ilawyer.png"/>
+				<img class="ilawyer_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_footer_ilawyer.png"/>
+				<img class="ilawyer_hover" src="<?php bloginfo('template_directory');?>/images/logo_hover.png"/>
 			</a>
+			
+			</div>
 	
 		</div><!-- copy_logo_wrapper -->
 			
