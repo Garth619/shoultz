@@ -114,7 +114,7 @@
 	
 		<div class="social_icons_wrapper">
 		
-			<a class="single_social_wrapper" href="" target="_blank">
+			<a href="http://facebook.com" target="_blank">
 				<img class="fb icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook.png"/>
 				<img class="fb_hover icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook_hover.png"/>
 			</a>				
@@ -123,7 +123,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a class="single_social_wrapper" href="" target="_blank">
+			<a href="" target="_blank">
 				<img class="twitter icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter.png"/>
 				<img class="twitter_hover icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter_hover.png"/>
 			</a>				
@@ -132,7 +132,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a class="single_social_wrapper" href="" target="_blank">
+			<a href="" target="_blank">
 				<img class="linkedin icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin.png"/>
 				<img class="linkedin_hover icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin_hover.png"/>
 			</a>				
@@ -141,7 +141,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a class="single_social_wrapper" href="" target="_blank">
+			<a href="" target="_blank">
 				<img class="google icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google.png"/>
 				<img class="google_hover icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google_hover.png"/>
 			</a>				
@@ -150,7 +150,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a class="single_social_wrapper" href="" target="_blank">
+			<a href="" target="_blank">
 				<img class="yelp icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp.png"/>
 				<img class="yelp_hover icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp_hover.png"/>
 			</a>				

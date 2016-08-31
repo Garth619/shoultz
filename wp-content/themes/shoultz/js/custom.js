@@ -247,22 +247,22 @@ jQuery(function() {
 // Social Icons 
 
 
-jQuery('.icon_hover').hide();
+
 
 
 jQuery('.icon_reg').mouseenter(function(){
 	
 	
-	jQuery(this).next('.icon_hover').fadeIn();
+	jQuery(this).next('.icon_hover').addClass('icon_show');
 	
 	
 });
 
 
-jQuery('.icon_hover').mouseleave(function(){
+jQuery('.social_icons_wrapper a').mouseleave(function(){
 	
 	
-	jQuery(this).fadeOut();
+	jQuery('.icon_hover').removeClass('icon_show');
 	
 	
 });

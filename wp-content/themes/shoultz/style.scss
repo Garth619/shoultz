@@ -1267,21 +1267,29 @@ footer {
 
 
 .social_icons_wrapper {
-	margin:67px 0 35px;
-	.single_social_wrapper {
-		position: relative;
-		top:0;
-		left:0;
+	margin:67px 5px 35px;
+	width:40px;
+	display: inline-block;
+	position: relative;
+	a {
+		display: block;
+		margin:0 0px;
 		img {
-			width:40px;
-		}
-		img.icon_reg {
-			
+			max-width:100%;
+			height:auto;
 		}
 		img.icon_hover {
 			position: absolute;
-			top:-25px;
+			top:0px;
 			left:0px;
+			opacity: 0;
+			visibility: hidden;
+			transition:all .2s ease-in-out;
+		}
+		img.icon_show {
+			opacity: 1;
+			visibility: visible;
+			display: none;
 		}
 	}
 }
