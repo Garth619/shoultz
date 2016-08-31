@@ -143,7 +143,7 @@ header, section, nav, footer {
 
 .svg {
 	/* Safari Bug */
-		opacity: 0.4; 
+		opacity: 0.7; 
 }
 
 
@@ -1265,35 +1265,47 @@ footer {
 	letter-spacing: 1.5px;
 }
 
-.social_icons {
+
+.social_icons_wrapper {
 	margin:67px 0 35px;
-	a {
-		margin:0 4px;
-		display:inline-block;
-		width:43px;
-		height:43px;
+	.social_icons {
+		a {
+			margin:0 4px;
+			display:inline-block;
+			width:43px;
+			height:43px;
+		}
+		a:nth-of-type(1) {
+			background: url(images/shoultz_social_facebook.png) top left no-repeat;
+			background-size:43px 43px;
+		}
+		a:nth-of-type(2) {
+			background: url(images/shoultz_social_twitter.png) top left no-repeat;
+			background-size:43px 43px;
+		}
+		a:nth-of-type(3) {
+			background: url(images/shoultz_social_linkedin.png) top left no-repeat;
+			background-size:43px 43px;
+		}
+		a:nth-of-type(4) {
+			background: url(images/shoultz_social_google.png) top left no-repeat;
+			background-size:43px 43px;
+		}
+		a:nth-of-type(5) {
+			background: url(images/shoultz_social_yelp.png) top left no-repeat;
+			background-size:43px 43px;
+		}
 	}
-	a:nth-of-type(1) {
-		background: url(images/shoultz_social_facebook.png) top left no-repeat;
-		background-size:43px 43px;
-	}
-	a:nth-of-type(2) {
-		background: url(images/shoultz_social_twitter.png) top left no-repeat;
-		background-size:43px 43px;
-	}
-	a:nth-of-type(3) {
-		background: url(images/shoultz_social_linkedin.png) top left no-repeat;
-		background-size:43px 43px;
-	}
-	a:nth-of-type(4) {
-		background: url(images/shoultz_social_google.png) top left no-repeat;
-		background-size:43px 43px;
-	}
-	a:nth-of-type(5) {
-		background: url(images/shoultz_social_yelp.png) top left no-repeat;
-		background-size:43px 43px;
+	.social_icons.hovers{
+		display: none;
 	}
 }
+
+
+
+
+
+
 
 .copyright {
 	color:$grey;
@@ -1312,10 +1324,18 @@ footer {
 	}
 }
 
-.ilawyer {
+.ilawyer_wrapper {
 	display: block;
   margin: 25px auto;
   width: 205px;
+  position: relative;
+  img {
+	  max-width:100%;
+	  height:auto;
+	  position: absolute;
+	  top:0;
+	  left: 0;
+  }
 }
 
 
@@ -2573,38 +2593,6 @@ body.page-template-page-thankyou {
 /* Footer */
 
 
-/*
-
-.social_icons {
-	margin:72px 0px 67px;
-	a {
-		margin:0 10px;
-		display:inline-block;
-		width:63px;
-		height:63px;
-	}
-	a:nth-of-type(1) {
-		background: url(images/shoultz_social_facebook.png) top left no-repeat;
-		background-size:63px 63px;
-	}
-	a:nth-of-type(2) {
-		background: url(images/shoultz_social_twitter.png) top left no-repeat;
-		background-size:63px 63px;
-	}
-	a:nth-of-type(3) {
-		background: url(images/shoultz_social_linkedin.png) top left no-repeat;
-		background-size:63px 63px;
-	}
-	a:nth-of-type(4) {
-		background: url(images/shoultz_social_google.png) top left no-repeat;
-		background-size:63px 63px;
-	}
-	a:nth-of-type(5) {
-		background: url(images/shoultz_social_yelp.png) top left no-repeat;
-		background-size:63px 63px;
-	}
-}
-*/
 
 
 /* Internals */
@@ -2957,7 +2945,7 @@ header, header.black {
 		}
 	}
 
-	.ilawyer {
+	.ilawyer_wrapper {
 		margin:0px 0 0px;
 		width:205px;
 		float:left;
@@ -3613,64 +3601,81 @@ footer {
 }
 
 
-
-
-.social_icons {
-	margin-bottom:150px;
-	a {
-		width:63px;
-		height:63px;
-		margin:0 9px;
+.social_icons_wrapper {
+	position: relative;
+	width:422px;
+	margin: 0 auto 150px;
+	.social_icons {
+		a {
+			width:63px;
+			height:63px;
+			margin:0 9px;
+		}
+		a:nth-of-type(1) {
+			background-image: url(images/shoultz_social_facebook.png);
+			background-size:63px 63px;
+			transition:background-image .3s ease-in-out;
+		}
+		a:nth-of-type(2) {
+			background: url(images/shoultz_social_twitter.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
+		a:nth-of-type(3) {
+			background: url(images/shoultz_social_linkedin.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
+		a:nth-of-type(4) {
+			background: url(images/shoultz_social_google.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
+		
+		a:nth-of-type(5) {
+			background: url(images/shoultz_social_yelp.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
 	}
-	a:nth-of-type(1) {
-		background-image: url(images/shoultz_social_facebook.png);
-		background-size:63px 63px;
-		transition:background-image .3s ease-in-out;
-	}
-	a:nth-of-type(1):hover {
-		background-image: url(images/shoultz_social_facebook_hover.png);
-		background-size:63px 63px;
-		transition:background-image .3s ease-in-out;
-	}
-	a:nth-of-type(2) {
-		background: url(images/shoultz_social_twitter.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(2):hover {
-		background: url(images/shoultz_social_twitter_hover.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(3) {
-		background: url(images/shoultz_social_linkedin.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(3):hover {
-		background: url(images/shoultz_social_linkedin_hover.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(4) {
-		background: url(images/shoultz_social_google.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(4):hover {
-		background: url(images/shoultz_social_google_hover.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(5) {
-		background: url(images/shoultz_social_yelp.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
-	}
-	a:nth-of-type(5):hover {
-		background: url(images/shoultz_social_yelp_hover.png) top left no-repeat;
-		background-size:63px 63px;
-		transition:all .3s ease;
+	
+	
+	.social_icons.hovers {
+		display: block;
+		
+		position: absolute;
+		top:0;
+		left:0;
+		a {
+			width:63px;
+			height:63px;
+			margin:0 9px;
+		}
+		a:nth-of-type(1) {
+			background-image: url(images/shoultz_social_facebook_hover.png);
+			background-size:63px 63px;
+			transition:background-image .3s ease-in-out;
+		}
+		a:nth-of-type(2) {
+			background: url(images/shoultz_social_twitter_hover.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
+		a:nth-of-type(3) {
+			background: url(images/shoultz_social_linkedin_hover.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
+		a:nth-of-type(4) {
+			background: url(images/shoultz_social_google_hover.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
+		a:nth-of-type(5) {
+			background: url(images/shoultz_social_yelp_hover.png) top left no-repeat;
+			background-size:63px 63px;
+			transition:all .3s ease;
+		}
 	}
 }
 
@@ -3685,7 +3690,7 @@ footer {
 	}
 }
 
-.ilawyer {
+.ilawyer_wrapper {
 	margin:25px 0;
 	width:205px;
 }
@@ -3805,7 +3810,7 @@ img.inner_page_img {
 body.page-template-default {
 	#main {
 		#content {
-			margin-top:-85px;
+			margin-top:-71px;
 		}
 		.container {
 			width:75%;
@@ -4627,6 +4632,7 @@ body.page-template-page-caseresults {
 
 
 
+/* start earlier 
 .desktop_reasons_respect {
    padding: 630px 0 194px;
 }
@@ -4639,6 +4645,7 @@ body.page-template-page-caseresults {
 img.respect_img {
  	top: 142px;
 }
+*/
 
 
 	
