@@ -61,6 +61,11 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 		
 		jQuery(this).next(".single_box_click_content").addClass("open");
 		
+		jQuery(this).next(".single_box_click_content").find(".single_box_slide_up").addClass('slide');
+		
+		
+		
+		
 	});
 	
 	
@@ -68,7 +73,16 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 		
 		jQuery(this).removeClass("open");
 		
+		
+		jQuery(".single_box_click_content").find(".single_box_slide_up").removeClass('slide');
+		
 	});
+	
+	
+
+	
+	
+	
 	
 	
 	// First Letter 

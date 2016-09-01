@@ -80,8 +80,15 @@ get_header(); ?>
 							
 							<div class="inner_singlecontent_wrapper">
 							
-								<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE</span><!-- large_header -->
-								<p>Proven litigation skills with a record of over 200 jury trials</p>
+								<div class="single_box_slide_up">
+								
+									<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE</span><!-- large_header -->
+								
+									<span class="white_line"></span><!-- white_line -->
+								
+									<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								
+								</div><!-- single_box_slide_up -->
 						
 							</div><!-- inner_singlecontent_wrapper -->
 						
