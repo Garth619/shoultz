@@ -452,7 +452,7 @@ header.fadein {
 			.single_box_slide_up {
 				position: relative;
 				bottom:-200px;
-				transition:all .4s ease;
+				transition:all .4s ease-in-out;
 				opacity: 0;
 				visibility: hidden;
 			}
@@ -467,19 +467,20 @@ header.fadein {
 					line-height: 1.1;
 			}
 			span.white_line {
-				width:100%;
-				
+				width:0;
+				left:-500px;
+				position: relative;
 				height:1px;
 				background:#fff;
 				display: block;
 				margin:10px 0;
-				transition:all .3s ease;
+				transition:all .4s ease-in-out;
+				
 			}
-			span.white_line:hover {
+			span.white_line.slide_out {
 				width:100%;
-				height:1px;
-				background:#fff;
-				display: block;
+				transition:all .4s ease-in-out;
+				left:0;
 			}
 			p.click_description {
 				font-family: $proxreg;

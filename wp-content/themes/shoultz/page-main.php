@@ -126,9 +126,15 @@ get_header(); ?>
 					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon3.svg"/>
 						
 						<div class="inner_singlecontent_wrapper">
+							
+							<div class="single_box_slide_up">
 						
-							<span class="large_header">We Assume<br/>all the Risk</span><!-- large_header -->
-							<p>Proven litigation skills with a record of over 200 jury trials</p>
+								<span class="large_header">We Assume<br/>all the Risk</span><!-- large_header -->
+								<span class="white_line"></span><!-- white_line -->
+								
+								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+							
+							</div><!-- single_box_slide_up -->
 					
 						</div><!-- inner_singlecontent_wrapper -->
 					
@@ -163,9 +169,15 @@ get_header(); ?>
 					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon2.svg"/>
 						
 						<div class="inner_singlecontent_wrapper">
+							
+							<div class="single_box_slide_up">
 						
-							<span class="large_header">Access to a<br/>Large Network</span><!-- large_header -->
-							<p>Proven litigation skills with a record of over 200 jury trials</p>
+								<span class="large_header">Access to a<br/>Large Network</span><!-- large_header -->
+								<span class="white_line"></span><!-- white_line -->
+								
+								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+							
+							</div><!-- single_box_slide_up -->
 					
 						</div><!-- inner_singlecontent_wrapper -->
 					
@@ -198,9 +210,15 @@ get_header(); ?>
 					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon4.svg"/>
 						
 						<div class="inner_singlecontent_wrapper">
+							
+							<div class="single_box_slide_up">
 						
-							<span class="large_header">Energy & Passion<br/>For Each Case</span><!-- large_header -->
-							<p>Proven litigation skills with a record of over 200 jury trials</p>
+								<span class="large_header">Energy & Passion<br/>For Each Case</span><!-- large_header -->
+								<span class="white_line"></span><!-- white_line -->
+								
+								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+							
+							</div><!-- single_box_slide_up -->
 					
 						</div><!-- inner_singlecontent_wrapper -->
 					

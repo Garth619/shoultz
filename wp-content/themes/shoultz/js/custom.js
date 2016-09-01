@@ -63,6 +63,14 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 		
 		jQuery(this).next(".single_box_click_content").find(".single_box_slide_up").addClass('slide');
 		
+			jQuery(this).next('.single_box_click_content').find('span.white_line').delay(200).queue(function(){
+	
+			jQuery(this).addClass('slide_out').clearQueue();
+
+		});
+
+		
+		
 		
 		
 		
@@ -73,9 +81,11 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 		
 		jQuery(this).removeClass("open");
 		
+		jQuery(this).find(".single_box_slide_up").removeClass('slide');
 		
-		jQuery(".single_box_click_content").find(".single_box_slide_up").removeClass('slide');
-		
+		jQuery(this).find('span.white_line').removeClass('slide_out');
+	
+					
 	});
 	
 	
