@@ -387,6 +387,12 @@ header.fadein {
 /* What We Do */
 
 
+
+.single_box_wrapper.desktop {
+	display:none;
+}
+
+
 .what_we_do {
 	.single_box_wrapper {
 		position: relative;
@@ -2093,12 +2099,13 @@ body.page-template-page-thankyou {
 				max-width:300px;
 				span.large_header {
 					font-size:31px;
-					padding: 103px 0 18px;
+					padding: 99px 0 0px;
+					margin-bottom:9px;
 				}
-				p {
+				p.click_description {
 					font-size:17px;
-					padding-top:18px;
-// 					border-top:2px #fff solid;
+					margin-top:16px;
+
 				}
 		}
 		}
@@ -2113,28 +2120,28 @@ body.page-template-page-thankyou {
 }
 
 
-.four_column:nth-of-type(1) .pic_box:nth-of-type(1) {
-	background:url(images/shoultz_sp_image1.jpg) top left no-repeat;
-	background-size:cover;
-}
-
-
-.four_column:nth-of-type(1) .pic_box:nth-of-type(2) {
+.pic_box_one {
 	background:url(images/shoultz_sp_image2.jpg) top left no-repeat;
 	background-size:cover;
-
 }
 
 
-.four_column:nth-of-type(2) .pic_box:nth-of-type(1) {
-	background:url(images/shoultz_sp_image3.jpg) top left no-repeat;
+.pic_box_two {
+	background:url(images/shoultz_sp_image1.jpg) top left no-repeat;
 	background-size:cover;
 
 }
 
 
-.four_column:nth-of-type(2) .pic_box:nth-of-type(2) {
+.pic_box_three {
 	background:url(images/shoultz_sp_image4.jpg) top left no-repeat;
+	background-size:cover;
+
+}
+
+
+.pic_box_four {
+	background:url(images/shoultz_sp_image3.jpg) top left no-repeat;
 	background-size:cover;
 
 }
@@ -3335,6 +3342,18 @@ img.inner_video_img {
 
 /* What We do */
 
+
+
+.single_box_wrapper.mobile {
+	display: none;
+}
+
+
+.single_box_wrapper.desktop {
+	display:block;
+}
+
+
 .four_column {
 	width:50%;
 	float:left;
@@ -3372,7 +3391,7 @@ img.inner_video_img {
 			.inner_singlecontent_wrapper {
 				
 				span.large_header {
-					padding: 154px 0 18px;
+					padding: 150px 0 0px;
 					font-size:25px;
 			}
 			p {
@@ -4014,6 +4033,8 @@ body.page-template-page-caseresults {
 
 
 /* What We do */
+
+
 
 
 

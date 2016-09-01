@@ -57,7 +57,10 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 // What We Do 
 	
 	
-	jQuery(".single_box").click(function() {
+	
+	// Click on Mobile
+	
+	jQuery(".single_box_wrapper.mobile .single_box").click(function() {
 		
 		jQuery(this).next(".single_box_click_content").addClass("open");
 		
@@ -65,19 +68,14 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 		
 			jQuery(this).next('.single_box_click_content').find('span.white_line').delay(200).queue(function(){
 	
-			jQuery(this).addClass('slide_out').clearQueue();
+					jQuery(this).addClass('slide_out').clearQueue();
 
-		});
+			});
 
-		
-		
-		
-		
-		
 	});
 	
 	
-	jQuery(".single_box_click_content").click(function() {
+	jQuery(".single_box_wrapper.mobile .single_box_click_content").click(function() {
 		
 		jQuery(this).removeClass("open");
 		
@@ -87,6 +85,36 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 	
 					
 	});
+	
+	
+	// Hover on Desktop
+	
+	jQuery(".single_box_wrapper.desktop .single_box").mouseenter(function() {
+		
+		jQuery(this).next(".single_box_click_content").addClass("open");
+		
+		jQuery(this).next(".single_box_click_content").find(".single_box_slide_up").addClass('slide');
+		
+			jQuery(this).next('.single_box_click_content').find('span.white_line').delay(200).queue(function(){
+	
+					jQuery(this).addClass('slide_out').clearQueue();
+
+			});
+
+	});
+	
+	
+	jQuery(".single_box_wrapper.desktop .single_box_click_content").mouseleave(function() {
+		
+		jQuery(this).removeClass("open");
+		
+		jQuery(this).find(".single_box_slide_up").removeClass('slide');
+		
+		jQuery(this).find('span.white_line').removeClass('slide_out');
+	
+					
+	});
+	
 	
 	
 

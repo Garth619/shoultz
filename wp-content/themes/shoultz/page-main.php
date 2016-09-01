@@ -64,7 +64,7 @@ get_header(); ?>
 				<div class="two_column">
 				
 				
-				<div class="single_box_wrapper">
+				<div class="single_box_wrapper mobile">
 				
 					<div class="single_box">
 						
@@ -98,7 +98,44 @@ get_header(); ?>
 				
 				
 				
-				<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+				<div class="single_box_wrapper desktop">
+				
+					<div class="single_box">
+						
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon1.svg"/>
+						<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE<div class="arrow_right"></div></span><!-- large_header -->
+						
+					</div><!-- single_box -->
+					
+					
+					<div class="single_box_click_content">
+						
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon1.svg"/>
+							
+							<div class="inner_singlecontent_wrapper">
+							
+								<div class="single_box_slide_up">
+								
+									<span class="large_header">SIGNIFICANT LITIGATION <br/>& TRIAL EXPERIENCE</span><!-- large_header -->
+								
+									<span class="white_line"></span><!-- white_line -->
+								
+									<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								
+								</div><!-- single_box_slide_up -->
+						
+							</div><!-- inner_singlecontent_wrapper -->
+						
+					</div><!-- single_box_click_content -->
+				
+				</div><!-- single_box_wrapper -->
+				
+				
+				
+				
+				
+				
+				<div class="single_box_wrapper pic_box pic_box_one"></div><!-- single_box_wrapper -->
 				
 				
 				</div><!-- two_column -->
@@ -107,11 +144,43 @@ get_header(); ?>
 			<div class="two_column">
 			
 			
-			<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+			<div class="single_box_wrapper pic_box pic_box_two"></div><!-- single_box_wrapper -->
 			
 			
 			
-			<div class="single_box_wrapper">
+			<div class="single_box_wrapper mobile">
+			
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon3.svg"/>
+					<span class="large_header">We Assume<br/>all the Risk<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
+				
+				
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon3.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+							
+							<div class="single_box_slide_up">
+						
+								<span class="large_header">We Assume<br/>all the Risk</span><!-- large_header -->
+								<span class="white_line"></span><!-- white_line -->
+								
+								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+							
+							</div><!-- single_box_slide_up -->
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
+			
+			</div><!-- single_box_wrapper -->
+			
+			
+			<div class="single_box_wrapper desktop">
 			
 				<div class="single_box">
 					
@@ -154,7 +223,7 @@ get_header(); ?>
 			<div class="two_column">
 			
 			
-			<div class="single_box_wrapper">
+			<div class="single_box_wrapper mobile">
 			
 				<div class="single_box">
 					
@@ -186,16 +255,48 @@ get_header(); ?>
 			</div><!-- single_box_wrapper -->
 			
 			
-			<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+			<div class="single_box_wrapper desktop">
+			
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon2.svg"/>
+					<span class="large_header">Access to a<br/>Large Network<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
+				
+				
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon2.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+							
+							<div class="single_box_slide_up">
+						
+								<span class="large_header">Access to a<br/>Large Network</span><!-- large_header -->
+								<span class="white_line"></span><!-- white_line -->
+								
+								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+							
+							</div><!-- single_box_slide_up -->
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
+			
+			</div><!-- single_box_wrapper -->
+			
+			
+			<div class="single_box_wrapper pic_box pic_box_three"></div><!-- single_box_wrapper -->
 			
 			</div><!-- two_column -->
 			
 			<div class="two_column">
 				
 				
-				<div class="single_box_wrapper pic_box"></div><!-- single_box_wrapper -->
+				<div class="single_box_wrapper pic_box pic_box_four"></div><!-- single_box_wrapper -->
 			
-			<div class="single_box_wrapper">
+			<div class="single_box_wrapper mobile">
 			
 				<div class="single_box">
 					
@@ -225,6 +326,39 @@ get_header(); ?>
 				</div><!-- single_box_click_content -->
 			
 			</div><!-- single_box_wrapper -->
+			
+				<div class="single_box_wrapper desktop">
+			
+				<div class="single_box">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/shoultz_sp_icon4.svg"/>
+					<span class="large_header">Energy & Passion<br/>For Each Case<div class="arrow_right"></div></span><!-- large_header -->
+					
+				</div><!-- single_box -->
+				
+				
+				<div class="single_box_click_content">
+					
+					<img class="icon" src="<?php bloginfo('template_directory');?>/images/icon4.svg"/>
+						
+						<div class="inner_singlecontent_wrapper">
+							
+							<div class="single_box_slide_up">
+						
+								<span class="large_header">Energy & Passion<br/>For Each Case</span><!-- large_header -->
+								<span class="white_line"></span><!-- white_line -->
+								
+								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+							
+							</div><!-- single_box_slide_up -->
+					
+						</div><!-- inner_singlecontent_wrapper -->
+					
+				</div><!-- single_box_click_content -->
+			
+			</div><!-- single_box_wrapper -->
+			
+			
 			
 		</div><!-- two_column -->
 			
