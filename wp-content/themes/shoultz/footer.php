@@ -17,7 +17,7 @@
 					<div class="address_wrapper">
 			
 						<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
-						<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+						<a class="get_directions" href="https://www.google.com/maps/place/340+Jackson+St,+Dallas,+TX+75202/data=!4m2!3m1!1s0x864e9916eacbb4eb:0xb27a62088d6e082e?sa=X&ved=0ahUKEwjD7OCKmu_OAhVJ7mMKHYMcBrMQ8gEIHTAA" target="_blank">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
 			
 					</div><!-- address_wrapper -->
 			
@@ -69,7 +69,7 @@
 					<div class="address_wrapper">
 			
 						<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
-						<a class="get_directions" href="">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+						<a class="get_directions" href="https://www.google.com/maps/place/340+Jackson+St,+Dallas,+TX+75202/data=!4m2!3m1!1s0x864e9916eacbb4eb:0xb27a62088d6e082e?sa=X&ved=0ahUKEwjD7OCKmu_OAhVJ7mMKHYMcBrMQ8gEIHTAA" target="_blank">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
 			
 					</div><!-- address_wrapper -->
 			
@@ -114,7 +114,7 @@
 	
 		<div class="social_icons_wrapper">
 		
-			<a href="http://facebook.com" target="_blank">
+			<a href="https://www.facebook.com/Law-Office-of-Stephen-W-Shoultz-240549859456321/?ref=page_internal" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook_hover.png"/>
 			</a>				
@@ -123,7 +123,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="" target="_blank">
+			<a href="https://twitter.com/stephenshoultz" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter_hover.png"/>
 			</a>				
@@ -132,7 +132,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="" target="_blank">
+			<a href="https://www.linkedin.com/in/steve-shoultz-2a956147" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin_hover.png"/>
 			</a>				
@@ -141,7 +141,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="" target="_blank">
+			<a href="https://plus.google.com/113654780362037593871/about" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google_hover.png"/>
 			</a>				
@@ -150,7 +150,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="" target="_blank">
+			<a href="https://www.yelp.com/biz/law-office-of-stephen-w-shoultz-dallas" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp_hover.png"/>
 			</a>				
