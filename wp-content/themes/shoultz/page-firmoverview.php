@@ -15,7 +15,7 @@ get_header(); ?>
 	
 	<img class="about_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_firmoverview_about.svg"/>
 	
-	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">PERSONALIZED ATTENTION & INDIVIDUALIZED&nbsp;APPROACH</span><!-- large_header -->
+	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">PERSONALIZED ATTENTION & INDIVIDUALIZED APPROACH</span><!-- large_header -->
 	
 	
 	<div id="content" class="wow fadeInUp" data-wow-delay=".25s">

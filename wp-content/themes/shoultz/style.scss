@@ -90,6 +90,10 @@ header, section, nav, footer {
 	
 }
 
+.mybutton:hover {
+	text-decoration: none;
+}
+
 .gold {
 	color:$gold;
 }
@@ -244,7 +248,7 @@ header.fadein {
 .mobile_dropdown.mobile_open {
 	opacity: 1;
 	visibility: visible;
-	height:100%;
+	height:120%;
 }
 
 .mobile_dropdown {
@@ -597,8 +601,8 @@ header.fadein {
 					background-size:cover;
 					transition:all .2s ease-in-out;
 					span.rotate {
-						 bottom: 113px;
-						 left: -38px;
+						bottom: 119px;
+						left: -40px;
 					}
 				}
 				.init_box.second {
@@ -616,7 +620,7 @@ header.fadein {
 					transition:all .2s ease-in-out;
 					span.rotate {
 						bottom: 108px;
-						left: -21px;
+						left: -29px;
 					}
 				}
 				.init_box.fourth {
@@ -625,7 +629,7 @@ header.fadein {
 					transition:all .2s ease-in-out;
 					span.rotate {
 						bottom: 117px;
-    left: -33px;
+						left: -44px;
 					}
 				}
 				.init_box {
@@ -651,7 +655,7 @@ header.fadein {
 						font-family: $unilight;
 						color:$gold;
 						text-transform: uppercase;
-						font-size:17px;
+						font-size:20px;
 						letter-spacing: 2.5px;
 						margin-top:3px;
 						transition:all .2s ease-in-out;
@@ -664,7 +668,7 @@ header.fadein {
 						left: -30px;
 						font-family: $unilight;
 						text-transform: uppercase;
-						font-size:15px;
+						font-size:19px;
 						letter-spacing:3px;
 						display: block;
 						-webkit-transform: rotate(-90deg);
@@ -720,7 +724,7 @@ header.fadein {
 						}
 						p {
 							font-family: $proxreg;
-							font-size:14px;
+							font-size:16px;
 							padding:0 45px;
 							margin-top:35px;
 						}
@@ -2670,9 +2674,6 @@ body.page-template-page-caseresults {
 }
 
 
-
-
-
 .social_icons_wrapper {
 	width:62px;
 	margin:80px 9px 60px;
@@ -4244,30 +4245,29 @@ body.page-template-page-caseresults {
 				
 				.init_box.first {
 					span.rotate {
-						 bottom: 149px;
-						 left: -39px;
-						 
+						bottom: 155px;
+						left: -53px;
 					}
 				}
 				
 				.init_box.second {
 					span.rotate {
-						bottom: 117px;
-						left: -63px;
+						bottom: 148px;
+						left: -38px;
 					}
 				}
 				
 				.init_box.third {
 					span.rotate {
-						bottom: 191px;
-						left: -135px;
+						bottom: 153px;
+						left: -23px;
 					}
 				}
 				
 				.init_box.fourth {
 					span.rotate {
-						bottom: 126px;
-						left: -67px;
+						bottom: 161px;
+						left: -41px;
 					}
 				}
 				
