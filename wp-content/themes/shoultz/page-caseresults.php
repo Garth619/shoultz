@@ -15,21 +15,29 @@ get_header(); ?>
 	
 	<img class="inner_caseresults_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_results_successful.svg"/>
 	
-	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s">case Results</span><!-- large_header -->
+	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s"><?php the_title();?></span><!-- large_header -->
 	
 	
-		<div class="case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
+		
 				
 				
+				
+			<?php if(get_field('case_results')): ?>
+			
+			<div class="case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
+ 
+				
+				<?php while(has_sub_field('case_results')): ?>
+ 
 				<div class="single_case_wrapper">
 				
 					<div class="single_case">
 					
 						<div class="case_content">
 						
-							<span class="case_header">$1,000,000</span><!-- large_header -->
+							<span class="case_header"><?php the_sub_field('money_amount');?></span><!-- large_header -->
 						
-							<span class="case_sub_header">CAR ACCiDENT & DEATH</span><!-- case_sub_header -->
+							<span class="case_sub_header"><?php the_sub_field('sub_header');?></span><!-- case_sub_header -->
 					
 						</div><!-- case_content -->
 					
@@ -39,165 +47,25 @@ get_header(); ?>
 					
 					<div class="case_content">
 						
-						<span class="click_header">settlement</span><!-- large_header -->
-						<span class="click_content">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
+						<span class="click_header"><?php the_sub_field('gold_box_title');?></span><!-- large_header -->
+						<span class="click_content"><?php the_sub_field('gold_box_content');?></span>
 						
 					</div><!-- case_content -->
 					
 				</div><!-- single_case_click -->
 				
 			</div><!-- single_case_wrapper -->
+							
+				
+			<?php endwhile; ?>
 			
+			</div><!-- case_results_wrapper -->
+ 
 			
-			<div class="single_case_wrapper">
+		<?php endif; ?>
 				
-					<div class="single_case">
-					
-						<div class="case_content">
-						
-							<span class="case_header">$1,000,000</span><!-- large_header -->
-						
-							<span class="case_sub_header">CAR ACCiDENT & DEATH</span><!-- case_sub_header -->
-					
-						</div><!-- case_content -->
-					
-						</div><!-- single_case -->
 				
-					<div class="single_case_click">
-					
-					<div class="case_content">
-						
-						<span class="click_header">settlement</span><!-- large_header -->
-						<span class="click_content">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
-						
-					</div><!-- case_content -->
-					
-				</div><!-- single_case_click -->
-				
-			</div><!-- single_case_wrapper -->
-			
-			
-			<div class="single_case_wrapper">
-				
-					<div class="single_case">
-					
-						<div class="case_content">
-						
-							<span class="case_header">$1,000,000</span><!-- large_header -->
-						
-							<span class="case_sub_header">CAR ACCiDENT & DEATH</span><!-- case_sub_header -->
-					
-						</div><!-- case_content -->
-					
-						</div><!-- single_case -->
-				
-					<div class="single_case_click">
-					
-					<div class="case_content">
-						
-						<span class="click_header">settlement</span><!-- large_header -->
-						<span class="click_content">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
-						
-					</div><!-- case_content -->
-					
-				</div><!-- single_case_click -->
-				
-			</div><!-- single_case_wrapper -->
-			
-			
-			<div class="single_case_wrapper">
-				
-					<div class="single_case">
-					
-						<div class="case_content">
-						
-							<span class="case_header">$1,000,000</span><!-- large_header -->
-						
-							<span class="case_sub_header">CAR ACCiDENT & DEATH</span><!-- case_sub_header -->
-					
-						</div><!-- case_content -->
-					
-						</div><!-- single_case -->
-				
-					<div class="single_case_click">
-					
-					<div class="case_content">
-						
-						<span class="click_header">settlement</span><!-- large_header -->
-						<span class="click_content">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
-						
-					</div><!-- case_content -->
-					
-				</div><!-- single_case_click -->
-				
-			</div><!-- single_case_wrapper -->
-			
-			
-			<div class="single_case_wrapper">
-				
-					<div class="single_case">
-					
-						<div class="case_content">
-						
-							<span class="case_header">$1,000,000</span><!-- large_header -->
-						
-							<span class="case_sub_header">CAR ACCiDENT & DEATH</span><!-- case_sub_header -->
-					
-						</div><!-- case_content -->
-					
-						</div><!-- single_case -->
-				
-					<div class="single_case_click">
-					
-					<div class="case_content">
-						
-						<span class="click_header">settlement</span><!-- large_header -->
-						<span class="click_content">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
-						
-					</div><!-- case_content -->
-					
-				</div><!-- single_case_click -->
-				
-			</div><!-- single_case_wrapper -->
-			
-			
-			<div class="single_case_wrapper">
-				
-					<div class="single_case">
-					
-						<div class="case_content">
-						
-							<span class="case_header">$1,000,000</span><!-- large_header -->
-						
-							<span class="case_sub_header">CAR ACCiDENT & DEATH</span><!-- case_sub_header -->
-					
-						</div><!-- case_content -->
-					
-						</div><!-- single_case -->
-				
-					<div class="single_case_click">
-					
-					<div class="case_content">
-						
-						<span class="click_header">settlement</span><!-- large_header -->
-						<span class="click_content">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
-						
-					</div><!-- case_content -->
-					
-				</div><!-- single_case_click -->
-				
-			</div><!-- single_case_wrapper -->
-			
-		</div><!-- case_results_wrapper -->
-			
-				     
-	
 
-
-	
-	
-
-	
 		
 </div><!-- main -->
 

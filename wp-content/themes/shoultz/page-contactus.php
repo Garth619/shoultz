@@ -24,25 +24,25 @@ get_header(); ?>
 			
 			<span class="title">Address</span><!-- title -->
 			
-			<span class="contact_content">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
+			<span class="contact_content"><?php the_field('address');?></span>
 			
 			<span class="title">Phone</span><!-- title -->
 			
-			<span class="contact_content">214.960.1551</span>
+			<a href="tel:<?php the_field('phone');?>" class="contact_content"><?php the_field('phone');?></a>
 			
 			<span class="title">Email</span><!-- title -->
 			
-			<span class="contact_content">email@email.com</span>
+			<a href="mailto:<?php the_field('email');?>" class="contact_content"><?php the_field('email');?></a>
 		
 		</div><!-- contact_wrapper -->
 		
 		<div class="map wow fadeInDown" data-wow-delay=".25s">
 			
 		
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.541530131915!2d-96.80551344914085!3d32.77789769115421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e991766ad75e1%3A0x9ba9a4de594a454b!2sLaw+Office+of+Stephen+W.+Shoultz!5e0!3m2!1sen!2sus!4v1471883636983" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<?php the_field('map_iframe');?>
 			
 		
-			<a href="https://www.google.com/maps/place/Law+Office+of+Stephen+W.+Shoultz/@32.7778977,-96.8055134,17z/data=!4m5!3m4!1s0x864e991766ad75e1:0x9ba9a4de594a454b!8m2!3d32.7778932!4d-96.8033194?hl=en-US" target="_blank" class="get_directions_bar">Get Directions</a><!-- get_directions_bar -->
+			<a href="<?php the_field('map_get_direction_url');?>" target="_blank" class="get_directions_bar">Get Directions</a><!-- get_directions_bar -->
 		
 		
 		</div><!-- map -->

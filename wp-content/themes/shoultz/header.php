@@ -47,8 +47,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-			<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-
+		
 <header>
 	
 	<div class="inner_header">

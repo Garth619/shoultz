@@ -1,16 +1,5 @@
 <div id="sidebar">
 	
-	
-	<ul>
-		
-		<li><a href="">Test</a></li>
-		<li><a href="">Test</a></li>
-		<li><a href="">Test</a></li>
-		<li><a href="">Test</a></li>
-		<li><a href="">Test</a></li>
-		<li><a href="">Test</a></li>
-	
-	</ul>
-	
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'sidebar' ) ); ?>
 	
 </div><!-- sidebar -->

@@ -1413,6 +1413,9 @@ footer {
 			max-width: 100%;
 			height:auto;
 		}
+		.sidebar_wrap:last-of-type hr {
+			display: none;
+		}
 	}
 }
 
@@ -1535,6 +1538,13 @@ body.page-template-page-practiceareas {
 				width:100%;
 				float:none;
 				padding:0;
+				ul {
+					li {
+						background: none;
+						margin-bottom:0;
+						padding:0;
+					}
+				}
 			}
 		}
 	}
@@ -1543,7 +1553,7 @@ body.page-template-page-practiceareas {
 #content ul.practice_area {
 	color:#fff;
 	list-style: none;
-	margin:0 auto;
+	margin:0 auto !important;
 	text-align: center;
 	max-width:300px;
 	li {
@@ -1709,11 +1719,15 @@ body.page-template-page-contactus {
 				letter-spacing: 2.5px;
 				margin-bottom:5px;
 			}
-			span.contact_content {
+			.contact_content {
 				font-family: $proxreg;
 				font-size:18px;
 				margin-bottom:15px;
 				letter-spacing: 1.6px;
+				display: block;
+				&:hover {
+					text-decoration: none;
+				}
 			}
 		}
 		.map {
@@ -3146,6 +3160,7 @@ img.strong {
 	overflow: hidden;
 	h1,h2 {
 		text-align: left;
+		text-transform: uppercase;
 	}
 	
 	.bio_sidebar {
@@ -3210,6 +3225,9 @@ body.page-template-page-contactus {
 				text-align: left;
 				span.large_header {
 					margin-top:-5px;
+				}
+				a {
+					
 				}
 			}
 			.map {
@@ -3874,6 +3892,7 @@ body.page-template-default {
 						text-transform: uppercase;
 						display: block;
 						padding:25px 0;
+						transition:all .3s ease-in-out;
 						&:hover {
 							color:$gold;
 						}

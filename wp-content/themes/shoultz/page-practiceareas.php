@@ -24,18 +24,26 @@ get_header(); ?>
 		<div id="container">
 			
 			
-			<ul class="practice_area">
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-				<li><a href="">Practice Area</a></li>
-			</ul><!-- practice_area -->
+			<?php if(get_field('practice_areas')): ?>
+ 
+				<ul class="practice_area">
+				
+				<?php while(has_sub_field('practice_areas')): ?>
+ 
+				
+					<li>
+						<a href="<?php the_sub_field('link');?>"><?php the_sub_field('title');?></a>
+					</li>
+				
+				
+				<?php endwhile; ?>
+ 
+				</ul>
+			
+			<?php endif; ?>
+
 			
 			
-				     
 		</div><!-- container -->
 
 

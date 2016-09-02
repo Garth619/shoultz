@@ -23,78 +23,49 @@ get_header(); ?>
 		
 		<div id="container" class="wow fadeInUp" data-wow-delay=".25s">
 			
-			<div class="single_test_wrapper">
-					
-					<div class="stars_wrapper">
-						
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-					
-					</div><!-- stars_wrapper -->
-					
-					<span class="test_title">AN ATTORNEY THAT TRULY CARES ABOUT HIS&nbsp;CLIENTS</span>
-					
-					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done&nbsp;Steve.</span>
-					
-					
-					<span class="test_name">Debbie - avvo</span>
-					
-				</div><!-- single_test_wrapper -->
-				
-				
-				<div class="single_test_wrapper">
-					
-					<div class="stars_wrapper">
-						
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-					
-					</div><!-- stars_wrapper -->
-					
-					<span class="test_title">AN ATTORNEY THAT TRULY CARES ABOUT HIS&nbsp;CLIENTS</span>
-					
-					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done&nbsp;Steve.</span>
-					
-					
-					<span class="test_name">Debbie - avvo</span>
-					
-				</div><!-- single_test_wrapper -->
-				
-				
-				<div class="single_test_wrapper">
-					
-					<div class="stars_wrapper">
-						
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-					
-					</div><!-- stars_wrapper -->
-					
-					<span class="test_title">AN ATTORNEY THAT TRULY CARES ABOUT HIS&nbsp;CLIENTS</span>
-					
-					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done&nbsp;Steve.</span>
-					
-					
-					<span class="test_name">Debbie - avvo</span>
-					
-				</div><!-- single_test_wrapper -->
+			
+			<?php if(get_field('testimonials')): ?>
 			
 			
-				     
+ 
+				
+				<?php while(has_sub_field('testimonials')): ?>
+				
+				
+ 
+				
+					<div class="single_test_wrapper">
+					
+					<div class="stars_wrapper">
+						
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
+					
+					</div><!-- stars_wrapper -->
+					
+					<span class="test_title"><?php the_sub_field('testimonial_title');?></span>
+					
+					<span class="test_content"><?php the_sub_field('testimonial_content');?></span>
+					
+					
+					<span class="test_name"><?php the_sub_field('testimonial_name');?></span>
+					
+				</div><!-- single_test_wrapper -->
+							
+				
+				<?php endwhile; ?>
+			
+			
+ 
+			
+		<?php endif; ?>
+			
+
 		</div><!-- container -->
 
-
-	
-	
 	</div><!-- content -->
 	
 		
