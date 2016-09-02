@@ -38,7 +38,7 @@ get_header(); ?>
 				</span>
 				
 					
-					<span class="main_banner_header">Over <span class="thirty_five">35 years</span> of<br/>legal experience</span>
+					<span class="main_banner_header">Over <span class="thirty_five"><span class="thirty_five_spacing">35</span> years</span> of<br/>legal experience</span>
 					<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protext your rights to fair&nbsp;compensation.</span>
 				
 					<a class="mybutton" href="#free-consultation">CLICK HERE FOR A FREE CONSULTATION</a>

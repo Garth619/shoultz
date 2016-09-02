@@ -35,7 +35,7 @@ get_header(); ?>
 					
 						<h2><?php the_sub_field('sidebar_title');?></h2>
 			
-						<p><?php the_sub_field('sidebar_information');?></p>
+						<?php the_sub_field('sidebar_information');?>
 			
 					<hr/>
 					
