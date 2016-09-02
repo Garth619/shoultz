@@ -10,7 +10,7 @@ Author URI: https://ilawyermarketing.com
 
 /* Fonts */
 
-$unilight: 'Univers LT W01_49 Light Ult Cn';
+
 $uniultra: "Univers LT W01_59 Ult Cond";
 $unibold:"Univers LT W01_67 Bold_1476016";
 $unibolditalic:"Univers LT W01_67 Bold Cn Obl";
@@ -198,11 +198,11 @@ header.fadein {
 	overflow: hidden;
 	cursor: pointer;
 	span {
-		font-family:$uniultra;
+		font-family:$unibold;
 		color:#fff;
 		text-transform: uppercase;
 		font-size:15px;
-		letter-spacing: 1.5px;
+		letter-spacing: 1px;
 		float:left;
 		margin-right: 8px;
 		padding-top:1px;
@@ -275,7 +275,7 @@ header.fadein {
 			li {
 				color:$black;
 				text-transform: uppercase;
-				font-size:20px;
+				font-size:23px;
 				letter-spacing: 2px;
 				cursor:pointer;
 				
@@ -412,7 +412,7 @@ header.fadein {
 		}
 		span.large_header {
 			display: block;
-			font-family: $unilight;
+			font-family: $uniultra;
 			font-size:25px;
 			font-weight: 300;
 			letter-spacing: 3px;
@@ -604,8 +604,8 @@ header.fadein {
 					background-size:cover;
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 119px;
-						left: -40px;
+						bottom: 131px;
+						left: -63px;
 					}
 				}
 				.init_box.second {
@@ -613,8 +613,8 @@ header.fadein {
 					background-size:cover;
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 101px;
-						left: -26px;
+						bottom: 115px;
+						left: -49px;
 					}
 				}
 				.init_box.third {
@@ -622,8 +622,8 @@ header.fadein {
 					background-size:cover;
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 108px;
-						left: -29px;
+						bottom: 117px;
+						left: -47px;
 					}
 				}
 				.init_box.fourth {
@@ -631,8 +631,8 @@ header.fadein {
 					background-size:cover;
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 117px;
-						left: -44px;
+						bottom: 128px;
+						left: -56px;
 					}
 				}
 				.init_box {
@@ -648,14 +648,14 @@ header.fadein {
 					span.large_header {
 						font-family: $abril;
 						font-size:38px;
-						letter-spacing: 6px;
+						letter-spacing: 4px;
 						padding-top:65px;
 						transition:all .2s ease-in-out;
 						position: relative;
 						top:0;
 					}
 					span.sub_header {
-						font-family: $unilight;
+						font-family: $uniultra;
 						color:$gold;
 						text-transform: uppercase;
 						font-size:25px;
@@ -667,9 +667,11 @@ header.fadein {
 					}
 					span.rotate {
 						position: absolute;
+/*
 						bottom:103px;
 						left: -30px;
-						font-family: $unilight;
+*/
+						font-family: $uniultra;
 						text-transform: uppercase;
 						font-size:19px;
 						letter-spacing:3px;
@@ -710,11 +712,11 @@ header.fadein {
 						span.large_header {
 							font-family: $abril;
 							font-size:37px;
-							letter-spacing: 6px;
+							letter-spacing: 4px;
 							display: block;
 						}
 						span.sub_header {
-							font-family: $unilight;
+							font-family: $uniultra;
 							color:$black;
 							text-transform: uppercase;
 							letter-spacing: 3px;
@@ -834,8 +836,8 @@ header.fadein {
 		}
 		span.name_title {
 			color: $gold;
-			font-family: $unilight;
-			font-size:22px;
+			font-family: $uniultra;
+			font-size:25px;
 			text-transform: uppercase;
 			letter-spacing: 3px;
 			margin-top:20px;
@@ -846,7 +848,7 @@ header.fadein {
 			display: inline-block;
 			color:#fff;
 			font-family: $proxthin;
-			font-size:15px;
+			font-size:16px;
 			line-height:1.8;
 			margin-top:20px;
 		}
@@ -933,6 +935,7 @@ header.fadein {
 		.reasons_content {
 			font-family: $proxreg;
 			line-height: 1.9;
+			font-size:15px;
 		}
 	}
 }
@@ -1108,6 +1111,7 @@ footer {
 	padding:0 20px;
 	text-align: center;
 	font-family: $proxreg;
+	overflow: hidden;
 }
 
 .request {
@@ -1128,7 +1132,7 @@ footer {
 		span.description {
 			color:$grey;
 			font-size:18px;
-			margin-top:20px;
+			margin-top:32px;
 			display: inline-block;
 			text-align: center;
 			line-height: 1.4;
@@ -1154,7 +1158,7 @@ footer {
 			a.get_directions {
 				color:$gold;
 				text-decoration: none;
-				font-family: $unilight;
+				font-family: $uniultra;
 				text-transform: uppercase;
 				font-size:26px;
 				letter-spacing: 2.5px;
@@ -1445,7 +1449,7 @@ footer {
 	h2 {
 		color: $gold;
 		text-transform: uppercase;
-		font-family: $unilight;
+		font-family: $uniultra;
 		font-weight: 300;
 		font-size:29px;
 		letter-spacing: 2.2px;
@@ -1507,13 +1511,13 @@ body.page-template-page-firmoverview {
 		color:$gold;
 		border-top:2px solid $grey;
 		border-bottom:2px solid $grey;
-		font-size:38px;
+		font-size:33px;
 		padding:30px 0;
-		font-family: $unilight;
+		font-family: $uniultra;
 		text-transform: uppercase;
 		display: inline-block;
 		text-align: center;
-		margin:50px 0;
+		margin: 100px 0 165px;
 		letter-spacing: 2px;
 	}
 	.logos {
@@ -1623,7 +1627,7 @@ body.page-template-page-testimonials {
 		}
 		span.test_title {
 			color:$gold;
-			font-family: $unilight;
+			font-family: $uniultra;
 			display: block;
 			font-size: 31px;
 			letter-spacing: 3px;
@@ -1677,7 +1681,7 @@ body.page-template-page-videocenter {
 	}
 	.video_title {
 		color:#fff;
-		font-family: $unilight;
+		font-family: $uniultra;
 		text-decoration: none;
 		font-size: 25px;
 		margin-top:10px;
@@ -1717,7 +1721,7 @@ body.page-template-page-contactus {
 			span.title {
 				color:$gold;
 				text-transform: uppercase;
-				font-family: $unilight;
+				font-family: $uniultra;
 				font-size:27px;
 				letter-spacing: 2.5px;
 				margin-bottom:5px;
@@ -1798,7 +1802,7 @@ body.page-template-page-caseresults {
 				}
 				span.case_sub_header {
 					text-transform: uppercase;
-					font-family: $unilight;
+					font-family: $uniultra;
 					font-size:23px;
 					letter-spacing: 2.5px;
 					border-top:2px solid $gold;
@@ -1831,7 +1835,7 @@ body.page-template-page-caseresults {
 					display: block;
 					color:$black;
 					font-size:32spx;
-					font-family:$unilight;
+					font-family:$uniultra;
 					text-transform: uppercase;
 					letter-spacing: 2.5px;
 					margin-bottom:15px;
@@ -1960,6 +1964,7 @@ body.page-template-page-thankyou {
 	padding: 24px 24px 24px 0;
 	span {
 		font-size:25px;
+		font-family: $uniultra;
 	}
 	.menu_bars {
 		width:25px;
@@ -2210,7 +2215,7 @@ body.page-template-page-thankyou {
 		color:$gold;
 		border-top:1px solid $grey;
 		border-bottom:1px solid $grey;
-		font-family: $unilight;
+		font-family: $uniultra;
 		font-size:32px;
 		text-transform: uppercase;
 		letter-spacing: 3px;
@@ -2768,165 +2773,6 @@ body.page-template-page-caseresults {
 @media screen and (min-width: 950px) {
 
 
-/* Header */
-
-
-header, header.black {
-	background: transparent;
-	position: absolute;
-	top:20px;
-	
-}
-
-
-.logo_wrapper {
-	float: left;
-  padding: 22px;
-  width: 25%;
-	.logo {
-		max-width: 100%;
-		height:auto;
-		display: block;
-	}
-}
-	
-.menu_wrapper {
-	display: none;
-}
-
-
-
-/* Mobile Nav */
-
-
-
-.mobile_dropdown {
-	display: none;
-}
-
-
-
-
-/* Desktop Nav */
-
-
-.desktop_nav {
-	display: block;
-  float: left;
-  width:63%;
-  margin-top: 25px;
-  text-align: center;
-	ul {
-		list-style: none;
-		li:hover > a {
-			color: $gold;
-		}
-		li:hover ul.sub-menu {
-			opacity: 1;
-			visibility: visible;
-		}
-		li.current-menu-item > a {
-			color:$gold;
-		}
-		li.current-menu-parent {
-			padding-bottom:20px;
-		}
-		li.menu-item-has-children:after {
-			content:"";
-			width: 0; 
-			height: 0; 
-			border-left:5px solid transparent;
-			border-right: 5px solid transparent;
-			border-top: 5px solid $gold;
-			position:relative;
-			top:-4px;
-			left:4px;
-			display: inline-block;
-		}
-		li.current-menu-parent > a {
-			color:$gold;
-		}
-		 li {
-			color:#fff;
-			font-family:$unilight;
-			text-transform: uppercase;
-			display: inline-block;
-			margin: 0 .8%;
-			letter-spacing: 2.8px;
-			position: relative;
-			font-size:16px;
-			cursor: pointer;
-			> a {
-				color:#fff;
-				text-decoration: none;
-				transition:all .2s ease-in-out;
-			
-			}
-			a:hover {
-				color:$gold;
-			}
-			ul.sub-menu {
-				background: #fff;
-				position: absolute;
-				padding: 15px 15px 5px;
-				min-width:200px;
-				top: 28px;
-				opacity: 0;
-				visibility: hidden;
-				transition:all .3s ease-in-out;
-				li.current-menu-item > a {
-					color:$gold;
-				}
-				li:first-of-type {
-					a {
-						padding-top:0;
-					}
-				}
-				li:last-of-type {
-					border-bottom:none;
-				}
-				li {
-					color:$black;
-					display: block;
-					text-align: left;
-					border-bottom:1px solid $gold;
-					a:hover {
-						color:$gold;
-					}
-					a {
-						color:$black;
-						display: block;
-						padding:10px 0;
-						transition:all .2s ease-in-out;
-						ul.sub-menu {
-							li {
-								a {
-									
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-.desktop_phone {
-	display: block;
-	float:left;
-	color:$gold;
-	text-decoration: none;
-	font-family: $unilight;
-	font-size:24px;
-	width:11%;
-	font-weight:300;
-	 margin-top: 19px;
-	 letter-spacing: 2px;
-	 &:hover {
-		 text-decoration: none;
-	 }
-}
 
 
 /* Main Page */
@@ -3040,6 +2886,7 @@ img.respect_img {
 	overflow: hidden;
 	margin: 0 auto;
 	max-width:690px;
+	height:160px;
 	.copyright {
 		font-size:13px;
 		float:left;
@@ -3301,7 +3148,174 @@ img.inner_video_img {
 } /* Media Query */
 
 
+@media screen and (min-width: 1100px) {
+	
+	
+	
+	/* Header */
 
+
+header, header.black {
+	background: transparent;
+	position: absolute;
+	top:20px;
+	
+}
+
+
+.logo_wrapper {
+	float: left;
+  padding: 22px;
+  width: 25%;
+	.logo {
+		max-width: 100%;
+		height:auto;
+		display: block;
+	}
+}
+	
+.menu_wrapper {
+	display: none;
+}
+
+
+
+/* Mobile Nav */
+
+
+
+.mobile_dropdown {
+	display: none;
+}
+
+
+
+
+/* Desktop Nav */
+
+
+.desktop_nav {
+	display: block;
+  float: left;
+  width:63%;
+  margin-top: 25px;
+  text-align: center;
+	ul {
+		list-style: none;
+		li:hover > a {
+			color: $gold;
+		}
+		li:hover ul.sub-menu {
+			opacity: 1;
+			visibility: visible;
+		}
+		li.current-menu-item > a {
+			color:$gold;
+		}
+		li.current-menu-parent {
+			padding-bottom:20px;
+		}
+		li.menu-item-has-children:after {
+			content:"";
+			width: 0; 
+			height: 0; 
+			border-left:5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid $gold;
+			position:relative;
+			top:-4px;
+			left:4px;
+			display: inline-block;
+		}
+		li.current-menu-parent > a {
+			color:$gold;
+		}
+		 li {
+			color:#fff;
+			font-family:$uniultra;
+			text-transform: uppercase;
+			display: inline-block;
+			margin: 0 .8%;
+			letter-spacing: 2.8px;
+			position: relative;
+			font-size:16px;
+			cursor: pointer;
+			> a {
+				color:#fff;
+				text-decoration: none;
+				transition:all .2s ease-in-out;
+			
+			}
+			a:hover {
+				color:$gold;
+			}
+			ul.sub-menu {
+				background: #fff;
+				position: absolute;
+				padding: 15px 15px 5px;
+				min-width:200px;
+				top: 28px;
+				opacity: 0;
+				visibility: hidden;
+				transition:all .3s ease-in-out;
+				li.current-menu-item > a {
+					color:$gold;
+				}
+				li:first-of-type {
+					a {
+						padding-top:0;
+					}
+				}
+				li:last-of-type {
+					border-bottom:none;
+				}
+				li {
+					color:$black;
+					display: block;
+					text-align: left;
+					border-bottom:1px solid $gold;
+					a:hover {
+						color:$gold;
+					}
+					a {
+						color:$black;
+						display: block;
+						padding:10px 0;
+						transition:all .2s ease-in-out;
+						ul.sub-menu {
+							li {
+								a {
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.desktop_phone {
+	display: block;
+	float:left;
+	color:$gold;
+	text-decoration: none;
+	font-family: $uniultra;
+	font-size:24px;
+	width:11%;
+	font-weight:300;
+	 margin-top: 19px;
+	 letter-spacing: 2px;
+	 &:hover {
+		 text-decoration: none;
+	 }
+}
+
+	
+	
+	
+}
 
 @media screen and (min-width: 1150px) {
 	
@@ -3732,7 +3746,7 @@ footer {
 
 
 .social_icons_wrapper {
- margin:80px 9px 150px;
+ margin:80px 9px 100px;
 }
 
 .copyright {
@@ -3885,7 +3899,7 @@ body.page-template-default {
 				margin:0;
 				li {
 					color:#fff;
-					font-family: $unilight;
+					font-family: $uniultra;
 					font-size:26px;
 					border-top:2px solid $greydark;
 					letter-spacing: 3px;
@@ -3991,7 +4005,7 @@ body.page-template-page-caseresults {
   padding-right:1%;
 	ul {
 		li {
-			font-size:19px;
+// 			font-size:19px;
 			margin: 0 1.2%;
 		}
 	}
@@ -4036,11 +4050,12 @@ body.page-template-page-caseresults {
 	
 .desktop_nav {
 	width:78%;
-	margin-top: 27px;
+	margin-top: 32px;
+	padding-right: 0;
 	ul {
 		li {
-			
-			margin: 0 1.9%;
+			font-size:17px;
+			margin: 0 1%;
 		}
 	}
 }
@@ -4516,14 +4531,14 @@ body.page-template-page-caseresults {
 }
 	
 .desktop_nav {
-	width:85%;
+	width:81%;
 	
 	ul {
 		li {
-			margin: 0 2.1%;
-			font-size:20px;
+			margin: 0 2%;
+font-size:20px;
 			a {
-				font-size:22px;
+// 				font-size:22px;
 			}
 		}
 	}
