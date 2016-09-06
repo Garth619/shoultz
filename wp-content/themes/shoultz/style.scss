@@ -1801,6 +1801,9 @@ body.page-template-page-caseresults {
 		.case_results_wrapper {
 			margin-top:75px;
 		}
+		.case_results_wrapper_desktop {
+			display: none;
+		}
 		.single_case_wrapper {
 			color:#fff;
 			margin-top:27px;
@@ -3965,6 +3968,13 @@ body.page-template-page-caseresults {
 		.case_results_wrapper {
 			overflow: hidden;
 		}
+		.case_results_wrapper_desktop {
+			display: block;
+		}
+		.case_results_wrapper_mobile {
+			display: none;
+		}
+
 		.single_case_wrapper {
 			width: 31.7%;
 			float:left;

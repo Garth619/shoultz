@@ -304,7 +304,9 @@ jQuery(function() {
 // Inner Page Case Results
 	
 	
-	jQuery('.single_case').click(function(){
+	// Mobile Click
+	
+	jQuery('.case_results_wrapper_mobile .single_case').click(function(){
 		
 		jQuery(this).next('.single_case_click').addClass('open');
 		
@@ -312,7 +314,24 @@ jQuery(function() {
 	});
 	
 	
-	jQuery('.single_case_click').click(function(){
+	jQuery('.case_results_wrapper_mobile .single_case_click').click(function(){
+		
+		jQuery(this).removeClass('open');
+		
+	});
+	
+	
+	// Desktop Hover
+	
+	jQuery('.case_results_wrapper_desktop .single_case').mouseenter(function(){
+		
+		jQuery(this).next('.single_case_click').addClass('open');
+		
+		
+	});
+	
+	
+	jQuery('.case_results_wrapper_desktop .single_case_click').mouseleave(function(){
 		
 		jQuery(this).removeClass('open');
 		

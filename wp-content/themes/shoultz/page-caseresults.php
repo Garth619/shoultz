@@ -24,7 +24,44 @@ get_header(); ?>
 				
 			<?php if(get_field('case_results')): ?>
 			
-			<div class="case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
+			<div class="case_results_wrapper_mobile case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
+ 
+				
+				<?php while(has_sub_field('case_results')): ?>
+ 
+				<div class="single_case_wrapper">
+				
+					<div class="single_case">
+					
+						<div class="case_content">
+						
+							<span class="case_header"><?php the_sub_field('money_amount');?></span><!-- large_header -->
+						
+							<span class="case_sub_header"><?php the_sub_field('sub_header');?></span><!-- case_sub_header -->
+					
+						</div><!-- case_content -->
+					
+						</div><!-- single_case -->
+				
+					<div class="single_case_click">
+					
+					<div class="case_content">
+						
+						<span class="click_header"><?php the_sub_field('gold_box_title');?></span><!-- large_header -->
+						<span class="click_content"><?php the_sub_field('gold_box_content');?></span>
+						
+					</div><!-- case_content -->
+					
+				</div><!-- single_case_click -->
+				
+			</div><!-- single_case_wrapper -->
+							
+				
+			<?php endwhile; ?>
+			
+			</div><!-- case_results_wrapper -->
+			
+			<div class="case_results_wrapper_desktop case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
  
 				
 				<?php while(has_sub_field('case_results')): ?>
