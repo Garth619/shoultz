@@ -32,36 +32,29 @@ get_header(); ?>
 	</div><!-- content -->
 	
 	<section class="logos">
+		
+
+		<?php if( have_rows('logos', 4) ): ?>
 			
 			<div class="logo_slider">
-				
+			
+			<?php while( have_rows('logos', 4) ): the_row(); ?>
+
 				<div class="single_logo">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_1.png"/>
+					<img src="<?php the_sub_field('logo_image');?>"/>
 					
 				</div><!-- single_logo -->
-				
-				<div class="single_logo">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_2.png"/>
-					
-				</div><!-- single_logo -->
-				
-				<div class="single_logo">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_1.png"/>
-					
-				</div><!-- single_logo -->
-				
-				<div class="single_logo">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_2.png"/>
-					
-				</div><!-- single_logo -->
+
+				<?php endwhile; ?>
 				
 			</div><!-- logo_slider -->
+					
+		<?php endif; ?>
+		
+
 			
-		</section><!-- logos -->
+	</section><!-- logos -->
 	
 </div><!-- main -->
 

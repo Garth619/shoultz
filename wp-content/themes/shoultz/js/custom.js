@@ -264,7 +264,8 @@ jQuery(function() {
 		slidesToScroll: 1,
 		arrows:true,
 		prevArrow: ".reasons_back",
-		nextArrow: ".reasons_next"
+		nextArrow: ".reasons_next",
+		adaptiveHeight: true
 	
 	});
 	

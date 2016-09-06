@@ -22925,6 +22925,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2016\/08\/shoultz_awards_1-150x75.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3382,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_1-150x75.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_1-150x75.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/shoultz_awards_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4268,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_1.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/shoultz_awards_2-150x75.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3304,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_2-150x75.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_2-150x75.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/08\/shoultz_awards_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5518,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_2.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/08\/shoultz_awards_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,

@@ -30,6 +30,10 @@ get_header(); ?>
 			
 			<a href="tel:<?php the_field('phone');?>" class="contact_content"><?php the_field('phone');?></a>
 			
+			<span class="title">Fax</span><!-- title -->
+			
+			<a href="tel:<?php the_field('phone');?>" class="contact_content"><?php the_field('fax');?></a>
+			
 			<span class="title">Email</span><!-- title -->
 			
 			<a href="mailto:<?php the_field('email');?>" class="contact_content"><?php the_field('email');?></a>

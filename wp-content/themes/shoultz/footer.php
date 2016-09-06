@@ -16,8 +16,8 @@
 				
 					<div class="address_wrapper">
 			
-						<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
-						<a class="get_directions" href="https://www.google.com/maps/place/340+Jackson+St,+Dallas,+TX+75202/data=!4m2!3m1!1s0x864e9916eacbb4eb:0xb27a62088d6e082e?sa=X&ved=0ahUKEwjD7OCKmu_OAhVJ7mMKHYMcBrMQ8gEIHTAA" target="_blank">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+						<span class="address"><?php the_field('address', 19); ?></span>
+						<a class="get_directions" href="<?php the_field('map_get_direction_url', 19); ?>" target="_blank">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
 			
 					</div><!-- address_wrapper -->
 			
@@ -26,21 +26,21 @@
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
-							<a class="office_info" href="tel:2149601551">214.960.1551</a>
+							<a class="office_info" href="tel:<?php the_field('phone', 19); ?>"><?php the_field('phone', 19); ?></a>
 				
 						</div><!-- single_office_info -->
 				
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-							<a class="office_info" href="tel:0000000000">000.000.0000</a>
+							<a class="office_info" href="tel:<?php the_field('fax', 19); ?>"><?php the_field('fax', 19); ?></a>
 				
 						</div><!-- single_office_info -->
 				
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-							<a class="office_info" href="tel:email@email.com">email@email.com</a>
+							<a class="office_info" href="mailto:<?php the_field('email', 19); ?>"><?php the_field('email', 19); ?></a>
 				
 						</div><!-- single_office_info -->
 				
@@ -68,8 +68,8 @@
 				
 					<div class="address_wrapper">
 			
-						<span class="address">900 Jackson Street, Suite 340<br/>Dallas, Texas 75202</span>
-						<a class="get_directions" href="https://www.google.com/maps/place/340+Jackson+St,+Dallas,+TX+75202/data=!4m2!3m1!1s0x864e9916eacbb4eb:0xb27a62088d6e082e?sa=X&ved=0ahUKEwjD7OCKmu_OAhVJ7mMKHYMcBrMQ8gEIHTAA" target="_blank">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
+						<span class="address"><?php the_field('address', 19); ?></span>
+						<a class="get_directions" href="<?php the_field('map_get_direction_url', 19); ?>" target="_blank">Get Directions <div class="arrow_right"></div></a><!-- get_directions -->
 			
 					</div><!-- address_wrapper -->
 			
@@ -78,21 +78,21 @@
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_phone.png"/>
-							<a class="office_info" href="tel:2149601551">214.960.1551</a>
+							<a class="office_info" href="tel:<?php the_field('phone', 19); ?>"><?php the_field('phone', 19); ?></a>
 				
 						</div><!-- single_office_info -->
 				
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-							<a class="office_info" href="tel:0000000000">000.000.0000</a>
+							<a class="office_info" href="tel:<?php the_field('fax', 19); ?>"><?php the_field('fax', 19); ?></a>
 				
 						</div><!-- single_office_info -->
 				
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-							<a class="office_info" href="tel:email@email.com">email@email.com</a>
+							<a class="office_info" href="tel:<?php the_field('email', 19); ?>"><?php the_field('email', 19); ?></a>
 				
 						</div><!-- single_office_info -->
 				
@@ -114,7 +114,7 @@
 	
 		<div class="social_icons_wrapper">
 		
-			<a href="https://www.facebook.com/Law-Office-of-Stephen-W-Shoultz-240549859456321/?ref=page_internal" target="_blank">
+			<a href="<?php the_field('fb_icon', 4); ?>" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_facebook_hover.png"/>
 			</a>				
@@ -123,7 +123,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="https://twitter.com/stephenshoultz" target="_blank">
+			<a href="<?php the_field('twitter_icon', 4); ?>" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_twitter_hover.png"/>
 			</a>				
@@ -132,7 +132,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="https://www.linkedin.com/in/steve-shoultz-2a956147" target="_blank">
+			<a href="<?php the_field('linkedin_icon', 4); ?>" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_linkedin_hover.png"/>
 			</a>				
@@ -141,7 +141,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="https://plus.google.com/113654780362037593871/about" target="_blank">
+			<a href="<?php the_field('google_plus_icon', 4); ?>" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_google_hover.png"/>
 			</a>				
@@ -150,7 +150,7 @@
 		
 		<div class="social_icons_wrapper">
 		
-			<a href="https://www.yelp.com/biz/law-office-of-stephen-w-shoultz-dallas" target="_blank">
+			<a href="<?php the_field('yelp_icon', 4); ?>" target="_blank">
 				<img class="icon_reg" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp.png"/>
 				<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/shoultz_social_yelp_hover.png"/>
 			</a>				

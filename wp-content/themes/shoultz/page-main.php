@@ -373,23 +373,14 @@ get_header(); ?>
 			
 				<img class="certified svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
 			
-				<span class="large_header wow fadeInUp" data-wow-delay=".25s">CERTIFIED EXPERT PERSONAL INJURY&nbsp;LAWYER</span>
+				<span class="large_header wow fadeInUp" data-wow-delay=".25s"><?php the_field('certified_title');?></span>
 			
 				<div class="about_us_content wow fadeInUp" data-wow-delay=".4s">
 				
-					<p><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<?php the_field('certified_section');?>
+					
 
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. ipsum quia dolor sit amet</p> 
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-				<span class="read_more">READ MORE</span>
+<!-- 				<span class="read_more">READ MORE</span> -->
 				
 				
 				</div><!-- about_us_content -->
@@ -397,7 +388,7 @@ get_header(); ?>
 			
 				<div class="pull_quote_wrapper wow fadeInUp" data-wow-delay=".4s">
 				
-					<span class="pull_quote">No matter how complicated or minor your case may seem, you can feel at ease in knowing you have a personal injury lawyer in Dallas on your&nbsp;side</span>
+					<span class="pull_quote"><?php the_field('certifed_pull_quote');?></span>
 				
 				</div>
 			
@@ -641,11 +632,15 @@ get_header(); ?>
 			
 			<img class="testimonial_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
 			
-			<span class="large_header wow fadeInUp" data-wow-delay=".25s">An attorney that truly cares about his&nbsp;clients</span>
+			<span class="large_header wow fadeInUp" data-wow-delay=".25s"><?php the_field('testimonial_title');?></span>
 			
+
+	<?php if( have_rows('testimonials', 15) ): ?>
 			
 			<div class="test_wrapper wow fadeInUp" data-wow-delay=".4s">
-				
+
+				<?php while( have_rows('testimonials', 15) ): the_row(); ?>
+
 				<div class="single_test_wrapper">
 					
 					<div class="stars_wrapper">
@@ -658,50 +653,15 @@ get_header(); ?>
 					
 					</div><!-- stars_wrapper -->
 					
-					<span class="name_title">Debbie &nbsp;|&nbsp;  avvo</span>
+					<span class="name_title"><?php the_sub_field('testimonial_name');?></span>
 					
-					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
-					
-				</div><!-- single_test_wrapper -->
-				
-				<div class="single_test_wrapper">
-					
-					<div class="stars_wrapper">
-						
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-					
-					</div><!-- stars_wrapper -->
-					
-					<span class="name_title">DebbieTwo &nbsp;|&nbsp;  avvo</span>
-					
-					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
-					
-				</div><!-- single_test_wrapper -->
-				
-				<div class="single_test_wrapper">
-					
-					<div class="stars_wrapper">
-						
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-						<img class="stars" src="<?php bloginfo('template_directory');?>/images/shoultz_test_star.svg"/>
-					
-					</div><!-- stars_wrapper -->
-					
-					<span class="name_title">DebbieThree &nbsp;|&nbsp;  avvo</span>
-					
-					<span class="test_content">Steve has handled my personal injury case with such compassion. His attention to detail is second to none. My life will never truly be the same due to getting injured but I thank the Lord I've had such a caring and methodical attorney in my corner. Thanks for everything you've done Steve.</span>
+					<span class="test_content"><?php the_sub_field('testimonial_content');?></span>
 					
 				</div><!-- single_test_wrapper -->
 				
 				
-				
+				<?php endwhile; ?>
+					
 			</div><!-- test_wrapper -->
 			
 			<div class="slide_buttons">
@@ -710,8 +670,10 @@ get_header(); ?>
 				<div class="test_next"></div>
 				
 			</div><!-- slide_buttons -->
+
+	<?php endif; ?>
 			
-		</section><!-- testimonials -->
+	</section><!-- testimonials -->
 		
 		<div class="desktop_reasons_respect">
 		
@@ -726,72 +688,37 @@ get_header(); ?>
 					
 
 					<img class="five" src="<?php bloginfo('template_directory');?>/images/shoultz_content_5.png"/>
-					<span class="large_header">REASoNS YOU NEED A PERSONAL INJURY LAWYER ON YOUR&nbsp;SIDE</span>
+					<span class="large_header"><?php the_field('five_reasons_title');?></span>
 					<div class="gold_box"></div><!-- gold_box -->
 					
 				</div><!-- five_reasons_header -->
 				
 				<div class="reasons_slider">
 					
-					<div class="reasons_single_slide">
 					
-					<span class="large_header">1 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
 					
-					<div class="reasons_content">
+					
+					<?php if(get_field('five_reason_slides')): ?>
+ 
+						<?php while(has_sub_field('five_reason_slides')): ?>
+ 
+							<div class="reasons_single_slide">
+					
+								<span class="large_header"><?php the_sub_field('slide_title');?></span><!-- large_header -->
+					
+								<div class="reasons_content">
 						
-						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
+								<p><?php the_sub_field('slide_content');?></p>
 						
-					</div><!-- reasons_content -->
+						</div><!-- reasons_content -->
 					
-					</div><!-- reasons_single_slide -->
+						</div><!-- reasons_single_slide -->
+ 
+						<?php endwhile; ?>
+ 
+					<?php endif; ?>
 					
-						<div class="reasons_single_slide">
-					
-					<span class="large_header">2 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
-					
-					<div class="reasons_content">
-						
-						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
-						
-					</div><!-- reasons_content -->
-					
-					</div><!-- reasons_single_slide -->
-					
-						<div class="reasons_single_slide">
-					
-					<span class="large_header">3 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
-					
-					<div class="reasons_content">
-						
-						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
-						
-					</div><!-- reasons_content -->
-					
-					</div><!-- reasons_single_slide -->
-					
-						<div class="reasons_single_slide">
-					
-					<span class="large_header">4 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
-					
-					<div class="reasons_content">
-						
-						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
-						
-					</div><!-- reasons_content -->
-					
-					</div><!-- reasons_single_slide -->
-					
-						<div class="reasons_single_slide">
-					
-					<span class="large_header">5 &nbsp;|&nbsp; PROVING LIABILITY</span><!-- large_header -->
-					
-					<div class="reasons_content">
-						
-						<p>It is simply not enough to showcase your injury and say that it was caused by the negligent party. Even if there are eyewitnesses and police statements, you might not have exactly what the court will be looking for to prove that you are not at fault. An experienced personal injury attorney will be able to break down your case and build up your claim with&nbsp;confidence.</p>
-						
-					</div><!-- reasons_content -->
-					
-					</div><!-- reasons_single_slide -->
+	
 					
 				</div><!-- reasons_slider -->
 				
@@ -808,13 +735,14 @@ get_header(); ?>
 		
 		<section class="respect wow fadeInUp" data-wow-delay=".3s">
 			
-			<span class="large_header">RESPECTED BY THE LEGAL COMMUNITY</span><!-- large_header -->
+			<span class="large_header"><?php the_field('respected_title');?></span><!-- large_header -->
 			
 			<div class="respect_content">
 				
-				<p><span class="letter">L</span>orem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodiem sis consequat. Duis aute irure dolor in reprereprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat. voluptatem.</p>
+				
+				<?php the_field('respected_section');?>
+				
+				
 				
 				
 				
@@ -849,10 +777,8 @@ get_header(); ?>
 				
 				<div class="shoultz_content wow fadeInUp" data-wow-delay=".3s">
 					
-					<p><span class="letter">L</span>orem ipsum dolor sit amet, consec consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ex ea consequat. Duis aute irure dolor in represt
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est&nbsp;laborum.</p>
-	
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&nbsp;dicta.</p>
+					<?php the_field('shoultz_bio');?>
+					
 					
 					<div class="gold_box_two"></div><!-- gold_box_two -->
 					
@@ -870,37 +796,26 @@ reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
 		
 		<section class="logos">
 			
-			<div class="logo_slider">
-				
-				<div class="single_logo">
+	<?php if(get_field('logos')): ?>
+		
+		<div class="logo_slider">
+ 
+	 <?php while(has_sub_field('logos')): ?>
+ 
+    	<div class="single_logo">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_1.png"/>
-					
-				</div><!-- single_logo -->
-				
-				<div class="single_logo">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_2.png"/>
+					<img src="<?php the_sub_field('logo_image');?>"/>
 					
 				</div><!-- single_logo -->
-				
-				<div class="single_logo">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_1.png"/>
-					
-				</div><!-- single_logo -->
-				
-				<div class="single_logo">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/shoultz_awards_2.png"/>
-					
-				</div><!-- single_logo -->
-				
-			</div><!-- logo_slider -->
-			
-			
-			
-		</section><!-- logos -->
+    	
+		<?php endwhile; ?>
+ 
+	</div><!-- logo_slider -->
+ 
+<?php endif; ?>
+		
+
+</section><!-- logos -->
 		
 		
 	</div><!-- main -->
