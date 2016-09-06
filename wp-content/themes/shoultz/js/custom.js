@@ -165,19 +165,47 @@ jQuery(function() {
 	// Case Results Main Page
 	
 	
-	jQuery('.init_box').click(function(){
+	
+	// Click
+	
+	
+	jQuery('.init_box_mobile').click(function(){
 		
-		jQuery(this).next('.click_box').addClass('open');
-		jQuery(this).next('.click_box').children('.click_content').addClass('open');
+		jQuery(this).next('.click_box_mobile').addClass('open');
+		jQuery(this).next('.click_box_mobile').children('.click_content').addClass('open');
 		
 	});
 	
-	jQuery('.click_box').click(function(){
+	jQuery('.click_box_mobile').click(function(){
 		
 		jQuery(this).removeClass('open');
 		jQuery(this).children('.click_content').removeClass('open');
 		
 	});
+	
+	
+	
+	
+	// Hover
+	
+	
+	
+	jQuery('.init_box_desktop').mouseenter(function(){
+		
+		jQuery(this).next('.click_box_desktop').addClass('open');
+		jQuery(this).next('.click_box_desktop').children('.click_content').addClass('open');
+		
+	});
+	
+	jQuery('.click_box_desktop').mouseleave(function(){
+		
+		jQuery(this).removeClass('open');
+		jQuery(this).children('.click_content').removeClass('open');
+		
+	});
+
+	
+	
 	
 	jQuery('.case_results_init').slick({
   	

@@ -419,9 +419,12 @@ get_header(); ?>
 				
 				<div class="case_results_init">
 				
-				<div class="case_results_single_wrapper">
+				<div class="case_results_single_wrapper first">
 					
-					<div class="init_box first">
+					
+					<!-- mobile/click -->
+					
+					<div class="init_box_mobile init_box first"> 
 							
 							<span class="large_header">$2,500,000</span><!-- large_header -->
 							<span class="sub_header">Settlement</span><!-- sub_header -->
@@ -429,7 +432,7 @@ get_header(); ?>
 							
 						</div><!-- init_box -->
 						
-						<div class="click_box">
+						<div class="click_box_mobile click_box">
 							
 								<div class="click_content">
 								
@@ -441,11 +444,41 @@ get_header(); ?>
 							
 						</div><!-- click_box -->
 						
-					</div><!-- case_results_single_wrapper -->
+						
+					<!-- desktop/hover -->	
+						
 					
-					<div class="case_results_single_wrapper">
 					
-					<div class="init_box second">
+					<div class="init_box_desktop init_box first">
+							
+							<span class="large_header">$2,500,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">INJURY AT WORK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box_desktop click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$2,500,000</span><!-- large_header -->
+									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+						
+				</div><!-- case_results_single_wrapper -->
+					
+				<div class="case_results_single_wrapper second">
+					
+					
+					<!-- mobile/click -->
+					
+					
+					<div class="init_box_mobile init_box second">
 							
 							<span class="large_header">$1,500,000</span><!-- large_header -->
 							<span class="sub_header">Settlement</span><!-- sub_header -->
@@ -453,7 +486,7 @@ get_header(); ?>
 							
 						</div><!-- init_box -->
 						
-						<div class="click_box">
+						<div class="click_box_mobile click_box">
 							
 								<div class="click_content">
 								
@@ -465,11 +498,41 @@ get_header(); ?>
 							
 						</div><!-- click_box -->
 						
+						<!-- desktop/hover -->	
+						
+						
+						<div class="init_box_desktop init_box second">
+							
+							<span class="large_header">$1,500,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">AUTO WRECK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box_desktop click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$1,500,000</span><!-- large_header -->
+									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+						
+						
 					</div><!-- case_results_single_wrapper -->
 					
-					<div class="case_results_single_wrapper">
+					<div class="case_results_single_wrapper third">
 					
-					<div class="init_box third">
+					
+					
+					<!-- mobile/click -->
+					
+					
+					<div class="init_box_mobile init_box third">
 							
 							<span class="large_header">$547,706</span><!-- large_header -->
 							<span class="sub_header">Verdict</span><!-- sub_header -->
@@ -477,7 +540,7 @@ get_header(); ?>
 							
 						</div><!-- init_box -->
 						
-						<div class="click_box">
+						<div class="click_box_mobile click_box">
 							
 								<div class="click_content">
 								
@@ -489,11 +552,40 @@ get_header(); ?>
 							
 						</div><!-- click_box -->
 						
+						
+						<!-- desktop/hover -->	
+						
+						
+						<div class="init_box_desktop init_box third">
+							
+							<span class="large_header">$547,706</span><!-- large_header -->
+							<span class="sub_header">Verdict</span><!-- sub_header -->
+							<span class="rotate">Work Related Injury<div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box_desktop click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$547,706</span><!-- large_header -->
+									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+						
 					</div><!-- case_results_single_wrapper -->
 					
-					<div class="case_results_single_wrapper">
+					<div class="case_results_single_wrapper fourth">
 					
-					<div class="init_box fourth">
+					
+					<!-- mobile/click -->
+					
+					
+					<div class="init_box_mobile init_box fourth">
 							
 							<span class="large_header">$400,000</span><!-- large_header -->
 							<span class="sub_header">Settlement</span><!-- sub_header -->
@@ -501,7 +593,7 @@ get_header(); ?>
 							
 						</div><!-- init_box -->
 						
-						<div class="click_box">
+						<div class="click_box_mobile click_box">
 							
 								<div class="click_content">
 								
@@ -512,6 +604,32 @@ get_header(); ?>
 								</div>
 							
 						</div><!-- click_box -->
+						
+						<!-- desktop/hover -->	
+						
+						
+							<div class="init_box_desktop init_box fourth">
+							
+							<span class="large_header">$400,000</span><!-- large_header -->
+							<span class="sub_header">Settlement</span><!-- sub_header -->
+							<span class="rotate">INJURy at Work & Death<div class="arrow_right"></div></span><!-- rotate -->
+							
+						</div><!-- init_box -->
+						
+						<div class="click_box_desktop click_box">
+							
+								<div class="click_content">
+								
+									<span class="large_header">$400,000</span><!-- large_header -->
+									<span class="sub_header">INJURy at Work & Death Settlement</span><!-- sub_header -->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+								
+								</div>
+							
+						</div><!-- click_box -->
+						
+						
+						
 						
 					</div><!-- case_results_single_wrapper -->
 				
