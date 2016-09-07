@@ -117,12 +117,6 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 	
 	
 	
-
-	
-	
-	
-	
-	
 	// First Letter 
 	
 
@@ -202,6 +196,19 @@ jQuery(function() {
 		jQuery(this).removeClass('open');
 		jQuery(this).children('.click_content').removeClass('open');
 		
+	});
+	
+	
+	// Inner Page Sidebar
+	
+	
+	jQuery('#sidebar ul li > a').click(function() {
+		
+		jQuery(this).next('ul.sub-menu').slideToggle(300);
+		
+
+		
+
 	});
 
 	
