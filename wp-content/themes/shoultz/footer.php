@@ -195,26 +195,12 @@
 	
 
 <?php wp_footer(); ?>
-<!-- <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script> -->
+
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
-<!-- <script src="<?php bloginfo('template_directory');?>/js/wow/dist/wow.min.js"></script> -->
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
 
-<script type="text/javascript">
-	
-	
-	WebFontConfig = {
-  google: {
-    families: ['Abril Fatface']
-  }
-};
 
-	
-	
-	
-</script>
 
 </body>
 </html>
