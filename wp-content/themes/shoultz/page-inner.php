@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Practice Area Inner Page
+ * Template for displaying all pages
 
  */
 

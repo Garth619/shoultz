@@ -101,6 +101,10 @@ header, section, nav, footer {
 	color:$gold;
 }
 
+.dropcap {
+	
+}
+
 .letter {
 	color: #d3b167;
   display: inline-block;
@@ -123,6 +127,7 @@ header, section, nav, footer {
   margin-right: 8px;
   margin-top: 0px;
   line-height:87px;
+  
 }
 
 
@@ -646,31 +651,31 @@ header.fadein {
 					transition:all .2s ease-in-out;
 					span.rotate {
 						bottom: 131px;
-						left: -63px;
+						left: -77px;
 					}
 				}
 				.init_box.second {
 					
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 115px;
-						left: -49px;
+						bottom: 113px;
+						left: -60px;
 					}
 				}
 				.init_box.third {
 					
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 117px;
-						left: -47px;
+						bottom: 120px;
+						left: -62px;
 					}
 				}
 				.init_box.fourth {
 					
 					transition:all .2s ease-in-out;
 					span.rotate {
-						bottom: 128px;
-						left: -56px;
+						bottom: 131px;
+						left: -75px;
 					}
 				}
 				.init_box {
@@ -1472,7 +1477,7 @@ footer {
 	color:#fff;
 	font-family: $proxreg;
 	font-weight:300;
-	letter-spacing: 1.3px;
+	line-height: 1.5;
 	img {
 		max-width: 100%;
 		height:auto;
@@ -3474,7 +3479,7 @@ header, header.black {
 	width:100%;
 	overflow: hidden;
 	margin: -373px auto 0;
-	max-width:1500px;
+	max-width:1560px;
 	.single_box_wrapper {
 		
 		img.icon {
@@ -3537,7 +3542,7 @@ header, header.black {
 				background-size:100% 100%;
 			
 				span.rotate {
-					left: -41px;
+					left: -64px;
 					bottom: 124px;
 					}
 				}
@@ -3545,8 +3550,8 @@ header, header.black {
 				.init_box.second {
 					background-size:100% 100%;
 					span.rotate {
-						bottom: 110px;
-						left: -29px;
+						bottom: 109px;
+						left: -48px;
 					}
 				}
 				
@@ -3554,15 +3559,15 @@ header, header.black {
 					background-size:100% 100%;
 					span.rotate {
 						bottom: 115px;
-						left: -29px;
+						left: -46px;
 					}
 				}
 				
 				.init_box.fourth {
 					background-size:100% 100%;
 					span.rotate {
-						bottom: 121px;
-						left: -38px;
+						bottom: 123px;
+						left: -57px;
 					}
 				}
 				
@@ -4213,17 +4218,19 @@ body.page-template-page-caseresults {
 .what_we_do {
 	.single_box_wrapper {
 		.single_box {
+			padding:40px;
 			span.large_header {
-				padding-top: 215px;
-				font-size:34px;
+				padding-top: 189px;
+				font-size:30px;
 				
 			}
 		}
 		.single_box_click_content {
+			padding:40px;
 			.inner_singlecontent_wrapper {
 				span.large_header {
-					padding-top: 131px;
-					font-size:33px;
+					padding-top: 112px;
+					font-size:30px;
 					
 			}
 		}
@@ -4373,6 +4380,40 @@ body.page-template-page-caseresults {
 } /* Media Query */
 
 
+@media screen and (min-width: 1575px) {
+	
+	
+/* What We do */
+
+
+.what_we_do {
+	.single_box_wrapper {
+		.single_box {
+			padding:40px;
+			span.large_header {
+				padding-top: 184px;
+				font-size:32px;
+				
+			}
+		}
+		.single_box_click_content {
+			padding:40px;
+			.inner_singlecontent_wrapper {
+				span.large_header {
+					padding-top: 107px;
+					font-size:32px;
+					
+			}
+		}
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (min-width: 1620px) {
 	
@@ -4416,29 +4457,29 @@ body.page-template-page-caseresults {
 				
 				.init_box.first {
 					span.rotate {
-						bottom: 155px;
-						left: -53px;
+						 bottom: 178px;
+						 left: -75px
 					}
 				}
 				
 				.init_box.second {
 					span.rotate {
-						bottom: 148px;
-						left: -38px;
+						bottom: 158px;
+						left: -56px;
 					}
 				}
 				
 				.init_box.third {
 					span.rotate {
-						bottom: 153px;
-						left: -23px;
+						bottom: 162px;
+						left: -56px;
 					}
 				}
 				
 				.init_box.fourth {
 					span.rotate {
-						bottom: 161px;
-						left: -41px;
+						bottom: 177px;
+						left: -72px;
 					}
 				}
 				
@@ -4722,26 +4763,34 @@ font-size:20px;
 				}
 			.init_box.first {
 					span.rotate {
+/*
 						bottom: 166px;
 						left: -53px; 
+*/
 					}
 				}
 				.init_box.second {
 					span.rotate {
+/*
 						bottom: 151px;
 						left: -32px;
+*/
 					}
 				}
 				.init_box.third {
 					span.rotate {
+/*
 						 bottom: 147px;
 						 left: -27px;
+*/
 					}
 				}
 				.init_box.fourth {
 					span.rotate {
+/*
 						 bottom: 155px;
 						 left: -41px;
+*/
 					}
 				}
 			.init_box {
