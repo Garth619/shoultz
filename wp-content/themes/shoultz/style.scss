@@ -102,7 +102,17 @@ header, section, nav, footer {
 }
 
 .dropcap {
-	
+	color: #d3b167;
+  float: left;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 89px;
+  line-height: 60px;
+  padding-left: 3px;
+  padding-right: 5px;
+  padding-top: 11px;
+  position:relative;
+  left:-4px;
 }
 
 .letter {
@@ -4763,34 +4773,20 @@ font-size:20px;
 				}
 			.init_box.first {
 					span.rotate {
-/*
-						bottom: 166px;
-						left: -53px; 
-*/
 					}
 				}
 				.init_box.second {
 					span.rotate {
-/*
-						bottom: 151px;
-						left: -32px;
-*/
 					}
 				}
 				.init_box.third {
 					span.rotate {
-/*
-						 bottom: 147px;
-						 left: -27px;
-*/
+
 					}
 				}
 				.init_box.fourth {
 					span.rotate {
-/*
-						 bottom: 155px;
-						 left: -41px;
-*/
+
 					}
 				}
 			.init_box {
