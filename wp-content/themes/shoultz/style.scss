@@ -1954,17 +1954,12 @@ body.page-template-page-thankyou {
 				float:none;
 				padding:0;
 				text-align: center;
-/*
-				p:first-of-type::first-letter {
-					color: #fff;
-					display: inline;
-					float: none;
-					font-family: $proxreg;
-					font-size: 18px;
-					margin-right: 0px;
-					margin-top: 0px;
+				.dropcap {
+					float:none;
+					position:relative;
+					top:0;
+					left:10px;
 				}
-*/
 			}
 		}
 	}
