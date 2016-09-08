@@ -21249,7 +21249,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/bullet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.jpg": {
 		"fileType": 16384,
@@ -21260,7 +21260,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.png": {
 		"fileType": 32768,
@@ -21271,7 +21271,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_bio_attorneypic.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.jpg": {
 		"fileType": 16384,
@@ -21282,7 +21282,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.png": {
 		"fileType": 32768,
@@ -21293,7 +21293,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_mainimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton.png": {
 		"fileType": 32768,
@@ -21304,7 +21304,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton_hover.png": {
 		"fileType": 32768,
@@ -21315,7 +21315,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/internal_playbutton_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/desktop\/temp.jpg": {
 		"fileType": 16384,
@@ -21326,7 +21326,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/desktop\/temp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/logo_hover.png": {
 		"fileType": 32768,
@@ -21337,7 +21337,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/logo_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/logo_stevenshoultz.png": {
 		"fileType": 32768,
@@ -21348,7 +21348,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/logo_stevenshoultz.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/content_image1.jpg": {
 		"fileType": 16384,
@@ -21359,7 +21359,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/content_image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/mobile_mainimage.jpg": {
 		"fileType": 16384,
@@ -21370,7 +21370,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/mobile_mainimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/mobile_mainimage.png": {
 		"fileType": 32768,
@@ -21381,7 +21381,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/mobile_mainimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/play.png": {
 		"fileType": 32768,
@@ -21392,7 +21392,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_attorney_profilepic.png": {
 		"fileType": 32768,
@@ -21403,7 +21403,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_attorney_profilepic.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_5.png": {
 		"fileType": 32768,
@@ -21414,7 +21414,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_image1.png": {
 		"fileType": 32768,
@@ -21425,7 +21425,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_image1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_image2.jpg": {
 		"fileType": 16384,
@@ -21436,7 +21436,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_image2.png": {
 		"fileType": 32768,
@@ -21447,7 +21447,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_content_image2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_footer_bg.jpg": {
 		"fileType": 16384,
@@ -21458,7 +21458,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_footer_bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_footer_bg.png": {
 		"fileType": 32768,
@@ -21469,7 +21469,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_footer_bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_mainimage.jpg": {
 		"fileType": 16384,
@@ -21480,7 +21480,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_mainimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_playbutton.png": {
 		"fileType": 32768,
@@ -21491,7 +21491,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_playbutton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_playbutton_hover.png": {
 		"fileType": 32768,
@@ -21502,7 +21502,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_playbutton_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowleft.png": {
 		"fileType": 32768,
@@ -21513,7 +21513,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowleft.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowleft_hover.png": {
 		"fileType": 32768,
@@ -21524,7 +21524,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowleft_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowright.png": {
 		"fileType": 32768,
@@ -21535,7 +21535,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowright.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowright_hover.png": {
 		"fileType": 32768,
@@ -21546,7 +21546,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_results_arrowright_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_fb.png": {
 		"fileType": 32768,
@@ -21557,7 +21557,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_fb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_fb_hover.png": {
 		"fileType": 32768,
@@ -21568,7 +21568,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_fb_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_google.png": {
 		"fileType": 32768,
@@ -21579,7 +21579,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_google.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_google_hover.png": {
 		"fileType": 32768,
@@ -21590,7 +21590,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_google_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_linkedin.png": {
 		"fileType": 32768,
@@ -21601,7 +21601,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_linkedin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_linkedin_hover.png": {
 		"fileType": 32768,
@@ -21612,7 +21612,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_linkedin_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_twitter.png": {
 		"fileType": 32768,
@@ -21623,7 +21623,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_twitter_hover.png": {
 		"fileType": 32768,
@@ -21634,7 +21634,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_twitter_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_yelp.png": {
 		"fileType": 32768,
@@ -21645,7 +21645,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_yelp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_yelp_hover.png": {
 		"fileType": 32768,
@@ -21656,7 +21656,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_social_yelp_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowleft.png": {
 		"fileType": 32768,
@@ -21667,7 +21667,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowleft.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowleft_hover.png": {
 		"fileType": 32768,
@@ -21678,7 +21678,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowleft_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowright.png": {
 		"fileType": 32768,
@@ -21689,7 +21689,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowright.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowright_hover.png": {
 		"fileType": 32768,
@@ -21700,7 +21700,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/mobile\/shoultz_mobile_test_arrowright_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_attorney_stevenshoultz.jpg": {
 		"fileType": 16384,
@@ -21711,7 +21711,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_attorney_stevenshoultz.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_attorney_stevenshoultz.png": {
 		"fileType": 32768,
@@ -21722,7 +21722,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_attorney_stevenshoultz.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_awards_1.png": {
 		"fileType": 32768,
@@ -21733,7 +21733,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_awards_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_awards_2.png": {
 		"fileType": 32768,
@@ -21744,7 +21744,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_awards_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_5.png": {
 		"fileType": 32768,
@@ -21755,7 +21755,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowleft.png": {
 		"fileType": 32768,
@@ -21766,7 +21766,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowleft.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowleft_hover.png": {
 		"fileType": 32768,
@@ -21777,7 +21777,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowleft_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowright.png": {
 		"fileType": 32768,
@@ -21788,7 +21788,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowright.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowright_hover.png": {
 		"fileType": 32768,
@@ -21799,7 +21799,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_arrowright_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_image1.jpg": {
 		"fileType": 16384,
@@ -21810,7 +21810,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_image1.png": {
 		"fileType": 32768,
@@ -21821,7 +21821,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_image1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_image2.jpg": {
 		"fileType": 16384,
@@ -21832,7 +21832,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_content_image2.png": {
 		"fileType": 32768,
@@ -21843,7 +21843,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_content_image2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_footer_bg.jpg": {
 		"fileType": 16384,
@@ -21854,7 +21854,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_footer_bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_footer_bg.png": {
 		"fileType": 32768,
@@ -21865,7 +21865,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_footer_bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_footer_ilawyer.png": {
 		"fileType": 32768,
@@ -21876,7 +21876,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_footer_ilawyer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_header_mainimage.jpg": {
 		"fileType": 16384,
@@ -21887,7 +21887,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_header_mainimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_header_mainimage.png": {
 		"fileType": 32768,
@@ -21898,7 +21898,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_header_mainimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_header_navarrow.png": {
 		"fileType": 32768,
@@ -21909,7 +21909,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_header_navarrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_header_playbutton.png": {
 		"fileType": 32768,
@@ -21920,7 +21920,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_header_playbutton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_header_playbutton_hover.png": {
 		"fileType": 32768,
@@ -21931,7 +21931,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_header_playbutton_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_mobile_footer_bg.jpg": {
 		"fileType": 16384,
@@ -21942,7 +21942,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_mobile_footer_bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_request_arrow.png": {
 		"fileType": 32768,
@@ -21953,7 +21953,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_request_arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_request_icon_email.png": {
 		"fileType": 32768,
@@ -21964,7 +21964,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_request_icon_email.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_request_icon_fax.png": {
 		"fileType": 32768,
@@ -21975,7 +21975,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_request_icon_fax.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_request_icon_phone.png": {
 		"fileType": 32768,
@@ -21986,7 +21986,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_request_icon_phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrow1.png": {
 		"fileType": 32768,
@@ -21997,7 +21997,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrow1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowleft.png": {
 		"fileType": 32768,
@@ -22008,7 +22008,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowleft.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowleft_hover.png": {
 		"fileType": 32768,
@@ -22019,7 +22019,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowleft_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowright.png": {
 		"fileType": 32768,
@@ -22030,7 +22030,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowright.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowright_hover.png": {
 		"fileType": 32768,
@@ -22041,7 +22041,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_arrowright_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image1.jpg": {
 		"fileType": 16384,
@@ -22052,7 +22052,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image1.png": {
 		"fileType": 32768,
@@ -22063,7 +22063,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image2.jpg": {
 		"fileType": 16384,
@@ -22074,7 +22074,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image2.png": {
 		"fileType": 32768,
@@ -22085,7 +22085,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image3.jpg": {
 		"fileType": 16384,
@@ -22096,7 +22096,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image3.png": {
 		"fileType": 32768,
@@ -22107,7 +22107,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image4.jpg": {
 		"fileType": 16384,
@@ -22118,7 +22118,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_results_image4.png": {
 		"fileType": 32768,
@@ -22129,7 +22129,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_results_image4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_facebook.png": {
 		"fileType": 32768,
@@ -22140,7 +22140,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_facebook_hover.png": {
 		"fileType": 32768,
@@ -22151,7 +22151,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_facebook_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_google.png": {
 		"fileType": 32768,
@@ -22162,7 +22162,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_google.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_google_hover.png": {
 		"fileType": 32768,
@@ -22173,7 +22173,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_google_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_linkedin.png": {
 		"fileType": 32768,
@@ -22184,7 +22184,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_linkedin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_linkedin_hover.png": {
 		"fileType": 32768,
@@ -22195,7 +22195,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_linkedin_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_twitter.png": {
 		"fileType": 32768,
@@ -22206,7 +22206,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_twitter_hover.png": {
 		"fileType": 32768,
@@ -22217,7 +22217,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_twitter_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_yelp.png": {
 		"fileType": 32768,
@@ -22228,7 +22228,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_yelp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_social_yelp_hover.png": {
 		"fileType": 32768,
@@ -22239,7 +22239,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_social_yelp_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_arrow.png": {
 		"fileType": 32768,
@@ -22250,7 +22250,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image1.jpg": {
 		"fileType": 16384,
@@ -22261,7 +22261,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image1.png": {
 		"fileType": 32768,
@@ -22272,7 +22272,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image2.jpg": {
 		"fileType": 16384,
@@ -22283,7 +22283,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image2.png": {
 		"fileType": 32768,
@@ -22294,7 +22294,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image3.jpg": {
 		"fileType": 16384,
@@ -22305,7 +22305,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image3.png": {
 		"fileType": 32768,
@@ -22316,7 +22316,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image4.jpg": {
 		"fileType": 16384,
@@ -22327,7 +22327,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image4.png": {
 		"fileType": 32768,
@@ -22338,7 +22338,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_sp_image4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_tablet_content_image1.jpg": {
 		"fileType": 16384,
@@ -22349,7 +22349,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_tablet_content_image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowleft.png": {
 		"fileType": 32768,
@@ -22360,7 +22360,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowleft.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowleft_hover.png": {
 		"fileType": 32768,
@@ -22371,7 +22371,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowleft_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowright.png": {
 		"fileType": 32768,
@@ -22382,7 +22382,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowright.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowright_hover.png": {
 		"fileType": 32768,
@@ -22393,7 +22393,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/shoultz_test_arrowright_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_bg.png": {
 		"fileType": 32768,
@@ -22404,7 +22404,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image1.jpg": {
 		"fileType": 16384,
@@ -22415,7 +22415,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image1.png": {
 		"fileType": 32768,
@@ -22426,7 +22426,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image2.jpg": {
 		"fileType": 16384,
@@ -22437,7 +22437,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image2.png": {
 		"fileType": 32768,
@@ -22448,7 +22448,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_content_image2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_internal_mainimage.png": {
 		"fileType": 32768,
@@ -22459,7 +22459,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_internal_mainimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.jpg": {
 		"fileType": 16384,
@@ -22470,7 +22470,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.png": {
 		"fileType": 32768,
@@ -22481,7 +22481,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_mainimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_playbutton.png": {
 		"fileType": 32768,
@@ -22492,7 +22492,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_playbutton.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_playbutton_hover.png": {
 		"fileType": 32768,
@@ -22503,7 +22503,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_playbutton_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_results_image1.png": {
 		"fileType": 32768,
@@ -22514,7 +22514,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_results_image1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_results_image2.png": {
 		"fileType": 32768,
@@ -22525,7 +22525,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/shoultz\/images\/tablet\/shoultz_tablet_results_image2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/shoultz\/index.php": {
 		"fileType": 8192,
