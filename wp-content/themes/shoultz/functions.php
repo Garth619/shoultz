@@ -615,7 +615,7 @@ add_filter( 'gform_confirmation_anchor', '__return_true' );
 
 function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'style', get_stylesheet_uri(), '', 1, 'screen' ); 
+//      wp_enqueue_style( 'style', get_stylesheet_uri(), '', 1, 'screen' ); 
      
  
 		 wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom-min.js',
