@@ -612,7 +612,7 @@ add_filter( 'gform_confirmation_anchor', '__return_true' );
 
 
 
-/*
+
 function load_my_styles_scripts() {
      // Load my stylesheet
      wp_enqueue_style( 'style', get_stylesheet_uri(), '', 1, 'screen' ); 
@@ -628,8 +628,6 @@ function load_my_styles_scripts() {
  
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
-*/
-
 
 
 
