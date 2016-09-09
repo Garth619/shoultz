@@ -57,7 +57,7 @@
 				
 				<div class="forms">
 					
-					<?php gravity_form( 1, false, false, false, '', true); ?>
+					<?php gravity_form( 1, false, false, false, '', false); ?>
 			
 				</div><!-- forms -->
 				
