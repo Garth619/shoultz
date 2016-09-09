@@ -7,9 +7,15 @@ Author URI: https://ilawyermarketing.com
 
 /* Fonts */
 
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('google-font/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('google-font/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=dd450c24-86d1-4b87-9354-19bdd114dad4");
 @font-face{
 font-family:"Proxima N W15 Thin Reg";
 src:url("fonts/Fonts/e7c1fd50-6611-4b2b-86eb-03f6159100c3.eot?#iefix");
@@ -66,7 +72,7 @@ $unibold:"Univers LT W01_67 Bold_1476016";
 $unibolditalic:"Univers LT W01_67 Bold Cn Obl";
 $proxthin:"Proxima N W15 Thin Reg";
 $proxreg:"Proxima N W15 Reg";
-$abril:'Abril Fatface', cursive;
+$abril:  'abril_fatfaceregular';
 $white:#ededed;
 
 /* Colors */
