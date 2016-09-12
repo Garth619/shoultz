@@ -262,13 +262,10 @@ jQuery(function() {
 	
 	
 	jQuery('.case_results_init').slick({
-  	
-		slidesToShow: 4,
+  	slidesToShow: 4,
 		slidesToScroll: 4,
 		arrows:false,
-		
 		centerMode: false,
-	
 		responsive: [
     {
       breakpoint: 1150,
@@ -307,8 +304,8 @@ jQuery(function() {
 		fade:true,
 		adaptiveHeight: true,
 		prevArrow: ".test_back",
-		nextArrow: ".test_next",
-		dots:true
+		nextArrow: ".test_next"
+// 		dots:true
 	});
 	
 	
@@ -328,7 +325,7 @@ jQuery(function() {
   	infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 4,
-		dots:false,
+// 		dots:false,
 		arrows:false,
 		responsive: [
     {
@@ -337,7 +334,7 @@ jQuery(function() {
         infinite: true,
 				slidesToShow: 2,
 				slidesToScroll: 2,
-				dots:true,
+				// dots:true,
 				arrows:false,
       }
     },
@@ -347,8 +344,8 @@ jQuery(function() {
         infinite: true,
 				slidesToShow: 1,
 				slidesToScroll: 1,
-				arrows:false,
-				dots:true
+				arrows:false
+// 				dots:true
       }
     }
     
