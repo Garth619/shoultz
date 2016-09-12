@@ -161,12 +161,20 @@ jQuery('.inner_mobile_dropdown ul li.menu-item-has-children a').click(function()
 
 	jQuery(function($) {
     //Grab first character for Drop Caps
-    jQuery("div#container p:eq(0)").each(function() {
+    jQuery("div#container p:eq(0), div.shoultz_content p:eq(0), div.about_us_content p:eq(0), div.respect_content p:eq(0)").each(function() {
         var text = jQuery(this).html();
         var first = jQuery('<span>'+text.charAt(0)+'</span>').addClass('dropcap');
         jQuery(this).html(text.substring(1)).prepend(first);
     });
 });
+
+
+
+
+
+
+
+
 
 
 
