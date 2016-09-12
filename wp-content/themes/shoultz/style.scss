@@ -3729,18 +3729,35 @@ img.dedicated_img {
 
 #content ul.practice_area {
 	max-width:1300px;
-	li {
-		float: left;
-		height: 65px; /* Fix this */
-		overflow:hidden;/* Fix this */
+	
+	
+	-webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 150px;
+     -moz-column-width: 150px;
+          column-width: 150px;
+  -webkit-column-gap: 4em;
+     -moz-column-gap: 4em;
+          column-gap: 4em;
+	
+	
+	
+	li { /* this section is weird, need to see actual practice areas added in to make this look good */ 
+// 		float: left;
+		min-height: 65px; 
+		// 		overflow:hidden;
+/*
 		width: 45%;
 		margin:0 2.5%;
+*/
 		a:hover {
 			color:$gold;
+			
 		}
 	}
 	li:nth-of-type(2) a {
-    border-top: 1px solid #4d4d50;
+// border-top:1px solid #4d4d50;
 }
 }
 
