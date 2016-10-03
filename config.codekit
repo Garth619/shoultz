@@ -6012,6 +6012,3447 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/better-wp-security\/better-wp-security.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/better-wp-security.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/script.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/module-settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/module-settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-go-pro.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-go-pro.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-logs.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-logs.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-security-check.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-security-check.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/sidebar-widget.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/sidebar-widget.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-everything.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-everything.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-lockouts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-lockouts.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-temp-whitelist.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-temp-whitelist.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-release-lockout.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-release-lockout.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-set-temp-whitelist.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-set-temp-whitelist.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-core.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-core.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-files.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-files.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lib.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lib.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lockout.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lockout.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger-all-logs.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger-all-logs.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-modules.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-modules.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-notify.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-notify.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-response.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-response.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-sync.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-sync.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/css\/ithemes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/css\/ithemes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/css\/itsec_notice.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/css\/itsec_notice.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/alert16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/alert16.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/alert16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/bb-ad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38960,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/bb-ad.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/bb-ad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/check16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/check16.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/check16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 239,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-blue.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-red.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-yellow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-yellow.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/flag16-yellow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/green-check16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 275,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/green-check16.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/green-check16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/img\/return-to-top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 505,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/return-to-top.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/img\/return-to-top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-dashboard-footer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-dashboard-footer.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/admin-dashboard-footer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-dashboard.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-dashboard.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/admin-dashboard-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-global-settings.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-global-settings.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/admin-global-settings-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-logs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-logs.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/admin-logs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-modal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/admin-modal.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/admin-modal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/itsec-notice.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/itsec-notice.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/itsec-notice-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/tracking.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/tracking.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/tracking-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/js\/url.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/url.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/js\/min\/url-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-config-file.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-config-file.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-directory.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-directory.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-file.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-file.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-ip-tools.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-ip-tools.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-user-activity.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-user-activity.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-utility.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-utility.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-wp-list-table.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-wp-list-table.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/form.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/form.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/storage.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/storage.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four-log.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four-log.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/admin-four-oh-four.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/admin-four-oh-four.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/min\/admin-four-oh-four-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/admin-admin-user.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/admin-admin-user.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/min\/admin-admin-user-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-get-away-mode.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-get-away-mode.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-override-away-mode.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-override-away-mode.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-itsec-away-mode.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-itsec-away-mode.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_55_fbf9ee_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_65_ffffff_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_65_ffffff_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_75_dadada_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_75_dadada_1x400.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_75_dadada_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_75_e6e6e6_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_95_fef1ec_1x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 332,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 280,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_222222_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6922,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_222222_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_222222_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_2e83ff_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_2e83ff_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_2e83ff_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_454545_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6992,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_454545_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_454545_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_888888_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6999,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_888888_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_888888_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_cd0a0a_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_cd0a0a_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/ui-icons_cd0a0a_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/jquery-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/jquery-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/jquery.datepicker.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/jquery.datepicker.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/deactivate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/deactivate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/admin-away-mode.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/admin-away-mode.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/min\/admin-away-mode-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/utilities.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/utilities.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/class-itsec-backup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/class-itsec-backup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/multi-select.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/multi-select.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/settings-page.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/settings-page.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/switch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3080,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/switch.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/switch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/jquery.multi-select.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/jquery.multi-select.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/min\/jquery.multi-select-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/activate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/activate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/class-itsec-ban-users.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/class-itsec-ban-users.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/config-generators.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/config-generators.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/deactivate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/deactivate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/admin-ban_users.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/admin-ban_users.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/min\/admin-ban_users-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/lists\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/lists\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force-log.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force-log.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/admin-brute-force.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/admin-brute-force.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/min\/admin-brute-force-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/utility.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/content-directory\/utility.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/class-itsec-core-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/class-itsec-core-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/backupbuddy-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25086,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/backupbuddy-logo.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/backupbuddy-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/security-ebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14396,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/security-ebook.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/security-ebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/sync-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8332,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/sync-logo.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/sync-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/video.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11081,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/video.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/img\/video.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/js\/mc-validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/js\/mc-validate.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/js\/min\/mc-validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-backupbuddy-cross-promo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-backupbuddy-cross-promo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-mail-list-signup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-mail-list-signup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-pro-upsell.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-pro-upsell.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-support.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-support.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-sync-cross-promo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/sidebar-widget-sync-cross-promo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/core\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/utility.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/database-prefix\/utility.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/class-ithemes-sync-verb-itsec-perform-file-scan.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/class-ithemes-sync-verb-itsec-perform-file-scan.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/class-itsec-file-change-log.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/class-itsec-file-change-log.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/class-itsec-file-change.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/class-itsec-file-change.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/css\/settings.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/css\/settings.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/images\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/images\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/images\/redminus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3099,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/images\/redminus.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/images\/redminus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/admin-file-change-warning.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/admin-file-change-warning.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/min\/admin-file-change-warning-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/application.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 464,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/application.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/application.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/code.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 603,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/code.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/code.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 618,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/css.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/db.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 579,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/db.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/db.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/directory.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/directory.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/directory.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/doc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 651,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/doc.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/doc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/file.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 294,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/file.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/file.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/film.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 653,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/film.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/film.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/flash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 582,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/flash.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/flash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/folder_open.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 583,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/folder_open.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/folder_open.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 734,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/html.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/html.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/java.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 633,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/java.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/java.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/linux.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 668,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/linux.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/linux.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/music.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/music.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/music.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 591,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/pdf.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/php.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 538,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/php.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/php.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/picture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 606,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/picture.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/picture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/ppt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 588,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/ppt.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/ppt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/psd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 856,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/psd.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/psd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/ruby.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 626,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/ruby.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/ruby.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/script.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 859,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/script.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/script.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/txt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/txt.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/txt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/xls.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 663,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/xls.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/xls.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/zip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/zip.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/images\/zip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/jqueryFileTree.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/jqueryFileTree.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/jqueryFileTree.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/jqueryFileTree.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/filetree\/min\/jqueryFileTree-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/script.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/scanner.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/scanner.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-change\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-permissions\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-permissions\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-permissions\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-permissions\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-permissions\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-permissions\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/file-writing\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/global\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/class-itsec-hide-backend.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/class-itsec-hide-backend.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/config-generators.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/config-generators.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/hide-backend\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/class-itsec-ipcheck.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/class-itsec-ipcheck.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/utilities.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/utilities.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ipcheck\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-ithemes-sync-verb-itsec-do-malware-scan.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-ithemes-sync-verb-itsec-do-malware-scan.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-ithemes-sync-verb-itsec-get-malware-scan-log.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-ithemes-sync-verb-itsec-get-malware-scan-log.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware-log.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware-log.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware-scan-results-template.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware-scan-results-template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware-scanner.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware-scanner.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/class-itsec-malware.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/css\/malware.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/css\/malware.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/css\/settings.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/css\/settings.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/malware.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/malware.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/min\/malware-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/malware\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/class-itsec-multisite-tweaks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/class-itsec-multisite-tweaks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/multisite-tweaks\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/pro\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/utilities.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/utilities.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/salts\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/scanner.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/scanner.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/security-check\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/activate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/activate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/class-itsec-ssl-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/class-itsec-ssl-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/class-itsec-ssl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/class-itsec-ssl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/deactivate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/deactivate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/js\/settings-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/js\/settings-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/js\/min\/settings-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ssl\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/class-itsec-strong-passwords.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/class-itsec-strong-passwords.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/js\/script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/js\/script.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/js\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/strong-passwords\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/activate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/activate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/class-itsec-system-tweaks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/class-itsec-system-tweaks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/config-generators.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/config-generators.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/deactivate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/deactivate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/system-tweaks\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/activate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/activate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/active.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/active.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/class-itsec-wordpress-tweaks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/class-itsec-wordpress-tweaks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/config-generators.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/config-generators.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/deactivate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/deactivate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-multisite-tweaks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-multisite-tweaks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-system-tweaks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-system-tweaks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/setup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/setup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/show-multiple-version-notice.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/show-multiple-version-notice.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/sidebar-widget-active-lockouts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/sidebar-widget-active-lockouts.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/sidebar-widget-temp-whitelist.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/core\/sidebar-widget-temp-whitelist.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/fonts\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/fonts\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/icon-fonts.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/icon-fonts.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/init.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/init.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/load.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/lib\/icon-fonts\/load.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/lib\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/better-wp-security\/lib\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/bugherd\/bugherd.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -23576,6 +27017,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/wp-content\/uploads\/ithemes-security\/backups\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/ithemes-security\/backups\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/uploads\/ithemes-security\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/ithemes-security\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
 		"fileType": 8192,
