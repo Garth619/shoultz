@@ -1549,6 +1549,12 @@ footer {
 	}
 	#container {
 		margin-top:50px;
+		ol {
+			margin:10px 0 30px 13px;
+			li {
+				margin-bottom:13px;
+			}
+		}
 		ul {
 		margin:0 0 30px 0px;
 		li {
@@ -1556,11 +1562,16 @@ footer {
 			list-style: none;
 			padding: 0 0 0 19px;
 			margin-bottom:10px;
-		} 
-	}
-
+		}
 	}
 }
+
+	
+}
+
+
+
+
 
 
 
@@ -3890,10 +3901,10 @@ body.page-template-page-inner {
 				li {
 					color:#fff;
 					font-family: $uniultra;
-					font-size:26px;
+					font-size:21px;
 					border-top:2px solid $greydark;
 					letter-spacing: 3px;
-					padding:25px 0;
+					padding:16px 0;
 					> a {
 						color:#fff;
 						text-decoration: none;
