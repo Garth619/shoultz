@@ -794,7 +794,7 @@ header.fadein {
     display: inline-block;
     border-top: 1px solid #d3b167;
     border-bottom: 1px solid #d3b167;
-    padding: 8px 0;
+    padding: 17px 112px;
     margin-top: 60px;
     text-transform: uppercase;
     letter-spacing: 1.2px; }
@@ -1840,8 +1840,7 @@ body.page-template-page-thankyou #main {
     .respect span.large_header {
       font-size: 40px;
       border-bottom: 2px solid #d3b167;
-      border-top: 2px solid #d3b167;
-      padding: 17px 0; }
+      border-top: 2px solid #d3b167; }
     .respect .respect_content {
       font-size: 17px;
       text-align: left;
