@@ -9,10 +9,6 @@ get_header(); ?>
 		
 <?php include('banner.php');?>
 
-			
-
-
-			
 <div id="main">
 	
 	<img class="inner_page_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_sidebar_experience.svg"/>

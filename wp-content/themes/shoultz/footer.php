@@ -163,7 +163,7 @@
 		<div class="copy_logo_wrapper">
 		
 			<span class="copyright">&copy; 2016 Law Offices of Stephen W. Shoultz. 
-			<br class="copy_break"/>All rights reserved. &nbsp;|&nbsp;  <a href="">DISCLAIMER</a><span class="copyright_bar">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span>
+			<br class="copy_break"/>All rights reserved. &nbsp;|&nbsp;  <a href="/disclaimer/">DISCLAIMER</a><span class="copyright_bar">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span>
 	
 			<div class="ilawyer_wrapper">
 			
