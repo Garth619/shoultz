@@ -30,19 +30,23 @@
 				
 						</div><!-- single_office_info -->
 				
+<!--
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
 							<a class="office_info" href="tel:<?php the_field('fax', 19); ?>"><?php the_field('fax', 19); ?></a>
 				
-						</div><!-- single_office_info -->
+						</div>
+--><!-- single_office_info -->
 				
+<!--
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
 							<a class="office_info" href="mailto:<?php the_field('email', 19); ?>"><?php the_field('email', 19); ?></a>
 				
-						</div><!-- single_office_info -->
+						</div>
+--><!-- single_office_info -->
 				
 					</div><!-- office_info -->
 			
@@ -82,19 +86,23 @@
 				
 						</div><!-- single_office_info -->
 				
+<!--
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
 							<a class="office_info" href="tel:<?php the_field('fax', 19); ?>"><?php the_field('fax', 19); ?></a>
 				
-						</div><!-- single_office_info -->
+						</div>
+--><!-- single_office_info -->
 				
+<!--
 						<div class="single_office_info">
 				
 							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
 							<a class="office_info" href="tel:<?php the_field('email', 19); ?>"><?php the_field('email', 19); ?></a>
 				
-						</div><!-- single_office_info -->
+						</div>
+--><!-- single_office_info -->
 				
 					</div><!-- office_info -->
 			
