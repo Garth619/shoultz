@@ -107,7 +107,7 @@ html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 body {
 	background:$black;
 	color:$black;
-	opacity: 0;
+// 	opacity: 0;
 	transition:all .3s ease-in-out;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -115,8 +115,10 @@ body {
 }
 
 body.fadein {
+/*
 	opacity: 1;
 	background: $black;
+*/
 }
 
 a {
@@ -210,8 +212,8 @@ header {
 	top:0;
 	z-index: 60000;
 	transition:all .3s ease-in-out;
-	opacity: 0;
-	visibility: hidden;
+// 	opacity: 0;
+// 	visibility: hidden;
 }
 
 header.black {
@@ -220,8 +222,10 @@ header.black {
 
 
 header.fadein {
+/*
 	opacity: 1;
 	visibility: visible;
+*/
 }
 
 
@@ -271,7 +275,7 @@ header.fadein {
 
 .menu_bars.mobile_open .single_bars:first-of-type {
     transform: rotate(45deg);
-    transform-origin: -1px 0 0;
+    transform-origin: 1px 0 0;
     transition: all 0.2s ease 0s;
     width:16px;
 }
@@ -283,7 +287,7 @@ header.fadein {
 
 .menu_bars.mobile_open .single_bars:last-of-type {
     transform: rotate(-45deg);
-    transform-origin: 1px 3px 0;
+    transform-origin: 0 2px 0;;
     width:16px;
 }
 
@@ -1056,7 +1060,7 @@ header.fadein {
 		display: inline-block;
 		border-top:1px solid $gold;
 		border-bottom:1px solid $gold;
-		padding:17px 112px; 
+		padding:17px 12px; 
 		margin-top: 60px;
 		text-transform: uppercase;
 		letter-spacing:1.2px;
@@ -2566,7 +2570,8 @@ body.page-template-page-thankyou {
 		font-size:40px;
 		border-bottom: 2px solid #d3b167;
     border-top: 2px solid #d3b167;
-    
+    max-width: 750px;
+    padding: 17px 2%; 
 	}
 	.respect_content {
 		font-size:17px;

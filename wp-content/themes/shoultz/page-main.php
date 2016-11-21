@@ -23,7 +23,7 @@ get_header(); ?>
 			
 			<div class="main_banner_inner_wrapper">
 			
-				<div class="banner_content wow fadeInDown" data-wow-delay=".25s">
+				<div class="banner_content">
 			
 					<img class="thirty_five_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_header_35.svg"/>
 				
@@ -373,9 +373,9 @@ get_header(); ?>
 			
 				<img class="certified svg" src="<?php bloginfo('template_directory');?>/images/shoultz_content_certified.svg"/>
 			
-				<span class="large_header wow fadeInUp" data-wow-delay=".25s"><?php the_field('certified_title');?></span>
+				<span class="large_header"><?php the_field('certified_title');?></span>
 			
-				<div class="about_us_content wow fadeInUp" data-wow-delay=".4s">
+				<div class="about_us_content">
 				
 					<?php the_field('certified_section');?>
 					
@@ -386,7 +386,7 @@ get_header(); ?>
 				</div><!-- about_us_content -->
 			
 			
-				<div class="pull_quote_wrapper wow fadeInUp" data-wow-delay=".4s">
+				<div class="pull_quote_wrapper">
 				
 					<span class="pull_quote"><?php the_field('certifed_pull_quote');?></span>
 				
@@ -632,12 +632,12 @@ get_header(); ?>
 			
 			<img class="testimonial_img svg" src="<?php bloginfo('template_directory');?>/images/shoultz_test_testimonials.svg"/>
 			
-			<span class="large_header wow fadeInUp" data-wow-delay=".25s"><?php the_field('testimonial_title');?></span>
+			<span class="large_header"><?php the_field('testimonial_title');?></span>
 			
 
 	<?php if( have_rows('testimonials', 15) ): ?>
 			
-			<div class="test_wrapper wow fadeInUp" data-wow-delay=".4s">
+			<div class="test_wrapper">
 
 				<?php while( have_rows('testimonials', 15) ): the_row(); ?>
 
@@ -682,7 +682,7 @@ get_header(); ?>
 		
 		<section class="reasons">
 			
-			<div class="reasons_inner wow fadeInDown" data-wow-delay=".3s">
+			<div class="reasons_inner">
 				
 				<div class="five_reasons_header">
 					
@@ -733,7 +733,7 @@ get_header(); ?>
 			
 		</section><!-- reasons -->
 		
-		<section class="respect wow fadeInUp" data-wow-delay=".3s">
+		<section class="respect">
 			
 			<span class="large_header"><?php the_field('respected_title');?></span><!-- large_header -->
 			
@@ -770,12 +770,12 @@ get_header(); ?>
 			
 			<div class="shoultz_inner">
 				
-				<span class="large_header wow fadeInLeft" data-wow-delay=".3s"><span class="gold">STEPHEN</span> W. SHOULTZ</span>
-				<span class="sub_header wow fadeInRight" data-wow-delay=".3s">PERSONAL INJURY ATTORNEY</span>
+				<span class="large_header"><span class="gold">STEPHEN</span> W. SHOULTZ</span>
+				<span class="sub_header">PERSONAL INJURY ATTORNEY</span>
 				
 				<img class="wow fadeInUp" data-wow-delay=".3s" src="<?php bloginfo('template_directory');?>/images/shoultz_attorney_stevenshoultz.jpg"/>
 				
-				<div class="shoultz_content wow fadeInUp" data-wow-delay=".3s">
+				<div class="shoultz_content">
 					
 					<?php the_field('shoultz_bio');?>
 					
@@ -784,7 +784,7 @@ get_header(); ?>
 					
 				</div><!-- shoultz_content -->
 				
-				<a class="mybutton learn wow fadeInUp" data-wow-delay=".3s" href="<?php bloginfo('url');?>/stephen-w-shoultz/">LEARN MORE ABOUT YOUR ATTORNEY</a>
+				<a class="mybutton learn" href="<?php bloginfo('url');?>/stephen-w-shoultz/">LEARN MORE ABOUT YOUR ATTORNEY</a>
 				
 			</div><!-- shoultz_inner -->
 			

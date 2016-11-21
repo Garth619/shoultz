@@ -44,18 +44,22 @@ jQuery(document).ready(function(){
 
 // Body and Header FadeIn
 
+/*
 jQuery('body').delay(600).queue(function(){
 	
 	jQuery(this).addClass('fadein').clearQueue();
 
 });
+*/
 
 
+/*
 jQuery('header').delay(1000).queue(function(){
 	
 	jQuery(this).addClass('fadein').clearQueue();
 
 });
+*/
 
 
 // Animations

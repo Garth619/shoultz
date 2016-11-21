@@ -15,7 +15,7 @@ get_header(); ?>
 	
 	<img class="inner_caseresults_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_results_successful.svg"/>
 	
-	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s"><?php the_title();?></span><!-- large_header -->
+	<span class="large_header about_us_header"><?php the_title();?></span><!-- large_header -->
 	
 	
 		
@@ -24,7 +24,7 @@ get_header(); ?>
 				
 			<?php if(get_field('case_results')): ?>
 			
-			<div class="case_results_wrapper_mobile case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
+			<div class="case_results_wrapper_mobile case_results_wrapper">
  
 				
 				<?php while(has_sub_field('case_results')): ?>
@@ -61,7 +61,7 @@ get_header(); ?>
 			
 			</div><!-- case_results_wrapper -->
 			
-			<div class="case_results_wrapper_desktop case_results_wrapper wow fadeInUp" data-wow-delay=".25s">
+			<div class="case_results_wrapper_desktop case_results_wrapper">
  
 				
 				<?php while(has_sub_field('case_results')): ?>

@@ -15,10 +15,10 @@ get_header(); ?>
 	
 	<img class="about_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_firmoverview_about.svg"/>
 	
-	<span class="large_header about_us_header wow fadeInUp" data-wow-delay=".25s"><?php the_field('main_header');?></span><!-- large_header -->
+	<span class="large_header about_us_header"><?php the_field('main_header');?></span><!-- large_header -->
 	
 	
-	<div id="content" class="wow fadeInUp" data-wow-delay=".25s">
+	<div id="content">
 	
 		
 		<div id="container">

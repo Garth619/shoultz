@@ -16,7 +16,7 @@ get_header(); ?>
 <div id="content">
 	<?php get_sidebar(); ?>
 	
-	<div id="container" class="wow fadeInUp" data-wow-delay="1s">
+	<div id="container">
 	
 	<h1><?php the_title();?></h1>
 	

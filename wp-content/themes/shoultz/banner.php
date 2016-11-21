@@ -1,6 +1,6 @@
 <div class="inner_banner">
 	
-	<div class="inner_banner_wrapper wow fadeInDown" data-wow-delay=".25s">
+	<div class="inner_banner_wrapper">
 	
 		<script src="//fast.wistia.com/embed/medias/96awk1kced.jsonp" async></script>
 				<script src="//fast.wistia.com/assets/external/E-v1.js" async></script>

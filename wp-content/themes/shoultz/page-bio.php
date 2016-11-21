@@ -15,12 +15,12 @@ get_header(); ?>
 	
 	<img class="strong svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_bio_strong.svg"/>
 	
-	<span class="large_header wow fadeInUp" data-wow-delay=".25s"><?php the_field('main_header_bio');?></span><!-- large_header -->
+	<span class="large_header"><?php the_field('main_header_bio');?></span><!-- large_header -->
 	
 	
 	<div id="content">
 	
-		<div class="bio_sidebar wow fadeInUp" data-wow-delay=".25s">
+		<div class="bio_sidebar">
 		
 			<img src="<?php bloginfo('template_directory');?>/images/desktop/internal_bio_attorneypic.jpg"/>
 		
@@ -49,7 +49,7 @@ get_header(); ?>
 			
 		</div><!-- bio_sidebar -->
 		
-		<div id="container" class="wow fadeInUp" data-wow-delay=".25s">
+		<div id="container">
 			
 			<?php get_template_part( 'loop', 'page' ); ?>
 				     			

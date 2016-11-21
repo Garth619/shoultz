@@ -18,7 +18,7 @@ get_header(); ?>
 	
 	<div class="contact_wrapper">
 	
-		<div class="contact_sidebar wow fadeInUp" data-wow-delay=".25s">
+		<div class="contact_sidebar">
 		
 			<span class="large_header about_us_header">Contact</span><!-- large_header -->
 			
@@ -40,7 +40,7 @@ get_header(); ?>
 		
 		</div><!-- contact_wrapper -->
 		
-		<div class="map wow fadeInDown" data-wow-delay=".25s">
+		<div class="map">
 			
 		
 			<?php the_field('map_iframe');?>
