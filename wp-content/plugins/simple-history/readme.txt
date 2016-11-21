@@ -4,7 +4,7 @@ Donate link: http://eskapism.se/sida/donate/
 Tags: history, log, changes, changelog, audit, trail, pages, attachments, users, dashboard, admin, syslog, feed, activity, stream, audit trail, brute-force
 Requires at least: 4.5.1
 Tested up to: 4.6
-Stable tag: 2.10
+Stable tag: 2.12
 
 View changes made by users within WordPress. See who created a page, uploaded an attachment or approved an comment, and more.
 
@@ -152,6 +152,20 @@ A simple way to see any uncommon activity, for example an increased number of lo
 == Changelog ==
 
 ## Changelog
+
+= 2.12 (September 2016) =
+
+- You can show a different number of log items in the log on the dashboard and on the dedicated history page. By default the dashboard will show 5 items and the page will show 30.
+- On multisites the user search filter now only search users in the current site.
+- The statistics chart using Chart.js now uses the namespace window.Simple_History_Chart instead of window.Chart, decreasing the risk that two versions of the Chart.js library overwriting each others. Fixes https://wordpress.org/support/topic/comet-cache-breaks-simple-history/. (Note to future me: this was fixed by renaming the `window.chart` variable to `window.chart.Simple_history_chart` in the line `window.Chart = module.exports = Chart;`)
+- If spam comments are logged they are now included in the log. Change made to make sql query shorter and easier. Should not actually show any spam comments anyway because we don't log them since version 2.5.5 anyway. If you want to revert this behavior for some reason you can use the filter `simple_history/comments_logger/include_spam`.
+
+= 2.11 (September 2016) =
+
+- Added support for plugin [Redirection](https://wordpress.org/plugins/redirection/).
+  Redirects and groups that are created, changed, enabled and disabled will be logged. Also when the plugin global settings are changed that will be logged.
+- Fix possible notice error from User logger.
+- "View changelog" link now works on multisite.
 
 = 2.10 (September 2016) =
 
