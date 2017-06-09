@@ -20,7 +20,7 @@ get_header(); ?>
 	
 	<div id="content">
 	
-		<p>Apologies, but this page cannot be fount</p>
+		<p>Apologies, but this page cannot be found</p>
 			
 	</div><!-- content -->
 

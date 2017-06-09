@@ -19,7 +19,7 @@ get_header(); ?>
 		
 		<section class="main_banner">
 			
-			<a class="tel" href="tel:2149601551">214.960.1551</a>
+<!-- 			<a class="tel" href="tel:2149601551">214.960.1551</a> -->
 			
 			<div class="main_banner_inner_wrapper">
 			
@@ -455,7 +455,7 @@ get_header(); ?>
 								
 									<span class="large_header">$2,500,000</span><!-- large_header -->
 									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Client was driving a truck, delivering a load for their employer when the client got in a collision with the other drivers trailer extending into their lane of traffic which resulted in death. Stephen W. Shoultz negotiated a large settlement without the necessity of going to trial.</p>
 								
 								</div>
 							
