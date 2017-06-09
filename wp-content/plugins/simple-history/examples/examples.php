@@ -16,6 +16,41 @@ define("SIMPLE_HISTORY_LOG_DEBUG", true);
  * Some examples of filter usage and so on
  */
 
+// Modify who can read a logger
+// Modify the if part to give users access or no access to a logger
+add_filter( 'simple_history/loggers_user_can_read/can_read_single_logger', function( $user_can_read_logger, $logger_instance, $user_id ) {
+
+	// in this example user with id 3 gets access to the post logger
+	// while user with id 8 does not get any access to it
+	if ( $logger_instance->slug == "SimplePostLogger" && $user_id === 3 ) {
+		$user_can_read_logger = true;
+	} else if ( $logger_instance->slug == "SimplePostLogger" && $user_id === 9 ) {
+		$user_can_read_logger = false;
+	}
+
+	return $user_can_read_logger;
+
+}, 10, 3 );
+
+
+// Do not log some post types, for example pages and attachments in this case
+add_filter( "simple_history/log/do_log", function( $do_log = null, $level = null, $message = null, $context = null, $logger = null) {
+
+	$post_types_to_not_log = array(
+		"page",
+		"attachment"
+	);
+
+	if ( ( isset($logger->slug) && ($logger->slug === "SimplePostLogger" || $logger->slug === "SimpleMediaLogger") ) && ( isset($context["post_type"]) && in_array($context["post_type"], $post_types_to_not_log ) ) ) {
+
+		$do_log = false;
+
+	}
+
+	return $do_log;
+
+}, 10, 5);
+
 // Disable all logging
 add_filter( "simple_history/log/do_log", "__return_false" );
 
@@ -44,7 +79,7 @@ add_filter( "simple_history/logger/interpolate/context", function($context, $mes
  * Default capability is "manage_options"
  */
 add_filter("simple_history/view_settings_capability", function($capability) {
-    
+
     $capability = "manage_options";
     return $capability;
 
@@ -53,18 +88,18 @@ add_filter("simple_history/view_settings_capability", function($capability) {
 
 /**
  * Change capability required to view main simple history page.
- * Default capability is "edit_pages". Change to for example "manage options" 
+ * Default capability is "edit_pages". Change to for example "manage options"
  * to only allow admins to view the history log.
  */
 add_filter("simple_history/view_history_capability", function($capability) {
-    
+
     $capability = "manage_options";
     return $capability;
 
 });
 
 
-// Skip adding things to the context table during logging. 
+// Skip adding things to the context table during logging.
 // Useful if you don't want to add cool and possible super useful info to your logged events.
 // Also nice to have if you want to make sure your database does not grow.
 add_filter("simple_history/log_insert_context", function($context, $data) {
@@ -80,7 +115,7 @@ add_filter("simple_history/log_insert_context", function($context, $data) {
 
 // Hide some columns from the detailed context view popup window
 add_filter("simple_history/log_html_output_details_table/row_keys_to_show", function($logRowKeysToShow, $oneLogRow) {
-	
+
 	$logRowKeysToShow["id"] = false;
 	$logRowKeysToShow["logger"] = false;
 	$logRowKeysToShow["level"] = false;
@@ -93,7 +128,7 @@ add_filter("simple_history/log_html_output_details_table/row_keys_to_show", func
 
 // Hide some more columns from the detailed context view popup window
 add_filter("simple_history/log_html_output_details_table/context_keys_to_show", function($logRowContextKeysToShow, $oneLogRow) {
-	
+
 	$logRowContextKeysToShow["plugin_slug"] = false;
 	$logRowContextKeysToShow["plugin_name"] = false;
 	$logRowContextKeysToShow["plugin_title"] = false;
@@ -117,7 +152,7 @@ function function_show_history_dashboard_or_page($show) {
 	);
 
 	$user = wp_get_current_user();
-	
+
 	if ( ! in_array( $user->user_email, $allowed_users ) ) {
 		$show = false;
 	}
@@ -158,7 +193,7 @@ add_filter("simple_history/logger/load_logger", function($load_logger, $logger_b
 
 // Skip the loading of dropins
 add_filter("simple_history/dropin/load_dropin", function($load_dropin, $dropinFileBasename) {
-	
+
 	// Don't load the RSS feed dropin
 	if ( $dropinFileBasename == "SimpleHistoryRSSDropin" ) {
 		$load_dropin = false;
@@ -196,9 +231,9 @@ add_filter("simple_history/db_purge_days_interval", "__return_zero");
 
 // Clear items that are older than a 7 days (i.e. keep only the most recent 7 days in the log)
 add_filter( "simple_history/db_purge_days_interval", function( $days ) {
-	
+
 	$days = 7;
-	
+
 	return $days;
 
 } );
@@ -212,6 +247,19 @@ add_filter("simple_history/dropin/load_dropin_SimpleHistoryRSSDropin", "__return
 /**
  * Example of logging
  */
+
+// This is the easiest and safest way to add messages to the log:
+apply_filters("simple_history_log", "This is a logged message");
+apply_filters("simple_history_log", "This is a message with some context added", ["isATestMessage" => "yup", "debugRequestData" => $_REQUEST]);
+apply_filters("simple_history_log", "This is another logged message, with another severity level", null, "debug");
+
+// Below is the function way of adding things to the log
+// Remember to check that the SimpleLogger function exists before trying to log anything,
+// or else your site will break if you disable the Simple History plugin
+// (Use the apply_filters method above if you want to stay safer!)
+if (function_exists("SimpleLogger")) {
+	SimpleLogger()->info("This is a message added to the log");
+}
 
 // Add a message to the history log
 SimpleLogger()->info("This is a message sent to the log");

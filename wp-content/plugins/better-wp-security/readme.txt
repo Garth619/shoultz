@@ -1,9 +1,9 @@
 === iThemes Security (formerly Better WP Security) ===
 Contributors: ithemes, chrisjean, gerroald, mattdanner
 Tags: security, security plugin, malware, hack, secure, block, SSL, admin, htaccess, lockdown, login, protect, protection, anti virus, attack, injection, login security, maintenance, permissions, prevention, authentication, administration, password, brute force, ban, permissions, bots, user agents, xml rpc, security log
-Requires at least: 4.4
-Tested up to: 4.6.1
-Stable tag: 5.7.1
+Requires at least: 4.5
+Tested up to: 4.7.3
+Stable tag: 6.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -187,6 +187,53 @@ Free support may be available with the help of the community in the <a href="htt
 5. Free malware scan powered by Sucuri SiteCheck.
 
 == Changelog ==
+
+= 6.2.1 =
+ * Bug Fix: When a requesting IP address cannot be found, default to 127.0.0.1. This fixes issues with some alternate cron setups.
+ * Bug Fix: Having more than one iThemes Security modification in a .htaccess, nginx.conf, or wp-config.php file will no longer result in having all the file content between each section removed when updating the file.
+ * Bug Fix: Modifications to the wp-config.php file added by W3 Total Cache now have their Windows-style newlines preserved when iThemes Security updates the file.
+
+= 6.2.0 =
+ * Enhancement: Improved plugin performance by reducing the number of queries made on each page.
+ * Enhancement: Reduced memory and CPU usage due to various code improvements.
+ * Bug Fix: A database backup will no longer be created when first activating the plugin.
+ * Bug Fix: Added compatibility for MySQL strict mode in database creation syntax.
+ * Bug Fix: Removed warning about a "non well formed numeric value encountered" in PHP 7.1.
+ * Bug Fix: Modifications to wp-config.php, .htaccess, and nginx.conf files are now properly re-added upon reactivation.
+ * Bug Fix: Fixed full settings for Hide Backend being displayed after disabling the feature and saving the settings.
+ * Bug Fix: Enabling or disabling the Hide Backend feature will update the "Log Out" link so that it works as expected without having to load a new page.
+ * Bug Fix: Enabling or disabling the Hide Backend feature now properly updates the .htaccess/nginx.conf file on enable and disable rather than at some future point.
+ * Bug Fix: Fixed issue that could cause improper database table creation on multisite sites.
+ * Bug Fix: Fixed a bug that could prevent settings from saving properly if the site was migrated to a new server or a new home path on the server.
+
+= 6.1.1 =
+ * Bug Fix: Fixed bug that prevented Away Mode from activating on some sites.
+
+= 6.1.0 =
+ * Enhancement: Added logging for failed two-factor, OAuth, and REST API authentications.
+ * Enhancement: Added logging details about the source of login failures and the type of authentication that failed.
+ * Enhancement: Due to improvements in tracking authentication failures, brute force attempts using alternate authentication methods are more reliably found and blocked.
+ * Enhancement: The server's IP is treated as whitelisted and will not be considered for lockouts or bans.
+ * Enhancement: Reduced memory usage when creating a backup.
+ * Enhancement: Changed log entry description of "IP Flagged as bad by iThemes IPCheck" to "IP Flagged by Network Brute Force Protection". This should help clarify the meaning of the log entry.
+ * Enhancement: Improved efficiency of the Network Brute Force Protection feature.
+ * Bug Fix: Fixed bug that prevented Network Brute Force Protection from working properly on some sites.
+
+= 6.0.0 =
+ * Bug Fix: Removed "comodo" from the list of user agents blocked by the HackRepair.com blacklist. This ensures that Comodo's AutoSSL feature of cPanel/WHM is able to function.
+ * Updated Feature: Updated the "REST API" feature in the WordPress Tweaks section. The feature now has proper support for protecting privacy on your site without preventing the REST API from functioning.
+ * Enhancement: Updated Security Check to enforce setting the "REST API" setting to "Restricted Access".
+
+= 5.9.0 =
+ * New Feature: Added a "REST API" feature in the WordPress Tweaks section. This new feature allows you to block or restrict access to the REST API.
+
+= 5.8.1 =
+ * Bug Fix: Fixed issue that could cause database backup emails to be sent without the backup zip attached.
+
+= 5.8.0 =
+ * Enhancement: Updated the lockouts notification email to a new design. This new design also cleaned up the translation strings to allow better translations.
+ * New Feature: Added a "Protect Against Tabnapping" feature in the WordPress Tweaks section. Details of what this feature protects against can be found here: https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/
+ * Misc: Updated the description for the Lockout Period setting to indicate that the default value of 15 minutes is recommended.
 
 = 5.7.1 =
  * Bug Fix: Remote IP is now correctly identified if the server is behind a reverse proxy that sends requests with more than one IP listed in a single header.
@@ -1619,5 +1666,5 @@ This release is a complete rewrite from the ground up. Special thanks to Cory Mi
 
 == Upgrade Notice ==
 
-= 5.7.1 =
-Version 5.7.1 contains many bug fixes and improvements. It is recommended for all users.
+= 6.2.1 =
+Version 6.2.1 contains important bug fixes. It is recommended for all users.

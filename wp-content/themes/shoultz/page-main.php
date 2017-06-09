@@ -429,7 +429,8 @@ get_header(); ?>
 								
 									<span class="large_header">$2,500,000</span><!-- large_header -->
 									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Client was driving a truck, delivering a load for their employer when the client got in a collision with the other drivers trailer extending into their lane of traffic which resulted in death. Stephen W. Shoultz negotiated a large settlement without the necessity of going to trial. 
+</p>
 								
 								</div>
 							
@@ -483,7 +484,7 @@ get_header(); ?>
 								
 									<span class="large_header">$1,500,000</span><!-- large_header -->
 									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Our client was hit head on by the Defendant on a curve in East Texas. Our client died when a blood clot from his leg caught in the vein leading to his heart. </p>
 								
 								</div>
 							
@@ -506,7 +507,7 @@ get_header(); ?>
 								
 									<span class="large_header">$1,500,000</span><!-- large_header -->
 									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Our client was hit head on by the Defendant on a curve in East Texas. Our client died when a blood clot from his leg caught in the vein leading to his heart. </p>
 								
 								</div>
 							
@@ -537,7 +538,7 @@ get_header(); ?>
 								
 									<span class="large_header">$547,706</span><!-- large_header -->
 									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Client was working on and in a well to remove a broken motor. Client had to stand on steps that were mounted to the wall of the well. As client stood on the steps mounted to the wall, the top step came loose from the wall of the well causing client to fall twenty-four feet to the bottom of the well, no safety equipment was provided to client. Client was transported by ambulance and received treatment for injuries to several areas of his body including neck, hips, legs and both ankles. We were able to obtain a verdict against the clients employer. </p>
 								
 								</div>
 							
@@ -561,7 +562,7 @@ get_header(); ?>
 								
 									<span class="large_header">$547,706</span><!-- large_header -->
 									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Client was working on and in a well to remove a broken motor. Client had to stand on steps that were mounted to the wall of the well. As client stood on the steps mounted to the wall, the top step came loose from the wall of the well causing client to fall twenty-four feet to the bottom of the well, no safety equipment was provided to client. Client was transported by ambulance and received treatment for injuries to several areas of his body including neck, hips, legs and both ankles. We were able to obtain a verdict against the clients employer. </p>
 								
 								</div>
 							
@@ -590,7 +591,7 @@ get_header(); ?>
 								
 									<span class="large_header">$400,000</span><!-- large_header -->
 									<span class="sub_header">INJURy at Work & Death Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Client was working in a construction area where the client was riding a forklift, fell off, and was run over by the left rear wheel of the forklift and sustained serious head injuries which resulted in death. Stephen W. Shoultz negotiated the workers compensation non subscriber case as well as secured a large settlement with the employers insurance company without the necessity of going to trial. </p>
 								
 								</div>
 							
@@ -613,7 +614,7 @@ get_header(); ?>
 								
 									<span class="large_header">$400,000</span><!-- large_header -->
 									<span class="sub_header">INJURy at Work & Death Settlement</span><!-- sub_header -->
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+									<p>Client was working in a construction area where the client was riding a forklift, fell off, and was run over by the left rear wheel of the forklift and sustained serious head injuries which resulted in death. Stephen W. Shoultz negotiated the workers compensation non subscriber case as well as secured a large settlement with the employers insurance company without the necessity of going to trial. </p>
 								
 								</div>
 							

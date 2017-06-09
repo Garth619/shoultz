@@ -42,7 +42,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-		
+<a class="cta" href="tel:2147423293">Click to call (214) 742-3293</a>		
 <header>
 	
 	<div class="inner_header">
@@ -78,7 +78,7 @@
 		
 			</nav><!-- desktop_nav -->
 	
-			<a class="desktop_phone" href="tel:2149601551">214.960.1551</a>
+			<a class="desktop_phone" href="tel:2147423293">(214) 742-3293</a>
 	
 		</div><!-- large_monitor -->
 	

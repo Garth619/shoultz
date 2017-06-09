@@ -3,8 +3,8 @@ Contributors: eskapism
 Donate link: http://eskapism.se/sida/donate/
 Tags: history, log, changes, changelog, audit, trail, pages, attachments, users, dashboard, admin, syslog, feed, activity, stream, audit trail, brute-force
 Requires at least: 4.5.1
-Tested up to: 4.6
-Stable tag: 2.12
+Tested up to: 4.7
+Stable tag: 2.16
 
 View changes made by users within WordPress. See who created a page, uploaded an attachment or approved an comment, and more.
 
@@ -43,18 +43,27 @@ view details about changes made in the differnt settings sections of WordPress. 
 
 By default Simple History comes with built in support for the following plugins:
 
-**User Switching**
+**User Switching**<br>
 The [User Switching plugin](https://wordpress.org/plugins/user-switching/) allows you to quickly swap between user accounts in WordPress at the click of a button.
 Simple History will log each user switch being made.
 
-**Enable Media Replace**
+**Enable Media Replace**<br>
 The [Enable Media Replace plugin](https://wordpress.org/plugins/enable-media-replace/) allows you to replace a file in your media library by uploading a new file in its place.
 Simple history will log details about the file being replaced and details about the new file.
 
-**Limit Login Attempts**
+**Limit Login Attempts**<br>
 The plugin [Limit Login Attempts](https://sv.wordpress.org/plugins/limit-login-attempts/) is old
 and has not been updated for 4 years. However it still has +1 million installs, so many users will benefit from
 Simple History logging login attempts, lockouts, and configuration changes made in the plugin Limit Login Attempts.
+
+**Redirection**
+The [redirection plugin](https://sv.wordpress.org/plugins/redirection/) manages url redirections, using a nice GUI.
+Simple History will log redirects and groups that are created, changed, enabled or disabled and also when the global plugin settings have been modified.
+
+**Duplicate Post**
+The plugin [Duplicate Post](https://wordpress.org/plugins/duplicate-post/) allows users to
+clone posts of any type.
+Simple History will log when a clone of a post or page is done.
 
 #### RSS feed available
 
@@ -152,6 +161,40 @@ A simple way to see any uncommon activity, for example an increased number of lo
 == Changelog ==
 
 ## Changelog
+
+= 2.16 (May 2017) =
+
+- Added [WP-CLI](https://wp-cli.org) command for Simple History. Now you can write `wp simple-history list` to see the latest entries from the history log. For now `list` is the only available command. Let me know if you need more commands!
+- Added support for logging edits to theme files and plugin files. When a file is edited you will also get a quick diff on the changes,
+so you can see what CSS styles a client changed or what PHP changes they made in a plugin file.
+- Removed the edit file logger from the plugin logger, because it did not always work (checked wrong wp path). Intead the new Theme and plugins logger mentioned above will take care of this.
+
+= 2.15 (May 2017) =
+
+- Use thumbnail version of PDF preview instead of full size image.
+- Remove Google Maps image when clicking IP address of failed login and similar, because Google Maps must be used with API key.
+  Hostname, Network, City, Region and Country is still shown.
+- Fix notice in available updates logger.
+- Fix notice in redirection logger.
+
+= 2.14.1 (April 2017) =
+
+- Fix for users running on older PHP versions.
+
+= 2.14 (April 2017) =
+
+- Added support for plugin [Duplicate Post](https://wordpress.org/plugins/duplicate-post/).
+  Now when a user clones a post or page you will se this in the history log, with links to both the original post and the new copy.
+- Removed log level info from title in RSS feed
+- Make date dropdown less "jumpy" when loading page (due to select element switching to Select2)
+- Only add filters for plugin Limit Login Attempts if plugin is active. This fixes problem with Limit Login Attempts Reloaded and possibly other forks of the plugin.
+- Debug page now displays installed plugins.
+
+= 2.13 (November 2016) =
+
+- Added filter `simple_history_log` that is a simplified way to add message to the log, without the need to check for the existance of Simple History or its SimpleLogger function. Use it like this: `apply_filters("simple_history_log", "This is a logged message");` See the [examples file](https://github.com/bonny/WordPress-Simple-History/blob/master/examples/examples.php) for more examples.
+- IP info now displays a popup with map + geolocation info for users using HTTPS again. Thanks to the great https://twitter.com/ipinfoio for letting all users use their service :)
+- Fix notice warning for missing `$data_parent_row`
 
 = 2.12 (September 2016) =
 

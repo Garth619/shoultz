@@ -155,8 +155,8 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   position: fixed;
-  top: 0;
   z-index: 60000;
+  top: 55px;
   transition: all .3s ease-in-out; }
 
 header.black {
@@ -225,7 +225,7 @@ header.fadein {
 .mobile_dropdown {
   background: #fff;
   position: fixed;
-  top: 50px;
+  top: 105px;
   width: 100%;
   text-align: center;
   z-index: 60000;
@@ -1556,7 +1556,7 @@ body.page-template-page-thankyou #main {
     width: 240px;
     right: 0; }
   .mobile_dropdown {
-    top: 82px;
+    top: 137px;
     height: 100%;
     right: -500px;
     padding: 10px 0px;
@@ -2941,7 +2941,7 @@ body.page-template-page-thankyou #main {
     text-align: left;
     display: block;
     font-size: 18px;
-    line-height: 1.8; } }
+    line-height: 1.5; } }
 
 /* Media Query */
 @media screen and (min-width: 1760px) {
@@ -3744,3 +3744,29 @@ body.page-template-page-thankyou #main {
     transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
+
+
+/* click to call */
+a.cta{
+ display:none;
+}
+@media(max-width:1100px){
+  a.cta{
+    display:block;
+    width:100%;
+    background: #d3b167;
+    padding: 15px 0;
+    text-align: center;
+    color: black;
+    font-family: "Univers LT W01_59 Ult Cond";
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: fixed;
+    z-index: 9999;
+   }
+  a.cta:hover{
+    text-decoration:none;
+  }	
+}
+

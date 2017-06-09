@@ -3,8 +3,8 @@ Contributors: shinephp
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vladimir%40shinephp%2ecom&lc=RU&item_name=ShinePHP%2ecom&item_number=User%20Role%20Editor%20WordPress%20plugin&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: user, role, editor, security, access, permission, capability
 Requires at least: 4.0
-Tested up to: 4.6.1
-Stable tag: 4.29
+Tested up to: 4.8
+Stable tag: 4.34
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,11 +24,12 @@ Multi-site support is provided.
 To read more about 'User Role Editor' visit [this page](http://www.shinephp.com/user-role-editor-wordpress-plugin/) at [shinephp.com](http://shinephp.com)
 
 
-Do you need more functionality with quality support in the real time? Do you wish to remove advertisements from User Role Editor pages? 
+Do you need more functionality with quality support in a real time? Do you wish to remove advertisements from User Role Editor pages? 
 [Buy Pro version](https://www.role-editor.com). 
 [User Role Editor Pro](https://www.role-editor.com) includes extra modules:
 <ul>
 <li>Block selected admin menu items for role.</li>
+<li>Hide selected front-end menu items for no logged-in visitors, logged-in users, roles.</li>
 <li>Block selected widgets under "Appearance" menu for role.</li>
 <li>Show widgets at front-end for selected roles.</li>
 <li>Block selected meta boxes (dashboard, posts, pages, custom post types) for role.</li>
@@ -66,6 +67,7 @@ To read full FAQ section visit [this page](http://www.shinephp.com/user-role-edi
 3. screenshot-3.png User Capabilities link
 4. screenshot-4.png User Capabilities Editor
 5. screenshot-5.png Bulk change role for users without roles
+6. screenshot-6.png Assign multiple roles to the selected users
 
 To read more about 'User Role Editor' visit [this page](http://www.shinephp.com/user-role-editor-wordpress-plugin/) at [shinephp.com](shinephp.com).
 
@@ -74,7 +76,57 @@ To read more about 'User Role Editor' visit [this page](http://www.shinephp.com/
 If you wish to check available translations or help with plugin translation to your language visit this link
 https://translate.wordpress.org/projects/wp-plugins/user-role-editor/
 
-== Changelog ==
+
+== Changelog =
+= [4.34] 02.06.2017 =
+* New: Multisite 'upgrade_network' capability support was added for compatibility with WordPress 4.8.
+* New: Multisite 'delete_sites' capability support was added.
+* Update: Users->Grant Roles: if a single user was selected for "Grant Roles" bulk action, dialog will show the current roles of selected user with checkboxes turned ON (pre-selected).
+* Fix: Transients caching was removed from URE_Lib::_get_post_types() function. It cached post types list too early in some cases.
+* Fix: jQuery UI CSS was updated to fix minor view inconsistency at the URE's Settings page.
+* Fix: "Reset" presentation code remainders were removed from the main User Role Editor page.
+* Fix: 'manage_links' capability was included into a wrong subgroup instead of "Core->General". It was a mistake in the capabilities group counters for that reason.
+
+= [4.33] 19.05.2017 =
+* Fix: "Users->Without Roles", "Users->Grant Roles" are shown only to the users with 'edit_users' capability.
+* Fix: Roles were updated for all sites of all networks for WordPress multisite. "Apply to All Sites" option updates roles inside a current network only.
+* Update: "Reset" button moved from the "Users->User Role Editor" main page to the "Settings->User Role Editor->Tools" tab.
+* Update: "Users->Grant Roles" button worked only for superadmin or user with 'ure_manage_options' capability. User with 'edit_users' can use this feature now.
+* New: boolean filter 'ure_bulk_grant_roles' allows to not show "Users->Grant Roles" button if you don't need it.
+* New: boolean filter 'ure_users_select_primary_role' can hide 'Primary role' selection controls from the user profile edit page. 
+* New: boolean filter 'ure_users_show_wp_change_role' can hide "Change Role" bulk action selection control from the Users page. So it's possible to configure permissions for user who can change just other roles of a user without changing his primary role.
+* Update: Settings tabs and dialog stylesheets was updated to jQuery UI 1.11.4 default theme.  
+
+= [4.32.3] 03.04.2017 =
+* Fix: Boolean false was sent to WordPress core wp_enqueue_script() function as the 2nd parameter instead of an empty string. We should respect the type of parameter which code author supposed to use initially.
+* Fix: Bulk grant to users multiple roles JavaScript code is loaded now for users.php page only, not globally.
+
+= [4.32.2] 17.03.2017 =
+* Fix: "Users->Grant Roles" button did not work with switched off option "Count Users without role" at "Settings->User Role Editor->Additional Modules" tab. "JQuery UI" library was not loaded.
+* Update: minimal PHP version was raised to 5.3.
+
+= [4.32.1] 09.03.2017 =
+* Fix: URL to users.php page was built incorrectly after bulk roles assignment to the users selected at the 1st page of a users list.
+
+= [4.32] 09.03.2017 =
+* New: Button "Grant Roles" allows to "Assign multiple roles to the selected users" directly from the "Users" page.
+* Update: singleton template was applied to the main User_Role_Editor class. While GLOBALS['user-role-editor'] reference to the instance of User_Role_Editor class is still available for the compatibility purpose, call to User_Role_Editor::get_instance() is the best way now to get a reference to the instance of User_Role_Editor class.
+* Fix: Missed 'unfiltered_html' capability is shown now at the 'General' capabilities group too.
+
+= [4.31.1] 06.01.2017 =
+* Fix: WP transients get/set were removed from URE_Own_Capabilities class. It leaded to the MySQL deadlock in some cases.
+* Update: Base_Lib::get_request_var() sanitizes user input by PHP's filter_var() in addition to WordPress core's esc_attr().
+
+= [4.31] 14.12.2016 =
+* New: It's possible to remove unused user capabilities by list.
+* Fix: There was no support for installations with the hidden/changed URL to wp-admin. URE uses 'admin_url()' now to get and check admin URL, instead of direct comparing URL with 'wp-admin' string.
+* Fix: Deprecated capabilities were shown in some cases at the 'Core' group even with "Show deprecated capabilities" mode switched off.
+* Update: Capability groups CSS classes are prefixed with 'ure-' in order to minimize possible CSS conflicts with other plugins/themes which may load styles with the same classes globally and break URE's markup.
+
+= [4.30] 01.12.2016 =
+* Update: compatible with WordPress 4.7
+* New: "Granted Only" checkbox to the right from the "Quick Filter" input control allows to show only granted capabilities for the selected role or user.
+
 = [4.29] 10.11.2016 =
 * New: User Role Editor own user capabilities are grouped separately under Custom capabilities.
 * Update: URE_Lib::is_super_admin() uses WordPress core is_super_admin() for multisite setup only. Superadmin is a user with 'administrator' role in the case of single site WordPress installation.  
@@ -136,33 +188,6 @@ https://translate.wordpress.org/projects/wp-plugins/user-role-editor/
 * Fix: "Assign role to the users without role" feature ignored role selected by user.
 * Fix: PHP fatal error (line 34) was raised at uninstall.php for WordPress multisite.
 * Update: action priority 99 was added for role additional options hook action setup.
-
-= [4.24] 17.03.2016 =
-* Fix: PHP notice was generated by class-role-additional-options.php in case when some option does not exist anymore
-* Enhance: 'Add Capability' button have added capability to the WordPress built-in administrator role by default. It did not work, if 'administrator' role did not exist.
-  Now script selects automatically as an admin role a role with the largest quant of capabilities and adds new capability to the selected role.
-* New: User capabilities page was integrated with "[User Switching](https://wordpress.org/plugins/user-switching/)" plugin - "Switch To" the editing user link iss added if "User Switching" plugin is available.
-* Marked as compatible with WordPress 4.5.
-
-= [4.23.2] 03.02.2016 =
-* Fix: PHP warning "Strict Standards: Static function URE_Base_Lib::get_instance() should not be abstract" was generated
-
-= [4.23.1] 01.02.2016 =
-* Fix: 'get_called_class()' function call was excluded for the compatibility with PHP 5.2.*
-* Fix: ure-users.js was loaded not only to the 'Users' page.
-
-= [4.23] 31.01.2016 =
-* Fix: "Users - Without Role" button showed empty roles drop down list on the 1st call. 
-* Update: Own task queue was added, so code which should executed once after plugin activation is executed by the next request to WP and may use a selected WordPress action to fire with a needed priority.
-* Update: Call of deprecated mysql_server_info() is replaced with $wpdb->db_version().
-* Update: Singleton patern is applied to the URE_Lib class.
-* Minor code enhancements
-
-= [4.22] 15.01.2016 =
-* Unused 'add_users' capability was removed from the list of core capabilities as it was removed from WordPress starting from version 4.4
-* bbPress user capabilities are supported for use in the non-bbPress roles. You can not edit roles created by bbPress, as bbPress re-creates them dynamically for every request to the server. Full support for bbPress roles editing will be included into User Role Editor Pro version 4.22.
-* Self-added "Other Roles" column removed from "Users" list, as WordPress started to show all roles assigned to the user in its own "Role" column.
-* 'ure_show_additional_capabilities_section' filter allows to  hide 'Other Roles' section at the 'Add new user', 'Edit user' pages.
 
 
 Click [here](https://www.role-editor.com/changelog)</a> to look at [the full list of changes](https://www.role-editor.com/changelog) of User Role Editor plugin.
