@@ -38,8 +38,7 @@ get_header(); ?>
 				</span>
 				
 					
-					<span class="main_banner_header">Over <span class="thirty_five"><span class="thirty_five_spacing">35</span> years</span> of<br/>legal experience</span>
-					<span class="main_banner_sub_header">We are not afraid of taking a stand against insurance<br class="content_break"/>companies to protect your right to fair&nbsp;compensation.</span>
+					<?php the_field( 'main_banner_verbiage' ); ?>
 				
 					<a class="mybutton" href="#free-consultation">CLICK HERE FOR A FREE CONSULTATION</a>
 				
@@ -409,221 +408,78 @@ get_header(); ?>
 				</div><!-- slide_buttons -->
 				
 				<div class="case_results_init">
+					
+					
+					
+					<?php if(get_field('case_results_repeater')): ?>
+					 
+						<?php while(has_sub_field('case_results_repeater')): ?>
+					 
+							
+							
+							<div class="case_results_single_wrapper <?php the_sub_field( 'class_name' ); ?>">
+					
+					
+								<!-- mobile/click -->
+					
+								<div class="init_box_mobile init_box <?php the_sub_field( 'class_name' ); ?>"> 
+							
+									<span class="large_header"><?php the_sub_field( 'case_results_number' ); ?></span><!-- large_header -->
+									<span class="sub_header"><?php the_sub_field( 'case_results_type' ); ?></span><!-- sub_header -->
+									<span class="rotate"><?php the_sub_field( 'case_results_category' ); ?><div class="arrow_right"></div></span><!-- rotate -->
+							
+								</div><!-- init_box -->
+						
+								<div class="click_box_mobile click_box">
+							
+									<div class="click_content">
+								
+										<span class="large_header"><?php the_sub_field( 'case_results_number' ); ?></span><!-- large_header -->
+										<span class="sub_header"><?php the_sub_field( 'case_results_category' ); ?> <?php the_sub_field( 'case_results_type' ); ?></span><!-- sub_header -->
+										<p><?php the_sub_field( 'case_results_content' ); ?></p>
+								
+									</div>
+							
+								</div><!-- click_box -->
+						
+						
+								<!-- desktop/hover -->	
+					
+
+					
+								<div class="init_box_desktop init_box <?php the_sub_field( 'class_name' ); ?>">
+							
+									<span class="large_header"><?php the_sub_field( 'case_results_number' ); ?></span><!-- large_header -->
+									<span class="sub_header"><?php the_sub_field( 'case_results_type' ); ?></span><!-- sub_header -->
+									<span class="rotate"><?php the_sub_field( 'case_results_category' ); ?><div class="arrow_right"></div></span><!-- rotate -->
+							
+								</div><!-- init_box -->
+						
+								<div class="click_box_desktop click_box">
+							
+									<div class="click_content">
+								
+										<span class="large_header"><?php the_sub_field( 'case_results_number' ); ?></span><!-- large_header -->
+										<span class="sub_header"><?php the_sub_field( 'case_results_category' ); ?> <?php the_sub_field( 'case_results_type' ); ?></span><!-- sub_header -->
+										
+										<p><?php the_sub_field( 'case_results_content' ); ?></p>
+								
+									</div>
+							
+							</div><!-- click_box -->
+						
+						
+						</div><!-- case_results_single_wrapper -->
+							
+
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+					
+
 				
-				<div class="case_results_single_wrapper first">
-					
-					
-					<!-- mobile/click -->
-					
-					<div class="init_box_mobile init_box first"> 
-							
-							<span class="large_header">$2,500,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">INJURY AT WORK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_mobile click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$2,500,000</span><!-- large_header -->
-									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
-									<p>Client was driving a truck, delivering a load for their employer when the client got in a collision with the other drivers trailer extending into their lane of traffic which resulted in death. Stephen W. Shoultz negotiated a large settlement without the necessity of going to trial. 
-</p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						
-					<!-- desktop/hover -->	
-						
-					
-					
-					<div class="init_box_desktop init_box first">
-							
-							<span class="large_header">$2,500,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">INJURY AT WORK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_desktop click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$2,500,000</span><!-- large_header -->
-									<span class="sub_header">INJURY AT WORK & DEATH Settlement</span><!-- sub_header -->
-									<p>Client was driving a truck, delivering a load for their employer when the client got in a collision with the other drivers trailer extending into their lane of traffic which resulted in death. Stephen W. Shoultz negotiated a large settlement without the necessity of going to trial.</p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						
-				</div><!-- case_results_single_wrapper -->
-					
-				<div class="case_results_single_wrapper second">
-					
-					
-					<!-- mobile/click -->
-					
-					
-					<div class="init_box_mobile init_box second">
-							
-							<span class="large_header">$1,500,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">AUTO WRECK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_mobile click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$1,500,000</span><!-- large_header -->
-									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
-									<p>Our client was hit head on by the Defendant on a curve in East Texas. Our client died when a blood clot from his leg caught in the vein leading to his heart. </p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						<!-- desktop/hover -->	
-						
-						
-						<div class="init_box_desktop init_box second">
-							
-							<span class="large_header">$1,500,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">AUTO WRECK & DEATH<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_desktop click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$1,500,000</span><!-- large_header -->
-									<span class="sub_header">AUTO WRECK & DEATH Settlement</span><!-- sub_header -->
-									<p>Our client was hit head on by the Defendant on a curve in East Texas. Our client died when a blood clot from his leg caught in the vein leading to his heart. </p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						
-						
-					</div><!-- case_results_single_wrapper -->
-					
-					<div class="case_results_single_wrapper third">
-					
-					
-					
-					<!-- mobile/click -->
-					
-					
-					<div class="init_box_mobile init_box third">
-							
-							<span class="large_header">$547,706</span><!-- large_header -->
-							<span class="sub_header">Verdict</span><!-- sub_header -->
-							<span class="rotate">Work Related Injury<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_mobile click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$547,706</span><!-- large_header -->
-									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Client was working on and in a well to remove a broken motor. Client had to stand on steps that were mounted to the wall of the well. As client stood on the steps mounted to the wall, the top step came loose from the wall of the well causing client to fall twenty-four feet to the bottom of the well, no safety equipment was provided to client. Client was transported by ambulance and received treatment for injuries to several areas of his body including neck, hips, legs and both ankles. We were able to obtain a verdict against the clients employer. </p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						
-						<!-- desktop/hover -->	
-						
-						
-						<div class="init_box_desktop init_box third">
-							
-							<span class="large_header">$547,706</span><!-- large_header -->
-							<span class="sub_header">Verdict</span><!-- sub_header -->
-							<span class="rotate">Work Related Injury<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_desktop click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$547,706</span><!-- large_header -->
-									<span class="sub_header">Work Related Injury Verdict</span><!-- sub_header -->
-									<p>Client was working on and in a well to remove a broken motor. Client had to stand on steps that were mounted to the wall of the well. As client stood on the steps mounted to the wall, the top step came loose from the wall of the well causing client to fall twenty-four feet to the bottom of the well, no safety equipment was provided to client. Client was transported by ambulance and received treatment for injuries to several areas of his body including neck, hips, legs and both ankles. We were able to obtain a verdict against the clients employer. </p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						
-					</div><!-- case_results_single_wrapper -->
-					
-					<div class="case_results_single_wrapper fourth">
-					
-					
-					<!-- mobile/click -->
-					
-					
-					<div class="init_box_mobile init_box fourth">
-							
-							<span class="large_header">$400,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">INJURy at Work & Death<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_mobile click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$400,000</span><!-- large_header -->
-									<span class="sub_header">INJURy at Work & Death Settlement</span><!-- sub_header -->
-									<p>Client was working in a construction area where the client was riding a forklift, fell off, and was run over by the left rear wheel of the forklift and sustained serious head injuries which resulted in death. Stephen W. Shoultz negotiated the workers compensation non subscriber case as well as secured a large settlement with the employers insurance company without the necessity of going to trial. </p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						<!-- desktop/hover -->	
-						
-						
-							<div class="init_box_desktop init_box fourth">
-							
-							<span class="large_header">$400,000</span><!-- large_header -->
-							<span class="sub_header">Settlement</span><!-- sub_header -->
-							<span class="rotate">INJURy at Work & Death<div class="arrow_right"></div></span><!-- rotate -->
-							
-						</div><!-- init_box -->
-						
-						<div class="click_box_desktop click_box">
-							
-								<div class="click_content">
-								
-									<span class="large_header">$400,000</span><!-- large_header -->
-									<span class="sub_header">INJURy at Work & Death Settlement</span><!-- sub_header -->
-									<p>Client was working in a construction area where the client was riding a forklift, fell off, and was run over by the left rear wheel of the forklift and sustained serious head injuries which resulted in death. Stephen W. Shoultz negotiated the workers compensation non subscriber case as well as secured a large settlement with the employers insurance company without the necessity of going to trial. </p>
-								
-								</div>
-							
-						</div><!-- click_box -->
-						
-						
-						
-						
-					</div><!-- case_results_single_wrapper -->
+				
 				
 				</div><!-- case_results_init -->
 				
@@ -771,10 +627,23 @@ get_header(); ?>
 			
 			<div class="shoultz_inner">
 				
-				<span class="large_header"><span class="gold">STEPHEN</span> W. SHOULTZ</span>
-				<span class="sub_header">PERSONAL INJURY ATTORNEY</span>
+				<span class="large_header"><?php the_field( 'bio_large_header' ); ?></span>
+				<span class="sub_header"><?php the_field( 'bio_subheader' ); ?></span>
 				
-				<img class="wow fadeInUp" data-wow-delay=".3s" src="<?php bloginfo('template_directory');?>/images/shoultz_attorney_stevenshoultz.jpg"/>
+				
+				
+				<?php $shoultz_image = get_field( 'shoultz_image' ); ?>
+				
+				<?php if ( $shoultz_image ) { ?>
+				
+				<img class="wow fadeInUp" data-wow-delay=".3s" src="<?php echo $shoultz_image['url']; ?>" alt="<?php echo $shoultz_image['alt']; ?>" />
+				
+				<?php } ?>
+				
+				
+				
+				
+				
 				
 				<div class="shoultz_content">
 					
@@ -785,7 +654,7 @@ get_header(); ?>
 					
 				</div><!-- shoultz_content -->
 				
-				<a class="mybutton learn" href="<?php bloginfo('url');?>/stephen-w-shoultz/">LEARN MORE ABOUT YOUR ATTORNEY</a>
+				<a class="mybutton learn" href="<?php the_field( 'bio_button_link' ); ?>"><?php the_field( 'bio_button_verbiage' ); ?></a>
 				
 			</div><!-- shoultz_inner -->
 			
