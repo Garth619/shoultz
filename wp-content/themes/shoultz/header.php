@@ -39,6 +39,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <?php wp_head(); ?>
+<?php the_field( 'header_text_area','option'); ?>
 </head>
 
 <body <?php body_class(); ?>>

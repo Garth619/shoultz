@@ -6,9 +6,9 @@
 			
 			<div class="request_left">
 				
-				<span class="large_header">REQUEST A FREE CONSULTATION</span><!-- large_header -->
+				<span class="large_header"><?php the_field( 'footer_request_verbiage','option'); ?></span><!-- large_header -->
 			
-				<span class="description">Fill out the form to schedule a free consultation and we will respond to you within twenty-four&nbsp;hours.</span><!-- description -->
+				<span class="description"><?php the_field( 'footer_request_subheader','options'); ?></span><!-- description -->
 				<span class="all_fields">ALL FIELDS ARE REQUIRED* </span><!-- all_fields -->
 				
 				
@@ -30,23 +30,6 @@
 				
 						</div><!-- single_office_info -->
 				
-<!--
-						<div class="single_office_info">
-				
-							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-							<a class="office_info" href="tel:<?php the_field('fax', 19); ?>"><?php the_field('fax', 19); ?></a>
-				
-						</div>
---><!-- single_office_info -->
-				
-<!--
-						<div class="single_office_info">
-				
-							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-							<a class="office_info" href="mailto:<?php the_field('email', 19); ?>"><?php the_field('email', 19); ?></a>
-				
-						</div>
---><!-- single_office_info -->
 				
 					</div><!-- office_info -->
 			
@@ -86,23 +69,6 @@
 				
 						</div><!-- single_office_info -->
 				
-<!--
-						<div class="single_office_info">
-				
-							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_fax.png"/>
-							<a class="office_info" href="tel:<?php the_field('fax', 19); ?>"><?php the_field('fax', 19); ?></a>
-				
-						</div>
---><!-- single_office_info -->
-				
-<!--
-						<div class="single_office_info">
-				
-							<img src="<?php bloginfo('template_directory');?>/images/shoultz_request_icon_email.png"/>
-							<a class="office_info" href="tel:<?php the_field('email', 19); ?>"><?php the_field('email', 19); ?></a>
-				
-						</div>
---><!-- single_office_info -->
 				
 					</div><!-- office_info -->
 			
@@ -170,8 +136,8 @@
 		
 		<div class="copy_logo_wrapper">
 		
-			<span class="copyright">&copy; 2016 Law Offices of Stephen W. Shoultz. 
-			<br class="copy_break"/>All rights reserved. &nbsp;|&nbsp;  <a href="/disclaimer/">DISCLAIMER</a><span class="copyright_bar">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span>
+			<span class="copyright">&copy; <?php echo date("Y"); ?> <?php the_field( 'footer_firm_name','options'); ?> 
+			<br class="copy_break"/><?php the_field( 'all_rights_reserved','options'); ?> &nbsp;|&nbsp;  <a href="<?php the_field( 'footer_page_link','option'); ?>"><?php the_field( 'footer_page_title','option'); ?></a><span class="copyright_bar">&nbsp;&nbsp;|&nbsp;&nbsp;</span></span>
 	
 			<div class="ilawyer_wrapper">
 			
@@ -201,7 +167,7 @@
 <?php wp_footer(); ?>
 
 
-
+<?php the_field( 'body_text_area','option'); ?>
 
 
 

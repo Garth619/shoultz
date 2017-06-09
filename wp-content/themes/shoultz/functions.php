@@ -647,6 +647,14 @@ function load_my_styles_scripts() {
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
 
 
-
+if (function_exists('acf_add_options_page')) {
+    acf_add_options_page(array(
+        'page_title' => 'Theme General Settings',
+        'menu_title' => 'Header and Footer',
+        'menu_slug' => 'theme-general-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+}
 
 
