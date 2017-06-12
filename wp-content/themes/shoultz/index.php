@@ -15,19 +15,34 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+<?php include('banner.php');?>
 
-			<?php
-			/*
-			 * Run the loop to output the posts.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-index.php and that will be used instead.
-			 */
-			get_template_part( 'loop', 'index' );
-			?>
-			</div><!-- #content -->
-		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+<div id="main">
+	
+	<img class="inner_page_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_sidebar_experience.svg"/>
+
+<div id="content">
+	<?php include('sidebar-blog.php'); ?>
+	
+	<div id="container">
+	
+	<h1>Blog</h1>
+
+	
+	<div class="mypostfeed">
+	
+		<?php get_template_part( 'loop', 'index' ); ?>
+	
+	</div><!-- mypostfeed -->
+
+	</div><!-- container -->
+	
+</div><!-- content -->
+
+</div><!-- main -->
+
+
+
+
 <?php get_footer(); ?>

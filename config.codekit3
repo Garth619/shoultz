@@ -21993,6 +21993,12 @@
 		"oAP": "\/wp-content\/themes\/shoultz\/license.txt",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/shoultz\/loop copy.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/shoultz\/loop copy.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/shoultz\/loop-attachment.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -22021,6 +22027,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/shoultz\/page-bio.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/shoultz\/page-blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/shoultz\/page-blog.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/shoultz\/page-caseresults.php": {
@@ -22114,6 +22126,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/shoultz\/search.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/shoultz\/sidebar-blog.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/shoultz\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/shoultz\/sidebar-footer.php": {

@@ -9,13 +9,25 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
 
-				<h1 class="page-title"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
-				<?php
+
+<?php include('banner.php');?>
+
+
+<div id="main">
+	
+	<img class="inner_page_img svg" src="<?php bloginfo('template_directory');?>/images/desktop/internal_sidebar_experience.svg"/>
+
+<div id="content">
+	<?php include('sidebar-blog.php'); ?>
+	
+	<div id="container">
+	
+		<h1 class="page-title"><?php printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );?></h1>
+				
+		<div class="mypostfeed">
+	
+		<?php
 					$category_description = category_description();
 					if ( ! empty( $category_description ) )
 						echo '<div class="archive-meta">' . $category_description . '</div>';
@@ -28,8 +40,16 @@ get_header(); ?>
 				get_template_part( 'loop', 'category' );
 				?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+	
+	</div><!-- mypostfeed -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+	</div><!-- container -->
+	
+</div><!-- content -->
+
+</div><!-- main -->
+
+
+
+
+<?php get_footer(); ?>	

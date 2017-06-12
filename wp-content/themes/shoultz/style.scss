@@ -1545,12 +1545,91 @@ body.page-template-page-caseresults #main {
         transition: all .3s ease; }
 
 /* Default */
-body.page-template-page-inner #main #content, body.page-template-default #main #content {
+body.page-template-page-inner #main #content, body.page-template-default #main #content, body.blog #main #content {
   margin-top: -34px;
   padding-top: 0;
   position: relative;
   z-index: 500;
   max-width: 1345px; }
+  
+  
+  
+/* Blog */
+
+
+.mypost {
+	border-bottom:2px solid #515156;
+	padding-bottom:40px;
+	margin-bottom:35px;
+	&:last-of-type {
+		border-bottom: none;
+	}
+	.myposts_title {
+		
+	}
+	.mypost_content {
+		a.read_more {
+		
+	}
+	}
+	
+}  
+
+
+.nav-previous {
+	float:left;
+}
+
+.nav-next {
+	float:right;
+}
+
+
+.recent_posts_sidebar {
+	
+}
+
+.categories_sidebar {
+	margin-top:100px !important;
+}
+
+
+.widgettitle {
+	text-transform: uppercase;
+	font-family: "Univers LT W01_59 Ult Cond";
+  font-size: 21px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom:20px;
+}
+
+.entry-meta {
+	margin-bottom:25px;
+}
+
+
+
+#recent-posts-3 {
+	
+}
+
+#categories-3 {
+	margin-top:75px;
+}
+
+
+#sidebar-blog {
+	ul {
+		&:last-of-type {
+		
+		}
+	}
+}
+  
+  
+  
+  
 
 /* Thank You */
 body.page-template-page-thankyou #main {
@@ -1569,6 +1648,47 @@ body.page-template-page-thankyou #main {
       position: relative;
       top: 0;
       left: 10px; }
+      
+      
+      
+      #sidebar-blog {
+	      display:none;
+      }
+      
+  
+  
+  .alignleft,
+img.alignleft {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.alignright,
+img.alignright {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 22px;
+	max-width:100%;
+	height:auto;
+}
+  
+  
+     
+      
 
 /* Media Query */
 @media screen and (min-width: 600px) {
@@ -2034,7 +2154,45 @@ body.page-template-page-thankyou #main {
   .about_us .about_us_content {
     padding: 0 8%; }
   .about_us .expert {
-    margin-top: -45px; } }
+    margin-top: -45px; }
+    
+    
+    
+    
+     
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+}  
+
+    
+    
+    
+    
+    
+     }
 
 /* Media Query */
 @media screen and (min-width: 950px) {
@@ -2699,25 +2857,35 @@ body.page-template-page-thankyou #main {
   /* Default Pages */
   img.inner_page_img {
     width: 80%; }
-  body.page-template-page-inner #main #content, body.page-template-default #main #content {
+  body.page-template-page-inner #main #content, body.page-template-default #main #content, body.blog #main #content {
     margin-top: -71px; }
   body.page-template-page-inner #main #container, body.page-template-default #main #container {
     width: 75%;
     float: left;
     padding-left: 87px;
     margin-top: 0px; }
-  body.page-template-page-inner #main #sidebar {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  body.page-template-page-inner #main #sidebar, #sidebar-blog {
     display: block;
     color: #fff;
     width: 25%;
     float: left;
     margin-top: 10px; }
-    body.page-template-page-inner #main #sidebar ul {
+    body.page-template-page-inner #main #sidebar ul, #sidebar-blog ul {
       list-style: none;
       margin: 0; }
-      body.page-template-page-inner #main #sidebar ul li.current-menu-item a {
+      body.page-template-page-inner #main #sidebar ul li.current-menu-item a, , #sidebar-blog ul li.current-menu-item a {
         color: #d3b167; }
-      body.page-template-page-inner #main #sidebar ul li.menu-item-has-children > a:after {
+      body.page-template-page-inner #main #sidebar ul li.menu-item-has-children > a:after, #sidebar-blog ul li.menu-item-has-children > a:after  {
         width: 0;
         height: 0;
         border-left: 5px solid transparent;
@@ -2728,39 +2896,53 @@ body.page-template-page-thankyou #main {
         position: relative;
         top: -6px;
         left: 8px; }
-      body.page-template-page-inner #main #sidebar ul li.current-menu-parent > a {
+      body.page-template-page-inner #main #sidebar ul li.current-menu-parent > a, #sidebar-blog ul li.current-menu-parent > a {
         color: #d3b167; }
-      body.page-template-page-inner #main #sidebar ul li.current-menu-parent ul.sub-menu {
+      body.page-template-page-inner #main #sidebar ul li.current-menu-parent ul.sub-menu, #sidebar-blog ul li.current-menu-parent ul.sub-menu {
         display: block; }
-      body.page-template-page-inner #main #sidebar ul li.menu-item-has-children:hover > a {
+      body.page-template-page-inner #main #sidebar ul li.menu-item-has-children:hover > a, #sidebar-blog ul li.menu-item-has-children:hover {
         color: #d3b167; }
-      body.page-template-page-inner #main #sidebar ul li {
+      body.page-template-page-inner #main #sidebar ul li, #sidebar-blog ul li {
         color: #fff;
         font-family: "Univers LT W01_59 Ult Cond";
         font-size: 21px;
         border-top: 2px solid #515156;
         letter-spacing: 3px;
         padding: 16px 0; }
-        body.page-template-page-inner #main #sidebar ul li > a {
+        body.page-template-page-inner #main #sidebar ul li > a, #sidebar-blog ul li > a {
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
           display: block;
           transition: all .3s ease-in-out;
           cursor: pointer; }
-          body.page-template-page-inner #main #sidebar ul li > a:hover {
+          body.page-template-page-inner #main #sidebar ul li > a:hover, #sidebar-blog ul li > a:hover {
             color: #d3b167; }
-        body.page-template-page-inner #main #sidebar ul li ul.sub-menu {
+        body.page-template-page-inner #main #sidebar ul li ul.sub-menu, #sidebar-blog ul li ul.sub-menu {
           padding: 15px 0px;
           display: none; }
-          body.page-template-page-inner #main #sidebar ul li ul.sub-menu li:last-of-type {
+          body.page-template-page-inner #main #sidebar ul li ul.sub-menu li:last-of-type, #sidebar-blog ul li ul.sub-menu li:last-of-type {
             padding-bottom: 0; }
-          body.page-template-page-inner #main #sidebar ul li ul.sub-menu li {
+          body.page-template-page-inner #main #sidebar ul li ul.sub-menu li, #sidebar-blog ul li ul.sub-menu li  {
             border: none;
             font-size: 18px;
             padding: 3px 0 3px; }
-      body.page-template-page-inner #main #sidebar ul li:last-of-type {
+      body.page-template-page-inner #main #sidebar ul li:last-of-type, #sidebar-blog ul li:last-of-type {
         border-bottom: 2px solid #515156; }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
   /* Case Results */
   body.page-template-page-caseresults #main .case_results_wrapper {
     overflow: hidden; }
