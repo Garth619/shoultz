@@ -168,7 +168,7 @@ get_header(); ?>
 								<span class="large_header">We Assume<br/>all the Risk</span><!-- large_header -->
 								<span class="white_line"></span><!-- white_line -->
 								
-								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								<p class="click_description">We handle your case on a contingency fee basis - you don't pay unless we win</p>
 							
 							</div><!-- single_box_slide_up -->
 					
@@ -200,7 +200,7 @@ get_header(); ?>
 								<span class="large_header">We Assume<br/>all the Risk</span><!-- large_header -->
 								<span class="white_line"></span><!-- white_line -->
 								
-								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								<p class="click_description">We handle your case on a contingency fee basis - you don't pay unless we win</p>
 							
 							</div><!-- single_box_slide_up -->
 					
@@ -243,7 +243,7 @@ get_header(); ?>
 								<span class="large_header">Access to a<br/>Large Network</span><!-- large_header -->
 								<span class="white_line"></span><!-- white_line -->
 								
-								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								<p class="click_description">Access to a network of noted medical and technology experts to prove your case</p>
 							
 							</div><!-- single_box_slide_up -->
 					
@@ -275,7 +275,7 @@ get_header(); ?>
 								<span class="large_header">Access to a<br/>Large Network</span><!-- large_header -->
 								<span class="white_line"></span><!-- white_line -->
 								
-								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								<p class="click_description">Access to a network of noted medical and technology experts to prove your case</p>
 							
 							</div><!-- single_box_slide_up -->
 					
@@ -316,7 +316,7 @@ get_header(); ?>
 								<span class="large_header">Energy & Passion<br/>For Each Case</span><!-- large_header -->
 								<span class="white_line"></span><!-- white_line -->
 								
-								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								<p class="click_description">Our passion is protecting your rights and seeking the compensation you&nbsp;deserve</p>
 							
 							</div><!-- single_box_slide_up -->
 					
@@ -347,7 +347,7 @@ get_header(); ?>
 								<span class="large_header">Energy & Passion<br/>For Each Case</span><!-- large_header -->
 								<span class="white_line"></span><!-- white_line -->
 								
-								<p class="click_description">Proven litigation skills with a record of over 200 jury trials</p>
+								<p class="click_description">Our passion is protecting your rights and seeking the compensation you&nbsp;deserve</p>
 							
 							</div><!-- single_box_slide_up -->
 					
