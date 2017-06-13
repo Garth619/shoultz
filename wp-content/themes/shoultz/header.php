@@ -43,7 +43,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<a class="cta" href="tel:2147423293">Click to call (214) 742-3293</a>		
+<a class="cta" href="tel:<?php the_field( 'phone_number_in_header','option'); ?>">Click to call <?php the_field( 'phone_number_in_header','option'); ?></a>		
 <header>
 	
 	<div class="inner_header">
@@ -79,7 +79,7 @@
 		
 			</nav><!-- desktop_nav -->
 	
-			<a class="desktop_phone" href="tel:2147423293">(214) 742-3293</a>
+			<a class="desktop_phone" href="tel:<?php the_field( 'phone_number_in_header','option'); ?>"><?php the_field( 'phone_number_in_header','option'); ?></a>
 	
 		</div><!-- large_monitor -->
 	
